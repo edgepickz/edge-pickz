@@ -184,7 +184,10 @@ def ratings(df, now):
     off = {t: beta[2 + idx[t]] for t in teams}
     dfn = {t: beta[2 + n + idx[t]] for t in teams}
     hfa = 0.5 * beta[1] + 0.5 * HFA
-    return lambda t: (off.get(pool(t), off.get("FCS", -10)), dfn.get(pool(t), dfn.get("FCS", -10))), beta[0], hfa
+    rate = lambda t: (off.get(pool(t), off.get("FCS", -10)), dfn.get(pool(t), dfn.get("FCS", -10)))
+    rate.debug = {"n_games": int(len(done)), "n_fbs": len(fbs), "n_teams": n, "mu": float(beta[0]), "hfa": float(beta[1]),
+                  "top": sorted(((t, round(off[t] + dfn[t], 1)) for t in teams), key=lambda x: -x[1])[:40]}
+    return rate, beta[0], hfa
 
 
 def project(home, away, neutral, rate, mu, hfa):
@@ -353,7 +356,7 @@ def build(now):
     used = {gm["home"] for gm in games} | {gm["away"] for gm in games} | {h["home"] for h in history.values()} | {h["away"] for h in history.values()}
     _status["Odds (DraftKings via ESPN)"] = "ok" if any(gm["picks"] for gm in games) else "no lines posted yet"
     return {
-        "season": season, "week": week, "games": games,
+        "season": season, "week": week, "games": games, "debug": getattr(rate, "debug", None),
         "teams": {k: v for k, v in teams.items() if k in used},
         "sources": dict(_status),
         "record": _record(history),
