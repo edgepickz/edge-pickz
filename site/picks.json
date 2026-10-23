@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:53:54.993790+00:00",
+ "generated_at": "2026-10-23T20:10:15.471632+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -2382,9 +2382,9 @@
    ],
    "news": [
     {
-     "headline": "Falcons' throwback logo doesn't include viral stripe pattern",
-     "description": "A vertical stripe pattern that the Falcons used in a social media post announcing the use of the team's throwback logo is not a part of the team's uniform -- an important distinction after significant online backlash.",
-     "published": "2026-10-23T19:44:49Z",
+     "headline": "Falcons' viral stripes will appear down center of helmets",
+     "description": "A vertical stripe pattern that the Falcons used in a social media post will appear down the middle of the team's throwback helmets. The stripes drew significant online backlash as some saw similarity to Nazi Germany imagery.",
+     "published": "2026-10-23T20:05:23Z",
      "link": "https://www.espn.com/nfl/story/_/id/50259857/falcons-throwback-logo-include-viral-stripe-pattern",
      "teams": [
       "ATL"
@@ -4075,7 +4075,7 @@
      "name": "Lamar Jackson",
      "position": "QB",
      "status": "Questionable",
-     "detail": "Jackson (ankle) remains uncertain for Sunday's game against the Bengals after Ravens coach Jesse Minter said Friday that the quarterback's availability is still being evaluated, Jamison Hensley of ESPN.com reports.",
+     "detail": "Jackson (ankle) was a limited participant in Friday's practice and is listed as questionable for Sunday's game against the Bengals.",
      "source": "ESPN"
     },
     {
@@ -4131,7 +4131,7 @@
     {
      "headline": "Ravens' Lamar Jackson (high ankle sprain) unsure if he'll play",
      "description": "Ravens quarterback Lamar Jackson said he's dealing with a high ankle sprain and is unsure if he'll play this week against the Bengals, but is \"heading in the right direction\" after missing the past two games.",
-     "published": "2026-10-23T19:45:45Z",
+     "published": "2026-10-23T20:05:41Z",
      "link": "https://www.espn.com/nfl/story/_/id/50260001/ravens-lamar-jackson-high-ankle-sprain-unsure-play",
      "teams": [
       "BAL",
@@ -5628,8 +5628,8 @@
    "weather_notes": [],
    "injury_notes": {
     "TB": [
-     "Baker Mayfield (QB) Questionable",
-     "Emeka Egbuka (WR) Out"
+     "Emeka Egbuka (WR) Out",
+     "Baker Mayfield (QB) Questionable"
     ],
     "CAR": []
    },
@@ -5704,18 +5704,18 @@
     },
     {
      "team": "TB",
-     "name": "Baker Mayfield",
-     "position": "QB",
-     "status": "Questionable",
-     "detail": "Mayfield (thumb) was a full participant in Friday's practice but is listed questionable for Sunday's game against the Panthers, Greg Auman of Fox Sports reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "TB",
      "name": "Emeka Egbuka",
      "position": "WR",
      "status": "Out",
      "detail": "Egbuka (concussion) has been ruled out for Sunday's game against the Panthers, Greg Auman of Fox Sports reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "TB",
+     "name": "Baker Mayfield",
+     "position": "QB",
+     "status": "Questionable",
+     "detail": "Head coach Todd Bowles said Friday that Mayfield (right thumb) is ready for Sunday's game at Carolina, Greg Auman of Fox Sports reports.",
      "source": "ESPN"
     },
     {
@@ -8218,40 +8218,40 @@
    },
    "model_score": {
     "IND": 12.9,
-    "MIN": 22.0
+    "MIN": 22.5
    },
    "picks": {
     "spread": {
      "market": "MIN -6.5",
-     "model_line": "MIN -9",
-     "edge_pts": 2.7,
+     "model_line": "MIN -9.5",
+     "edge_pts": 3.1,
      "pick": "MIN -6.5",
      "team": "MIN",
      "line": -6.5,
      "price": "-108",
-     "prob": 0.528,
-     "ev": 0.016,
-     "bet": false,
-     "stars": 0
+     "prob": 0.532,
+     "ev": 0.025,
+     "bet": true,
+     "stars": 1
     },
     "total": {
      "market": "41.5",
-     "model_line": "34.9",
-     "edge_pts": 6.6,
+     "model_line": "35.4",
+     "edge_pts": 6.1,
      "pick": "Under 41.5",
      "price": "-110",
-     "prob": 0.57,
-     "ev": 0.088,
+     "prob": 0.565,
+     "ev": 0.079,
      "bet": true,
-     "stars": 3
+     "stars": 2
     },
     "moneyline": {
      "market": "IND +230 / MIN -285",
      "market_prob": 0.71,
      "pick": "MIN ML",
      "price": "-285",
-     "prob": 0.734,
-     "ev": -0.009,
+     "prob": 0.738,
+     "ev": -0.003,
      "bet": false,
      "stars": 0
     }
@@ -8782,7 +8782,7 @@
      "team": "MIN",
      "opp": "IND",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 34.9,
@@ -8802,7 +8802,7 @@
      "team": "MIN",
      "opp": "IND",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 4.1,
@@ -8822,7 +8822,7 @@
      "team": "MIN",
      "opp": "IND",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "18% to score",
@@ -8995,13 +8995,12 @@
     ],
     "MIN": [
      "Jordan Mason (RB) Injured Reserve",
-     "T.J. Hockenson (TE) Questionable",
      "Josh Oliver (TE) Injured Reserve"
     ]
    },
    "injury_adj": {
     "IND": -2.2,
-    "MIN": -1.5
+    "MIN": -1.1
    },
    "injuries": [
     {
@@ -9074,14 +9073,6 @@
      "position": "OT",
      "status": "Questionable",
      "detail": "Darrisaw (concussion) was a full participant at the Vikings practice Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
-     "name": "T.J. Hockenson",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Hockenson (concussion) was listed as a full participant Thursday.",
      "source": "ESPN"
     },
     {
@@ -9428,7 +9419,7 @@
       1
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -9603,7 +9594,7 @@
       7
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -12396,15 +12387,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "What's led to Titans' recent success? Under center",
-     "description": "Titans run the ball better from under center, so why not put it into practice more?",
-     "published": "2026-10-23T13:34:50Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50251843/tennessee-titans-center-success",
-     "teams": [
-      "TEN"
      ]
     }
    ],
@@ -19220,7 +19202,7 @@
      "name": "Rashee Rice",
      "position": "WR",
      "status": "Out",
-     "detail": "Rice (hamstring) will be out for Sunday's game at Seattle, Sam McDowell of The Kansas City Star reports.",
+     "detail": "Rice (hamstring/knee) was not present during the portion of Friday's practice open to the media, Pete Sweeney of The Kansas City Star reports.",
      "source": "ESPN"
     },
     {
@@ -22309,13 +22291,7 @@
      "fair_odds": "-122"
     }
    ],
-   "weather": {
-    "temp_f": 53,
-    "wind_mph": 9,
-    "gust_mph": 16,
-    "precip_prob": 10,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CAR": [],
