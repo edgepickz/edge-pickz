@@ -1,8 +1,8 @@
 # Edge Pickz
 
-Pulls NFL stats, schedule, betting lines, injury reports, news and weather every hour,
+Pulls NFL stats, schedule, betting lines, injury reports, news and weather every few minutes,
 re-runs a pricing model, and publishes a dashboard with spread, total, moneyline and
-player prop picks. Each game's picks **lock 24 hours before kickoff** and are graded
+player prop picks. Each game's picks **lock 30 minutes before kickoff** and are graded
 after the game, so the record can't be cherry-picked.
 
 Picks are model estimates for information only, not guarantees.
@@ -18,7 +18,7 @@ Picks are model estimates for information only, not guarantees.
 
 Without an odds key the board uses nflverse consensus lines for games and shows prop
 *projections* with the line you'd need to bet (no prop EV). With a key, live lines and
-props are pulled once per game at its 24h lock (about 9 credits per game, ~400/month).
+props are pulled once per game at its final lock (30 minutes before kickoff) (about 9 credits per game, ~400/month).
 
 ## College football
 

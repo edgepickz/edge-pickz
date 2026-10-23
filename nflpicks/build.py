@@ -1,7 +1,7 @@
 """Main entry point: python -m nflpicks.build
 
 Pulls fresh data, re-runs the model, locks picks for games that are
-24 hours or less from kickoff, grades finished games, and writes the site."""
+30 minutes or less from kickoff, grades finished games, and writes the site."""
 import json
 import os
 from datetime import datetime, timedelta, timezone
@@ -175,7 +175,7 @@ def main():
     live = fetch.odds_game_lines() if lock_due else {}
     if not lock_due:
         fetch._status.setdefault("Live odds (The Odds API)",
-                                 "not needed this run (only pulled when a game reaches its 24h lock)"
+                                 "not needed this run (only pulled when a game reaches its final lock)"
                                  if config.ODDS_API_KEY else "no API key set, using nflverse consensus lines")
 
     pdf = props._prep(players, data["players_prev"])

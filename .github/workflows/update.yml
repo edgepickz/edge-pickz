@@ -2,7 +2,7 @@ name: Update picks
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes: re-run the model with fresh injuries, odds and weather. The page itself refreshes injuries and news every minute.
+    - cron: "*/5 * * * *"   # every 5 minutes (so every game gets a run inside its 30-minute lock window): re-run the model with fresh injuries, odds and weather. The page itself refreshes injuries and news every minute.
   workflow_dispatch: {}
 
 permissions:

@@ -251,7 +251,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       <ul>
         <li>Every hour we pull the latest stats, injury reports, weather, news and betting lines.</li>
         <li>Our model predicts every game and compares it to what the sportsbooks are offering.</li>
-        <li><strong>Final picks</strong> lock 24 hours before kickoff and count toward our record. Before that you'll see an <strong>early pick</strong> that can still change.</li>
+        <li><strong>Final picks</strong> lock 30 minutes before kickoff and count toward our record. Before that you'll see an <strong>early pick</strong> that can still change.</li>
         <li><strong>Value</strong> rates the price: Strong, Good or Some. "No bet" means the line looks fair.</li>
         <li><strong>Hot trends</strong> are streaks, like a player going over a line in 4 of his last 5 games or a team covering 3 straight. Streaks can end any week, so we also tell you whether our model agrees.</li>
         <li><strong>Best player props</strong> are the players whose matchup this week pushes them furthest from their usual numbers. Always check the line at your sportsbook before betting.</li>
@@ -505,7 +505,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
     const cdays = [...new Set(C.games.map((g) => dayKey(g.kickoff)))];
     const missingC = Object.entries(C.sources || {}).filter(([, v]) => !String(v).startsWith("ok")).map(([k]) => k);
     $("panel-college").innerHTML = `<div class="panel-head"><h2>College football</h2><span class="muted small">${C.week ? "Week " + C.week + " · " : ""}Games with a Top 25 team · lines from ${esc(C.games.find((g) => g.book)?.book || "ESPN")}</span></div>
-      <p class="fine">Same approach as our NFL picks: our team ratings vs. the sportsbook line, picks lock 24 hours before kickoff, and every final pick counts toward our record. College teams don't publish injury reports, so injuries aren't in these picks.${missingC.length ? " Not included in this update: " + esc(missingC.join(", ")) + "." : ""}</p>
+      <p class="fine">Same approach as our NFL picks: our team ratings vs. the sportsbook line, picks lock 30 minutes before kickoff, and every final pick counts toward our record. College teams don't publish injury reports, so injuries aren't in these picks.${missingC.length ? " Not included in this update: " + esc(missingC.join(", ")) + "." : ""}</p>
       <h3 class="subhead">Best college bets</h3>
       ${cb.length ? `<div class="picks">${cb.map(({ g, k, p }) => `
         <article class="pcard">

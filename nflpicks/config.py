@@ -10,7 +10,7 @@ HISTORY_FILE = Path(os.environ.get("NFLPICKS_HISTORY", ROOT / "history" / "locke
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 
 # Picks lock this many hours before kickoff (the "official" pick).
-LOCK_HOURS = 24
+LOCK_HOURS = 0.5  # final picks lock 30 minutes before kickoff
 # Show games kicking off within this many days.
 LOOKAHEAD_DAYS = 8
 
