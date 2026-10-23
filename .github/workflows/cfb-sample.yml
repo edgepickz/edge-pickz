@@ -1,31 +1,25 @@
-name: CFB sample (temporary)
+name: CFB dev build (temporary)
 on:
   push:
     branches: [cfb-dev]
 permissions:
   contents: write
 jobs:
-  sample:
+  dev:
+    if: "!contains(github.event.head_commit.message, 'dev output')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch samples
-        run: |
-          mkdir -p samples && cd samples
-          B=https://site.api.espn.com/apis/site/v2/sports/football/college-football
-          curl -sS "$B/scoreboard?groups=80&limit=300" -o scoreboard.json
-          curl -sS "$B/scoreboard?groups=80&limit=300&week=7&seasontype=2" -o scoreboard_w7.json
-          curl -sS "$B/rankings" -o rankings.json
-          curl -sS "$B/news?limit=50" -o news.json
-          curl -sS "$B/injuries" -o injuries.json || true
-          EID=$(python3 -c "import json;e=json.load(open('scoreboard_w7.json'))['events'];print(e[0]['id'])")
-          curl -sS "$B/summary?event=$EID" -o summary_done.json
-          EID2=$(python3 -c "import json;e=json.load(open('scoreboard.json'))['events'];print(e[0]['id'])")
-          curl -sS "$B/summary?event=$EID2" -o summary_next.json
-          curl -sS "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football/events/$EID/competitions/$EID/odds" -o core_odds_done.json || true
-          curl -sS "https://geocoding-api.open-meteo.com/v1/search?name=Tuscaloosa&count=1&country=US" -o geocode.json
-          ls -la
-      - name: Commit samples
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build
+        env:
+          NFLPICKS_OUT: devout
+          NFLPICKS_HISTORY: devout/history/locked_picks.json
+        run: python -m nflpicks.build
+      - name: Commit dev output
         run: |
           git config user.name "picks-bot"; git config user.email "picks-bot@users.noreply.github.com"
-          git add samples && git commit -m "samples" && git push
+          git add -f devout && git commit -m "dev output" && git push
