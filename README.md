@@ -22,7 +22,7 @@ props are pulled once per game at its final lock (30 minutes before kickoff) (ab
 
 ## College football
 
-A **College** tab covers every game with an AP Top 25 team: spread, total and moneyline
+A **College** tab covers every game with an AP Top 25 team or an SEC team: spread, total and moneyline
 picks from team ratings fit to this season's FBS scores, compared with DraftKings lines
 (via ESPN). Same 24-hour lock, grading and record. Trends use ESPN's archive of past lines.
 No player props and no injury reports for college (teams don't publish them).

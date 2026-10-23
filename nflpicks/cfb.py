@@ -1,4 +1,4 @@
-"""College football: game picks (spread, total, moneyline) for games with an AP Top 25 team.
+"""College football: game picks (spread, total, moneyline) for games with an AP Top 25 team or an SEC team.
 
 Everything comes from free sources: ESPN (schedule, rankings, lines, scores, news),
 ESPN's odds archive (past lines, for trends) and Open-Meteo (weather).
@@ -22,6 +22,9 @@ SD_TOTAL = 15.5
 HFA = 2.5
 HALF_LIFE_WEEKS = 6
 TOP = 25
+# ESPN team ids for the 16 SEC schools (2024 lineup). Any team ESPN tags with conference 8 counts too.
+SEC_IDS = {"333", "8", "2", "57", "61", "96", "99", "344", "142", "201", "145", "2579", "2633", "251", "245", "238"}
+SEC_CONF = "8"
 TRUST = 0.25        # lean on the market a bit more than in the NFL: college ratings are noisier
 MAX_DOG_ML = 400
 _status = {}
@@ -91,6 +94,8 @@ def flatten(boards):
                 info.update({"abbr": t.get("abbreviation", "?"), "name": t.get("displayName", "?"),
                              "short": t.get("shortDisplayName") or t.get("location") or t.get("abbreviation"),
                              "color": "#" + (t.get("color") or "555555"), "id": str(t["id"])})
+                if str(t["id"]) in SEC_IDS or str(t.get("conferenceId", "")) == SEC_CONF:
+                    info["sec"] = True
                 rank = (x.get("curatedRank") or {}).get("current", 99)
                 if w == max(boards):  # latest board has the current poll
                     info["rank"] = rank if rank and rank <= TOP else None
@@ -283,7 +288,7 @@ def build(now):
         _status["ESPN college schedule, rankings and lines"] = f"unavailable ({e.__class__.__name__})"
         return {"games": [], "teams": {}, "sources": dict(_status), "record": {}, "recent_results": [], "tracker_recent": []}
 
-    ranked = {k for k, t in teams.items() if t.get("rank")}
+    ranked = {k for k, t in teams.items() if t.get("rank") or t.get("sec")}  # Top 25 or SEC
     upcoming = df[(~df.completed) & (df.kickoff > now - timedelta(hours=5)) & (df.kickoff < now + timedelta(days=config.LOOKAHEAD_DAYS))
                   & (df.home.isin(ranked) | df.away.isin(ranked))].sort_values("kickoff")
     df = past_lines(df, set(upcoming.home) | set(upcoming.away))

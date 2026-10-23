@@ -504,7 +504,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
     cb.sort((a, b) => b.p.ev - a.p.ev);
     const cdays = [...new Set(C.games.map((g) => dayKey(g.kickoff)))];
     const missingC = Object.entries(C.sources || {}).filter(([, v]) => !String(v).startsWith("ok")).map(([k]) => k);
-    $("panel-college").innerHTML = `<div class="panel-head"><h2>College football</h2><span class="muted small">${C.week ? "Week " + C.week + " · " : ""}Games with a Top 25 team · lines from ${esc(C.games.find((g) => g.book)?.book || "ESPN")}</span></div>
+    $("panel-college").innerHTML = `<div class="panel-head"><h2>College football</h2><span class="muted small">${C.week ? "Week " + C.week + " · " : ""}Games with a Top 25 or SEC team · lines from ${esc(C.games.find((g) => g.book)?.book || "ESPN")}</span></div>
       <p class="fine">Same approach as our NFL picks: our team ratings vs. the sportsbook line, picks lock 30 minutes before kickoff, and every final pick counts toward our record. College teams don't publish injury reports, so injuries aren't in these picks.${missingC.length ? " Not included in this update: " + esc(missingC.join(", ")) + "." : ""}</p>
       <h3 class="subhead">Best college bets</h3>
       ${cb.length ? `<div class="picks">${cb.map(({ g, k, p }) => `
@@ -515,9 +515,9 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
           <div class="facts"><div><b>${pct(p.prob)}</b><span>Chance to hit</span></div><div><b>${esc(p.price)}</b><span>Odds</span></div><div><b>${valueOf(p.ev).bars}/3</b><span>Value</span></div></div>
           <div class="foot"><span>${g.away_rank ? "#" + g.away_rank + " " : ""}${esc(N(g.away))} at ${g.home_rank ? "#" + g.home_rank + " " : ""}${esc(N(g.home))} · ${when(g.kickoff)}</span>${statusText(g)}</div>
         </article>`).join("")}</div>` : `<div class="empty">No college picks have value yet. Lines and ratings update every 10 minutes.</div>`}
-      <h3 class="subhead">All Top 25 games</h3>
+      <h3 class="subhead">All Top 25 and SEC games</h3>
       <div class="chips" role="group" aria-label="Filter by day"><button type="button" class="chipbtn" data-cday="" aria-pressed="true">All</button>${cdays.map((d) => `<button type="button" class="chipbtn" data-cday="${esc(d)}" aria-pressed="false">${esc(d)}</button>`).join("")}</div>
-      <div class="games">${C.games.map(gameCard).join("") || `<div class="empty">No Top 25 games in the next week.</div>`}</div>`;
+      <div class="games">${C.games.map(gameCard).join("") || `<div class="empty">No Top 25 or SEC games in the next week.</div>`}</div>`;
     $("panel-college").querySelectorAll(".chipbtn[data-cday]").forEach((b) => b.addEventListener("click", () => {
       const d = b.dataset.cday;
       $("panel-college").querySelectorAll(".chipbtn[data-cday]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
