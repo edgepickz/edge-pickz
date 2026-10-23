@@ -37,7 +37,8 @@ jobs:
       - name: Check live scores feed allows browser access
         continue-on-error: true
         run: |
-          curl -sSI -H "Origin: https://edgepickz.github.io" "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" | grep -i "access-control-allow-origin" || echo "WARNING no CORS header"
+          h=$(curl -sSI -H "Origin: https://edgepickz.github.io" "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" | grep -i "access-control-allow-origin" | tr -d '\r' || true)
+          echo "::notice title=Live scores feed::${h:-no browser access header}"
       - name: Save locked picks history
         run: |
           git config user.name "picks-bot"
