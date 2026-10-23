@@ -1,0 +1,55 @@
+name: Update picks
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # every hour; a game's pick locks on the first run inside 24h of kickoff
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: picks
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restore data cache
+        uses: actions/cache@v4
+        with:
+          path: data_cache
+          key: nflverse-${{ github.run_id }}
+          restore-keys: nflverse-
+      - name: Build picks
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -m nflpicks.build
+      - name: Save locked picks history
+        run: |
+          git config user.name "picks-bot"
+          git config user.email "picks-bot@users.noreply.github.com"
+          git add history/ site/
+          git diff --cached --quiet || git commit -m "Update picks $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
