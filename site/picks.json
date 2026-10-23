@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:43:58.557195+00:00",
+ "generated_at": "2026-10-23T19:51:21.650314+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,12 +7,13 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
    "game_id": "2026_07_PIT_NO",
    "week": 7,
+   "espn_id": "401873011",
    "away": "PIT",
    "home": "NO",
    "away_name": "Pittsburgh Steelers",
@@ -1474,6 +1475,7 @@
   {
    "game_id": "2026_07_SF_ATL",
    "week": 7,
+   "espn_id": "401873017",
    "away": "SF",
    "home": "ATL",
    "away_name": "San Francisco 49ers",
@@ -2381,8 +2383,8 @@
    "news": [
     {
      "headline": "Falcons' throwback logo doesn't include viral stripe pattern",
-     "description": "A vertical stripe pattern that the Falcons used in a social media post announcing the use of the team's throwback logo is not a part of the team's uniform. An important distinction after significant online backlash.",
-     "published": "2026-10-23T19:15:52Z",
+     "description": "A vertical stripe pattern that the Falcons used in a social media post announcing the use of the team's throwback logo is not a part of the team's uniform -- an important distinction after significant online backlash.",
+     "published": "2026-10-23T19:44:49Z",
      "link": "https://www.espn.com/nfl/story/_/id/50259857/falcons-throwback-logo-include-viral-stripe-pattern",
      "teams": [
       "ATL"
@@ -3139,6 +3141,7 @@
   {
    "game_id": "2026_07_CIN_BAL",
    "week": 7,
+   "espn_id": "401873012",
    "away": "CIN",
    "home": "BAL",
    "away_name": "Cincinnati Bengals",
@@ -3160,13 +3163,13 @@
     "spread": {
      "market": "BAL -1.5",
      "model_line": "BAL -1",
-     "edge_pts": 0.7,
+     "edge_pts": 0.6,
      "pick": "CIN +1.5",
      "team": "CIN",
      "line": 1.5,
      "price": "-112",
      "prob": 0.507,
-     "ev": -0.04,
+     "ev": -0.041,
      "bet": false,
      "stars": 0
     },
@@ -3176,8 +3179,8 @@
      "edge_pts": 1.1,
      "pick": "Over 48.5",
      "price": "-110",
-     "prob": 0.511,
-     "ev": -0.024,
+     "prob": 0.512,
+     "ev": -0.023,
      "bet": false,
      "stars": 0
     },
@@ -3187,7 +3190,7 @@
      "pick": "CIN ML",
      "price": "-105",
      "prob": 0.496,
-     "ev": -0.031,
+     "ev": -0.032,
      "bet": false,
      "stars": 0
     }
@@ -4064,7 +4067,7 @@
    },
    "injury_adj": {
     "CIN": -0.4,
-    "BAL": -0.7
+    "BAL": -0.6
    },
    "injuries": [
     {
@@ -4089,14 +4092,6 @@
      "position": "LB",
      "status": "Out",
      "detail": "Robinson (pectoral) did not participate at practice Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Cam Jurgens",
-     "position": "C",
-     "status": "Questionable",
-     "detail": "Jurgens (concussion) was a full participant in Wednesday's practice.",
      "source": "ESPN"
     },
     {
@@ -4133,6 +4128,16 @@
     }
    ],
    "news": [
+    {
+     "headline": "Ravens' Lamar Jackson (high ankle sprain) unsure if he'll play",
+     "description": "Ravens quarterback Lamar Jackson said he's dealing with a high ankle sprain and is unsure if he'll play this week against the Bengals, but is \"heading in the right direction\" after missing the past two games.",
+     "published": "2026-10-23T19:45:45Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50260001/ravens-lamar-jackson-high-ankle-sprain-unsure-play",
+     "teams": [
+      "BAL",
+      "CIN"
+     ]
+    },
     {
      "headline": "NFL Week 7 betting odds: Lines and totals for every game",
      "description": "A look at the odds, spreads, totals and FPI predictions for every NFL game in Week 7.",
@@ -4829,6 +4834,7 @@
   {
    "game_id": "2026_07_TB_CAR",
    "week": 7,
+   "espn_id": "401873018",
    "away": "TB",
    "home": "CAR",
    "away_name": "Tampa Bay Buccaneers",
@@ -6551,6 +6557,7 @@
   {
    "game_id": "2026_07_NYG_HOU",
    "week": 7,
+   "espn_id": "401873016",
    "away": "NYG",
    "home": "HOU",
    "away_name": "New York Giants",
@@ -7579,8 +7586,8 @@
    "news": [
     {
      "headline": "Cam Skattebo set to return to Giants RB mix after being 'taught a lesson'",
-     "description": "After a zero-carry day in Week 6, Cam Skattebo says he took a step back to evaluate and correct, and he should return to the Giants' running back mix against the Texans.",
-     "published": "2026-10-23T19:19:16Z",
+     "description": "After zero carries in Week 6, Cam Skattebo says he took a step back to evaluate and correct, and Giants' coach says he should return to the running back mix vs. the Texans.",
+     "published": "2026-10-23T19:42:49Z",
      "link": "https://www.espn.com/nfl/story/_/id/50259856/cam-skattebo-set-return-giants-rb-mix",
      "teams": [
       "NYG"
@@ -7664,16 +7671,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Inside Marvin Harrison Jr.s' exit from the Cardinals",
-     "description": "Harrison never reached his potential in Arizona, but all sides are hoping for a fresh start moving forward.",
-     "published": "2026-10-23T10:00:00Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50249407/marvin-harrison-jr-cardinals-texans",
-     "teams": [
-      "ARI",
-      "HOU"
      ]
     }
    ],
@@ -8205,6 +8202,7 @@
   {
    "game_id": "2026_07_IND_MIN",
    "week": 7,
+   "espn_id": "401873014",
    "away": "IND",
    "home": "MIN",
    "away_name": "Indianapolis Colts",
@@ -9706,6 +9704,7 @@
   {
    "game_id": "2026_07_MIA_NYJ",
    "week": 7,
+   "espn_id": "401873015",
    "away": "MIA",
    "home": "NYJ",
    "away_name": "Miami Dolphins",
@@ -11347,6 +11346,7 @@
   {
    "game_id": "2026_07_CLE_TEN",
    "week": 7,
+   "espn_id": "401873013",
    "away": "CLE",
    "home": "TEN",
    "away_name": "Cleveland Browns",
@@ -11362,30 +11362,30 @@
    },
    "model_score": {
     "CLE": 19.0,
-    "TEN": 15.1
+    "TEN": 15.0
    },
    "picks": {
     "spread": {
      "market": "TEN +2.5",
      "model_line": "TEN +4",
-     "edge_pts": 1.4,
+     "edge_pts": 1.5,
      "pick": "CLE -2.5",
      "team": "CLE",
      "line": -2.5,
      "price": "-108",
      "prob": 0.515,
-     "ev": -0.009,
+     "ev": -0.007,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "37.5",
-     "model_line": "34.1",
-     "edge_pts": 3.4,
+     "model_line": "34.0",
+     "edge_pts": 3.5,
      "pick": "Under 37.5",
      "price": "-118",
      "prob": 0.537,
-     "ev": -0.008,
+     "ev": -0.007,
      "bet": false,
      "stars": 0
     },
@@ -11394,8 +11394,8 @@
      "market_prob": 0.543,
      "pick": "CLE ML",
      "price": "-130",
-     "prob": 0.557,
-     "ev": -0.014,
+     "prob": 0.558,
+     "ev": -0.013,
      "bet": false,
      "stars": 0
     }
@@ -11978,7 +11978,7 @@
      "team": "TEN",
      "opp": "CLE",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 13.8,
@@ -11998,7 +11998,7 @@
      "team": "TEN",
      "opp": "CLE",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 13.8,
@@ -12018,7 +12018,7 @@
      "team": "TEN",
      "opp": "CLE",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.2,
@@ -12038,7 +12038,7 @@
      "team": "TEN",
      "opp": "CLE",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "15% to score",
@@ -12216,7 +12216,7 @@
    },
    "injury_adj": {
     "CLE": -0.4,
-    "TEN": -0.2
+    "TEN": -0.3
    },
    "injuries": [
     {
@@ -12265,6 +12265,14 @@
      "position": "S",
      "status": "Questionable",
      "detail": "Delpit (concussion/shoulder) was a limited participant at the Browns' practice Thursday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "TEN",
+     "name": "Tyjae Spears",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -12418,7 +12426,7 @@
       1
      ],
      "agrees": false,
-     "status": "Active",
+     "status": "Questionable",
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -12702,7 +12710,7 @@
       1
      ],
      "agrees": false,
-     "status": "Active",
+     "status": "Questionable",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -12823,7 +12831,7 @@
       7
      ],
      "agrees": true,
-     "status": "Active",
+     "status": "Questionable",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -13036,6 +13044,7 @@
   {
    "game_id": "2026_07_DEN_ARI",
    "week": 7,
+   "espn_id": "401873019",
    "away": "DEN",
    "home": "ARI",
    "away_name": "Denver Broncos",
@@ -14115,16 +14124,6 @@
       "ARI",
       "LA"
      ]
-    },
-    {
-     "headline": "Inside Marvin Harrison Jr.s' exit from the Cardinals",
-     "description": "Harrison never reached his potential in Arizona, but all sides are hoping for a fresh start moving forward.",
-     "published": "2026-10-23T10:00:00Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50249407/marvin-harrison-jr-cardinals-texans",
-     "teams": [
-      "ARI",
-      "HOU"
-     ]
     }
    ],
    "trends": [
@@ -14686,6 +14685,7 @@
   {
    "game_id": "2026_07_GB_DET",
    "week": 7,
+   "espn_id": "401873020",
    "away": "GB",
    "home": "DET",
    "away_name": "Green Bay Packers",
@@ -16512,6 +16512,7 @@
   {
    "game_id": "2026_07_LA_LV",
    "week": 7,
+   "espn_id": "401873021",
    "away": "LA",
    "home": "LV",
    "away_name": "Los Angeles Rams",
@@ -18319,6 +18320,7 @@
   {
    "game_id": "2026_07_KC_SEA",
    "week": 7,
+   "espn_id": "401873022",
    "away": "KC",
    "home": "SEA",
    "away_name": "Kansas City Chiefs",
@@ -19961,6 +19963,7 @@
   {
    "game_id": "2026_07_DAL_PHI",
    "week": 7,
+   "espn_id": "401873009",
    "away": "DAL",
    "home": "PHI",
    "away_name": "Dallas Cowboys",
@@ -20724,13 +20727,7 @@
      "fair_odds": "+192"
     }
    ],
-   "weather": {
-    "temp_f": 61,
-    "wind_mph": 5,
-    "gust_mph": 14,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "DAL": [
@@ -21522,6 +21519,7 @@
   {
    "game_id": "2026_08_CAR_GB",
    "week": 8,
+   "espn_id": "401873023",
    "away": "CAR",
    "home": "GB",
    "away_name": "Carolina Panthers",
@@ -22305,13 +22303,7 @@
      "fair_odds": "-122"
     }
    ],
-   "weather": {
-    "temp_f": 53,
-    "wind_mph": 9,
-    "gust_mph": 16,
-    "precip_prob": 10,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CAR": [],
@@ -23357,6 +23349,7 @@
   }
  ],
  "record": {},
+ "tracker_recent": [],
  "recent_results": [],
  "settings": {
   "lock_hours": 24,
