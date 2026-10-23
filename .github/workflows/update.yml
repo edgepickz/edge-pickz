@@ -36,7 +36,8 @@ jobs:
         run: python -m nflpicks.build
       - name: Check live scores feed allows browser access
         continue-on-error: true
-        run: curl -sSI -H "Origin: https://edgepickz.github.io" "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" | grep -i "access-control-allow-origin" || echo "WARNING no CORS header"
+        run: |
+          curl -sSI -H "Origin: https://edgepickz.github.io" "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" | grep -i "access-control-allow-origin" || echo "WARNING no CORS header"
       - name: Save locked picks history
         run: |
           git config user.name "picks-bot"
