@@ -123,6 +123,22 @@ def record(history):
     return rec
 
 
+def clean(x):
+    """JSON has no NaN: turn missing numbers into null so the page can parse it."""
+    if isinstance(x, dict):
+        return {k: clean(v) for k, v in x.items()}
+    if isinstance(x, (list, tuple)):
+        return [clean(v) for v in x]
+    if isinstance(x, float) and x != x:
+        return None
+    if hasattr(x, "item") and not isinstance(x, (str, bytes)):
+        try:
+            return clean(x.item())
+        except Exception:
+            return x
+    return x
+
+
 def main():
     now = datetime.fromisoformat(os.environ["NFLPICKS_NOW"]) if os.environ.get("NFLPICKS_NOW") else fetch.utcnow()
     season = current_season(now)
@@ -247,6 +263,7 @@ def main():
     except Exception as e:  # college should never take the NFL board down
         payload["cfb"] = {"games": [], "teams": {}, "sources": {"College football": f"failed ({e.__class__.__name__}: {e})"},
                           "record": {}, "recent_results": [], "tracker_recent": []}
+    payload = clean(payload)
     config.OUT_DIR.mkdir(parents=True, exist_ok=True)
     (config.OUT_DIR / "picks.json").write_text(json.dumps(payload, indent=1, default=str))
     (config.OUT_DIR / "index.html").write_text(render.page(payload))

@@ -22,6 +22,8 @@ SD_TOTAL = 15.5
 HFA = 2.5
 HALF_LIFE_WEEKS = 6
 TOP = 25
+TRUST = 0.25        # lean on the market a bit more than in the NFL: college ratings are noisier
+MAX_DOG_ML = 400
 _status = {}
 
 
@@ -143,16 +145,6 @@ def past_lines(df, team_keys):
 
 
 # ---------------------------------------------------------------- model
-def fbs_teams():
-    """Keys of all FBS teams (everyone else is pooled as one FCS rating)."""
-    try:
-        js = _get_json(f"{BASE}/teams", {"groups": 80, "limit": 400}, cache_name="fbs_teams.json", max_age_hours=24 * 7)
-        teams = js["sports"][0]["leagues"][0]["teams"]
-        return {"c" + str(t["team"]["id"]) for t in teams}
-    except Exception:
-        return set()
-
-
 def ratings(df, now):
     """Weighted ridge fit on points, like the NFL model. Teams with few games
     in our data (mostly FCS opponents) share one pooled rating."""
@@ -317,7 +309,10 @@ def build(now):
              "home_moneyline": r.home_ml, "away_moneyline": r.away_ml,
              "home_spread_odds": r.home_spread_odds, "away_spread_odds": r.away_spread_odds,
              "over_odds": r.over_odds, "under_odds": r.under_odds}
-        picks = model.game_picks(g, mh, ma, {}, sd_margin=SD_MARGIN, sd_total=SD_TOTAL)
+        picks = model.game_picks(g, mh, ma, {}, sd_margin=SD_MARGIN, sd_total=SD_TOTAL, trust=TRUST)
+        ml = picks.get("moneyline")
+        if ml and float(ml["price"]) > MAX_DOG_ML:  # long-shot moneylines: too swingy to call a bet
+            ml["bet"], ml["stars"] = False, 0
         tr = sorted(trends.team_trends(tf, 0, r.away, r.home, picks) + trends.team_trends(tf, 0, r.home, r.away, picks),
                     key=trends.score, reverse=True)
         lock_at = ko - timedelta(hours=config.LOCK_HOURS)
