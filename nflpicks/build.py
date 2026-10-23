@@ -31,6 +31,30 @@ def game_coords(r):
     return config.TEAM_COORDS.get(r.home_team)
 
 
+def espn_id(r):
+    v = getattr(r, "espn", None)
+    try:
+        return str(int(float(v)))
+    except (TypeError, ValueError):
+        return None
+
+
+def tracker_recent(history, out_games, now):
+    """Locked games from the last 5 days that are no longer on the upcoming board,
+    so the game tracker can still show how their picks did."""
+    shown = {g["game_id"] for g in out_games}
+    out = []
+    for gid, h in history.items():
+        ko = datetime.fromisoformat(h["kickoff"])
+        if gid in shown or not h.get("espn_id") or not (now - timedelta(days=5) <= ko <= now):
+            continue
+        out.append({"game_id": gid, "espn_id": h["espn_id"], "away": h["away"], "home": h["home"],
+                    "away_name": config.TEAM_NAMES[h["away"]], "home_name": config.TEAM_NAMES[h["home"]],
+                    "kickoff": h["kickoff"], "week": h["week"], "final": h.get("final"),
+                    "picks": h["picks"], "props": h.get("props", [])})
+    return sorted(out, key=lambda g: g["kickoff"], reverse=True)
+
+
 def load_history():
     if config.HISTORY_FILE.exists():
         return json.loads(config.HISTORY_FILE.read_text())
@@ -171,7 +195,7 @@ def main():
 
         lock_at = r.kickoff - timedelta(hours=config.LOCK_HOURS)
         entry = {
-            "game_id": r.game_id, "week": int(r.week),
+            "game_id": r.game_id, "week": int(r.week), "espn_id": espn_id(r),
             "away": r.away_team, "home": r.home_team,
             "away_name": config.TEAM_NAMES[r.away_team], "home_name": config.TEAM_NAMES[r.home_team],
             "kickoff": r.kickoff.isoformat(), "lock_at": lock_at.isoformat(),
@@ -193,8 +217,9 @@ def main():
             history[r.game_id] = {
                 "locked_at": now.isoformat(), "matchup": f"{r.away_team} @ {r.home_team}",
                 "kickoff": r.kickoff.isoformat(), "week": int(r.week),
+                "away": r.away_team, "home": r.home_team, "espn_id": espn_id(r),
                 "picks": {k: dict(v) for k, v in picks.items()},
-                "props": [p for p in prop_rows if p.get("book")],
+                "props": [p for p in prop_rows if p.get("book") or p.get("top")],
             }
         out_games.append(entry)
 
@@ -209,6 +234,7 @@ def main():
         "generated_at": now.isoformat(), "season": season,
         "sources": fetch.source_status(), "games": out_games,
         "record": record(history),
+        "tracker_recent": tracker_recent(history, out_games, now),
         "recent_results": sorted(
             [dict(v, game_id=k) for k, v in history.items() if v.get("final")],
             key=lambda v: v["kickoff"], reverse=True)[:16],

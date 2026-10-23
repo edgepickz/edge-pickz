@@ -167,6 +167,46 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
 .gt .n { font: 800 18px var(--display); color: var(--green); min-width: 44px; }
 .gt .t { flex: 1 1 240px; min-width: 0; }
 
+/* Game tracker */
+.gchips { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+.gchip { display: flex; align-items: center; gap: 10px; flex: none; background: var(--card); border: 2px solid transparent; border-radius: 16px; box-shadow: var(--shadow); padding: 10px 14px; cursor: pointer; color: var(--ink); font: inherit; text-align: left; }
+.gchip.on { border-color: var(--green); }
+.gchip-teams { display: flex; }
+.gchip-teams .badge + .badge { margin-left: -4px; }
+.gchip-txt { display: grid; font-size: 13px; color: var(--muted); }
+.gchip-txt b { font: 700 15px var(--display); color: var(--ink); white-space: nowrap; }
+.live { color: var(--red); font-weight: 800; }
+.trackbtn { justify-self: start; margin-top: 6px; }
+.tcard { background: var(--card); border-radius: 18px; box-shadow: var(--shadow); overflow: hidden; }
+.thead { padding: 18px; display: grid; gap: 10px; border-bottom: 1px solid var(--line); }
+.tline { display: flex; align-items: center; gap: 12px; font: 600 20px var(--display); }
+.tscore { margin-left: auto; font: 800 34px var(--display); }
+.tstatus { font-weight: 600; }
+.ttabs { padding: 14px 18px 0; }
+.tbody { padding: 14px 18px 4px; display: grid; gap: 12px; }
+.tcard .fine { padding: 0 18px 14px; margin: 0; }
+.tsum { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; font-size: 15px; }
+.tsum b { font: 800 24px var(--display); }
+.trows { display: grid; gap: 8px; }
+.trow { display: flex; justify-content: space-between; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 14px; padding: 10px 14px; }
+.tp-pick { font: 700 17px var(--display); }
+.tstat { font-size: 13px; font-weight: 800; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.tstat.win { background: var(--green-soft); color: var(--green); } .tstat.lose { background: var(--red-soft); color: var(--red); }
+.tstat.push, .tstat.wait { background: var(--soft); color: var(--muted); }
+.tbl-wrap { overflow-x: auto; }
+.tcard table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.tcard th, .tcard td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.tcard th { font-size: 12px; color: var(--muted); font-weight: 700; }
+.tcard td.n, .tcard th.n { text-align: right; }
+.lines { max-width: 420px; }
+.drive { border: 1px solid var(--line); border-radius: 14px; }
+.drive summary { cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 10px 14px; }
+.drive .badge { color: #fff; }
+.plays { list-style: none; margin: 0; padding: 0 14px 10px; display: grid; gap: 6px; font-size: 14px; }
+.plays li { display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 10px; padding-top: 6px; border-top: 1px dashed var(--line); }
+.plays li.score { background: var(--gold-soft); border-radius: 8px; padding: 6px; }
+.pclock { color: var(--muted); font-weight: 700; font-size: 13px; }
+
 /* Record */
 .rec { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 12px; }
 .rcard { background: var(--card); border-radius: 18px; box-shadow: var(--shadow); padding: 16px 18px; }
@@ -210,6 +250,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button role="tab" id="tab-top" data-tab="top" aria-selected="true">Top picks</button>
     <button role="tab" id="tab-games" data-tab="games" aria-selected="false">All games</button>
+    <button role="tab" id="tab-tracker" data-tab="tracker" aria-selected="false">Game tracker</button>
     <button role="tab" id="tab-trends" data-tab="trends" aria-selected="false">Hot trends</button>
     <button role="tab" id="tab-props" data-tab="props" aria-selected="false">Player props</button>
     <button role="tab" id="tab-record" data-tab="record" aria-selected="false">Our record</button>
@@ -217,6 +258,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
 
   <section class="panel" id="panel-top" role="tabpanel"></section>
   <section class="panel" id="panel-games" role="tabpanel" hidden></section>
+  <section class="panel" id="panel-tracker" role="tabpanel" hidden></section>
   <section class="panel" id="panel-trends" role="tabpanel" hidden></section>
   <section class="panel" id="panel-props" role="tabpanel" hidden></section>
   <section class="panel" id="panel-record" role="tabpanel" hidden></section>
@@ -405,7 +447,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
           <div class="team">${badge(g.away)} ${esc(g.away_name)}<span class="score">${Math.round(ms[g.away])}</span></div>
           <div class="team">${badge(g.home)} ${esc(g.home_name)}<span class="score">${Math.round(ms[g.home])}</span></div>
         </div>
-        <div class="gmeta"><strong>${whenLong(g.kickoff)}</strong><span>${esc(g.stadium)}${g.neutral ? " (neutral site)" : ""}</span>${statusText(g)}</div>
+        <div class="gmeta"><strong>${whenLong(g.kickoff)}</strong><span>${esc(g.stadium)}${g.neutral ? " (neutral site)" : ""}</span>${statusText(g)}${g.espn_id ? `<button type="button" class="chipbtn trackbtn" data-track="${esc(g.espn_id)}">Track this game</button>` : ""}</div>
       </div>
       <div class="predict">Our predicted score is shown next to each team.</div>
       <div class="blocktitle">Our picks</div>
@@ -485,13 +527,182 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
 
   // Tabs
   const tabs = [...document.querySelectorAll(".tabs button")];
-  const ids = ["top", "games", "trends", "props", "record"];
+  const ids = ["top", "games", "tracker", "trends", "props", "record"];
   function show(t) {
     tabs.forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
     ids.forEach((x) => ($("panel-" + x).hidden = x !== t));
     try { localStorage.setItem("edgepickz-tab", t); } catch (e) {}
   }
   tabs.forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
+  // ---------------------------------------------------------------- Game tracker
+  const ESPN = "https://site.api.espn.com/apis/site/v2/sports/football/nfl";
+  const ESPN_FIX = { WSH: "WAS", LAR: "LA", JAC: "JAX" };
+  const fixAbbr = (a) => ESPN_FIX[a] || a;
+  const normName = (s) => String(s || "").toLowerCase().replace(/[.'’-]/g, " ").replace(/\b(jr|sr|ii|iii|iv|v)\b/g, "").replace(/\s+/g, " ").trim();
+  const trackGames = [
+    ...D.games.map((g) => ({ ...g, picksNow: picksOf(g), propsNow: (g.locked ? g.locked.props : g.props).filter((r) => r.top || r.book) })),
+    ...(D.tracker_recent || []).map((g) => ({ ...g, picksNow: g.picks, propsNow: g.props, locked: true })),
+  ].filter((g) => g.espn_id);
+  let tSel = null, tTimer = null, tBoard = {}, tFetchOk = true, tTab = "picks";
+
+  async function getJSON(url) {
+    const r = await fetch(url, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }
+  async function loadBoard() {
+    try {
+      const js = await getJSON(ESPN + "/scoreboard");
+      tFetchOk = true;
+      (js.events || []).forEach((ev) => {
+        const c = ev.competitions[0];
+        const sc = {}; c.competitors.forEach((x) => (sc[fixAbbr(x.team.abbreviation)] = x.score));
+        tBoard[ev.id] = { state: c.status.type.state, detail: c.status.type.shortDetail, scores: sc };
+      });
+    } catch (e) { tFetchOk = false; }
+  }
+  function gameChip(g) {
+    const b = tBoard[g.espn_id];
+    const live = b && b.state === "in", done = (b && b.state === "post") || g.final;
+    const sc = b && b.state !== "pre" ? `${esc(g.away)} ${b.scores[g.away] ?? ""} · ${esc(g.home)} ${b.scores[g.home] ?? ""}` : `${esc(g.away)} @ ${esc(g.home)}`;
+    const st = live ? `<span class="live">● LIVE</span> ${esc(b.detail)}` : done ? (b ? esc(b.detail) : "Final") : when(g.kickoff);
+    return `<button type="button" class="gchip ${tSel === g.espn_id ? "on" : ""}" data-gid="${esc(g.espn_id)}">
+      <span class="gchip-teams">${badge(g.away, true)}${badge(g.home, true)}</span><span class="gchip-txt"><b>${sc}</b><span>${st}</span></span></button>`;
+  }
+  function drawTrackerList() {
+    const order = (g) => { const b = tBoard[g.espn_id]; return b ? { in: 0, pre: 1, post: 2 }[b.state] : g.final ? 2 : 1; };
+    const list = [...trackGames].sort((a, b) => order(a) - order(b) || new Date(a.kickoff) - new Date(b.kickoff));
+    $("tgames").innerHTML = list.map(gameChip).join("") || `<div class="empty">No games to track right now.</div>`;
+    $("tgames").querySelectorAll(".gchip").forEach((b) => b.addEventListener("click", () => openGame(b.dataset.gid)));
+    $("tnote").hidden = tFetchOk;
+  }
+
+  // Pull live player stats out of ESPN's box score.
+  function playerStats(box) {
+    const out = {};
+    (box?.players || []).forEach((tm) => (tm.statistics || []).forEach((cat) => {
+      const keys = cat.keys || [];
+      const ix = (k) => keys.indexOf(k);
+      (cat.athletes || []).forEach((a) => {
+        const n = normName(a.athlete?.displayName); const s = (out[n] ||= {}); const v = (k) => parseFloat(a.stats?.[ix(k)]) || 0;
+        if (cat.name === "passing") { s.pass_yds = v("passingYards"); s.pass_tds = v("passingTouchdowns"); }
+        if (cat.name === "rushing") { s.rush_yds = v("rushingYards"); s.rush_td = v("rushingTouchdowns"); }
+        if (cat.name === "receiving") { s.receptions = v("receptions"); s.rec_yds = v("receivingYards"); s.rec_td = v("receivingTouchdowns"); }
+      });
+    }));
+    return out;
+  }
+  // Status of one pick given the current score: returns {cls, label, note}
+  function judge(state, cur, needOver, line, isUnderStyle) {
+    // generic: for "over-style" picks, win when cur > line; for under-style, win while cur < line.
+    if (state === "pre") return { cls: "wait", label: "Not started" };
+    const ahead = isUnderStyle ? cur < line : cur > line;
+    const push = cur === line;
+    if (state === "post") return push ? { cls: "push", label: "Push" } : ahead ? { cls: "win", label: "Won" } : { cls: "lose", label: "Lost" };
+    if (!isUnderStyle && ahead) return { cls: "win", label: "Hit" };
+    if (isUnderStyle && !ahead) return { cls: "lose", label: "Lost" };
+    return push ? { cls: "push", label: "Even" } : ahead ? { cls: "win", label: "On track" } : { cls: "lose", label: "Needs more" };
+  }
+  function pickTracker(g, state, scores, stats) {
+    const a = +scores[g.away] || 0, h = +scores[g.home] || 0, P = g.picksNow || {};
+    const rows = [];
+    if (P.spread) { const t = P.spread.team, line = P.spread.line; const m = (t === g.home ? h - a : a - h) + line;
+      const j = state === "in" ? (m > 0 ? { cls: "win", label: "Covering" } : m < 0 ? { cls: "lose", label: "Not covering" } : { cls: "push", label: "Even" }) : judge(state, m, 0, 0, false);
+      rows.push({ k: "Spread", pick: plain("spread", P.spread), j, now: `${N(t)} ${t === g.home ? h - a >= 0 ? "up " + (h - a) : "down " + (a - h) : a - h >= 0 ? "up " + (a - h) : "down " + (h - a)}`, bet: P.spread.bet }); }
+    if (P.total) { const [side, l] = P.total.pick.split(" "); const line = parseFloat(l); const tot = a + h;
+      rows.push({ k: "Total", pick: P.total.pick, j: judge(state, tot, 0, line, side === "Under"), now: `${tot} points${side === "Over" && tot < line && state !== "post" ? `, need ${Math.ceil(line - tot)} more` : ""}`, bet: P.total.bet }); }
+    if (P.moneyline) { const t = P.moneyline.pick.split(" ")[0]; const m = t === g.home ? h - a : a - h;
+      const j = state === "in" ? (m > 0 ? { cls: "win", label: "Leading" } : m < 0 ? { cls: "lose", label: "Trailing" } : { cls: "push", label: "Tied" }) : judge(state, m, 0, 0, false);
+      rows.push({ k: "Winner", pick: plain("moneyline", P.moneyline), j, now: m === 0 ? "Tied" : `${N(t)} ${m > 0 ? "lead" : "trail"} by ${Math.abs(m)}`, bet: P.moneyline.bet }); }
+    (g.propsNow || []).forEach((r) => {
+      const ref = r.book || r.matchup; const st = stats[normName(r.player)] || {};
+      if (r.key === "anytime_td") { const td = (st.rush_td || 0) + (st.rec_td || 0);
+        rows.push({ k: "Player prop", pick: `${r.player} to score`, j: judge(state, td, 0, 0.5, false), now: td ? `${td} TD` : "No TD yet", bet: r.book?.bet }); return; }
+      if (!ref || ref.line == null) return;
+      const cur = st[r.key] || 0;
+      rows.push({ k: "Player prop", pick: `${r.player} ${ref.side} ${ref.line} ${statName(r.stat)}`, j: judge(state, cur, 0, ref.line, ref.side === "Under"), now: `${cur} so far`, bet: r.book?.bet, top: r.top });
+    });
+    const won = rows.filter((r) => r.j.cls === "win").length, lost = rows.filter((r) => r.j.cls === "lose").length;
+    return `<div class="tsum"><span><b>${won}</b> ${state === "post" ? "won" : "winning"}</span><span><b>${lost}</b> ${state === "post" ? "lost" : "losing"}</span><span class="muted small">${g.locked ? "Final picks" : "Early picks"} from Edge Pickz</span></div>
+      <div class="trows">${rows.map((r) => `<div class="trow"><div><span class="kind">${esc(r.k)}${r.bet ? " · our bet" : r.top ? " · top prop" : ""}</span><div class="tp-pick">${esc(r.pick)}</div><div class="small muted">${esc(r.now)}</div></div><span class="tstat ${r.j.cls}">${esc(r.j.label)}</span></div>`).join("")}</div>`;
+  }
+  function boxScore(box, g) {
+    const teams = box?.teams || [];
+    if (!teams.length) return `<div class="empty">The box score shows up once the game starts.</div>`;
+    const want = ["firstDowns", "totalYards", "netPassingYards", "rushingYards", "turnovers", "thirdDownEff", "possessionTime", "totalPenaltiesYards"];
+    const statRows = want.map((n) => { const vals = teams.map((t) => (t.statistics || []).find((s) => s.name === n)); if (!vals[0]) return "";
+      return `<tr><td>${esc(vals[0].label)}</td>${vals.map((v) => `<td class="n">${esc(v?.displayValue ?? "–")}</td>`).join("")}</tr>`; }).join("");
+    const teamHead = `<tr><th></th>${teams.map((t) => `<th class="n">${esc(fixAbbr(t.team.abbreviation))}</th>`).join("")}</tr>`;
+    const cats = ["passing", "rushing", "receiving"];
+    const players = cats.map((c) => {
+      const blocks = (box.players || []).map((tm) => { const cat = (tm.statistics || []).find((s) => s.name === c); if (!cat || !(cat.athletes || []).length) return "";
+        return `<div class="tbl-wrap"><table><thead><tr><th>${esc(fixAbbr(tm.team.abbreviation))} ${c}</th>${(cat.labels || []).map((l) => `<th class="n">${esc(l)}</th>`).join("")}</tr></thead>
+          <tbody>${cat.athletes.map((a) => `<tr><td>${esc(a.athlete?.displayName)}</td>${(a.stats || []).map((s) => `<td class="n">${esc(s)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`; }).join("");
+      return blocks; }).join("");
+    return `<div class="tbl-wrap"><table class="teamtbl"><thead>${teamHead}</thead><tbody>${statRows}</tbody></table></div>${players}`;
+  }
+  function plays(sum) {
+    const drives = [...(sum.drives?.previous || [])];
+    if (sum.drives?.current && !drives.some((d) => d.id === sum.drives.current.id)) drives.push(sum.drives.current);
+    if (!drives.length) return `<div class="empty">Play-by-play starts at kickoff.</div>`;
+    return drives.slice().reverse().map((d, i) => `<details class="drive" ${i < 2 ? "open" : ""}><summary>${badge(fixAbbr(d.team?.abbreviation || ""), true)}<span><b>${esc(d.displayResult || d.result || (i === 0 ? "In progress" : ""))}</b> <span class="muted small">${esc(d.description || "")}</span></span></summary>
+      <ol class="plays">${(d.plays || []).slice().reverse().map((p) => `<li class="${p.scoringPlay ? "score" : ""}"><span class="pclock">Q${p.period?.number ?? ""} ${esc(p.clock?.displayValue || "")}</span><span>${p.start?.downDistanceText ? `<span class="muted small">${esc(p.start.downDistanceText)} · </span>` : ""}${esc(p.text)}</span></li>`).join("")}</ol></details>`).join("");
+  }
+  async function openGame(id) {
+    tSel = id; show("tracker"); drawTrackerList();
+    const g = trackGames.find((x) => x.espn_id === id);
+    $("tdetail").innerHTML = `<div class="empty">Loading ${esc(g.away_name)} at ${esc(g.home_name)}…</div>`;
+    clearTimeout(tTimer);
+    await refreshGame(g);
+  }
+  async function refreshGame(g) {
+    let sum;
+    try { sum = await getJSON(`${ESPN}/summary?event=${g.espn_id}`); tFetchOk = true; }
+    catch (e) {
+      tFetchOk = false;
+      $("tdetail").innerHTML = `<div class="tcard"><div class="thead"><div class="tline">${badge(g.away)}<b>${esc(g.away_name)}</b></div><div class="tline">${badge(g.home)}<b>${esc(g.home_name)}</b></div></div>
+        <div class="empty">Live scores load on your Edge Pickz website: <a href="https://edgepickz.github.io/edge-pickz/#tracker" target="_blank" rel="noopener">edgepickz.github.io/edge-pickz</a>. Here are the picks we're tracking for this game.</div>
+        <div class="tbody">${pickTracker(g, "pre", {}, {})}</div></div>`;
+      $("tnote").hidden = false; return;
+    }
+    if (tSel !== g.espn_id) return;
+    const comp = sum.header?.competitions?.[0] || {};
+    const status = comp.status || {}; const state = status.type?.state || "pre";
+    const scores = {}, lines = {};
+    (comp.competitors || []).forEach((c) => { const t = fixAbbr(c.team?.abbreviation); scores[t] = c.score ?? ""; lines[t] = (c.linescores || []).map((q) => q.displayValue ?? q.value); });
+    const sit = comp.situation || sum.situation;
+    const stats = playerStats(sum.boxscore);
+    const qs = Math.max(4, ...Object.values(lines).map((l) => l.length));
+    const lineTable = state === "pre" ? "" : `<div class="tbl-wrap"><table class="lines"><thead><tr><th></th>${Array.from({ length: qs }, (_, i) => `<th class="n">${i < 4 ? i + 1 : "OT"}</th>`).join("")}<th class="n">T</th></tr></thead><tbody>
+      ${[g.away, g.home].map((t) => `<tr><td>${esc(t)}</td>${Array.from({ length: qs }, (_, i) => `<td class="n">${esc(lines[t]?.[i] ?? "")}</td>`).join("")}<td class="n"><b>${esc(scores[t])}</b></td></tr>`).join("")}</tbody></table></div>`;
+    const tabsHtml = [["picks", "Our picks"], ["plays", "Play-by-play"], ["box", "Box score"]].map(([k, l]) => `<button type="button" class="chipbtn" data-tt="${k}" aria-pressed="${tTab === k}">${l}</button>`).join("");
+    const body = tTab === "plays" ? plays(sum) : tTab === "box" ? boxScore(sum.boxscore, g) : pickTracker(g, state, scores, stats);
+    $("tdetail").innerHTML = `<div class="tcard">
+      <div class="thead">
+        <div class="tline">${badge(g.away)}<b>${esc(g.away_name)}</b><span class="tscore">${state === "pre" ? "" : esc(scores[g.away])}</span></div>
+        <div class="tline">${badge(g.home)}<b>${esc(g.home_name)}</b><span class="tscore">${state === "pre" ? "" : esc(scores[g.home])}</span></div>
+        <div class="tstatus">${state === "in" ? `<span class="live">● LIVE</span> ` : ""}${esc(state === "pre" ? whenLong(g.kickoff) : status.type?.detail || "")}
+          ${sit?.downDistanceText ? ` · ${esc(sit.downDistanceText)}` : ""}${sit?.lastPlay?.text ? `<div class="small muted">Last play: ${esc(sit.lastPlay.text)}</div>` : ""}</div>
+        ${lineTable}
+      </div>
+      <div class="chips ttabs">${tabsHtml}</div>
+      <div class="tbody">${body}</div>
+      <p class="fine">${state === "in" ? "Updates automatically every 20 seconds." : state === "pre" ? "Live tracking starts at kickoff." : "Final."} Scores and stats from ESPN.</p></div>`;
+    $("tdetail").querySelectorAll("[data-tt]").forEach((b) => b.addEventListener("click", () => { tTab = b.dataset.tt; refreshGame(g); }));
+    clearTimeout(tTimer);
+    if (state === "in") tTimer = setTimeout(() => { if (tSel === g.espn_id && !$("panel-tracker").hidden) refreshGame(g); loadBoard().then(drawTrackerList); }, 20000);
+  }
+  $("panel-tracker").innerHTML = `<div class="panel-head"><h2>Game tracker</h2><span class="muted small">Tap a game for the live score, play-by-play, box score and how our picks are doing</span></div>
+    <p class="fine" id="tnote" hidden>Live scores can't load in this preview. Open your Edge Pickz website to follow games live: <a href="https://edgepickz.github.io/edge-pickz/#tracker" target="_blank" rel="noopener">edgepickz.github.io/edge-pickz</a></p>
+    <div class="gchips" id="tgames"></div><div id="tdetail"></div>`;
+  drawTrackerList();
+  loadBoard().then(() => {
+    drawTrackerList();
+    if (!tSel) { const live = trackGames.find((g) => tBoard[g.espn_id]?.state === "in"); if (live && !$("panel-tracker").hidden) openGame(live.espn_id); }
+  });
+  setInterval(() => { if (!$("panel-tracker").hidden) loadBoard().then(drawTrackerList); }, 60000);
+  document.addEventListener("click", (e) => { const b = e.target.closest("[data-track]"); if (b) openGame(b.dataset.track); });
+
   let start = (location.hash || "").slice(1);
   if (!ids.includes(start)) { try { start = localStorage.getItem("edgepickz-tab") || "top"; } catch (e) { start = "top"; } }
   if (!ids.includes(start)) start = "top";
