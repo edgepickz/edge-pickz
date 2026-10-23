@@ -157,10 +157,11 @@ def ratings(df, now):
     """Weighted ridge fit on points, like the NFL model. Teams with few games
     in our data (mostly FCS opponents) share one pooled rating."""
     done = df[df.completed].copy()
-    fbs = fbs_teams()
-    if not fbs:
-        counts = pd.concat([done.home, done.away]).value_counts()
-        fbs = set(counts[counts >= 4].index)
+    # ESPN's FBS scoreboard only lists games with an FBS team in them, so FBS teams show up
+    # every week while FCS opponents show up once or twice.
+    counts = pd.concat([done.home, done.away]).value_counts()
+    weeks_played = done.week[done.week < 100].nunique()
+    fbs = set(counts[counts >= max(2, min(4, weeks_played // 2))].index)
     pool = lambda t: t if t in fbs else "FCS"
     done["h"] = done.home.map(pool)
     done["a"] = done.away.map(pool)
@@ -171,19 +172,19 @@ def ratings(df, now):
     w = (0.5 ** (weeks_ago / HALF_LIFE_WEEKS)).to_numpy()
     X, y, wt = [], [], []
     for r, wi in zip(done.itertuples(), w):
-        hf = 0 if r.neutral else 1
+        hf = 0 if r.neutral else HFA / 2
         for team, opp, pts, sign in ((r.h, r.a, r.home_score, 1), (r.a, r.h, r.away_score, -1)):
             x = np.zeros(2 + 2 * n)
-            x[0], x[1] = 1, 0.5 * sign * hf
+            x[0] = 1
             x[2 + idx[team]] = 1
             x[2 + n + idx[opp]] = -1
-            X.append(x); y.append(pts); wt.append(wi)
+            X.append(x); y.append(pts - sign * hf); wt.append(wi)
     X, y, sw = np.array(X), np.array(y), np.sqrt(np.array(wt))
     reg = np.sqrt(3.0) * np.eye(X.shape[1]); reg[0, 0] = reg[1, 1] = 0
     beta = np.linalg.lstsq(np.vstack([X * sw[:, None], reg]), np.concatenate([y * sw, np.zeros(X.shape[1])]), rcond=None)[0]
     off = {t: beta[2 + idx[t]] for t in teams}
     dfn = {t: beta[2 + n + idx[t]] for t in teams}
-    hfa = 0.5 * beta[1] + 0.5 * HFA
+    hfa = HFA
     rate = lambda t: (off.get(pool(t), off.get("FCS", -10)), dfn.get(pool(t), dfn.get("FCS", -10)))
     rate.debug = {"n_games": int(len(done)), "n_fbs": len(fbs), "n_teams": n, "mu": float(beta[0]), "hfa": float(beta[1]),
                   "top": sorted(((t, round(off[t] + dfn[t], 1)) for t in teams), key=lambda x: -x[1])[:40]}
