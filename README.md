@@ -20,6 +20,13 @@ Without an odds key the board uses nflverse consensus lines for games and shows 
 *projections* with the line you'd need to bet (no prop EV). With a key, live lines and
 props are pulled once per game at its 24h lock (about 9 credits per game, ~400/month).
 
+## College football
+
+A **College** tab covers every game with an AP Top 25 team: spread, total and moneyline
+picks from team ratings fit to this season's FBS scores, compared with DraftKings lines
+(via ESPN). Same 24-hour lock, grading and record. Trends use ESPN's archive of past lines.
+No player props and no injury reports for college (teams don't publish them).
+
 ## How the model works
 
 - **Team strength**: a recency-weighted rating fit to points scored/allowed (this season

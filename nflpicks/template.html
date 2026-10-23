@@ -216,6 +216,9 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
 .alerts { display: grid; gap: 6px; padding: 4px 18px 10px; }
 .alert { background: var(--red-soft); color: var(--ink); border-radius: 12px; padding: 10px 14px; font-size: 14px; }
 
+.subhead { font-size: 20px; font-weight: 700; margin-top: 6px; }
+.rank { color: var(--muted); font-weight: 700; font-size: .85em; }
+
 /* Record */
 .rec { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 12px; }
 .rcard { background: var(--card); border-radius: 18px; box-shadow: var(--shadow); padding: 16px 18px; }
@@ -260,6 +263,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button role="tab" id="tab-top" data-tab="top" aria-selected="true">Top picks</button>
     <button role="tab" id="tab-games" data-tab="games" aria-selected="false">All games</button>
+    <button role="tab" id="tab-college" data-tab="college" aria-selected="false">College</button>
     <button role="tab" id="tab-tracker" data-tab="tracker" aria-selected="false">Game tracker</button>
     <button role="tab" id="tab-trends" data-tab="trends" aria-selected="false">Hot trends</button>
     <button role="tab" id="tab-props" data-tab="props" aria-selected="false">Player props</button>
@@ -268,6 +272,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
 
   <section class="panel" id="panel-top" role="tabpanel"></section>
   <section class="panel" id="panel-games" role="tabpanel" hidden></section>
+  <section class="panel" id="panel-college" role="tabpanel" hidden></section>
   <section class="panel" id="panel-tracker" role="tabpanel" hidden></section>
   <section class="panel" id="panel-trends" role="tabpanel" hidden></section>
   <section class="panel" id="panel-props" role="tabpanel" hidden></section>
@@ -289,7 +294,12 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   const nick = {};
   D.games.forEach((g) => { nick[g.away] = g.away_name.split(" ").pop(); nick[g.home] = g.home_name.split(" ").pop(); });
   const N = (t) => nick[t] || t;
-  const badge = (t, sm) => `<span class="badge ${sm ? "sm" : ""}" style="background:${COLORS[t] || "#555"}" aria-hidden="true">${esc(t)}</span>`;
+  const C = D.cfb || { games: [], teams: {}, record: {}, recent_results: [], tracker_recent: [], sources: {} };
+  const LABEL = {};
+  Object.entries(C.teams || {}).forEach(([k, t]) => { nick[k] = t.short; COLORS[k] = t.color; LABEL[k] = t.abbr; });
+  const lab = (t) => LABEL[t] || t;
+  const badge = (t, sm) => `<span class="badge ${sm ? "sm" : ""}" style="background:${COLORS[t] || "#555"}" aria-hidden="true">${esc(lab(t))}</span>`;
+  const rk = (g, side) => (g[side + "_rank"] ? `<span class="rank">#${g[side + "_rank"]}</span> ` : "");
   const pct = (p) => Math.round(p * 100) + "%";
   const fmtTime = (iso, opts) => new Date(iso).toLocaleString("en-US", Object.assign({ timeZone: "America/New_York" }, opts));
   const when = (iso) => fmtTime(iso, { weekday: "short", hour: "numeric", minute: "2-digit" }) + " ET";
@@ -404,15 +414,17 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       <div class="say">${esc(trendText(t))}</div>${dots(t)}
       <div class="small"><span class="muted">Play:</span> <strong>${esc(trendBet(t))}</strong> · ${agreeTag(t)}${t.status ? ` · <span class="tag">${esc(t.status)}</span>` : ""}</div></article>`;
   }
-  const allTrends = D.games.flatMap((g) => g.trends || []);
+  C.games.forEach((g) => { [g.away, g.home].forEach((t) => (gameOf[t] = g)); });
+  const allTrends = [...D.games, ...C.games].flatMap((g) => g.trends || []);
+  const isCollege = (t) => /^c\d/.test(t.team);
   let tf = "agree", tshown = 24;
-  const tfilters = [["agree", "Model agrees"], ["", "All trends"], ["team", "Teams"], ["player", "Players"], ["perfect", "Perfect streaks"]];
+  const tfilters = [["agree", "Model agrees"], ["", "All trends"], ["team", "Teams"], ["player", "Players"], ["perfect", "Perfect streaks"], ["college", "College"]];
   $("panel-trends").innerHTML = `<div class="panel-head"><h2>Hot trends</h2><span class="muted small">Streaks over each team's and player's last 3 to 5 games</span></div>
     <div class="chips" role="group" aria-label="Filter trends">${tfilters.map(([k, l]) => `<button type="button" class="chipbtn" data-tf="${k}" aria-pressed="${k === tf}">${l}</button>`).join("")}</div>
     <div class="tlist" id="tlist"></div><button type="button" class="chipbtn more" id="tmore">Show more trends</button>
     <p class="fine">Player streaks are measured against the same line we show for this week. Hot streaks end all the time, so the strongest plays are the ones where the streak and our model point the same way.</p>`;
   function drawTrends() {
-    const list = allTrends.filter((t) => !tf || (tf === "agree" ? t.agrees : tf === "perfect" ? t.hit === t.of : t.type === tf))
+    const list = allTrends.filter((t) => !tf || (tf === "agree" ? t.agrees : tf === "perfect" ? t.hit === t.of : tf === "college" ? isCollege(t) : t.type === tf))
       .sort((a, b) => (b.agrees - a.agrees) * (tf === "" ? 1 : 0) || b.rate - a.rate || b.of - a.of);
     $("tlist").innerHTML = list.slice(0, tshown).map(trendCard).join("") || `<div class="empty">No streaks match this filter right now.</div>`;
     $("tmore").hidden = list.length <= tshown;
@@ -444,7 +456,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       if (!x) return `<div class="op"><span class="kind">${MK[k]}</span><span class="s">No line yet</span></div>`;
       return `<div class="op ${x.bet ? "bet" : ""}"><span class="kind">${MK[k]}</span><span class="p">${esc(plain(k, x))} <span class="muted small">${esc(x.price)}</span></span>
         <span class="s">${esc(explain(k, x))}</span><span>${valueChip(x.ev)}${x.result ? ` <span class="res ${x.result}">${x.result === "W" ? "Won" : x.result === "L" ? "Lost" : "Push"}</span>` : ""}</span></div>`; }).join("");
-    const inj = g.injuries.length ? `<ul>${g.injuries.slice(0, 8).map((i) => `<li>${esc(N(i.team))}: ${esc(i.name)}${i.position ? " (" + esc(i.position) + ")" : ""}, <strong>${esc(i.status)}</strong></li>`).join("")}</ul>` : `<div class="muted">No key players listed as out or questionable.</div>`;
+    const inj = g.league === "cfb" ? `<div class="muted">College teams don't release official injury reports.</div>` : g.injuries.length ? `<ul>${g.injuries.slice(0, 8).map((i) => `<li>${esc(N(i.team))}: ${esc(i.name)}${i.position ? " (" + esc(i.position) + ")" : ""}, <strong>${esc(i.status)}</strong></li>`).join("")}</ul>` : `<div class="muted">No key players listed as out or questionable.</div>`;
     const news = g.news.length ? `<ul>${g.news.slice(0, 3).map((n) => `<li>${n.link ? `<a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.headline)}</a>` : esc(n.headline)}</li>`).join("")}</ul>` : `<div class="muted">No new headlines.</div>`;
     const cmp = ["spread", "total", "moneyline"].filter((k) => p[k]).map((k) => { const x = p[k];
       const body = k === "moneyline" ? `Sportsbooks give the ${esc(plain(k, x).replace(" to win", ""))} a ${pct(x.market_prob)} chance to win. We give them ${pct(x.prob)}.`
@@ -454,8 +466,8 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
     return `<article class="gcard" data-day="${esc(dayKey(g.kickoff))}">
       <div class="ghead">
         <div class="teams">
-          <div class="team">${badge(g.away)} ${esc(g.away_name)}<span class="score">${Math.round(ms[g.away])}</span></div>
-          <div class="team">${badge(g.home)} ${esc(g.home_name)}<span class="score">${Math.round(ms[g.home])}</span></div>
+          <div class="team">${badge(g.away)} ${rk(g, "away")}${esc(g.away_name)}<span class="score">${Math.round(ms[g.away])}</span></div>
+          <div class="team">${badge(g.home)} ${rk(g, "home")}${esc(g.home_name)}<span class="score">${Math.round(ms[g.home])}</span></div>
         </div>
         <div class="gmeta"><strong>${whenLong(g.kickoff)}</strong><span>${esc(g.stadium)}${g.neutral ? " (neutral site)" : ""}</span>${statusText(g)}${g.espn_id ? `<button type="button" class="chipbtn trackbtn" data-track="${esc(g.espn_id)}">Track this game</button>` : ""}</div>
       </div>
@@ -472,7 +484,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       </div>
       <details class="whyd"><summary>Why we like these picks</summary><div class="whybody">
         <div class="cmp">${cmp}</div>
-        <div class="small muted">Starting QBs: ${esc(g.qbs[g.away] || "TBD")} and ${esc(g.qbs[g.home] || "TBD")}.${adj.length ? " In our numbers, " + esc(adj.join(" and ")) + "." : ""}${g.weather_notes.length ? " Weather: " + esc(g.weather_notes.join(", ")) + "." : ""}</div>
+        <div class="small muted">${g.league === "cfb" ? "" : `Starting QBs: ${esc(g.qbs[g.away] || "TBD")} and ${esc(g.qbs[g.home] || "TBD")}.`}${adj.length ? " In our numbers, " + esc(adj.join(" and ")) + "." : ""}${g.weather_notes.length ? " Weather: " + esc(g.weather_notes.join(", ")) + "." : ""}</div>
       </div></details>
     </article>`;
   }
@@ -484,6 +496,34 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
     $("panel-games").querySelectorAll(".chipbtn[data-day]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
     $("panel-games").querySelectorAll(".gcard").forEach((c) => (c.hidden = !!day && c.dataset.day !== day));
   }));
+
+  // College football
+  (function () {
+    const cb = [];
+    C.games.forEach((g) => Object.entries(picksOf(g)).forEach(([k, p]) => { if (p.bet) cb.push({ g, k, p }); }));
+    cb.sort((a, b) => b.p.ev - a.p.ev);
+    const cdays = [...new Set(C.games.map((g) => dayKey(g.kickoff)))];
+    const missingC = Object.entries(C.sources || {}).filter(([, v]) => !String(v).startsWith("ok")).map(([k]) => k);
+    $("panel-college").innerHTML = `<div class="panel-head"><h2>College football</h2><span class="muted small">${C.week ? "Week " + C.week + " · " : ""}Games with a Top 25 team · lines from ${esc(C.games.find((g) => g.book)?.book || "ESPN")}</span></div>
+      <p class="fine">Same approach as our NFL picks: our team ratings vs. the sportsbook line, picks lock 24 hours before kickoff, and every final pick counts toward our record. College teams don't publish injury reports, so injuries aren't in these picks.${missingC.length ? " Not included in this update: " + esc(missingC.join(", ")) + "." : ""}</p>
+      <h3 class="subhead">Best college bets</h3>
+      ${cb.length ? `<div class="picks">${cb.map(({ g, k, p }) => `
+        <article class="pcard">
+          <div class="row">${k === "total" ? `<span class="badge ou" aria-hidden="true">O/U</span>` : badge(p.pick.split(" ")[0])}
+            <div><div class="kind">${MK[k]}</div><div class="big">${esc(plain(k, p))}</div></div></div>
+          <div class="muted small">${esc(explain(k, p))}</div>
+          <div class="facts"><div><b>${pct(p.prob)}</b><span>Chance to hit</span></div><div><b>${esc(p.price)}</b><span>Odds</span></div><div><b>${valueOf(p.ev).bars}/3</b><span>Value</span></div></div>
+          <div class="foot"><span>${g.away_rank ? "#" + g.away_rank + " " : ""}${esc(N(g.away))} at ${g.home_rank ? "#" + g.home_rank + " " : ""}${esc(N(g.home))} · ${when(g.kickoff)}</span>${statusText(g)}</div>
+        </article>`).join("")}</div>` : `<div class="empty">No college picks have value yet. Lines and ratings update every 10 minutes.</div>`}
+      <h3 class="subhead">All Top 25 games</h3>
+      <div class="chips" role="group" aria-label="Filter by day"><button type="button" class="chipbtn" data-cday="" aria-pressed="true">All</button>${cdays.map((d) => `<button type="button" class="chipbtn" data-cday="${esc(d)}" aria-pressed="false">${esc(d)}</button>`).join("")}</div>
+      <div class="games">${C.games.map(gameCard).join("") || `<div class="empty">No Top 25 games in the next week.</div>`}</div>`;
+    $("panel-college").querySelectorAll(".chipbtn[data-cday]").forEach((b) => b.addEventListener("click", () => {
+      const d = b.dataset.cday;
+      $("panel-college").querySelectorAll(".chipbtn[data-cday]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      $("panel-college").querySelectorAll(".gcard").forEach((c) => (c.hidden = !!d && c.dataset.day !== d));
+    }));
+  })();
 
   // Player props tab
   const players = [];
@@ -526,6 +566,15 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   drawProps();
 
   // Record
+  function collegeRecord() {
+    const RC = C.record || {};
+    const cc = ["spread", "total", "moneyline"].filter((k) => RC[k]).map((k) => { const r = RC[k];
+      return `<div class="rcard"><div class="muted small">College ${names[k].toLowerCase()}</div><div class="n">${r.W}-${r.L}${r.P ? "-" + r.P : ""}</div><div class="${r.units >= 0 ? "up" : "down"}">${r.units >= 0 ? "+" : ""}${r.units} units</div></div>`; }).join("");
+    const rr = (C.recent_results || []).map((h) => {
+      const parts = Object.entries(h.picks).filter(([, x]) => x.bet && x.result).map(([k, x]) => `${esc(plain(k, x))}<span class="res ${x.result}">${x.result === "W" ? "Won" : x.result === "L" ? "Lost" : "Push"}</span>`);
+      return `<div class="ritem"><div><strong>${esc(h.final)}</strong><div class="small muted">${parts.join(" · ") || "No bets on this game"}</div></div><span class="small muted">Week ${h.week}</span></div>`; }).join("");
+    return `<h3 class="subhead">College football</h3>` + (cc ? `<div class="rec">${cc}</div>` : `<div class="empty">The college record starts once the first final college picks are graded.</div>`) + (rr ? `<div class="rlist">${rr}</div>` : "");
+  }
   const R = D.record, names = { spread: "Spreads", total: "Totals", moneyline: "Winners", props: "Player props" };
   const cards = Object.keys(names).filter((k) => R[k]).map((k) => { const r = R[k];
     return `<div class="rcard"><div class="muted small">${names[k]}</div><div class="n">${r.W}-${r.L}${r.P ? "-" + r.P : ""}</div><div class="${r.units >= 0 ? "up" : "down"}">${r.units >= 0 ? "+" : ""}${r.units} units</div></div>`; }).join("");
@@ -534,7 +583,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
     return `<div class="ritem"><div><strong>${esc(h.final)}</strong><div class="small muted">${parts.join(" · ") || "No bets on this game"}</div></div><span class="small muted">Week ${h.week}</span></div>`; }).join("");
   $("panel-record").innerHTML = `<div class="panel-head"><h2>Our record</h2><span class="muted small">Final picks only, 1 unit per bet</span></div>` +
     (cards ? `<div class="rec">${cards}</div>` : `<div class="empty">Our record starts once the first final picks are graded. Every final pick counts, wins and losses.</div>`) +
-    (recent ? `<div class="rlist">${recent}</div>` : "");
+    (recent ? `<div class="rlist">${recent}</div>` : "") + collegeRecord();
 
   // ---------------------------------------------------------------- Live injuries + news (every 60s, in the browser)
   const LIVE_MS = 60000;
@@ -592,7 +641,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
 
   // Tabs
   const tabs = [...document.querySelectorAll(".tabs button")];
-  const ids = ["top", "games", "tracker", "trends", "props", "record"];
+  const ids = ["top", "games", "college", "tracker", "trends", "props", "record"];
   function show(t) {
     tabs.forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
     ids.forEach((x) => ($("panel-" + x).hidden = x !== t));
@@ -603,10 +652,15 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   const ESPN = "https://site.api.espn.com/apis/site/v2/sports/football/nfl";
   const ESPN_FIX = { WSH: "WAS", LAR: "LA", JAC: "JAX" };
   const fixAbbr = (a) => ESPN_FIX[a] || a;
+  const ESPN_CFB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football";
+  const baseOf = (g) => (g.league === "cfb" ? ESPN_CFB : ESPN);
+  const tkey = (league, team) => (league === "cfb" ? "c" + team?.id : fixAbbr(team?.abbreviation));
   const normName = (s) => String(s || "").toLowerCase().replace(/[.'’-]/g, " ").replace(/\b(jr|sr|ii|iii|iv|v)\b/g, "").replace(/\s+/g, " ").trim();
   const trackGames = [
     ...D.games.map((g) => ({ ...g, picksNow: picksOf(g), propsNow: (g.locked ? g.locked.props : g.props).filter((r) => r.top || r.book) })),
     ...(D.tracker_recent || []).map((g) => ({ ...g, picksNow: g.picks, propsNow: g.props, locked: true })),
+    ...C.games.map((g) => ({ ...g, picksNow: picksOf(g), propsNow: [] })),
+    ...(C.tracker_recent || []).map((g) => ({ ...g, picksNow: g.picks, propsNow: [], locked: true })),
   ].filter((g) => g.espn_id);
   let tSel = null, tTimer = null, tBoard = {}, tFetchOk = true, tTab = "picks";
 
@@ -617,19 +671,19 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   }
   async function loadBoard() {
     try {
-      const js = await getJSON(ESPN + "/scoreboard");
+      const [nfl, col] = await Promise.all([getJSON(ESPN + "/scoreboard"), C.games.length || (C.tracker_recent || []).length ? getJSON(ESPN_CFB + "/scoreboard?groups=80&limit=300").catch(() => ({})) : {}]);
       tFetchOk = true;
-      (js.events || []).forEach((ev) => {
+      [["nfl", nfl], ["cfb", col]].forEach(([lg, js]) => (js.events || []).forEach((ev) => {
         const c = ev.competitions[0];
-        const sc = {}; c.competitors.forEach((x) => (sc[fixAbbr(x.team.abbreviation)] = x.score));
+        const sc = {}; c.competitors.forEach((x) => (sc[tkey(lg, x.team)] = x.score));
         tBoard[ev.id] = { state: c.status.type.state, detail: c.status.type.shortDetail, scores: sc };
-      });
+      }));
     } catch (e) { tFetchOk = false; }
   }
   function gameChip(g) {
     const b = tBoard[g.espn_id];
     const live = b && b.state === "in", done = (b && b.state === "post") || g.final;
-    const sc = b && b.state !== "pre" ? `${esc(g.away)} ${b.scores[g.away] ?? ""} · ${esc(g.home)} ${b.scores[g.home] ?? ""}` : `${esc(g.away)} @ ${esc(g.home)}`;
+    const sc = b && b.state !== "pre" ? `${esc(lab(g.away))} ${b.scores[g.away] ?? ""} · ${esc(lab(g.home))} ${b.scores[g.home] ?? ""}` : `${esc(lab(g.away))} @ ${esc(lab(g.home))}`;
     const st = live ? `<span class="live">● LIVE</span> ${esc(b.detail)}` : done ? (b ? esc(b.detail) : "Final") : when(g.kickoff);
     return `<button type="button" class="gchip ${tSel === g.espn_id ? "on" : ""}" data-gid="${esc(g.espn_id)}">
       <span class="gchip-teams">${badge(g.away, true)}${badge(g.home, true)}</span><span class="gchip-txt"><b>${sc}</b><span>${st}</span></span></button>`;
@@ -706,11 +760,11 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       return blocks; }).join("");
     return `<div class="tbl-wrap"><table class="teamtbl"><thead>${teamHead}</thead><tbody>${statRows}</tbody></table></div>${players}`;
   }
-  function plays(sum) {
+  function plays(sum, g) {
     const drives = [...(sum.drives?.previous || [])];
     if (sum.drives?.current && !drives.some((d) => d.id === sum.drives.current.id)) drives.push(sum.drives.current);
     if (!drives.length) return `<div class="empty">Play-by-play starts at kickoff.</div>`;
-    return drives.slice().reverse().map((d, i) => `<details class="drive" ${i < 2 ? "open" : ""}><summary>${badge(fixAbbr(d.team?.abbreviation || ""), true)}<span><b>${esc(d.displayResult || d.result || (i === 0 ? "In progress" : ""))}</b> <span class="muted small">${esc(d.description || "")}</span></span></summary>
+    return drives.slice().reverse().map((d, i) => `<details class="drive" ${i < 2 ? "open" : ""}><summary>${badge(tkey(g.league, d.team || {}), true)}<span><b>${esc(d.displayResult || d.result || (i === 0 ? "In progress" : ""))}</b> <span class="muted small">${esc(d.description || "")}</span></span></summary>
       <ol class="plays">${(d.plays || []).slice().reverse().map((p) => `<li class="${p.scoringPlay ? "score" : ""}"><span class="pclock">Q${p.period?.number ?? ""} ${esc(p.clock?.displayValue || "")}</span><span>${p.start?.downDistanceText ? `<span class="muted small">${esc(p.start.downDistanceText)} · </span>` : ""}${esc(p.text)}</span></li>`).join("")}</ol></details>`).join("");
   }
   async function openGame(id) {
@@ -722,7 +776,7 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   }
   async function refreshGame(g) {
     let sum;
-    try { sum = await getJSON(`${ESPN}/summary?event=${g.espn_id}`); tFetchOk = true; }
+    try { sum = await getJSON(`${baseOf(g)}/summary?event=${g.espn_id}`); tFetchOk = true; }
     catch (e) {
       tFetchOk = false;
       $("tdetail").innerHTML = `<div class="tcard"><div class="thead"><div class="tline">${badge(g.away)}<b>${esc(g.away_name)}</b></div><div class="tline">${badge(g.home)}<b>${esc(g.home_name)}</b></div></div>
@@ -734,14 +788,14 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
     const comp = sum.header?.competitions?.[0] || {};
     const status = comp.status || {}; const state = status.type?.state || "pre";
     const scores = {}, lines = {};
-    (comp.competitors || []).forEach((c) => { const t = fixAbbr(c.team?.abbreviation); scores[t] = c.score ?? ""; lines[t] = (c.linescores || []).map((q) => q.displayValue ?? q.value); });
+    (comp.competitors || []).forEach((c) => { const t = tkey(g.league, c.team); scores[t] = c.score ?? ""; lines[t] = (c.linescores || []).map((q) => q.displayValue ?? q.value); });
     const sit = comp.situation || sum.situation;
     const stats = playerStats(sum.boxscore);
     const qs = Math.max(4, ...Object.values(lines).map((l) => l.length));
     const lineTable = state === "pre" ? "" : `<div class="tbl-wrap"><table class="lines"><thead><tr><th></th>${Array.from({ length: qs }, (_, i) => `<th class="n">${i < 4 ? i + 1 : "OT"}</th>`).join("")}<th class="n">T</th></tr></thead><tbody>
-      ${[g.away, g.home].map((t) => `<tr><td>${esc(t)}</td>${Array.from({ length: qs }, (_, i) => `<td class="n">${esc(lines[t]?.[i] ?? "")}</td>`).join("")}<td class="n"><b>${esc(scores[t])}</b></td></tr>`).join("")}</tbody></table></div>`;
+      ${[g.away, g.home].map((t) => `<tr><td>${esc(lab(t))}</td>${Array.from({ length: qs }, (_, i) => `<td class="n">${esc(lines[t]?.[i] ?? "")}</td>`).join("")}<td class="n"><b>${esc(scores[t])}</b></td></tr>`).join("")}</tbody></table></div>`;
     const tabsHtml = [["picks", "Our picks"], ["plays", "Play-by-play"], ["box", "Box score"]].map(([k, l]) => `<button type="button" class="chipbtn" data-tt="${k}" aria-pressed="${tTab === k}">${l}</button>`).join("");
-    const body = tTab === "plays" ? plays(sum) : tTab === "box" ? boxScore(sum.boxscore, g) : pickTracker(g, state, scores, stats);
+    const body = tTab === "plays" ? plays(sum, g) : tTab === "box" ? boxScore(sum.boxscore, g) : pickTracker(g, state, scores, stats);
     $("tdetail").innerHTML = `<div class="tcard">
       <div class="thead">
         <div class="tline">${badge(g.away)}<b>${esc(g.away_name)}</b><span class="tscore">${state === "pre" ? "" : esc(scores[g.away])}</span></div>

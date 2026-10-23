@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from . import config, fetch, model, props, render, trends
+from . import cfb, config, fetch, model, props, render, trends
 
 ET = ZoneInfo("America/New_York")
 
@@ -121,6 +121,22 @@ def record(history):
     for r in rec.values():
         r["units"] = round(r["units"], 2)
     return rec
+
+
+def clean(x):
+    """JSON has no NaN: turn missing numbers into null so the page can parse it."""
+    if isinstance(x, dict):
+        return {k: clean(v) for k, v in x.items()}
+    if isinstance(x, (list, tuple)):
+        return [clean(v) for v in x]
+    if isinstance(x, float) and x != x:
+        return None
+    if hasattr(x, "item") and not isinstance(x, (str, bytes)):
+        try:
+            return clean(x.item())
+        except Exception:
+            return x
+    return x
 
 
 def main():
@@ -242,6 +258,12 @@ def main():
                      "min_ev_game": config.MIN_EV_GAME, "min_ev_prop": config.MIN_EV_PROP,
                      "live_odds": bool(config.ODDS_API_KEY)},
     }
+    try:
+        payload["cfb"] = cfb.build(now)
+    except Exception as e:  # college should never take the NFL board down
+        payload["cfb"] = {"games": [], "teams": {}, "sources": {"College football": f"failed ({e.__class__.__name__}: {e})"},
+                          "record": {}, "recent_results": [], "tracker_recent": []}
+    payload = clean(payload)
     config.OUT_DIR.mkdir(parents=True, exist_ok=True)
     (config.OUT_DIR / "picks.json").write_text(json.dumps(payload, indent=1, default=str))
     (config.OUT_DIR / "index.html").write_text(render.page(payload))

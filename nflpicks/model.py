@@ -195,8 +195,11 @@ def weather_total_adj(wx, roof):
 
 
 # ---------------------------------------------------------------- picks
-def game_picks(g, model_home, model_away, live):
+def game_picks(g, model_home, model_away, live, sd_margin=None, sd_total=None, trust=None):
     """Compare the model to the market for spread, total and moneyline."""
+    sd_m = sd_margin or config.SD_MARGIN
+    sd_t = sd_total or config.SD_TOTAL
+    k = config.MODEL_TRUST if trust is None else trust
     out = {}
     market_spread = g["spread_line"]          # >0 means home favored by that many
     market_total = g["total_line"]
@@ -222,8 +225,8 @@ def game_picks(g, model_home, model_away, live):
 
     # Spread
     if market_spread is not None and not math.isnan(market_spread):
-        est_margin = market_spread + config.MODEL_TRUST * (model_margin - market_spread)
-        p_home = 1 - phi((market_spread - est_margin) / config.SD_MARGIN)
+        est_margin = market_spread + k * (model_margin - market_spread)
+        p_home = 1 - phi((market_spread - est_margin) / sd_m)
         ev_home, ev_away = ev(p_home, sp_home_price), ev(1 - p_home, sp_away_price)
         home_side = ev_home >= ev_away
         team = g["home_team"] if home_side else g["away_team"]
@@ -239,8 +242,8 @@ def game_picks(g, model_home, model_away, live):
         }
     # Total
     if market_total is not None and not math.isnan(market_total):
-        est_total = market_total + config.MODEL_TRUST * (model_total - market_total)
-        p_over = 1 - phi((market_total - est_total) / config.SD_TOTAL)
+        est_total = market_total + k * (model_total - market_total)
+        p_over = 1 - phi((market_total - est_total) / sd_t)
         ev_o, ev_u = ev(p_over, over_price), ev(1 - p_over, under_price)
         over = ev_o >= ev_u
         out["total"] = {
@@ -254,12 +257,12 @@ def game_picks(g, model_home, model_away, live):
     # Moneyline
     if ml_home is not None and ml_away is not None and not (isinstance(ml_home, float) and math.isnan(ml_home)):
         base = market_spread if market_spread is not None and not math.isnan(market_spread) else model_margin
-        est_margin = base + config.MODEL_TRUST * (model_margin - base)
+        est_margin = base + k * (model_margin - base)
         ih, ia = implied_prob(ml_home), implied_prob(ml_away)
         # Start from the market's no-vig win probability and move it by the model's edge,
         # so the bell-curve approximation doesn't create fake value on big underdogs.
         p_mkt = ih / (ih + ia)
-        p_home = p_mkt + phi(est_margin / config.SD_MARGIN) - phi(base / config.SD_MARGIN)
+        p_home = p_mkt + phi(est_margin / sd_m) - phi(base / sd_m)
         p_home = min(max(p_home, 0.01), 0.99)
         ev_h, ev_a = ev(p_home, ml_home), ev(1 - p_home, ml_away)
         home_side = ev_h >= ev_a
