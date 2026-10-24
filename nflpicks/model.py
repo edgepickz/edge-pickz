@@ -265,14 +265,16 @@ def game_picks(g, model_home, model_away, live, sd_margin=None, sd_total=None, t
         p_home = p_mkt + phi(est_margin / sd_m) - phi(base / sd_m)
         p_home = min(max(p_home, 0.01), 0.99)
         ev_h, ev_a = ev(p_home, ml_home), ev(1 - p_home, ml_away)
-        home_side = ev_h >= ev_a
+        # The winner pick is the team we think is more likely to win outright. Picking the side with
+        # the best value instead would always copy the spread pick, since both come from the same edge.
+        home_side = p_home >= 0.5
         out["moneyline"] = {
             "market": f"{g['away_team']} {fmt_odds(ml_away)} / {g['home_team']} {fmt_odds(ml_home)}",
             "market_prob": round((ih if home_side else ia) / (ih + ia), 3),
             "pick": f"{g['home_team'] if home_side else g['away_team']} ML",
             "price": fmt_odds(ml_home if home_side else ml_away),
             "prob": round(p_home if home_side else 1 - p_home, 3),
-            "ev": round(max(ev_h, ev_a), 3),
+            "ev": round(ev_h if home_side else ev_a, 3),
         }
     for k, v in out.items():
         v["bet"] = v["ev"] >= config.MIN_EV_GAME
