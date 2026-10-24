@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T15:58:48.217565+00:00",
+ "generated_at": "2026-10-24T16:17:56.439454+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -8063,7 +8063,7 @@
     "MIN": "Kyler Murray"
    },
    "model_score": {
-    "IND": 12.9,
+    "IND": 12.8,
     "MIN": 22.5
    },
    "picks": {
@@ -8075,29 +8075,29 @@
      "team": "MIN",
      "line": -6.5,
      "price": "-108",
-     "prob": 0.533,
-     "ev": 0.026,
+     "prob": 0.534,
+     "ev": 0.028,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "41.5",
-     "model_line": "35.4",
-     "edge_pts": 6.1,
+     "model_line": "35.3",
+     "edge_pts": 6.2,
      "pick": "Under 41.5",
      "price": "-110",
-     "prob": 0.565,
-     "ev": 0.079,
+     "prob": 0.566,
+     "ev": 0.081,
      "bet": true,
-     "stars": 2
+     "stars": 3
     },
     "moneyline": {
      "market": "IND +235 / MIN -290",
      "market_prob": 0.714,
      "pick": "MIN ML",
      "price": "-290",
-     "prob": 0.742,
-     "ev": -0.002,
+     "prob": 0.743,
+     "ev": -0.001,
      "bet": false,
      "stars": 0
     }
@@ -8181,7 +8181,7 @@
      "team": "IND",
      "opp": "MIN",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 71.3,
@@ -8201,7 +8201,7 @@
      "team": "IND",
      "opp": "MIN",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 18.1,
@@ -8222,7 +8222,7 @@
      "team": "IND",
      "opp": "MIN",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.8,
@@ -8242,7 +8242,7 @@
      "team": "IND",
      "opp": "MIN",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "50% to score",
@@ -8845,18 +8845,10 @@
     ]
    },
    "injury_adj": {
-    "IND": -2.2,
+    "IND": -2.3,
     "MIN": -1.0
    },
    "injuries": [
-    {
-     "team": "IND",
-     "name": "Rigoberto Sanchez",
-     "position": "P",
-     "status": "Questionable",
-     "detail": "Foot",
-     "source": "NFL report"
-    },
     {
      "team": "IND",
      "name": "Sauce Gardner",
@@ -8893,8 +8885,8 @@
      "team": "IND",
      "name": "CJ Allen",
      "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -9382,7 +9374,7 @@
       2
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -18947,7 +18939,7 @@
     "temp_f": 50,
     "wind_mph": 5,
     "gust_mph": 20,
-    "precip_prob": 13,
+    "precip_prob": 25,
     "precip_in": 0.13
    },
    "weather_notes": [],
@@ -20513,13 +20505,7 @@
      "fair_odds": "+192"
     }
    ],
-   "weather": {
-    "temp_f": 61,
-    "wind_mph": 5,
-    "gust_mph": 15,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "DAL": [],
@@ -22088,13 +22074,7 @@
      "fair_odds": "-122"
     }
    ],
-   "weather": {
-    "temp_f": 51,
-    "wind_mph": 5,
-    "gust_mph": 15,
-    "precip_prob": 8,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CAR": [],
@@ -23128,45 +23108,10 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c221": 22.5,
+     "c221": 22.6,
      "c2390": 34.6
     },
-    "picks": {
-     "spread": {
-      "market": "c2390 -20.5",
-      "model_line": "c2390 -12",
-      "edge_pts": 8.5,
-      "pick": "c221 +20.5",
-      "team": "c221",
-      "line": 20.5,
-      "price": "-105",
-      "prob": 0.553,
-      "ev": 0.079,
-      "bet": true,
-      "stars": 2
-     },
-     "total": {
-      "market": "50.5",
-      "model_line": "57.1",
-      "edge_pts": 6.6,
-      "pick": "Over 50.5",
-      "price": "-118",
-      "prob": 0.543,
-      "ev": 0.002,
-      "bet": false,
-      "stars": 0
-     },
-     "moneyline": {
-      "market": "c221 +1000 / c2390 -1800",
-      "market_prob": 0.088,
-      "pick": "c221 ML",
-      "price": "+1000",
-      "prob": 0.113,
-      "ev": 0.241,
-      "bet": false,
-      "stars": 0
-     }
-    },
+    "picks": {},
     "props": [],
     "weather": null,
     "weather_notes": [],
@@ -23209,7 +23154,7 @@
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": true,
+      "agrees": false,
       "hit": 4,
       "of": 5,
       "rate": 0.8,
@@ -23222,7 +23167,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": null,
     "locked": {
      "locked_at": "2026-10-23T22:09:47.209560+00:00",
      "kickoff": "2026-10-24T16:00:00+00:00",
@@ -23290,46 +23235,17 @@
     "qbs": {},
     "model_score": {
      "c84": 25.1,
-     "c130": 17.7
+     "c130": 17.8
     },
-    "picks": {
-     "spread": {
-      "market": "c130 +7",
-      "model_line": "c130 +7.5",
-      "edge_pts": 0.4,
-      "pick": "c130 +7",
-      "team": "c130",
-      "line": 7.0,
-      "price": "-105",
-      "prob": 0.498,
-      "ev": -0.028,
-      "bet": false,
-      "stars": 0
-     },
-     "total": {
-      "market": "43.5",
-      "model_line": "42.8",
-      "edge_pts": 0.7,
-      "pick": "Under 43.5",
-      "price": "-112",
-      "prob": 0.504,
-      "ev": -0.045,
-      "bet": false,
-      "stars": 0
-     },
-     "moneyline": {
-      "market": "c84 -298 / c130 +240",
-      "market_prob": 0.718,
-      "pick": "c84 ML",
-      "price": "-298",
-      "prob": 0.72,
-      "ev": -0.038,
-      "bet": false,
-      "stars": 0
-     }
-    },
+    "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 58,
+     "wind_mph": 2,
+     "gust_mph": 6,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -23337,10 +23253,6 @@
      {
       "headline": "Michigan QB Tommy Carr, grandson of ex-coach, to get first start, source confirms",
       "link": "https://www.espn.com/college-football/story/_/id/50260251/michigan-qb-tommy-carr-start-indiana-source-confirms"
-     },
-     {
-      "headline": "Michigan Wolverines QB Tommy Carr has 'poise' that's 'second to none'",
-      "link": "https://www.espn.com/college-football/story/_/id/50253805/michigan-wolverines-tommy-carr-poise"
      },
      {
       "headline": "Sources: Indiana RB Khobie Martin to return vs. Michigan",
@@ -23372,7 +23284,7 @@
       "kind": "spread",
       "label": "failed to cover",
       "bet": "spread",
-      "agrees": true,
+      "agrees": false,
       "hit": 4,
       "of": 5,
       "rate": 0.8,
@@ -23391,7 +23303,7 @@
       "kind": "moneyline",
       "label": "won",
       "bet": "moneyline",
-      "agrees": true,
+      "agrees": false,
       "hit": 4,
       "of": 5,
       "rate": 0.8,
@@ -23410,7 +23322,7 @@
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
-      "agrees": true,
+      "agrees": false,
       "hit": 4,
       "of": 5,
       "rate": 0.8,
@@ -23423,7 +23335,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": null,
     "locked": {
      "locked_at": "2026-10-23T22:09:47.209560+00:00",
      "kickoff": "2026-10-24T16:00:00+00:00",
@@ -23490,47 +23402,18 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2641": 32.3,
+     "c2641": 32.2,
      "c2132": 26.1
     },
-    "picks": {
-     "spread": {
-      "market": "c2132 +10.5",
-      "model_line": "c2132 +6",
-      "edge_pts": 4.4,
-      "pick": "c2132 +10.5",
-      "team": "c2132",
-      "line": 10.5,
-      "price": "-108",
-      "prob": 0.527,
-      "ev": 0.015,
-      "bet": false,
-      "stars": 0
-     },
-     "total": {
-      "market": "57.5",
-      "model_line": "58.4",
-      "edge_pts": 0.9,
-      "pick": "Under 57.5",
-      "price": "-105",
-      "prob": 0.494,
-      "ev": -0.035,
-      "bet": false,
-      "stars": 0
-     },
-     "moneyline": {
-      "market": "c2641 -425 / c2132 +330",
-      "market_prob": 0.223,
-      "pick": "c2132 ML",
-      "price": "+330",
-      "prob": 0.246,
-      "ev": 0.056,
-      "bet": true,
-      "stars": 2
-     }
-    },
+    "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 65,
+     "wind_mph": 4,
+     "gust_mph": 9,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -23634,7 +23517,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": null,
     "locked": {
      "locked_at": "2026-10-23T22:09:47.209560+00:00",
      "kickoff": "2026-10-24T16:00:00+00:00",
@@ -23704,50 +23587,9 @@
      "c99": 28.5,
      "c2": 22.5
     },
-    "picks": {
-     "spread": {
-      "market": "c2 +7",
-      "model_line": "c2 +6",
-      "edge_pts": 1.0,
-      "pick": "c2 +7",
-      "team": "c2",
-      "line": 7.0,
-      "price": "-105",
-      "prob": 0.506,
-      "ev": -0.012,
-      "bet": false,
-      "stars": 0
-     },
-     "total": {
-      "market": "52.5",
-      "model_line": "51.0",
-      "edge_pts": 1.5,
-      "pick": "Under 52.5",
-      "price": "-110",
-      "prob": 0.51,
-      "ev": -0.026,
-      "bet": false,
-      "stars": 0
-     },
-     "moneyline": {
-      "market": "c99 -285 / c2 +230",
-      "market_prob": 0.29,
-      "pick": "c2 ML",
-      "price": "+230",
-      "prob": 0.296,
-      "ev": -0.023,
-      "bet": false,
-      "stars": 0
-     }
-    },
+    "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 55,
-     "wind_mph": 3,
-     "gust_mph": 4,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -23807,7 +23649,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": null,
     "locked": {
      "locked_at": "2026-10-23T22:09:47.209560+00:00",
      "kickoff": "2026-10-24T16:00:00+00:00",
@@ -23877,42 +23719,7 @@
      "c25": 21.0,
      "c2567": 29.9
     },
-    "picks": {
-     "spread": {
-      "market": "c2567 -18.5",
-      "model_line": "c2567 -9",
-      "edge_pts": 9.6,
-      "pick": "c25 +18.5",
-      "team": "c25",
-      "line": 18.5,
-      "price": "-110",
-      "prob": 0.56,
-      "ev": 0.069,
-      "bet": true,
-      "stars": 2
-     },
-     "total": {
-      "market": "55.5",
-      "model_line": "50.9",
-      "edge_pts": 4.6,
-      "pick": "Under 55.5",
-      "price": "-115",
-      "prob": 0.529,
-      "ev": -0.01,
-      "bet": false,
-      "stars": 0
-     },
-     "moneyline": {
-      "market": "c25 +675 / c2567 -1050",
-      "market_prob": 0.124,
-      "pick": "c25 ML",
-      "price": "+675",
-      "prob": 0.157,
-      "ev": 0.219,
-      "bet": false,
-      "stars": 0
-     }
-    },
+    "picks": {},
     "props": [],
     "weather": {
      "temp_f": 75,
@@ -23933,7 +23740,7 @@
       "kind": "spread",
       "label": "failed to cover",
       "bet": "spread",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 3,
       "rate": 1.0,
@@ -23950,31 +23757,12 @@
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 3,
       "rate": 1.0,
       "dots": [
        true,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
-      "team": "c25",
-      "opp": "c2567",
-      "kind": "total",
-      "label": "gone under the total",
-      "bet": "under",
-      "agrees": true,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
        true,
        true
       ]
@@ -23995,6 +23783,25 @@
        true,
        true,
        false,
+       true
+      ]
+     },
+     {
+      "type": "team",
+      "team": "c25",
+      "opp": "c2567",
+      "kind": "total",
+      "label": "gone under the total",
+      "bet": "under",
+      "agrees": false,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       true,
+       false,
+       true,
        true
       ]
      },
@@ -24036,7 +23843,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": null,
     "locked": {
      "locked_at": "2026-10-23T22:09:47.209560+00:00",
      "kickoff": "2026-10-24T16:00:00+00:00",
@@ -24106,42 +23913,7 @@
      "c164": 23.0,
      "c77": 34.7
     },
-    "picks": {
-     "spread": {
-      "market": "c77 -15.5",
-      "model_line": "c77 -11.5",
-      "edge_pts": 3.8,
-      "pick": "c164 +15.5",
-      "team": "c164",
-      "line": 15.5,
-      "price": "-112",
-      "prob": 0.524,
-      "ev": -0.009,
-      "bet": false,
-      "stars": 0
-     },
-     "total": {
-      "market": "59.5",
-      "model_line": "57.6",
-      "edge_pts": 1.9,
-      "pick": "Under 59.5",
-      "price": "-115",
-      "prob": 0.512,
-      "ev": -0.043,
-      "bet": false,
-      "stars": 0
-     },
-     "moneyline": {
-      "market": "c164 +525 / c77 -750",
-      "market_prob": 0.153,
-      "pick": "c164 ML",
-      "price": "+525",
-      "prob": 0.169,
-      "ev": 0.054,
-      "bet": false,
-      "stars": 0
-     }
-    },
+    "picks": {},
     "props": [],
     "weather": {
      "temp_f": 61,
@@ -24218,7 +23990,7 @@
       "kind": "spread",
       "label": "covered the spread",
       "bet": "spread",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -24230,7 +24002,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": null,
     "locked": {
      "locked_at": "2026-10-23T22:09:47.209560+00:00",
      "kickoff": "2026-10-24T16:00:00+00:00",
@@ -24297,8 +24069,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c201": 23.6,
-     "c344": 25.0
+     "c201": 23.5,
+     "c344": 25.1
     },
     "picks": {
      "spread": {
@@ -24309,8 +24081,8 @@
       "team": "c344",
       "line": 1.5,
       "price": "-108",
-      "prob": 0.518,
-      "ev": -0.002,
+      "prob": 0.519,
+      "ev": -0.001,
       "bet": false,
       "stars": 0
      },
@@ -24320,7 +24092,7 @@
       "edge_pts": 0.1,
       "pick": "Over 48.5",
       "price": "-108",
-      "prob": 0.5,
+      "prob": 0.501,
       "ev": -0.036,
       "bet": false,
       "stars": 0
@@ -24330,20 +24102,14 @@
       "market_prob": 0.474,
       "pick": "c344 ML",
       "price": "+102",
-      "prob": 0.492,
-      "ev": -0.006,
+      "prob": 0.493,
+      "ev": -0.005,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 76,
-     "wind_mph": 7,
-     "gust_mph": 10,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -24591,26 +24357,26 @@
     "qbs": {},
     "model_score": {
      "c245": 19.2,
-     "c333": 30.2
+     "c333": 30.1
     },
     "picks": {
      "spread": {
       "market": "c333 -13.5",
       "model_line": "c333 -11",
-      "edge_pts": 2.5,
+      "edge_pts": 2.6,
       "pick": "c245 +13.5",
       "team": "c245",
       "line": 13.5,
       "price": "-108",
       "prob": 0.516,
-      "ev": -0.007,
+      "ev": -0.006,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "49.5",
-      "model_line": "49.4",
-      "edge_pts": 0.1,
+      "model_line": "49.3",
+      "edge_pts": 0.2,
       "pick": "Under 49.5",
       "price": "-105",
       "prob": 0.501,
@@ -24624,19 +24390,13 @@
       "pick": "c245 ML",
       "price": "+425",
       "prob": 0.194,
-      "ev": 0.018,
+      "ev": 0.019,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 76,
-     "wind_mph": 8,
-     "gust_mph": 11,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -25046,7 +24806,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 77,
+     "wind_mph": 5,
+     "gust_mph": 7,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -25196,8 +24962,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c252": 25.2,
-     "c2116": 23.2
+     "c252": 25.0,
+     "c2116": 23.0
     },
     "picks": {
      "spread": {
@@ -25215,12 +24981,12 @@
      },
      "total": {
       "market": "43.5",
-      "model_line": "48.3",
-      "edge_pts": 4.8,
+      "model_line": "48.0",
+      "edge_pts": 4.5,
       "pick": "Over 43.5",
       "price": "-110",
-      "prob": 0.531,
-      "ev": 0.014,
+      "prob": 0.529,
+      "ev": 0.01,
       "bet": false,
       "stars": 0
      },
@@ -25230,14 +24996,22 @@
       "pick": "c2116 ML",
       "price": "+235",
       "prob": 0.315,
-      "ev": 0.056,
+      "ev": 0.057,
       "bet": true,
       "stars": 2
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 78,
+     "wind_mph": 13,
+     "gust_mph": 20,
+     "precip_prob": 8,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 13 mph (gusts 20)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -25599,7 +25373,7 @@
       "market_prob": 0.417,
       "pick": "c145 ML",
       "price": "+130",
-      "prob": 0.433,
+      "prob": 0.432,
       "ev": -0.005,
       "bet": false,
       "stars": 0
@@ -26081,12 +25855,12 @@
      },
      "total": {
       "market": "51.5",
-      "model_line": "51.8",
-      "edge_pts": 0.3,
+      "model_line": "51.7",
+      "edge_pts": 0.2,
       "pick": "Over 51.5",
       "price": "-105",
       "prob": 0.502,
-      "ev": -0.02,
+      "ev": -0.021,
       "bet": false,
       "stars": 0
      },
@@ -26096,7 +25870,7 @@
       "pick": "c66 ML",
       "price": "+275",
       "prob": 0.278,
-      "ev": 0.043,
+      "ev": 0.042,
       "bet": true,
       "stars": 1
      }
@@ -26213,7 +25987,7 @@
       "edge_pts": 0.4,
       "pick": "Under 57.5",
       "price": "-105",
-      "prob": 0.498,
+      "prob": 0.497,
       "ev": -0.029,
       "bet": false,
       "stars": 0
@@ -26560,8 +26334,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c12": 24.6,
-     "c2641": 29.9
+     "c12": 24.5,
+     "c2641": 29.8
     },
     "picks": {},
     "props": [],
@@ -27274,7 +27048,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c9": 20.3,
+     "c9": 20.4,
      "c252": 35.2
     },
     "picks": {},
@@ -27379,7 +27153,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c254": 32.6,
+     "c254": 32.5,
      "c2132": 26.6
     },
     "picks": {},
@@ -28023,8 +27797,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c194": 31.8,
-     "c30": 25.6
+     "c194": 31.7,
+     "c30": 25.7
     },
     "picks": {},
     "props": [],
@@ -28213,7 +27987,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c142": 25.7,
+     "c142": 25.6,
      "c8": 20.2
     },
     "picks": {},
@@ -28448,8 +28222,8 @@
    "n_games": 522,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.158864360501017,
-   "hfa": -3.1086244689504383e-15,
+   "mu": 26.15750276642612,
+   "hfa": -4.884981308350689e-15,
    "top": [
     [
      "c87",
@@ -28457,27 +28231,27 @@
     ],
     [
      "c2390",
-     14.8
+     14.7
     ],
     [
      "c194",
-     14.5
+     14.4
     ],
     [
      "c99",
-     12.6
+     12.5
     ],
     [
      "c154",
-     12.1
+     12.0
     ],
     [
      "c84",
-     12.1
+     12.0
     ],
     [
      "c61",
-     11.7
+     11.6
     ],
     [
      "c333",
@@ -28493,7 +28267,7 @@
     ],
     [
      "c256",
-     10.3
+     10.2
     ],
     [
      "c167",
@@ -28533,7 +28307,7 @@
     ],
     [
      "c2335",
-     7.6
+     7.7
     ],
     [
      "c251",
@@ -28541,7 +28315,7 @@
     ],
     [
      "c197",
-     7.1
+     7.0
     ],
     [
      "c77",
@@ -28580,15 +28354,15 @@
      5.2
     ],
     [
+     "c249",
+     5.1
+    ],
+    [
      "c349",
-     5.2
+     5.1
     ],
     [
      "c239",
-     5.0
-    ],
-    [
-     "c249",
      5.0
     ],
     [
@@ -28597,7 +28371,7 @@
     ],
     [
      "c142",
-     4.8
+     4.7
     ],
     [
      "c96",
