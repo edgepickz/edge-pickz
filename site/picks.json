@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T17:09:27.754303+00:00",
+ "generated_at": "2026-10-24T17:31:48.842118+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -270,7 +270,7 @@
      "team": "PIT",
      "opp": "NO",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 52.2,
@@ -290,7 +290,7 @@
      "team": "PIT",
      "opp": "NO",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 5.5,
@@ -310,7 +310,7 @@
      "team": "PIT",
      "opp": "NO",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "25% to score",
@@ -6471,31 +6471,31 @@
     "HOU": "C.J. Stroud"
    },
    "model_score": {
-    "NYG": 19.3,
+    "NYG": 19.2,
     "HOU": 24.3
    },
    "picks": {
     "spread": {
      "market": "HOU -10",
      "model_line": "HOU -5",
-     "edge_pts": 5.0,
+     "edge_pts": 4.9,
      "pick": "NYG +10",
      "team": "NYG",
      "line": 10.0,
      "price": "-105",
-     "prob": 0.552,
-     "ev": 0.078,
+     "prob": 0.551,
+     "ev": 0.076,
      "bet": true,
      "stars": 2
     },
     "total": {
      "market": "42.5",
-     "model_line": "43.6",
-     "edge_pts": 1.1,
+     "model_line": "43.5",
+     "edge_pts": 1.0,
      "pick": "Over 42.5",
      "price": "-112",
-     "prob": 0.512,
-     "ev": -0.032,
+     "prob": 0.51,
+     "ev": -0.034,
      "bet": false,
      "stars": 0
     },
@@ -6504,8 +6504,8 @@
      "market_prob": 0.2,
      "pick": "NYG ML",
      "price": "+380",
-     "prob": 0.242,
-     "ev": 0.159,
+     "prob": 0.241,
+     "ev": 0.155,
      "bet": true,
      "stars": 3
     }
@@ -7303,7 +7303,7 @@
     ]
    },
    "injury_adj": {
-    "NYG": -1.0,
+    "NYG": -1.1,
     "HOU": -1.1
    },
    "injuries": [
@@ -7383,7 +7383,7 @@
      "team": "NYG",
      "name": "Jevon Holland",
      "position": "S",
-     "status": "Questionable",
+     "status": "Out",
      "detail": "Holland (concussion) is questionable for Sunday's game against the Texans.",
      "source": "ESPN"
     },
@@ -18078,31 +18078,31 @@
     "SEA": "Sam Darnold"
    },
    "model_score": {
-    "KC": 19.4,
+    "KC": 19.6,
     "SEA": 18.6
    },
    "picks": {
     "spread": {
      "market": "SEA -3",
      "model_line": "SEA +1",
-     "edge_pts": 3.8,
+     "edge_pts": 4.0,
      "pick": "KC +3",
      "team": "KC",
      "line": 3.0,
      "price": "-115",
-     "prob": 0.54,
-     "ev": 0.009,
+     "prob": 0.541,
+     "ev": 0.012,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "42.5",
-     "model_line": "38.1",
-     "edge_pts": 4.4,
+     "model_line": "38.2",
+     "edge_pts": 4.3,
      "pick": "Under 42.5",
      "price": "-110",
-     "prob": 0.547,
-     "ev": 0.045,
+     "prob": 0.546,
+     "ev": 0.042,
      "bet": true,
      "stars": 1
     },
@@ -18111,10 +18111,10 @@
      "market_prob": 0.428,
      "pick": "KC ML",
      "price": "+124",
-     "prob": 0.467,
-     "ev": 0.046,
+     "prob": 0.469,
+     "ev": 0.05,
      "bet": true,
-     "stars": 1
+     "stars": 2
     }
    },
    "props": [
@@ -18937,7 +18937,7 @@
     ]
    },
    "injury_adj": {
-    "KC": -2.7,
+    "KC": -2.5,
     "SEA": -0.9
    },
    "injuries": [
@@ -18971,14 +18971,6 @@
      "position": "RB",
      "status": "Out",
      "detail": "Smith (hamstring) has been ruled out for Sunday's game against the Seahawks.",
-     "source": "ESPN"
-    },
-    {
-     "team": "KC",
-     "name": "Cooper McDonald",
-     "position": "LB",
-     "status": "Injured Reserve",
-     "detail": "The Chiefs designated McDonald (knee) to return from injured reserve Tuesday, Charles Goldman of AtoZSports.com reports.",
      "source": "ESPN"
     },
     {
@@ -20491,7 +20483,7 @@
    ],
    "weather": {
     "temp_f": 61,
-    "wind_mph": 5,
+    "wind_mph": 4,
     "gust_mph": 15,
     "precip_prob": 0,
     "precip_in": 0
@@ -22065,8 +22057,8 @@
     }
    ],
    "weather": {
-    "temp_f": 51,
-    "wind_mph": 5,
+    "temp_f": 53,
+    "wind_mph": 6,
     "gust_mph": 15,
     "precip_prob": 8,
     "precip_in": 0
@@ -23109,8 +23101,16 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 80,
+     "wind_mph": 12,
+     "gust_mph": 16,
+     "precip_prob": 4,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 12 mph (gusts 16)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -23231,7 +23231,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 58,
+     "wind_mph": 4,
+     "gust_mph": 7,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -23397,7 +23403,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 65,
+     "wind_mph": 4,
+     "gust_mph": 9,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -23573,13 +23585,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 56,
-     "wind_mph": 3,
-     "gust_mph": 4,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -24386,13 +24392,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 76,
-     "wind_mph": 8,
-     "gust_mph": 12,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -24562,7 +24562,7 @@
     "props": [],
     "weather": {
      "temp_f": 70,
-     "wind_mph": 11,
+     "wind_mph": 10,
      "gust_mph": 16,
      "precip_prob": 0,
      "precip_in": 0
@@ -24780,7 +24780,7 @@
       "team": "c127",
       "line": 16.5,
       "price": "-112",
-      "prob": 0.512,
+      "prob": 0.513,
       "ev": -0.03,
       "bet": false,
       "stars": 0
@@ -24802,7 +24802,7 @@
       "pick": "c127 ML",
       "price": "+550",
       "prob": 0.155,
-      "ev": 0.007,
+      "ev": 0.008,
       "bet": false,
       "stars": 0
      }
@@ -24964,8 +24964,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c252": 25.2,
-     "c2116": 23.2
+     "c252": 25.0,
+     "c2116": 23.0
     },
     "picks": {
      "spread": {
@@ -24983,12 +24983,12 @@
      },
      "total": {
       "market": "43.5",
-      "model_line": "48.3",
-      "edge_pts": 4.8,
+      "model_line": "48.0",
+      "edge_pts": 4.5,
       "pick": "Over 43.5",
       "price": "-110",
-      "prob": 0.531,
-      "ev": 0.014,
+      "prob": 0.529,
+      "ev": 0.01,
       "bet": false,
       "stars": 0
      },
@@ -25005,14 +25005,14 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 76,
-     "wind_mph": 12,
+     "temp_f": 77,
+     "wind_mph": 13,
      "gust_mph": 20,
      "precip_prob": 12,
-     "precip_in": 0.42
+     "precip_in": 0
     },
     "weather_notes": [
-     "wind 12 mph (gusts 20)"
+     "wind 13 mph (gusts 20)"
     ],
     "injury_adj": {},
     "injuries": [],
@@ -25169,13 +25169,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 53,
-     "wind_mph": 5,
-     "gust_mph": 8,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -25382,13 +25376,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 80,
-     "wind_mph": 7,
-     "gust_mph": 13,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -25548,13 +25536,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 59,
-     "wind_mph": 5,
-     "gust_mph": 9,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -25843,15 +25825,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c12 -11.5",
+      "market": "c12 -12.5",
       "model_line": "c12 -7",
-      "edge_pts": 4.5,
-      "pick": "c66 +11.5",
+      "edge_pts": 5.5,
+      "pick": "c66 +12.5",
       "team": "c66",
-      "line": 11.5,
+      "line": 12.5,
       "price": "-112",
-      "prob": 0.528,
-      "ev": -0.001,
+      "prob": 0.534,
+      "ev": 0.011,
       "bet": false,
       "stars": 0
      },
@@ -25867,19 +25849,19 @@
       "stars": 0
      },
      "moneyline": {
-      "market": "c66 +275 / c12 -345",
-      "market_prob": 0.256,
+      "market": "c66 +295 / c12 -375",
+      "market_prob": 0.243,
       "pick": "c66 ML",
-      "price": "+275",
-      "prob": 0.278,
-      "ev": 0.043,
+      "price": "+295",
+      "prob": 0.269,
+      "ev": 0.062,
       "bet": true,
-      "stars": 1
+      "stars": 2
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 73,
+     "temp_f": 74,
      "wind_mph": 8,
      "gust_mph": 15,
      "precip_prob": 2,
@@ -26154,8 +26136,8 @@
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 42,
-     "wind_mph": 2,
+     "temp_f": 38,
+     "wind_mph": 3,
      "gust_mph": 2,
      "precip_prob": 19,
      "precip_in": 0
@@ -26243,21 +26225,19 @@
     "neutral": true,
     "qbs": {},
     "model_score": {
-     "c87": 36.0,
-     "c2426": 18.9
+     "c87": 36.1,
+     "c2426": 19.1
     },
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 50,
-     "wind_mph": 13,
+     "temp_f": 57,
+     "wind_mph": 8,
      "gust_mph": 20,
      "precip_prob": 0,
      "precip_in": 0
     },
-    "weather_notes": [
-     "wind 13 mph (gusts 20)"
-    ],
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -26345,19 +26325,21 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c12": 24.5,
-     "c2641": 29.8
+     "c12": 24.2,
+     "c2641": 29.5
     },
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 69,
-     "wind_mph": 10,
+     "temp_f": 68,
+     "wind_mph": 14,
      "gust_mph": 15,
      "precip_prob": 22,
      "precip_in": 0
     },
-    "weather_notes": [],
+    "weather_notes": [
+     "wind 14 mph (gusts 15)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -26486,13 +26468,15 @@
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 60,
-     "wind_mph": 11,
+     "temp_f": 63,
+     "wind_mph": 12,
      "gust_mph": 27,
      "precip_prob": 29,
      "precip_in": 0
     },
-    "weather_notes": [],
+    "weather_notes": [
+     "wind 12 mph (gusts 27)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [],
@@ -26721,8 +26705,8 @@
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 75,
-     "wind_mph": 4,
+     "temp_f": 76,
+     "wind_mph": 9,
      "gust_mph": 7,
      "precip_prob": 9,
      "precip_in": 0
@@ -26946,7 +26930,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 72,
+     "wind_mph": 9,
+     "gust_mph": 11,
+     "precip_prob": 17,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27058,7 +27048,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 48,
+     "wind_mph": 3,
+     "gust_mph": 4,
+     "precip_prob": 48,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27161,7 +27157,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 78,
+     "wind_mph": 5,
+     "gust_mph": 8,
+     "precip_prob": 8,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27295,7 +27297,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 73,
+     "wind_mph": 9,
+     "gust_mph": 13,
+     "precip_prob": 2,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27444,13 +27452,13 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2440": 16.0,
+     "c2440": 16.1,
      "c26": 32.7
     },
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 67,
+     "temp_f": 66,
      "wind_mph": 6,
      "gust_mph": 5,
      "precip_prob": 29,
@@ -27557,20 +27565,20 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2579": 23.5,
-     "c201": 24.7
+     "c2579": 22.6,
+     "c201": 23.9
     },
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 72,
-     "wind_mph": 17,
+     "temp_f": 74,
+     "wind_mph": 22,
      "gust_mph": 28,
      "precip_prob": 34,
      "precip_in": 0.01
     },
     "weather_notes": [
-     "wind 17 mph (gusts 28)"
+     "wind 22 mph (gusts 28)"
     ],
     "injury_adj": {},
     "injuries": [],
@@ -27691,8 +27699,8 @@
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 57,
-     "wind_mph": 9,
+     "temp_f": 61,
+     "wind_mph": 6,
      "gust_mph": 22,
      "precip_prob": 3,
      "precip_in": 0
@@ -27790,7 +27798,7 @@
     "picks": {},
     "props": [],
     "weather": {
-     "temp_f": 69,
+     "temp_f": 68,
      "wind_mph": 8,
      "gust_mph": 5,
      "precip_prob": 33,
@@ -27887,7 +27895,7 @@
     "props": [],
     "weather": {
      "temp_f": 81,
-     "wind_mph": 11,
+     "wind_mph": 6,
      "gust_mph": 22,
      "precip_prob": 13,
      "precip_in": 0
@@ -27981,12 +27989,14 @@
     "props": [],
     "weather": {
      "temp_f": 67,
-     "wind_mph": 11,
+     "wind_mph": 12,
      "gust_mph": 29,
      "precip_prob": 35,
-     "precip_in": 0
+     "precip_in": 0.02
     },
-    "weather_notes": [],
+    "weather_notes": [
+     "wind 12 mph (gusts 29)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -28209,8 +28219,8 @@
    "n_games": 522,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.157275782205016,
-   "hfa": -1.7763568394002505e-15,
+   "mu": 26.157159349262933,
+   "hfa": 4.884981308350689e-15,
    "top": [
     [
      "c87",
@@ -28246,7 +28256,7 @@
     ],
     [
      "c26",
-     10.6
+     10.5
     ],
     [
      "c248",
