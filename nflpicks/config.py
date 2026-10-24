@@ -69,3 +69,17 @@ VENUE_COORDS = {
     "Corinthians": (-23.5453, -46.4742), "Croke": (53.3607, -6.2512),
 }
 INDOOR_ROOFS = {"dome", "closed"}
+
+
+def drop_early_locks(history, now):
+    """Unlock games that haven't started but were locked before the current lock window
+    (e.g. under the old 24-hour rule), so they lock again 30 minutes before kickoff."""
+    from datetime import datetime, timedelta
+    slack = timedelta(hours=LOCK_HOURS, minutes=10)
+    def early(v):
+        try:
+            ko = datetime.fromisoformat(v["kickoff"])
+            return ko > now and datetime.fromisoformat(v["locked_at"]) < ko - slack
+        except (KeyError, ValueError, TypeError):
+            return False
+    return {k: v for k, v in history.items() if not early(v)}

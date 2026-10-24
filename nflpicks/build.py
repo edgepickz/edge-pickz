@@ -168,7 +168,7 @@ def main():
 
     espn_inj = fetch.espn_injuries()
     news = fetch.espn_news()
-    history = load_history()
+    history = config.drop_early_locks(load_history(), now)
 
     lock_due = [r.game_id for r in upcoming.itertuples()
                 if r.game_id not in history and r.kickoff - timedelta(hours=config.LOCK_HOURS) <= now < r.kickoff]

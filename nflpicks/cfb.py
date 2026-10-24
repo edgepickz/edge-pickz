@@ -297,6 +297,7 @@ def build(now):
     news = news_by_team()
 
     history = json.loads(HISTORY_FILE.read_text()) if HISTORY_FILE.exists() else {}
+    history = config.drop_early_locks(history, now)
     games = []
     for r in upcoming.itertuples():
         ko = r.kickoff.to_pydatetime()
