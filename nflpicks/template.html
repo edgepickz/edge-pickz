@@ -367,6 +367,26 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       </article>`).join("")}</div>`
       : `<div class="empty">No picks have value yet. We check every hour as lines move and injury news comes in.</div>`);
 
+  // Top player props across every game: each game's best props, strongest first.
+  const topProps = [];
+  D.games.forEach((g) => (g.locked ? g.locked.props : g.props).forEach((r) => {
+    if (!r.top || (r.book && r.book.bet)) return;  // book bets are already in the list above
+    const b = r.book, m = r.matchup;
+    if (b) topProps.push({ g, r, side: b.side, line: b.line, prob: b.prob, price: b.price, how: `We project ${num(r.projection)}. Best price at ${b.book}.`, score: 1 + b.ev });
+    else if (m) topProps.push({ g, r, side: m.side, line: m.line, prob: m.prob, price: null,
+      how: `Usually ${num(m.usual)}, we project ${num(r.projection)} vs the ${N(r.opp)}. Good at ${m.side === "Over" ? m.line + " or lower" : m.line + " or higher"}.`, score: m.prob });
+  }));
+  topProps.sort((a, b) => b.score - a.score);
+  const TP_MAX = 12;
+  if (topProps.length) $("panel-top").insertAdjacentHTML("beforeend", `<div class="panel-head" style="margin-top:28px"><h2>Top player props</h2><span class="muted small">The strongest props from every game, best first</span></div>
+    <div class="picks">${topProps.slice(0, TP_MAX).map((t) => `
+      <article class="pcard">
+        <div class="row">${badge(t.r.team)}<div><div class="kind">Player prop · ${esc(t.r.pos || "")}</div><div class="big">${esc(t.r.player)} ${esc(t.side)} ${t.line} ${statName(t.r.stat)}</div></div></div>
+        <div class="muted small">${esc(t.how)}</div>
+        <div class="facts"><div><b>${pct(t.prob)}</b><span>Chance to hit</span></div><div><b>${t.price ? esc(t.price) : num(t.r.projection)}</b><span>${t.price ? "Odds" : "Our projection"}</span></div><div>${chip(leanOf(t.prob))}</div></div>
+        <div class="foot"><span>${esc(N(t.g.away))} at ${esc(N(t.g.home))} · ${when(t.g.kickoff)}</span>${statusText(t.g)}</div>
+      </article>`).join("")}</div>`);
+
   // Best 4 props for one game
   function topPropsBlock(g) {
     const rows = g.props.filter((r) => r.top).sort((a, b) => a.top - b.top);
