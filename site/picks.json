@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T12:00:21.082494+00:00",
+ "generated_at": "2026-10-25T12:23:21.234630+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -29,30 +29,30 @@
    },
    "model_score": {
     "PIT": 24.5,
-    "NO": 21.0
+    "NO": 20.3
    },
    "picks": {
     "spread": {
      "market": "NO +3",
-     "model_line": "NO +3.5",
-     "edge_pts": 0.4,
-     "pick": "NO +3",
-     "team": "NO",
-     "line": 3.0,
-     "price": "-108",
-     "prob": 0.496,
-     "ev": -0.045,
+     "model_line": "NO +4",
+     "edge_pts": 1.1,
+     "pick": "PIT -3",
+     "team": "PIT",
+     "line": -3.0,
+     "price": "-112",
+     "prob": 0.512,
+     "ev": -0.031,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "43.5",
-     "model_line": "45.5",
-     "edge_pts": 2.0,
+     "model_line": "44.8",
+     "edge_pts": 1.3,
      "pick": "Over 43.5",
      "price": "-105",
-     "prob": 0.521,
-     "ev": 0.018,
+     "prob": 0.514,
+     "ev": 0.003,
      "bet": false,
      "stars": 0
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.593,
      "pick": "PIT ML",
      "price": "-162",
-     "prob": 0.598,
-     "ev": -0.034,
+     "prob": 0.605,
+     "ev": -0.022,
      "bet": false,
      "stars": 0
     }
@@ -855,27 +855,29 @@
     "PIT": [
      "Ben Skowronek (WR) Out"
     ],
-    "NO": []
+    "NO": [
+     "Zach Wilson (QB) Out"
+    ]
    },
    "injury_adj": {
     "PIT": -0.7,
-    "NO": -0.2
+    "NO": -0.9
    },
    "injuries": [
     {
      "team": "NO",
      "name": "Nathan Shepherd",
      "position": "DT",
-     "status": "Questionable",
-     "detail": "Shepherd (illness) is listed as questionable for Sunday's game against the Steelers in Paris.",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
      "team": "NO",
      "name": "Cesar Ruiz",
      "position": "G",
-     "status": "Questionable",
-     "detail": "Ruiz (knee) is listed as questionable for Sunday's game against the Steelers.",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -912,6 +914,46 @@
     },
     {
      "team": "NO",
+     "name": "Tyree Wilson",
+     "position": "DE",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "Zach Wilson",
+     "position": "QB",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "Mike Reid",
+     "position": "CB",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "John Ridgeway III",
+     "position": "DT",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "Treyton Welch",
+     "position": "TE",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
      "name": "Jordyn Tyson",
      "position": "WR",
      "status": "Injured Reserve",
@@ -931,7 +973,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -1241,6 +1283,24 @@
      "type": "team",
      "team": "PIT",
      "opp": "NO",
+     "kind": "spread",
+     "label": "covered the spread",
+     "bet": "spread",
+     "agrees": true,
+     "hit": 3,
+     "of": 4,
+     "rate": 0.75,
+     "dots": [
+      true,
+      false,
+      true,
+      true
+     ]
+    },
+    {
+     "type": "team",
+     "team": "PIT",
+     "opp": "NO",
      "kind": "moneyline",
      "label": "won",
      "bet": "moneyline",
@@ -1253,6 +1313,24 @@
       false,
       true,
       true
+     ]
+    },
+    {
+     "type": "team",
+     "team": "NO",
+     "opp": "PIT",
+     "kind": "spread",
+     "label": "failed to cover",
+     "bet": "spread",
+     "agrees": true,
+     "hit": 3,
+     "of": 4,
+     "rate": 0.75,
+     "dots": [
+      true,
+      true,
+      true,
+      false
      ]
     },
     {
@@ -1421,42 +1499,6 @@
      ],
      "agrees": true,
      "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      true,
-      true,
-      false
-     ]
-    },
-    {
-     "type": "team",
-     "team": "PIT",
-     "opp": "NO",
-     "kind": "spread",
-     "label": "covered the spread",
-     "bet": "spread",
-     "agrees": false,
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      false,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "team",
-     "team": "NO",
-     "opp": "PIT",
-     "kind": "spread",
-     "label": "failed to cover",
-     "bet": "spread",
-     "agrees": false,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -2346,7 +2388,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -4062,7 +4104,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -5664,7 +5706,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -7494,7 +7536,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -7526,7 +7568,7 @@
     {
      "headline": "Sources: Cam Skattebo expected to resume role as Giants' lead RB vs. Texans",
      "description": "Cam Skattebo is expected to return to his role as the Giants' lead running back Sunday against the Texans, sources told NFL Network.",
-     "published": "2026-10-25T11:01:38Z",
+     "published": "2026-10-25T11:58:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50268018/sources-cam-skattebo-expected-giants-lead-rb",
      "teams": [
       "NYG"
@@ -8986,7 +9028,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -9018,7 +9060,7 @@
     {
      "headline": "Sources: Colts face big decisions on star players as NFL trade deadline looms",
      "description": "The Colts are expected to field trade inquiries on some of their star players, including Jonathan Taylor, DeForest Buckner and Quenton Nelson.",
-     "published": "2026-10-25T11:30:05Z",
+     "published": "2026-10-25T12:09:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50272352/sources-decisions-loom-colts-nfl-trade-deadline",
      "teams": [
       "IND"
@@ -10530,7 +10572,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -12147,7 +12189,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -13840,7 +13882,7 @@
      "name": "Pat Surtain II",
      "position": "CB",
      "status": "Questionable",
-     "detail": "Surtain (ankle) remained limited in Thursday's practice.",
+     "detail": "Surtain (ankle) isn't likely to play Sunday at Arizona, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -13872,7 +13914,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -15511,7 +15553,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -17211,7 +17253,7 @@
      "name": "Puka Nacua",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Nacua (calf) won't practice Friday and will be listed as questionable for Sunday's game at Las Vegas, Sarah Barshop of ESPN.com reports.",
+     "detail": "The Rams are optimistic that Nacua (calf), who is listed as questionable for Week 7, will play in Sunday's game at Las Vegas, Adam Schefter of ESPN reports.",
      "source": "ESPN"
     },
     {
@@ -17243,7 +17285,7 @@
      "name": "Mike Washington Jr.",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Washington (foot) is questionable for Sunday's game against the Rams, Sam Warren of The Athletic reports.",
+     "detail": "Washington (foot/back) is considered a game-time decision for Sunday's contest against the Rams, Jeremy Fowler of ESPN reports.",
      "source": "ESPN"
     },
     {
@@ -17297,18 +17339,9 @@
    ],
    "news": [
     {
-     "headline": "Rams optimistic that star WR Puka Nacua will play vs. Raiders, source says",
-     "description": "The Rams are optimistic that star wide receiver Puka Nacua will play Sunday against the Raiders, a source told ESPN.",
-     "published": "2026-10-25T11:44:37Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50275162/source-rams-optimistic-puka-nacua-play-vs-raiders",
-     "teams": [
-      "LA"
-     ]
-    },
-    {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -17335,6 +17368,15 @@
       "SF",
       "TB",
       "TEN"
+     ]
+    },
+    {
+     "headline": "Rams optimistic that star WR Puka Nacua will play vs. Raiders, source says",
+     "description": "The Rams are optimistic that star wide receiver Puka Nacua will play Sunday against the Raiders, a source told ESPN.",
+     "published": "2026-10-25T11:57:25Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50275162/source-rams-optimistic-puka-nacua-play-vs-raiders",
+     "teams": [
+      "LA"
      ]
     },
     {
@@ -19023,7 +19065,7 @@
     "temp_f": 51,
     "wind_mph": 6,
     "gust_mph": 15,
-    "precip_prob": 40,
+    "precip_prob": 39,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -19157,7 +19199,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -19189,7 +19231,7 @@
     {
      "headline": "Sources: Josh Simmons told to leave Chiefs meeting by Andy Reid, Patrick Mahomes",
      "description": "Josh Simmons was kicked out of a team meeting by Chiefs coach Andy Reid and QB Patrick Mahomes, but the OT later apologized, sources told NFL Network.",
-     "published": "2026-10-25T11:19:13Z",
+     "published": "2026-10-25T11:57:56Z",
      "link": "https://www.espn.com/nfl/story/_/id/50268181/sources-josh-simmons-told-leave-chiefs-team-meeting",
      "teams": [
       "KC"
@@ -20454,7 +20496,13 @@
      "fair_odds": "+141"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 55,
+    "wind_mph": 5,
+    "gust_mph": 12,
+    "precip_prob": 0,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "DAL": [
@@ -21925,7 +21973,13 @@
      "fair_odds": "-122"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 60,
+    "wind_mph": 6,
+    "gust_mph": 9,
+    "precip_prob": 7,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "CAR": [],
@@ -22045,7 +22099,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -23699,7 +23753,13 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 71,
+    "wind_mph": 5,
+    "gust_mph": 9,
+    "precip_prob": 31,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "BAL": [
@@ -23781,7 +23841,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -25398,7 +25458,13 @@
      "fair_odds": "+126"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 58,
+    "wind_mph": 9,
+    "gust_mph": 28,
+    "precip_prob": 49,
+    "precip_in": 0.23
+   },
    "weather_notes": [],
    "injury_notes": {
     "TEN": [],
@@ -25472,7 +25538,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -27142,7 +27208,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -28571,7 +28637,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -30118,16 +30184,8 @@
      "fair_odds": "+310"
     }
    ],
-   "weather": {
-    "temp_f": 80,
-    "wind_mph": 12,
-    "gust_mph": 13,
-    "precip_prob": 12,
-    "precip_in": 0.01
-   },
-   "weather_notes": [
-    "wind 12 mph (gusts 13)"
-   ],
+   "weather": null,
+   "weather_notes": [],
    "injury_notes": {
     "IND": [
      "Tyler Warren (TE) Out",
@@ -30233,7 +30291,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -30265,7 +30323,7 @@
     {
      "headline": "Sources: Colts face big decisions on star players as NFL trade deadline looms",
      "description": "The Colts are expected to field trade inquiries on some of their star players, including Jonathan Taylor, DeForest Buckner and Quenton Nelson.",
-     "published": "2026-10-25T11:30:05Z",
+     "published": "2026-10-25T12:09:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50272352/sources-decisions-loom-colts-nfl-trade-deadline",
      "teams": [
       "IND"
@@ -31811,13 +31869,7 @@
      "fair_odds": "+146"
     }
    ],
-   "weather": {
-    "temp_f": 68,
-    "wind_mph": 8,
-    "gust_mph": 12,
-    "precip_prob": 10,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LV": [],
@@ -31828,6 +31880,14 @@
     "NYJ": -0.6
    },
    "injuries": [
+    {
+     "team": "LV",
+     "name": "Mike Washington Jr.",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Washington (foot/back) is considered a game-time decision for Sunday's contest against the Rams, Jeremy Fowler of ESPN reports.",
+     "source": "ESPN"
+    },
     {
      "team": "LV",
      "name": "Quay Walker",
@@ -31842,14 +31902,6 @@
      "position": "WR",
      "status": "Injured Reserve",
      "detail": "Thornton (hamstring) has been ruled out for Sunday's game against the Rams, Sam Warren of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LV",
-     "name": "Mike Washington Jr.",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Washington (foot) is questionable for Sunday's game against the Rams, Sam Warren of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -31913,7 +31965,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -33447,13 +33499,7 @@
      "fair_odds": "+344"
     }
    ],
-   "weather": {
-    "temp_f": 70,
-    "wind_mph": 4,
-    "gust_mph": 8,
-    "precip_prob": 42,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CLE": [
@@ -33561,7 +33607,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -34938,16 +34984,8 @@
      "fair_odds": "+351"
     }
    ],
-   "weather": {
-    "temp_f": 84,
-    "wind_mph": 12,
-    "gust_mph": 15,
-    "precip_prob": 22,
-    "precip_in": 0.01
-   },
-   "weather_notes": [
-    "wind 12 mph (gusts 15)"
-   ],
+   "weather": null,
+   "weather_notes": [],
    "injury_notes": {
     "ATL": [
      "Brian Robinson Jr. (RB) Out"
@@ -35111,7 +35149,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -36776,6 +36814,14 @@
     },
     {
      "team": "LA",
+     "name": "Puka Nacua",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "The Rams are optimistic that Nacua (calf), who is listed as questionable for Week 7, will play in Sunday's game at Las Vegas, Adam Schefter of ESPN reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
      "name": "Trent McDuffie",
      "position": "CB",
      "status": "Questionable",
@@ -36796,14 +36842,6 @@
      "position": "DE",
      "status": "Injured Reserve",
      "detail": "Rams coach Sean McVay said Friday that Garrett (knee) could have his 21-day practice window opened next week, Nate Atkins of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Puka Nacua",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Nacua (calf) won't practice Friday and will be listed as questionable for Sunday's game at Las Vegas, Sarah Barshop of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -36849,18 +36887,9 @@
    ],
    "news": [
     {
-     "headline": "Rams optimistic that star WR Puka Nacua will play vs. Raiders, source says",
-     "description": "The Rams are optimistic that star wide receiver Puka Nacua will play Sunday against the Raiders, a source told ESPN.",
-     "published": "2026-10-25T11:44:37Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50275162/source-rams-optimistic-puka-nacua-play-vs-raiders",
-     "teams": [
-      "LA"
-     ]
-    },
-    {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -36887,6 +36916,15 @@
       "SF",
       "TB",
       "TEN"
+     ]
+    },
+    {
+     "headline": "Rams optimistic that star WR Puka Nacua will play vs. Raiders, source says",
+     "description": "The Rams are optimistic that star wide receiver Puka Nacua will play Sunday against the Raiders, a source told ESPN.",
+     "published": "2026-10-25T11:57:25Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50275162/source-rams-optimistic-puka-nacua-play-vs-raiders",
+     "teams": [
+      "LA"
      ]
     },
     {
@@ -38509,6 +38547,14 @@
    "injuries": [
     {
      "team": "DEN",
+     "name": "Pat Surtain II",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Surtain (ankle) isn't likely to play Sunday at Arizona, Ian Rapoport of NFL Network reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DEN",
      "name": "Tyler Badie",
      "position": "RB",
      "status": "Injured Reserve",
@@ -38537,14 +38583,6 @@
      "position": "S",
      "status": "Out",
      "detail": "Hufanga (ankle) has been ruled out for Sunday's game against the Cardinals.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DEN",
-     "name": "Pat Surtain II",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "Surtain (ankle) remained limited in Thursday's practice.",
      "source": "ESPN"
     },
     {
@@ -38592,7 +38630,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -38624,7 +38662,7 @@
     {
      "headline": "Sources: Josh Simmons told to leave Chiefs meeting by Andy Reid, Patrick Mahomes",
      "description": "Josh Simmons was kicked out of a team meeting by Chiefs coach Andy Reid and QB Patrick Mahomes, but the OT later apologized, sources told NFL Network.",
-     "published": "2026-10-25T11:19:13Z",
+     "published": "2026-10-25T11:57:56Z",
      "link": "https://www.espn.com/nfl/story/_/id/50268181/sources-josh-simmons-told-leave-chiefs-team-meeting",
      "teams": [
       "KC"
@@ -40347,7 +40385,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T11:40:49Z",
+     "published": "2026-10-25T12:07:46Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -42694,7 +42732,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 69,
+     "wind_mph": 8,
+     "gust_mph": 13,
+     "precip_prob": 17,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -42863,7 +42907,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 62,
+     "wind_mph": 5,
+     "gust_mph": 15,
+     "precip_prob": 31,
+     "precip_in": 0.11
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -43179,7 +43229,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 74,
+     "wind_mph": 7,
+     "gust_mph": 14,
+     "precip_prob": 8,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -43297,7 +43353,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 75,
+     "wind_mph": 6,
+     "gust_mph": 9,
+     "precip_prob": 11,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44169,13 +44231,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 68,
-     "wind_mph": 7,
-     "gust_mph": 10,
-     "precip_prob": 30,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44321,13 +44377,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 62,
-     "wind_mph": 5,
-     "gust_mph": 11,
-     "precip_prob": 22,
-     "precip_in": 0.04
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44405,15 +44455,15 @@
       "stars": 0
      },
      "total": {
-      "market": "50.5",
+      "market": "51.5",
       "model_line": "58.8",
-      "edge_pts": 8.3,
-      "pick": "Over 50.5",
+      "edge_pts": 7.3,
+      "pick": "Over 51.5",
       "price": "-110",
-      "prob": 0.553,
-      "ev": 0.057,
+      "prob": 0.547,
+      "ev": 0.044,
       "bet": true,
-      "stars": 2
+      "stars": 1
      },
      "moneyline": {
       "market": "c2390 -800 / c153 +550",
@@ -44427,13 +44477,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 64,
-     "wind_mph": 2,
-     "gust_mph": 2,
-     "precip_prob": 3,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44583,13 +44627,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 70,
-     "wind_mph": 6,
-     "gust_mph": 6,
-     "precip_prob": 28,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -45060,8 +45098,8 @@
    "n_games": 566,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.313207780625568,
-   "hfa": 6.661338147750939e-16,
+   "mu": 26.313207780625593,
+   "hfa": 1.7763568394002505e-15,
    "top": [
     [
      "c2390",
