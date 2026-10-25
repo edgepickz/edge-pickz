@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:11:27.482213+00:00",
+ "generated_at": "2026-10-25T14:34:54.122953+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -35,13 +35,13 @@
     "spread": {
      "market": "NO +3",
      "model_line": "NO +4",
-     "edge_pts": 1.0,
-     "pick": "NO +3",
-     "team": "NO",
-     "line": 3.0,
-     "price": "-105",
-     "prob": 0.49,
-     "ev": -0.044,
+     "edge_pts": 1.1,
+     "pick": "PIT -3",
+     "team": "PIT",
+     "line": -3.0,
+     "price": "-115",
+     "prob": 0.511,
+     "ev": -0.045,
      "bet": false,
      "stars": 0
     },
@@ -52,7 +52,7 @@
      "pick": "Over 43.5",
      "price": "-102",
      "prob": 0.512,
-     "ev": 0.014,
+     "ev": 0.013,
      "bet": false,
      "stars": 0
     },
@@ -62,7 +62,7 @@
      "pick": "PIT ML",
      "price": "-162",
      "prob": 0.604,
-     "ev": -0.024,
+     "ev": -0.023,
      "bet": false,
      "stars": 0
     }
@@ -863,7 +863,7 @@
    },
    "injury_adj": {
     "PIT": -0.9,
-    "NO": -0.9
+    "NO": -1.0
    },
    "injuries": [
     {
@@ -896,6 +896,14 @@
      "position": "WR",
      "status": "Out",
      "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "CJ Donaldson",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Donaldson (shoulder) is questionable to return to Sunday's game against the Steelers in Paris.",
      "source": "ESPN"
     },
     {
@@ -991,7 +999,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -1261,6 +1269,24 @@
      "type": "team",
      "team": "PIT",
      "opp": "NO",
+     "kind": "spread",
+     "label": "covered the spread",
+     "bet": "spread",
+     "agrees": true,
+     "hit": 3,
+     "of": 4,
+     "rate": 0.75,
+     "dots": [
+      true,
+      false,
+      true,
+      true
+     ]
+    },
+    {
+     "type": "team",
+     "team": "PIT",
+     "opp": "NO",
      "kind": "moneyline",
      "label": "won",
      "bet": "moneyline",
@@ -1273,6 +1299,24 @@
       false,
       true,
       true
+     ]
+    },
+    {
+     "type": "team",
+     "team": "NO",
+     "opp": "PIT",
+     "kind": "spread",
+     "label": "failed to cover",
+     "bet": "spread",
+     "agrees": true,
+     "hit": 3,
+     "of": 4,
+     "rate": 0.75,
+     "dots": [
+      true,
+      true,
+      true,
+      false
      ]
     },
     {
@@ -1441,42 +1485,6 @@
      ],
      "agrees": true,
      "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      true,
-      true,
-      false
-     ]
-    },
-    {
-     "type": "team",
-     "team": "PIT",
-     "opp": "NO",
-     "kind": "spread",
-     "label": "covered the spread",
-     "bet": "spread",
-     "agrees": false,
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      false,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "team",
-     "team": "NO",
-     "opp": "PIT",
-     "kind": "spread",
-     "label": "failed to cover",
-     "bet": "spread",
-     "agrees": false,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -2328,7 +2336,7 @@
      "name": "Za'Darius Smith",
      "position": "DE",
      "status": "Questionable",
-     "detail": "Smith (neck) is listed as questionable for Sunday's game against the 49ers, Will McFadden of the Falcons' official site reports.",
+     "detail": "Smith (neck) is questionable but expected to play against the 49ers on Sunday, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -2344,7 +2352,7 @@
      "name": "Olamide Zaccheaus",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Zaccheaus (shoulder) is questionable for Sunday's game against the 49ers, Will McFadden of the Falcons' official site reports.",
+     "detail": "Zaccheaus (shoulder) is trending toward not being available for Sunday's game against the 49ers, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -2376,7 +2384,7 @@
      "name": "Gervon Dexter Sr.",
      "position": "DT",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Dexter (hamstring) is listed as questionable for Sunday's game against the 49ers but is expected to be cleared to play, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -2496,7 +2504,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -4212,7 +4220,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -5814,7 +5822,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -7604,7 +7612,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -9087,7 +9095,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -10511,7 +10519,7 @@
    ],
    "weather": {
     "temp_f": 67,
-    "wind_mph": 3,
+    "wind_mph": 4,
     "gust_mph": 6,
     "precip_prob": 0,
     "precip_in": 0
@@ -10619,7 +10627,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -12125,9 +12133,9 @@
     }
    ],
    "weather": {
-    "temp_f": 72,
-    "wind_mph": 3,
-    "gust_mph": 4,
+    "temp_f": 73,
+    "wind_mph": 2,
+    "gust_mph": 3,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -12236,7 +12244,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -12268,7 +12276,7 @@
     {
      "headline": "Browns DT Maliek Collins lands 2-year extension worth $30 million, agent says",
      "description": "The Browns and DT Maliek Collins have agreed to terms on a two-year, $30M extension that includes $23M guaranteed, his agent told ESPN and NFL Network.",
-     "published": "2026-10-25T13:02:13Z",
+     "published": "2026-10-25T14:30:18Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275489/browns-maliek-collins-lands-2-year-extension-agent-says",
      "teams": [
       "CLE"
@@ -13817,7 +13825,7 @@
      "name": "Budda Baker",
      "position": "S",
      "status": "Questionable",
-     "detail": "Baker (groin/illness) is questionable for Sunday's game against the Broncos, Darren Urban of the Cardinals' official site reports.",
+     "detail": "Baker (groin) is listed as questionable but expected to play against the Broncos on Sunday, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -13921,7 +13929,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -15520,7 +15528,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -17308,7 +17316,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -19029,9 +19037,9 @@
     }
    ],
    "weather": {
-    "temp_f": 51,
+    "temp_f": 52,
     "wind_mph": 7,
-    "gust_mph": 21,
+    "gust_mph": 19,
     "precip_prob": 23,
     "precip_in": 0
    },
@@ -19062,7 +19070,7 @@
      "name": "Jaylon Moore",
      "position": "OT",
      "status": "Out",
-     "detail": "out",
+     "detail": "Moore (concussion) has been ruled out for Sunday's game against the Seahawks.",
      "source": "ESPN"
     },
     {
@@ -19094,7 +19102,7 @@
      "name": "Uchenna Nwosu",
      "position": "LB",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Ian Rapoport of NFL Network reports that Nwosu (hip) is expected to be cleared to play against the Chiefs on Sunday.",
      "source": "ESPN"
     },
     {
@@ -19142,7 +19150,7 @@
      "name": "Nick Emmanwori",
      "position": "S",
      "status": "Questionable",
-     "detail": "Emmanwori (hip) is listed as questionable for Sunday's game against the Chiefs, John Boyle of the Seahawks' official site reports.",
+     "detail": "The Seahawks expect that Emmanwori (hip) will play against the Chiefs on Sunday, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -19166,7 +19174,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -20627,7 +20635,7 @@
     {
      "headline": "NFL, NFLPA handling joint review of Jalen Hurts' blood clot diagnosis",
      "description": "The NFL and NFL Players Association are working together to review the handling of Jalen Hurts' blood clot diagnosis.",
-     "published": "2026-10-25T14:05:52Z",
+     "published": "2026-10-25T14:14:37Z",
      "link": "https://www.espn.com/nfl/story/_/id/50276432/nfl-nflpa-handling-joint-review-jalen-hurts-diagnosis",
      "teams": [
       "PHI"
@@ -22066,7 +22074,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -23808,7 +23816,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -25505,7 +25513,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -27068,6 +27076,14 @@
    "injuries": [
     {
      "team": "ARI",
+     "name": "Budda Baker",
+     "position": "S",
+     "status": "Questionable",
+     "detail": "Baker (groin) is listed as questionable but expected to play against the Broncos on Sunday, Ian Rapoport of NFL Network reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ARI",
      "name": "Jon Gaines II",
      "position": "G",
      "status": "Out",
@@ -27088,14 +27104,6 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "Melton (knee) is questionable for Sunday's game against the Broncos, Darren Urban of the Cardinals' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "ARI",
-     "name": "Budda Baker",
-     "position": "S",
-     "status": "Questionable",
-     "detail": "Baker (groin/illness) is questionable for Sunday's game against the Broncos, Darren Urban of the Cardinals' official site reports.",
      "source": "ESPN"
     },
     {
@@ -27175,7 +27183,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -28604,7 +28612,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -30151,8 +30159,16 @@
      "fair_odds": "+310"
     }
    ],
-   "weather": null,
-   "weather_notes": [],
+   "weather": {
+    "temp_f": 80,
+    "wind_mph": 12,
+    "gust_mph": 13,
+    "precip_prob": 12,
+    "precip_in": 0.01
+   },
+   "weather_notes": [
+    "wind 12 mph (gusts 13)"
+   ],
    "injury_notes": {
     "IND": [
      "Tyler Warren (TE) Out",
@@ -30258,7 +30274,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -31901,7 +31917,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -33526,7 +33542,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -33558,7 +33574,7 @@
     {
      "headline": "Browns DT Maliek Collins lands 2-year extension worth $30 million, agent says",
      "description": "The Browns and DT Maliek Collins have agreed to terms on a two-year, $30M extension that includes $23M guaranteed, his agent told ESPN and NFL Network.",
-     "published": "2026-10-25T13:02:13Z",
+     "published": "2026-10-25T14:30:18Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275489/browns-maliek-collins-lands-2-year-extension-agent-says",
      "teams": [
       "CLE"
@@ -34921,6 +34937,30 @@
    "injuries": [
     {
      "team": "ATL",
+     "name": "Olamide Zaccheaus",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Zaccheaus (shoulder) is trending toward not being available for Sunday's game against the 49ers, Ian Rapoport of NFL Network reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ATL",
+     "name": "Gervon Dexter Sr.",
+     "position": "DT",
+     "status": "Questionable",
+     "detail": "Dexter (hamstring) is listed as questionable for Sunday's game against the 49ers but is expected to be cleared to play, Ian Rapoport of NFL Network reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ATL",
+     "name": "Za'Darius Smith",
+     "position": "DE",
+     "status": "Questionable",
+     "detail": "Smith (neck) is questionable but expected to play against the 49ers on Sunday, Ian Rapoport of NFL Network reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ATL",
      "name": "Avieon Terrell",
      "position": "CB",
      "status": "Questionable",
@@ -34953,14 +34993,6 @@
     },
     {
      "team": "ATL",
-     "name": "Za'Darius Smith",
-     "position": "DE",
-     "status": "Questionable",
-     "detail": "Smith (neck) is listed as questionable for Sunday's game against the 49ers, Will McFadden of the Falcons' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "ATL",
      "name": "Kendal Daniels",
      "position": "LB",
      "status": "Questionable",
@@ -34985,14 +35017,6 @@
     },
     {
      "team": "ATL",
-     "name": "Olamide Zaccheaus",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Zaccheaus (shoulder) is questionable for Sunday's game against the 49ers, Will McFadden of the Falcons' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "ATL",
      "name": "Brian Robinson Jr.",
      "position": "RB",
      "status": "Out",
@@ -35005,14 +35029,6 @@
      "position": "OL",
      "status": "Injured Reserve",
      "detail": "The Falcons designated Williams (ankle) for return to practice from injured reserve Thursday, per the NFL's transaction log.",
-     "source": "ESPN"
-    },
-    {
-     "team": "ATL",
-     "name": "Gervon Dexter Sr.",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -35068,7 +35084,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -36808,7 +36824,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -38434,13 +38450,7 @@
      "fair_odds": "+674"
     }
    ],
-   "weather": {
-    "temp_f": 64,
-    "wind_mph": 8,
-    "gust_mph": 9,
-    "precip_prob": 22,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "KC": [
@@ -38497,6 +38507,14 @@
     },
     {
      "team": "KC",
+     "name": "Jaylon Moore",
+     "position": "OT",
+     "status": "Out",
+     "detail": "Moore (concussion) has been ruled out for Sunday's game against the Seahawks.",
+     "source": "ESPN"
+    },
+    {
+     "team": "KC",
      "name": "L'Jarius Sneed",
      "position": "CB",
      "status": "Questionable",
@@ -38509,14 +38527,6 @@
      "position": "RB",
      "status": "Injured Reserve",
      "detail": "The Chiefs placed Smith (hamstring) on injured reserve Saturday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "KC",
-     "name": "Jaylon Moore",
-     "position": "OT",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -38540,7 +38550,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -40295,7 +40305,7 @@
     {
      "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for Sunday's top moments, starting with Aaron Rodgers, Jaylen Warren, Tyler Shough and Alvin Kamara in France.",
-     "published": "2026-10-25T14:03:06Z",
+     "published": "2026-10-25T14:32:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -41970,7 +41980,7 @@
     {
      "headline": "NFL, NFLPA handling joint review of Jalen Hurts' blood clot diagnosis",
      "description": "The NFL and NFL Players Association are working together to review the handling of Jalen Hurts' blood clot diagnosis.",
-     "published": "2026-10-25T14:05:52Z",
+     "published": "2026-10-25T14:14:37Z",
      "link": "https://www.espn.com/nfl/story/_/id/50276432/nfl-nflpa-handling-joint-review-jalen-hurts-diagnosis",
      "teams": [
       "PHI"
@@ -43381,13 +43391,13 @@
       "stars": 0
      },
      "total": {
-      "market": "51.5",
+      "market": "50.5",
       "model_line": "48.8",
-      "edge_pts": 2.7,
-      "pick": "Under 51.5",
+      "edge_pts": 1.7,
+      "pick": "Under 50.5",
       "price": "-110",
-      "prob": 0.517,
-      "ev": -0.013,
+      "prob": 0.511,
+      "ev": -0.025,
       "bet": false,
       "stars": 0
      },
@@ -44377,13 +44387,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 64,
-     "wind_mph": 2,
-     "gust_mph": 2,
-     "precip_prob": 3,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44533,13 +44537,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 70,
-     "wind_mph": 6,
-     "gust_mph": 6,
-     "precip_prob": 28,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44671,13 +44669,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 78,
-     "wind_mph": 4,
-     "gust_mph": 7,
-     "precip_prob": 4,
-     "precip_in": 0.07
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44913,7 +44905,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 2,
+     "gust_mph": 1,
+     "precip_prob": 23,
+     "precip_in": 0.0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -44998,8 +44996,8 @@
    "n_games": 566,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.313207780625604,
-   "hfa": -1.3322676295501878e-15,
+   "mu": 26.313207780625593,
+   "hfa": 1.7763568394002505e-15,
    "top": [
     [
      "c2390",
