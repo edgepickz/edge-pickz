@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T16:58:22.685841+00:00",
+ "generated_at": "2026-10-26T17:30:08.882666+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -2220,8 +2220,8 @@
     }
    ],
    "weather": {
-    "temp_f": 51,
-    "wind_mph": 8,
+    "temp_f": 52,
+    "wind_mph": 7,
     "gust_mph": 19,
     "precip_prob": 7,
     "precip_in": 0
@@ -3661,13 +3661,15 @@
     }
    ],
    "weather": {
-    "temp_f": 60,
-    "wind_mph": 7,
+    "temp_f": 56,
+    "wind_mph": 12,
     "gust_mph": 17,
     "precip_prob": 21,
-    "precip_in": 0
+    "precip_in": 0.02
    },
-   "weather_notes": [],
+   "weather_notes": [
+    "wind 12 mph (gusts 17)"
+   ],
    "injury_notes": {
     "BAL": [
      "Lamar Jackson (QB) Out"
@@ -10408,11 +10410,11 @@
     }
    ],
    "weather": {
-    "temp_f": 80,
-    "wind_mph": 11,
+    "temp_f": 84,
+    "wind_mph": 6,
     "gust_mph": 17,
     "precip_prob": 26,
-    "precip_in": 0.03
+    "precip_in": 0.01
    },
    "weather_notes": [],
    "injury_notes": {
@@ -12213,13 +12215,15 @@
     }
    ],
    "weather": {
-    "temp_f": 63,
-    "wind_mph": 9,
+    "temp_f": 62,
+    "wind_mph": 12,
     "gust_mph": 10,
     "precip_prob": 4,
     "precip_in": 0
    },
-   "weather_notes": [],
+   "weather_notes": [
+    "wind 12 mph (gusts 10)"
+   ],
    "injury_notes": {
     "LV": [
      "Aidan O'Connell (QB) Out"
@@ -14125,11 +14129,11 @@
     }
    ],
    "weather": {
-    "temp_f": 58,
-    "wind_mph": 5,
+    "temp_f": 56,
+    "wind_mph": 10,
     "gust_mph": 12,
     "precip_prob": 24,
-    "precip_in": 0
+    "precip_in": 0.13
    },
    "weather_notes": [],
    "injury_notes": {
@@ -14295,6 +14299,15 @@
    ],
    "news": [
     {
+     "headline": "Browns balance relishing close wins, lamenting slow starts",
+     "description": "Despite a \"complete game\" by Deshaun Watson, offensive struggles are still lingering for the AFC North-leading Browns.",
+     "published": "2026-10-26T17:07:52Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50288083/cleveland-browns-balance-close-wins-slow-starts-week-7",
+     "teams": [
+      "CLE"
+     ]
+    },
+    {
      "headline": "Aaron Rodgers suggests full week of international games, jabs at NFL owners",
      "description": "Aaron Rodgers advocated for the NFL to schedule a full week of international games and also jabbed at owners, hinting that they pay lip service to player safety.",
      "published": "2026-10-26T15:24:48Z",
@@ -14387,37 +14400,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL Week 7: Big takeaways, questions and fantasy spin from Sunday's games",
-     "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 7.",
-     "published": "2026-10-26T04:29:51Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50239544/week-7-sunday-games-takeaways-questions-2026",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CAR",
-      "CIN",
-      "CLE",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "LA",
-      "LV",
-      "MIA",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN"
      ]
     }
    ],
@@ -17600,6 +17582,15 @@
    ],
    "news": [
     {
+     "headline": "Matthew Stafford: Win vs. Raiders a step in the right direction for us",
+     "description": "Matthew Stafford: Win vs. Raiders a step in the right direction for us",
+     "published": "2026-10-26T16:55:23Z",
+     "link": "https://www.espn.com/video/clip/_/id/50288404/win-vs-raiders-step-right-direction-us",
+     "teams": [
+      "LA"
+     ]
+    },
+    {
      "headline": "NFL Week 8 betting odds: Lines and totals for every game",
      "description": "A look at the odds, spreads, totals and FPI predictions for every NFL game in Week 8.",
      "published": "2026-10-26T14:35:24Z",
@@ -17724,38 +17715,6 @@
       "NYG",
       "SEA",
       "SF",
-      "TEN"
-     ]
-    },
-    {
-     "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
-     "description": "Check here for Sunday's top moments and TDs from J.J. McCarthy, Bucky Irving, Jonathan Taylor, Aaron Rodgers and more.",
-     "published": "2026-10-26T04:06:05Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CAR",
-      "CIN",
-      "CLE",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "KC",
-      "LA",
-      "LV",
-      "MIA",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
       "TEN"
      ]
     }
@@ -19043,13 +19002,7 @@
      "fair_odds": "+785"
     }
    ],
-   "weather": {
-    "temp_f": 65,
-    "wind_mph": 4,
-    "gust_mph": 8,
-    "precip_prob": 23,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "KC": [
@@ -20959,13 +20912,7 @@
      "fair_odds": "+1195"
     }
    ],
-   "weather": {
-    "temp_f": 85,
-    "wind_mph": 9,
-    "gust_mph": 11,
-    "precip_prob": 30,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "NE": [
@@ -22001,30 +21948,30 @@
    },
    "model_score": {
     "PHI": 16.8,
-    "WAS": 20.3
+    "WAS": 20.7
    },
    "picks": {
     "spread": {
      "market": "WAS -3.5",
-     "model_line": "WAS -3.5",
-     "edge_pts": 0.0,
+     "model_line": "WAS -4",
+     "edge_pts": 0.4,
      "pick": "PHI +3.5",
      "team": "PHI",
      "line": 3.5,
      "price": "-105",
-     "prob": 0.5,
-     "ev": -0.025,
+     "prob": 0.496,
+     "ev": -0.032,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "40.5",
-     "model_line": "37.2",
-     "edge_pts": 3.3,
+     "model_line": "37.5",
+     "edge_pts": 3.0,
      "pick": "Under 40.5",
      "price": "-108",
-     "prob": 0.536,
-     "ev": 0.032,
+     "prob": 0.532,
+     "ev": 0.025,
      "bet": true,
      "stars": 1
     },
@@ -22033,8 +21980,8 @@
      "market_prob": 0.631,
      "pick": "WAS ML",
      "price": "-192",
-     "prob": 0.631,
-     "ev": -0.04,
+     "prob": 0.635,
+     "ev": -0.034,
      "bet": false,
      "stars": 0
     }
@@ -22717,13 +22664,7 @@
      "fair_odds": "+324"
     }
    ],
-   "weather": {
-    "temp_f": 59,
-    "wind_mph": 6,
-    "gust_mph": 20,
-    "precip_prob": 20,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "PHI": [
@@ -22732,13 +22673,13 @@
      "Jalen Hurts (QB) Injured Reserve"
     ],
     "WAS": [
-     "Terry McLaurin (WR) Out",
-     "Marcus Mariota (QB) Doubtful"
+     "Marcus Mariota (QB) Questionable",
+     "Terry McLaurin (WR) Out"
     ]
    },
    "injury_adj": {
     "PHI": -4.7,
-    "WAS": -2.2
+    "WAS": -1.8
    },
    "injuries": [
     {
@@ -22831,6 +22772,14 @@
     },
     {
      "team": "WAS",
+     "name": "Marcus Mariota",
+     "position": "QB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
      "name": "Jaylin Lane",
      "position": "WR",
      "status": "Injured Reserve",
@@ -22851,14 +22800,6 @@
      "position": "DE",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Marcus Mariota",
-     "position": "QB",
-     "status": "Doubtful",
-     "detail": "doubtful",
      "source": "ESPN"
     },
     {
@@ -23330,30 +23271,30 @@
    },
    "model_score": {
     "CHI": 17.1,
-    "SEA": 21.1
+    "SEA": 20.7
    },
    "picks": {
     "spread": {
      "market": "SEA -3",
-     "model_line": "SEA -4",
-     "edge_pts": 1.1,
+     "model_line": "SEA -3.5",
+     "edge_pts": 0.6,
      "pick": "CHI +3",
      "team": "CHI",
      "line": 3.0,
      "price": "-102",
-     "prob": 0.489,
-     "ev": -0.032,
+     "prob": 0.494,
+     "ev": -0.022,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "38.2",
-     "edge_pts": 8.3,
+     "model_line": "37.8",
+     "edge_pts": 8.7,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.588,
-     "ev": 0.123,
+     "prob": 0.593,
+     "ev": 0.132,
      "bet": true,
      "stars": 3
     },
@@ -23362,8 +23303,8 @@
      "market_prob": 0.604,
      "pick": "SEA ML",
      "price": "-170",
-     "prob": 0.615,
-     "ev": -0.024,
+     "prob": 0.61,
+     "ev": -0.032,
      "bet": false,
      "stars": 0
     }
@@ -24222,13 +24163,7 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": {
-    "temp_f": 46,
-    "wind_mph": 6,
-    "gust_mph": 14,
-    "precip_prob": 14,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -24237,20 +24172,21 @@
      "Kyle Monangai (RB) Out"
     ],
     "SEA": [
+     "Jadarian Price (RB) Injured Reserve",
      "Drew Lock (QB) Out"
     ]
    },
    "injury_adj": {
     "CHI": -3.0,
-    "SEA": -1.4
+    "SEA": -1.9
    },
    "injuries": [
     {
      "team": "CHI",
      "name": "Anthony Johnson Jr.",
      "position": "S",
-     "status": "Injured Reserve",
-     "detail": "ir",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -24327,6 +24263,22 @@
     },
     {
      "team": "SEA",
+     "name": "Rashid Shaheed",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Seahawks coach Mike Macdonald said Monday that the early returns on Shaheed's knee injury are positive, Brady Henderson reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Jadarian Price",
+     "position": "RB",
+     "status": "Injured Reserve",
+     "detail": "Seahawks head coach Mike Macdonald said Monday that Price (chest) will be designated for return from injured reserve during Week 8, Gregg Bell of Sports Radio 93.3 KJR Seattle reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
      "name": "Charles Cross",
      "position": "OT",
      "status": "Questionable",
@@ -24339,14 +24291,6 @@
      "position": "RB",
      "status": "Questionable",
      "detail": "Jones (hamstring) has been ruled out for the remainder of Sunday night's contest against the Chiefs.",
-     "source": "ESPN"
-    },
-    {
-     "team": "SEA",
-     "name": "Rashid Shaheed",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Shaheed (knee) won't return to Sunday's game against the Chiefs.",
      "source": "ESPN"
     },
     {
@@ -28839,13 +28783,13 @@
       "stars": 3
      },
      "total": {
-      "market": "54.5",
+      "market": "55.5",
       "model_line": "57.4",
-      "edge_pts": 2.9,
-      "pick": "Under 54.5",
-      "price": "+100",
-      "prob": 0.482,
-      "ev": -0.037,
+      "edge_pts": 1.9,
+      "pick": "Over 55.5",
+      "price": "-115",
+      "prob": 0.512,
+      "ev": -0.043,
       "bet": false,
       "stars": 0
      },
@@ -28861,7 +28805,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 9,
+     "gust_mph": 14,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28883,7 +28833,7 @@
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": false,
+      "agrees": true,
       "hit": 4,
       "of": 4,
       "rate": 1.0,
@@ -28901,7 +28851,7 @@
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": false,
+      "agrees": true,
       "hit": 3,
       "of": 3,
       "rate": 1.0,
@@ -29011,7 +28961,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 67,
+     "wind_mph": 11,
+     "gust_mph": 11,
+     "precip_prob": 11,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29328,7 +29284,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 64,
+     "wind_mph": 8,
+     "gust_mph": 16,
+     "precip_prob": 25,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29469,7 +29431,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 64,
+     "wind_mph": 7,
+     "gust_mph": 16,
+     "precip_prob": 24,
+     "precip_in": 1.12
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29718,6 +29686,10 @@
     "injuries": [],
     "news": [
      {
+      "headline": "Cignetti expects QB Hoover to be healthier vs. Minnesota",
+      "link": "https://www.espn.com/college-football/story/_/id/50288672/cignetti-expects-qb-hoover-healthier-vs-minnesota"
+     },
+     {
       "headline": "Where is 'College GameDay'? 2026 schedule, locations, recaps",
       "link": "https://www.espn.com/college-football/story/_/id/49783645/where-college-gameday-2026-schedule-locations-recaps"
      },
@@ -29883,25 +29855,16 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 59,
+     "temp_f": 56,
      "wind_mph": 5,
      "gust_mph": 14,
      "precip_prob": 47,
-     "precip_in": 0.07
+     "precip_in": 0.06
     },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [
-     {
-      "headline": "Big 12 matchup features No. 8 BYU taking on Arizona State",
-      "link": "http://www.espn.com/ncf/preview?gameId=401856843"
-     },
-     {
-      "headline": "Big 12 matchup features No. 8 BYU taking on Arizona State",
-      "link": "http://www.espn.com/ncf/preview?gameId=401856843"
-     }
-    ],
+    "news": [],
     "trends": [
      {
       "type": "team",
@@ -30022,8 +29985,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 46,
-     "wind_mph": 7,
+     "temp_f": 52,
+     "wind_mph": 2,
      "gust_mph": 14,
      "precip_prob": 18,
      "precip_in": 0
@@ -30139,7 +30102,7 @@
       "edge_pts": 3.2,
       "pick": "Under 49.5",
       "price": "-112",
-      "prob": 0.521,
+      "prob": 0.52,
       "ev": -0.015,
       "bet": false,
       "stars": 0
@@ -30157,8 +30120,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 70,
-     "wind_mph": 8,
+     "temp_f": 73,
+     "wind_mph": 9,
      "gust_mph": 13,
      "precip_prob": 0,
      "precip_in": 0
@@ -30329,13 +30292,13 @@
       "stars": 0
      },
      "total": {
-      "market": "58.5",
+      "market": "57.5",
       "model_line": "56.6",
-      "edge_pts": 1.9,
-      "pick": "Under 58.5",
-      "price": "-115",
-      "prob": 0.512,
-      "ev": -0.043,
+      "edge_pts": 0.9,
+      "pick": "Under 57.5",
+      "price": "-105",
+      "prob": 0.506,
+      "ev": -0.013,
       "bet": false,
       "stars": 0
      },
@@ -30361,16 +30324,7 @@
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [
-     {
-      "headline": "No. 6 Utah visits Cincinnati in Big 12 action",
-      "link": "http://www.espn.com/ncf/preview?gameId=401856848"
-     },
-     {
-      "headline": "No. 6 Utah visits Cincinnati in Big 12 action",
-      "link": "http://www.espn.com/ncf/preview?gameId=401856848"
-     }
-    ],
+    "news": [],
     "trends": [
      {
       "type": "team",
@@ -30469,14 +30423,14 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2440": 16.0,
+     "c2440": 16.1,
      "c26": 31.3
     },
     "picks": {
      "spread": {
       "market": "c26 -22.5",
-      "model_line": "c26 -15.5",
-      "edge_pts": 7.2,
+      "model_line": "c26 -15",
+      "edge_pts": 7.3,
       "pick": "c2440 +22.5",
       "team": "c2440",
       "line": 22.5,
@@ -30488,8 +30442,8 @@
      },
      "total": {
       "market": "44.5",
-      "model_line": "47.4",
-      "edge_pts": 2.9,
+      "model_line": "47.3",
+      "edge_pts": 2.8,
       "pick": "Over 44.5",
       "price": "-112",
       "prob": 0.518,
@@ -30657,8 +30611,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 61,
-     "wind_mph": 3,
+     "temp_f": 68,
+     "wind_mph": 5,
      "gust_mph": 3,
      "precip_prob": 18,
      "precip_in": 0
@@ -30735,7 +30689,7 @@
       "line": 8.5,
       "price": "-110",
       "prob": 0.501,
-      "ev": -0.044,
+      "ev": -0.043,
       "bet": false,
       "stars": 0
      },
@@ -30763,11 +30717,11 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 58,
-     "wind_mph": 4,
+     "temp_f": 55,
+     "wind_mph": 6,
      "gust_mph": 7,
      "precip_prob": 30,
-     "precip_in": 0.02
+     "precip_in": 0
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -31056,7 +31010,7 @@
       "line": -7.0,
       "price": "-105",
       "prob": 0.508,
-      "ev": -0.008,
+      "ev": -0.007,
       "bet": false,
       "stars": 0
      },
@@ -31192,9 +31146,9 @@
       "pick": "c344 +21",
       "team": "c344",
       "line": 21.0,
-      "price": "-115",
+      "price": "-118",
       "prob": 0.569,
-      "ev": 0.064,
+      "ev": 0.051,
       "bet": true,
       "stars": 2
      },
@@ -31222,7 +31176,7 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 77,
+     "temp_f": 75,
      "wind_mph": 4,
      "gust_mph": 8,
      "precip_prob": 9,
@@ -31515,10 +31469,10 @@
     "props": [],
     "weather": {
      "temp_f": 50,
-     "wind_mph": 2,
+     "wind_mph": 7,
      "gust_mph": 6,
      "precip_prob": 20,
-     "precip_in": 0.02
+     "precip_in": 0
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -31591,8 +31545,8 @@
    "n_games": 566,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.309642519310266,
-   "hfa": 1.3322676295501878e-15,
+   "mu": 26.31026152746584,
+   "hfa": 7.993605777301127e-15,
    "top": [
     [
      "c2390",
@@ -31628,7 +31582,7 @@
     ],
     [
      "c26",
-     10.7
+     10.6
     ],
     [
      "c167",
