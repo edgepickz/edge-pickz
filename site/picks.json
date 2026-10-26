@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:17:00.658081+00:00",
+ "generated_at": "2026-10-26T22:48:40.011851+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -675,8 +675,8 @@
    ],
    "weather": {
     "temp_f": 57,
-    "wind_mph": 5,
-    "gust_mph": 11,
+    "wind_mph": 4,
+    "gust_mph": 10,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -813,7 +813,7 @@
     {
      "headline": "Ex-Cowboy Dez Bryant calls out police investigation after he's cited for assault",
      "description": "Dez Bryant is calling for a thorough investigation by Texas' Southlake Police Department of an incident that resulted in him receiving a citation for assault.",
-     "published": "2026-10-26T21:54:22Z",
+     "published": "2026-10-26T22:18:00Z",
      "link": "https://www.espn.com/nfl/story/_/id/50290470/dez-bryant-calls-police-cited-assault",
      "teams": [
       "DAL"
@@ -2218,6 +2218,22 @@
    "injuries": [
     {
      "team": "CAR",
+     "name": "Jaelan Phillips",
+     "position": "LB",
+     "status": "Out",
+     "detail": "Phillips (hamstring) was listed as a non-participant on Monday's practice estimate.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "Akayleb Evans",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Evans (triceps/knee) was listed as a non-participant on Monday's practice estimate.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
      "name": "Torricelli Simpkins III",
      "position": "G",
      "status": "Questionable",
@@ -2242,14 +2258,6 @@
     },
     {
      "team": "CAR",
-     "name": "Akayleb Evans",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CAR",
      "name": "Jalen Coker",
      "position": "WR",
      "status": "Questionable",
@@ -2262,14 +2270,6 @@
      "position": "OT",
      "status": "Injured Reserve",
      "detail": "ir",
-     "source": "ESPN"
-    },
-    {
-     "team": "CAR",
-     "name": "Jaelan Phillips",
-     "position": "LB",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -6284,31 +6284,31 @@
     "DAL": "Dak Prescott"
    },
    "model_score": {
-    "ARI": 23.5,
+    "ARI": 23.4,
     "DAL": 28.9
    },
    "picks": {
     "spread": {
      "market": "DAL -6.5",
      "model_line": "DAL -5.5",
-     "edge_pts": 1.2,
+     "edge_pts": 1.1,
      "pick": "ARI +6.5",
      "team": "ARI",
      "line": 6.5,
      "price": "-112",
-     "prob": 0.512,
-     "ev": -0.031,
+     "prob": 0.511,
+     "ev": -0.033,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "54.5",
-     "model_line": "52.4",
-     "edge_pts": 2.1,
+     "model_line": "52.3",
+     "edge_pts": 2.2,
      "pick": "Under 54.5",
      "price": "-112",
-     "prob": 0.522,
-     "ev": -0.012,
+     "prob": 0.523,
+     "ev": -0.009,
      "bet": false,
      "stars": 0
     },
@@ -6317,8 +6317,8 @@
      "market_prob": 0.722,
      "pick": "DAL ML",
      "price": "-305",
-     "prob": 0.711,
-     "ev": -0.055,
+     "prob": 0.712,
+     "ev": -0.054,
      "bet": false,
      "stars": 0
     }
@@ -7065,10 +7065,18 @@
     ]
    },
    "injury_adj": {
-    "ARI": -1.6,
+    "ARI": -1.7,
     "DAL": -0.8
    },
    "injuries": [
+    {
+     "team": "ARI",
+     "name": "Tip Reiman",
+     "position": "TE",
+     "status": "Out",
+     "detail": "Head coach Mike LaFleur stated he's \"not too sure\" if Reiman (ankle) will play this season, Dani Sureck of the Cardinals' official site reports.",
+     "source": "ESPN"
+    },
     {
      "team": "ARI",
      "name": "James Conner",
@@ -7178,7 +7186,7 @@
     {
      "headline": "Ex-Cowboy Dez Bryant calls out police investigation after he's cited for assault",
      "description": "Dez Bryant is calling for a thorough investigation by Texas' Southlake Police Department of an incident that resulted in him receiving a citation for assault.",
-     "published": "2026-10-26T21:54:22Z",
+     "published": "2026-10-26T22:18:00Z",
      "link": "https://www.espn.com/nfl/story/_/id/50290470/dez-bryant-calls-police-cited-assault",
      "teams": [
       "DAL"
@@ -15197,13 +15205,7 @@
      "fair_odds": "+1248"
     }
    ],
-   "weather": {
-    "temp_f": 85,
-    "wind_mph": 9,
-    "gust_mph": 8,
-    "precip_prob": 15,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "ATL": [
@@ -18437,13 +18439,7 @@
      "fair_odds": "+785"
     }
    ],
-   "weather": {
-    "temp_f": 64,
-    "wind_mph": 9,
-    "gust_mph": 12,
-    "precip_prob": 27,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "KC": [
@@ -20289,13 +20285,7 @@
      "fair_odds": "+1195"
     }
    ],
-   "weather": {
-    "temp_f": 85,
-    "wind_mph": 10,
-    "gust_mph": 8,
-    "precip_prob": 29,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "NE": [],
@@ -23530,7 +23520,13 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 48,
+    "wind_mph": 6,
+    "gust_mph": 14,
+    "precip_prob": 8,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -28130,7 +28126,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 9,
+     "gust_mph": 14,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28242,9 +28244,9 @@
       "pick": "c12 +3.5",
       "team": "c12",
       "line": 3.5,
-      "price": "-115",
+      "price": "-112",
       "prob": 0.524,
-      "ev": -0.021,
+      "ev": -0.009,
       "bet": false,
       "stars": 0
      },
@@ -28260,18 +28262,24 @@
       "stars": 0
      },
      "moneyline": {
-      "market": "c12 +136 / c2641 -162",
-      "market_prob": 0.593,
+      "market": "c12 +140 / c2641 -166",
+      "market_prob": 0.6,
       "pick": "c2641 ML",
-      "price": "-162",
-      "prob": 0.57,
-      "ev": -0.078,
+      "price": "-166",
+      "prob": 0.576,
+      "ev": -0.077,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 67,
+     "wind_mph": 11,
+     "gust_mph": 17,
+     "precip_prob": 7,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28943,15 +28951,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c84 -19.5",
+      "market": "c84 -20.5",
       "model_line": "c84 -15",
-      "edge_pts": 4.6,
-      "pick": "c135 +19.5",
+      "edge_pts": 5.6,
+      "pick": "c135 +20.5",
       "team": "c135",
-      "line": 19.5,
-      "price": "-110",
-      "prob": 0.528,
-      "ev": 0.009,
+      "line": 20.5,
+      "price": "-115",
+      "prob": 0.535,
+      "ev": -0.001,
       "bet": false,
       "stars": 0
      },
@@ -28971,8 +28979,8 @@
       "market_prob": 0.899,
       "pick": "c84 ML",
       "price": "-1450",
-      "prob": 0.885,
-      "ev": -0.054,
+      "prob": 0.883,
+      "ev": -0.056,
       "bet": false,
       "stars": 0
      }
@@ -29396,12 +29404,12 @@
       "market": "c154 -12.5",
       "model_line": "c154 -12.5",
       "edge_pts": 0.1,
-      "pick": "c258 +12.5",
-      "team": "c258",
-      "line": 12.5,
-      "price": "-105",
-      "prob": 0.499,
-      "ev": -0.025,
+      "pick": "c154 -12.5",
+      "team": "c154",
+      "line": -12.5,
+      "price": "-110",
+      "prob": 0.501,
+      "ev": -0.044,
       "bet": false,
       "stars": 0
      },
@@ -29417,11 +29425,11 @@
       "stars": 0
      },
      "moneyline": {
-      "market": "c258 +410 / c154 -550",
-      "market_prob": 0.812,
+      "market": "c258 +390 / c154 -520",
+      "market_prob": 0.804,
       "pick": "c154 ML",
-      "price": "-550",
-      "prob": 0.812,
+      "price": "-520",
+      "prob": 0.805,
       "ev": -0.04,
       "bet": false,
       "stars": 0
@@ -29456,7 +29464,7 @@
       "kind": "spread",
       "label": "covered the spread",
       "bet": "spread",
-      "agrees": false,
+      "agrees": true,
       "hit": 5,
       "of": 5,
       "rate": 1.0,
@@ -29490,6 +29498,25 @@
       "type": "team",
       "team": "c258",
       "opp": "c154",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": true,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       false,
+       true,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
+      "team": "c258",
+      "opp": "c154",
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
@@ -29520,25 +29547,6 @@
        true,
        true,
        false,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
-      "team": "c258",
-      "opp": "c154",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": false,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       false,
-       true,
        true,
        true
       ]
@@ -30025,13 +30033,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 55,
-     "wind_mph": 6,
-     "gust_mph": 13,
-     "precip_prob": 24,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30157,12 +30159,12 @@
      "spread": {
       "market": "c153 +14.5",
       "model_line": "c153 +12.5",
-      "edge_pts": 2.1,
+      "edge_pts": 2.2,
       "pick": "c153 +14.5",
       "team": "c153",
       "line": 14.5,
       "price": "-108",
-      "prob": 0.513,
+      "prob": 0.514,
       "ev": -0.011,
       "bet": false,
       "stars": 0
@@ -30190,13 +30192,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 64,
-     "wind_mph": 5,
-     "gust_mph": 20,
-     "precip_prob": 5,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30337,13 +30333,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 68,
-     "wind_mph": 9,
-     "gust_mph": 7,
-     "precip_prob": 43,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30466,13 +30456,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 75,
-     "wind_mph": 4,
-     "gust_mph": 9,
-     "precip_prob": 4,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30844,8 +30828,8 @@
    "n_games": 566,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.311142844777674,
-   "hfa": 7.993605777301127e-15,
+   "mu": 26.310614863287153,
+   "hfa": 8.881784197001252e-16,
    "top": [
     [
      "c2390",
