@@ -84,20 +84,25 @@ def grade(history, games, players):
                     v = 0
             p["result"] = "W" if v > 0 else "L" if v < 0 else "P"
         for p in h.get("props", []):
-            b = p.get("book")
+            b = p.get("book") or p.get("matchup")  # sportsbook line, or our matchup line for top props
             if not b or pstats is None:
                 continue
             try:
                 s = pstats.loc[(gid, p["player"])]
+                if isinstance(s, pd.DataFrame):
+                    s = s.iloc[0]
             except KeyError:
-                p["result"] = "Void"; continue
+                continue  # stats not in yet (or player didn't play); the site falls back to ESPN's box score
             col = {"pass_yds": "passing_yards", "pass_tds": "passing_tds", "rush_yds": "rushing_yards",
                    "rec_yds": "receiving_yards", "receptions": "receptions"}.get(p["key"])
             if p["key"] == "anytime_td":
-                v = (s.rushing_tds or 0) + (s.receiving_tds or 0) - 0.5
+                actual = float((s.rushing_tds or 0) + (s.receiving_tds or 0))
+                v = actual - 0.5
             else:
-                v = (s[col] or 0) - b["line"]
+                actual = float(s[col] or 0)
+                v = actual - b["line"]
                 v = v if b["side"] == "Over" else -v
+            p["actual"] = actual
             p["result"] = "W" if v > 0 else "L" if v < 0 else "P"
     return history
 
@@ -118,6 +123,11 @@ def record(history):
                 r["units"] += model.american_to_decimal(float(p["price"])) - 1
             elif res == "L":
                 r["units"] -= 1
+        # Hit rate of each game's top 4 props (graded against our matchup line when there's no book line).
+        for p in h.get("props", []):
+            if p.get("top") and p.get("result") in ("W", "L", "P") and not p.get("book", {}).get("bet"):
+                r = rec.setdefault("top_props", {"W": 0, "L": 0, "P": 0, "units": 0.0})
+                r[p["result"]] += 1
     for r in rec.values():
         r["units"] = round(r["units"], 2)
     return rec

@@ -562,9 +562,15 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   // Live progress for each prop, filled in once a game starts (see the end of this script).
   const propLive = {};
   function propProgress(r, g) {
-    const L = propLive[g.espn_id];
+    let L = propLive[g.espn_id];
+    let st;
+    if ((!L || L.state === "pre") && r.actual != null) {  // graded after the game from official stats
+      L = { state: "post" }; st = r.key === "anytime_td" ? { rush_td: r.actual } : { [r.key]: r.actual };
+    }
     if (!L || L.state === "pre") return "";
-    const st = L.stats[normName(r.player)] || {};
+    if (!st && L.state === "post" && L.stats && !L.stats[normName(r.player)])
+      return `<div class="small muted">No stats for him in the box score (didn't play or no touches), so this one doesn't count.</div>`;
+    st ||= L.stats[normName(r.player)] || {};
     const live = L.state === "in";
     const head = live ? `<span class="plive">● LIVE</span> <span class="muted small">${esc(L.detail || "")}</span>` : `<span class="muted small">Final</span>`;
     let cur, line, side, txt, pctW;
@@ -607,7 +613,25 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   $("panel-props").innerHTML = `<div class="panel-head"><h2>Player props</h2><span class="muted small">Our projection for every key player, and the line to look for. Once a game starts, each prop shows live how close it is to hitting.</span></div>
     <div class="search"><input id="pq" type="search" placeholder="Search a player or team" aria-label="Search a player or team">
       <div class="chips" role="group" aria-label="Prop type"><button type="button" class="chipbtn" data-t="" aria-pressed="true">All</button>${types.map((t) => `<button type="button" class="chipbtn" data-t="${t}" aria-pressed="false">${t}</button>`).join("")}</div></div>
+    <div id="presults"></div>
     <div class="plist" id="plist"></div><button type="button" class="chipbtn more" id="pmore">Show more players</button>`;
+  // How our top props did in recently finished games: hit or not, and how close, with a progress bar.
+  const recentProps = (D.tracker_recent || []).filter((g) => (g.props || []).some((r) => r.top || r.book));
+  function drawPropResults() {
+    if (!recentProps.length) { $("presults").innerHTML = ""; return; }
+    const cards = recentProps.map((g) => {
+      const rows = g.props.filter((r) => r.top || r.book).sort((a, b) => (a.top || 9) - (b.top || 9));
+      const bars = rows.map((r) => ({ r, html: propProgress(r, g) }));
+      const done = bars.filter((x) => /class="pbar/.test(x.html));
+      const hits = done.filter((x) => /pbar win/.test(x.html)).length;
+      const body = bars.map(({ r, html }) => { const ref = r.book || r.matchup || {};
+        const call = r.key === "anytime_td" ? "to score a TD" : `${ref.side} ${ref.line} ${statName(r.stat)}`;
+        return `<div class="prop"><div class="line1"><span class="stat">${esc(r.player)} <span class="muted small">${esc(N(r.team))}</span></span><span class="small muted">${esc(call)}</span></div>${html || `<div class="small muted">Waiting on the final stats.</div>`}</div>`; }).join("");
+      return `<article class="player"><div class="who">${badge(g.away, true)}${badge(g.home, true)}<div><b>${esc(g.final || `${N(g.away)} at ${N(g.home)}`)}</b><span>Week ${g.week} · ${when(g.kickoff)}</span></div>${done.length ? `<span class="tag">${hits} of ${done.length} hit</span>` : ""}</div>${body}</article>`;
+    }).join("");
+    $("presults").innerHTML = `<h3 class="subhead">Recent results</h3><p class="fine">How our top props did in games from the last few days.</p><div class="plist">${cards}</div><h3 class="subhead">Upcoming props</h3>`;
+  }
+  drawPropResults();
   const match = (r) => !ptype || (ptype === "Touchdowns" ? /TD/.test(r.stat) : ptype === "Receiving" ? /Rec/.test(r.stat) : r.stat.startsWith(ptype.slice(0, 4)));
   function drawProps() {
     const list = players.filter((p) => (!pq || (p.name + " " + p.team + " " + N(p.team)).toLowerCase().includes(pq)) && p.rows.some(match));
@@ -640,8 +664,10 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
   const recent = D.recent_results.map((h) => {
     const parts = Object.entries(h.picks).filter(([, x]) => x.bet && x.result).map(([k, x]) => `${esc(plain(k, x))}<span class="res ${x.result}">${x.result === "W" ? "Won" : x.result === "L" ? "Lost" : "Push"}</span>`);
     return `<div class="ritem"><div><strong>${esc(h.final)}</strong><div class="small muted">${parts.join(" · ") || "No bets on this game"}</div></div><span class="small muted">Week ${h.week}</span></div>`; }).join("");
+  const TPR = R.top_props;
+  const tpCard = TPR ? `<div class="rcard"><div class="muted small">Top props</div><div class="n">${TPR.W}-${TPR.L}${TPR.P ? "-" + TPR.P : ""}</div><div class="${TPR.W >= TPR.L ? "up" : "down"}">${Math.round((100 * TPR.W) / Math.max(1, TPR.W + TPR.L))}% hit</div></div>` : "";
   $("panel-record").innerHTML = `<div class="panel-head"><h2>Our record</h2><span class="muted small">Final picks only, 1 unit per bet</span></div>` +
-    (cards ? `<div class="rec">${cards}</div>` : `<div class="empty">Our record starts once the first final picks are graded. Every final pick counts, wins and losses.</div>`) +
+    (cards || tpCard ? `<div class="rec">${cards}${tpCard}</div>` : `<div class="empty">Our record starts once the first final picks are graded. Every final pick counts, wins and losses.</div>`) +
     (recent ? `<div class="rlist">${recent}</div>` : "") + collegeRecord();
 
   // ---------------------------------------------------------------- Live injuries + news (every 60s, in the browser)
@@ -897,7 +923,13 @@ details.whyd > summary { cursor: pointer; padding: 12px 18px; font-weight: 700; 
       try { const sum = await getJSON(`${ESPN}/summary?event=${g.espn_id}`);
         propLive[g.espn_id] = { state: b.state, detail: b.detail, stats: playerStats(sum.boxscore) }; } catch (e) {}
     }));
-    drawProps();
+    await Promise.all(recentProps.map(async (g) => {
+      if (propLive[g.espn_id] || g.props.every((r) => r.actual != null)) return;
+      try { const sum = await getJSON(`${ESPN}/summary?event=${g.espn_id}`);
+        const st = sum.header?.competitions?.[0]?.status?.type || {};
+        propLive[g.espn_id] = { state: st.state || "post", detail: st.shortDetail, stats: playerStats(sum.boxscore) }; } catch (e) {}
+    }));
+    drawProps(); drawPropResults();
   }
   refreshPropsLive();
   setInterval(() => { if (!$("panel-props").hidden && D.games.some((g) => tBoard[g.espn_id]?.state === "in")) refreshPropsLive(); }, 30000);
