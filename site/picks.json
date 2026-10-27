@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:56:10.888399+00:00",
+ "generated_at": "2026-10-27T14:35:46.593586+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -14343,7 +14343,13 @@
      "fair_odds": "+1248"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 81,
+    "wind_mph": 9,
+    "gust_mph": 13,
+    "precip_prob": 39,
+    "precip_in": 0.06
+   },
    "weather_notes": [],
    "injury_notes": {
     "ATL": [],
@@ -20592,31 +20598,31 @@
     "WAS": "Jayden Daniels"
    },
    "model_score": {
-    "PHI": 20.7,
+    "PHI": 20.5,
     "WAS": 22.2
    },
    "picks": {
     "spread": {
      "market": "WAS -4.5",
      "model_line": "WAS -1.5",
-     "edge_pts": 3.0,
+     "edge_pts": 2.8,
      "pick": "PHI +4.5",
      "team": "PHI",
      "line": 4.5,
      "price": "-112",
-     "prob": 0.531,
-     "ev": 0.006,
+     "prob": 0.529,
+     "ev": 0.002,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "40.5",
-     "model_line": "42.9",
-     "edge_pts": 2.4,
+     "model_line": "42.8",
+     "edge_pts": 2.3,
      "pick": "Over 40.5",
      "price": "-115",
-     "prob": 0.526,
-     "ev": -0.016,
+     "prob": 0.524,
+     "ev": -0.02,
      "bet": false,
      "stars": 0
     },
@@ -20625,8 +20631,8 @@
      "market_prob": 0.645,
      "pick": "WAS ML",
      "price": "-205",
-     "prob": 0.615,
-     "ev": -0.085,
+     "prob": 0.617,
+     "ev": -0.083,
      "bet": false,
      "stars": 0
     }
@@ -20709,7 +20715,7 @@
      "team": "PHI",
      "opp": "WAS",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 18.2,
@@ -20729,7 +20735,7 @@
      "team": "PHI",
      "opp": "WAS",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 2.5,
@@ -20749,7 +20755,7 @@
      "team": "PHI",
      "opp": "WAS",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.2,
@@ -20769,7 +20775,7 @@
      "team": "PHI",
      "opp": "WAS",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "30% to score",
@@ -21425,7 +21431,7 @@
     ]
    },
    "injury_adj": {
-    "PHI": -1.0,
+    "PHI": -1.2,
     "WAS": -1.8
    },
    "injuries": [
@@ -21459,6 +21465,14 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Dameon Pierce",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Pierce rushed 14 times for 47 yards and a touchdown and brought in his only target for one yard in the Eagles' 38-21 loss to the Cowboys on Monday night. He also returned two kickoffs for 37 yards.",
      "source": "ESPN"
     },
     {
@@ -21546,7 +21560,7 @@
     {
      "headline": "Will Nick Sirianni still be Eagles coach next season?",
      "description": "Will Nick Sirianni still be Eagles coach next season?",
-     "published": "2026-10-27T13:35:40Z",
+     "published": "2026-10-27T13:46:49Z",
      "link": "https://www.espn.com/video/clip/_/id/50297060/will-nick-sirianni-eagles-coach-next-season",
      "teams": [
       "PHI"
@@ -22872,13 +22886,7 @@
      "fair_odds": "+411"
     }
    ],
-   "weather": {
-    "temp_f": 46,
-    "wind_mph": 6,
-    "gust_mph": 13,
-    "precip_prob": 6,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22897,18 +22905,18 @@
    "injuries": [
     {
      "team": "CHI",
-     "name": "Jack Sanborn",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
+     "name": "Anthony Johnson Jr.",
+     "position": "S",
+     "status": "Injured Reserve",
+     "detail": "ir",
      "source": "ESPN"
     },
     {
      "team": "CHI",
-     "name": "Anthony Johnson Jr.",
-     "position": "S",
-     "status": "Out",
-     "detail": "out",
+     "name": "Jack Sanborn",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -27888,7 +27896,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28054,7 +28062,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28211,7 +28219,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28358,7 +28366,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28482,7 +28490,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28605,7 +28613,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28785,7 +28793,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28920,7 +28928,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29055,7 +29063,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29250,7 +29258,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29399,7 +29407,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29546,7 +29554,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29654,7 +29662,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29821,7 +29829,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29968,7 +29976,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30011,11 +30019,11 @@
       "model_line": "55.8",
       "edge_pts": 4.3,
       "pick": "Over 51.5",
-      "price": "-108",
+      "price": "-102",
       "prob": 0.528,
-      "ev": 0.016,
-      "bet": false,
-      "stars": 0
+      "ev": 0.045,
+      "bet": true,
+      "stars": 1
      },
      "moneyline": {
       "market": "c194 -250 / c30 +205",
@@ -30097,7 +30105,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30259,7 +30267,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30397,7 +30405,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30522,7 +30530,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    }
   ],
