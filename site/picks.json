@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T02:23:29.955922+00:00",
+ "generated_at": "2026-10-27T02:57:03.171841+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -29,30 +29,30 @@
    },
    "model_score": {
     "DAL": 23.5,
-    "PHI": 20.7
+    "PHI": 20.6
    },
    "picks": {
     "spread": {
      "market": "PHI +4.5",
      "model_line": "PHI +3",
-     "edge_pts": 1.7,
+     "edge_pts": 1.5,
      "pick": "PHI +4.5",
      "team": "PHI",
      "line": 4.5,
      "price": "-115",
-     "prob": 0.517,
-     "ev": -0.033,
+     "prob": 0.516,
+     "ev": -0.035,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "43.5",
-     "model_line": "44.2",
-     "edge_pts": 0.7,
+     "model_line": "44.1",
+     "edge_pts": 0.6,
      "pick": "Over 43.5",
      "price": "-112",
-     "prob": 0.508,
-     "ev": -0.038,
+     "prob": 0.507,
+     "ev": -0.041,
      "bet": false,
      "stars": 0
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.664,
      "pick": "DAL ML",
      "price": "-225",
-     "prob": 0.647,
-     "ev": -0.065,
+     "prob": 0.648,
+     "ev": -0.063,
      "bet": false,
      "stars": 0
     }
@@ -747,8 +747,8 @@
    ],
    "weather": {
     "temp_f": 59,
-    "wind_mph": 5,
-    "gust_mph": 12,
+    "wind_mph": 3,
+    "gust_mph": 10,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -765,7 +765,7 @@
    },
    "injury_adj": {
     "DAL": -1.0,
-    "PHI": -2.6
+    "PHI": -2.7
    },
    "injuries": [
     {
@@ -806,6 +806,14 @@
      "position": "OT",
      "status": "Out",
      "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Saquon Barkley",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Barkley is questionable to return to Monday's game against the Cowboys due to a back injury.",
      "source": "ESPN"
     },
     {
@@ -2452,7 +2460,7 @@
     "temp_f": 52,
     "wind_mph": 7,
     "gust_mph": 20,
-    "precip_prob": 7,
+    "precip_prob": 10,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -3872,7 +3880,7 @@
     "temp_f": 61,
     "wind_mph": 13,
     "gust_mph": 23,
-    "precip_prob": 20,
+    "precip_prob": 25,
     "precip_in": 0
    },
    "weather_notes": [
@@ -5589,7 +5597,7 @@
     "temp_f": 59,
     "wind_mph": 7,
     "gust_mph": 24,
-    "precip_prob": 44,
+    "precip_prob": 54,
     "precip_in": 0.04
    },
    "weather_notes": [],
@@ -10360,7 +10368,7 @@
     "temp_f": 83,
     "wind_mph": 9,
     "gust_mph": 14,
-    "precip_prob": 25,
+    "precip_prob": 43,
     "precip_in": 0.0
    },
    "weather_notes": [],
@@ -12177,7 +12185,7 @@
     "temp_f": 62,
     "wind_mph": 10,
     "gust_mph": 14,
-    "precip_prob": 10,
+    "precip_prob": 8,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -14031,7 +14039,7 @@
     "temp_f": 54,
     "wind_mph": 6,
     "gust_mph": 24,
-    "precip_prob": 36,
+    "precip_prob": 38,
     "precip_in": 0.02
    },
    "weather_notes": [],
@@ -15508,7 +15516,13 @@
      "fair_odds": "+1248"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 85,
+    "wind_mph": 11,
+    "gust_mph": 12,
+    "precip_prob": 22,
+    "precip_in": 0.0
+   },
    "weather_notes": [],
    "injury_notes": {
     "ATL": [
@@ -21763,7 +21777,7 @@
     "WAS": "Jayden Daniels"
    },
    "model_score": {
-    "PHI": 18.9,
+    "PHI": 18.8,
     "WAS": 20.7
    },
    "picks": {},
@@ -22531,10 +22545,18 @@
     ]
    },
    "injury_adj": {
-    "PHI": -2.6,
+    "PHI": -2.7,
     "WAS": -1.8
    },
    "injuries": [
+    {
+     "team": "PHI",
+     "name": "Saquon Barkley",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Barkley is questionable to return to Monday's game against the Cowboys due to a back injury.",
+     "source": "ESPN"
+    },
     {
      "team": "PHI",
      "name": "Britain Covey",
@@ -24073,13 +24095,7 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": {
-    "temp_f": 45,
-    "wind_mph": 5,
-    "gust_mph": 10,
-    "precip_prob": 8,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -28761,7 +28777,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28826,7 +28842,7 @@
      "temp_f": 69,
      "wind_mph": 10,
      "gust_mph": 17,
-     "precip_prob": 7,
+     "precip_prob": 6,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -28927,7 +28943,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29084,7 +29100,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29231,7 +29247,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29296,7 +29312,7 @@
      "temp_f": 66,
      "wind_mph": 6,
      "gust_mph": 19,
-     "precip_prob": 37,
+     "precip_prob": 26,
      "precip_in": 0.05
     },
     "weather_notes": [],
@@ -29355,7 +29371,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29478,7 +29494,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29543,7 +29559,7 @@
      "temp_f": 68,
      "wind_mph": 6,
      "gust_mph": 16,
-     "precip_prob": 28,
+     "precip_prob": 27,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -29658,7 +29674,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29679,8 +29695,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c9": 22.2,
-     "c252": 33.6
+     "c9": 21.5,
+     "c252": 32.9
     },
     "picks": {
      "spread": {
@@ -29698,14 +29714,14 @@
      },
      "total": {
       "market": "48.5",
-      "model_line": "55.8",
-      "edge_pts": 7.3,
+      "model_line": "54.3",
+      "edge_pts": 5.8,
       "pick": "Over 48.5",
       "price": "-108",
-      "prob": 0.547,
-      "ev": 0.053,
+      "prob": 0.537,
+      "ev": 0.035,
       "bet": true,
-      "stars": 2
+      "stars": 1
      },
      "moneyline": {
       "market": "c9 +525 / c252 -750",
@@ -29723,11 +29739,12 @@
      "temp_f": 57,
      "wind_mph": 12,
      "gust_mph": 21,
-     "precip_prob": 46,
+     "precip_prob": 50,
      "precip_in": 0.09
     },
     "weather_notes": [
-     "wind 12 mph (gusts 21)"
+     "wind 12 mph (gusts 21)",
+     "50% chance of rain/snow"
     ],
     "injury_adj": {},
     "injuries": [],
@@ -29795,7 +29812,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29829,14 +29846,14 @@
       "line": 3.5,
       "price": "-110",
       "prob": 0.516,
-      "ev": -0.015,
+      "ev": -0.014,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "47.5",
-      "model_line": "48.9",
-      "edge_pts": 1.4,
+      "model_line": "48.8",
+      "edge_pts": 1.3,
       "pick": "Over 47.5",
       "price": "-110",
       "prob": 0.509,
@@ -29849,8 +29866,8 @@
       "market_prob": 0.609,
       "pick": "c2483 ML",
       "price": "-175",
-      "prob": 0.594,
-      "ev": -0.067,
+      "prob": 0.593,
+      "ev": -0.068,
       "bet": false,
       "stars": 0
      }
@@ -29860,7 +29877,7 @@
      "temp_f": 50,
      "wind_mph": 4,
      "gust_mph": 9,
-     "precip_prob": 14,
+     "precip_prob": 24,
      "precip_in": 0.02
     },
     "weather_notes": [],
@@ -29934,7 +29951,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29974,8 +29991,8 @@
      },
      "total": {
       "market": "49.5",
-      "model_line": "46.3",
-      "edge_pts": 3.2,
+      "model_line": "46.4",
+      "edge_pts": 3.1,
       "pick": "Under 49.5",
       "price": "-112",
       "prob": 0.52,
@@ -29989,7 +30006,7 @@
       "pick": "c154 ML",
       "price": "-520",
       "prob": 0.805,
-      "ev": -0.04,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      }
@@ -30129,7 +30146,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30163,7 +30180,7 @@
       "line": 6.5,
       "price": "-105",
       "prob": 0.519,
-      "ev": 0.013,
+      "ev": 0.014,
       "bet": false,
       "stars": 0
      },
@@ -30194,7 +30211,7 @@
      "temp_f": 69,
      "wind_mph": 6,
      "gust_mph": 13,
-     "precip_prob": 9,
+     "precip_prob": 8,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -30278,7 +30295,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30311,8 +30328,8 @@
       "team": "c2440",
       "line": 22.5,
       "price": "-108",
-      "prob": 0.545,
-      "ev": 0.05,
+      "prob": 0.546,
+      "ev": 0.051,
       "bet": true,
       "stars": 2
      },
@@ -30343,7 +30360,7 @@
      "temp_f": 66,
      "wind_mph": 4,
      "gust_mph": 6,
-     "precip_prob": 37,
+     "precip_prob": 30,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -30425,7 +30442,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30490,7 +30507,7 @@
      "temp_f": 69,
      "wind_mph": 6,
      "gust_mph": 9,
-     "precip_prob": 10,
+     "precip_prob": 4,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -30531,7 +30548,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30576,7 +30593,7 @@
       "pick": "Over 57.5",
       "price": "-110",
       "prob": 0.502,
-      "ev": -0.042,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      },
@@ -30592,7 +30609,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 53,
+     "wind_mph": 10,
+     "gust_mph": 25,
+     "precip_prob": 48,
+     "precip_in": 0.18
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30690,7 +30713,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30751,7 +30774,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 64,
+     "wind_mph": 9,
+     "gust_mph": 23,
+     "precip_prob": 4,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30831,7 +30860,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30892,7 +30921,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 68,
+     "wind_mph": 7,
+     "gust_mph": 6,
+     "precip_prob": 37,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30954,7 +30989,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31015,7 +31050,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 81,
+     "wind_mph": 3,
+     "gust_mph": 5,
+     "precip_prob": 7,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31110,7 +31151,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31175,7 +31216,7 @@
      "temp_f": 61,
      "wind_mph": 5,
      "gust_mph": 15,
-     "precip_prob": 23,
+     "precip_prob": 27,
      "precip_in": 0.01
     },
     "weather_notes": [],
@@ -31248,7 +31289,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31270,7 +31311,7 @@
     "qbs": {},
     "model_score": {
      "c326": 26.5,
-     "c68": 33.5
+     "c68": 33.4
     },
     "picks": {
      "spread": {
@@ -31282,7 +31323,7 @@
       "line": 11.5,
       "price": "-112",
       "prob": 0.529,
-      "ev": 0.0,
+      "ev": 0.001,
       "bet": false,
       "stars": 0
      },
@@ -31292,7 +31333,7 @@
       "edge_pts": 3.5,
       "pick": "Under 63.5",
       "price": "-108",
-      "prob": 0.522,
+      "prob": 0.523,
       "ev": 0.006,
       "bet": false,
       "stars": 0
@@ -31313,7 +31354,7 @@
      "temp_f": 50,
      "wind_mph": 5,
      "gust_mph": 13,
-     "precip_prob": 16,
+     "precip_prob": 17,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -31379,7 +31420,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    }
   ],
@@ -31387,8 +31428,8 @@
    "n_games": 566,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.313191673183105,
-   "hfa": 4.440892098500626e-15,
+   "mu": 26.312944811400584,
+   "hfa": -1.9984014443252818e-15,
    "top": [
     [
      "c2390",
