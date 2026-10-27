@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T23:16:35.179022+00:00",
+ "generated_at": "2026-10-27T23:43:25.486136+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -2253,10 +2253,10 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
+     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
+     "published": "2026-10-27T21:05:18Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
       "BAL",
@@ -2267,15 +2267,14 @@
       "NYG",
       "PHI",
       "PIT",
-      "SEA",
-      "SF"
+      "SEA"
      ]
     },
     {
-     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
-     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+     "headline": "NFL trade deadline grades: Colts deal Quenton Nelson to Seahawks, more",
+     "description": "Will Quenton Nelson upgrade the Seahawks' O-line? Can Marvin Harrison Jr. boost Houston's offense? We're grading NFL trades ahead of November's deadline.",
+     "published": "2026-10-27T18:46:28Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
      "teams": [
       "ARI",
       "BAL",
@@ -3079,30 +3078,30 @@
    },
    "model_score": {
     "TEN": 15.9,
-    "CIN": 27.2
+    "CIN": 27.3
    },
    "picks": {
     "spread": {
      "market": "CIN -10.5",
      "model_line": "CIN -11.5",
-     "edge_pts": 0.8,
+     "edge_pts": 0.9,
      "pick": "CIN -10.5",
      "team": "CIN",
      "line": -10.5,
      "price": "-105",
-     "prob": 0.508,
-     "ev": -0.008,
+     "prob": 0.509,
+     "ev": -0.006,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "43.1",
-     "edge_pts": 3.4,
+     "model_line": "43.2",
+     "edge_pts": 3.3,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.536,
-     "ev": 0.024,
+     "prob": 0.535,
+     "ev": 0.022,
      "bet": true,
      "stars": 1
     },
@@ -3111,8 +3110,8 @@
      "market_prob": 0.827,
      "pick": "CIN ML",
      "price": "-625",
-     "prob": 0.833,
-     "ev": -0.034,
+     "prob": 0.834,
+     "ev": -0.033,
      "bet": false,
      "stars": 0
     }
@@ -3936,7 +3935,7 @@
    },
    "injury_adj": {
     "TEN": -0.3,
-    "CIN": -1.2
+    "CIN": -1.1
    },
    "injuries": [
     {
@@ -3945,14 +3944,6 @@
      "position": "TE",
      "status": "Injured Reserve",
      "detail": "The Bengals placed All (knee) on injured reserve Tuesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CIN",
-     "name": "Josh Kattus",
-     "position": "TE",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -5441,7 +5432,7 @@
      "team": "DAL",
      "opp": "ARI",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 13.4,
@@ -5461,7 +5452,7 @@
      "team": "DAL",
      "opp": "ARI",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 1.2,
@@ -5481,7 +5472,7 @@
      "team": "DAL",
      "opp": "ARI",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 0.3,
@@ -5501,7 +5492,7 @@
      "team": "DAL",
      "opp": "ARI",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "9% to score",
@@ -5861,10 +5852,10 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
+     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
+     "published": "2026-10-27T21:05:18Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
       "BAL",
@@ -5875,15 +5866,14 @@
       "NYG",
       "PHI",
       "PIT",
-      "SEA",
-      "SF"
+      "SEA"
      ]
     },
     {
-     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
-     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+     "headline": "NFL trade deadline grades: Colts deal Quenton Nelson to Seahawks, more",
+     "description": "Will Quenton Nelson upgrade the Seahawks' O-line? Can Marvin Harrison Jr. boost Houston's offense? We're grading NFL trades ahead of November's deadline.",
+     "published": "2026-10-27T18:46:28Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
      "teams": [
       "ARI",
       "BAL",
@@ -6274,7 +6264,7 @@
       38
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -6376,7 +6366,7 @@
       0
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -7365,10 +7355,10 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
+     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
+     "published": "2026-10-27T21:05:18Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
       "BAL",
@@ -7379,15 +7369,14 @@
       "NYG",
       "PHI",
       "PIT",
-      "SEA",
-      "SF"
+      "SEA"
      ]
     },
     {
-     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
-     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+     "headline": "NFL trade deadline grades: Colts deal Quenton Nelson to Seahawks, more",
+     "description": "Will Quenton Nelson upgrade the Seahawks' O-line? Can Marvin Harrison Jr. boost Houston's offense? We're grading NFL trades ahead of November's deadline.",
+     "published": "2026-10-27T18:46:28Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
      "teams": [
       "ARI",
       "BAL",
@@ -8884,25 +8873,6 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "BAL",
-      "DAL",
-      "HOU",
-      "IND",
-      "MIN",
-      "NYG",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF"
-     ]
-    },
-    {
      "headline": "Marcus Spears: DeForest Buckner trade a win-win for 49ers, Colts",
      "description": "Marcus Spears: DeForest Buckner trade a win-win for 49ers, Colts",
      "published": "2026-10-27T21:47:58Z",
@@ -8915,7 +8885,7 @@
     {
      "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
+     "published": "2026-10-27T21:05:18Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -8933,7 +8903,7 @@
     {
      "headline": "Colts trade DT DeForest Buckner to 49ers in another major move",
      "description": "The Colts have traded DeForest Buckner to the Colts for a 2027 fourth-round pick.",
-     "published": "2026-10-27T22:59:08Z",
+     "published": "2026-10-27T22:23:38Z",
      "link": "https://www.espn.com/nfl/story/_/id/50301125/colts-trade-de-deforest-buckner-49ers",
      "teams": [
       "IND",
@@ -8945,6 +8915,16 @@
      "description": "Ian Rapoport: Seahawks getting one of the NFL's best guards in Quenton Nelson",
      "published": "2026-10-27T20:27:06Z",
      "link": "https://www.espn.com/video/clip/_/id/50300699/seahawks-getting-one-nfl-best-guards-quenton-nelson",
+     "teams": [
+      "IND",
+      "SEA"
+     ]
+    },
+    {
+     "headline": "Why did Seahawks trade for Quenton Nelson? Are the Colts just getting started?",
+     "description": "The Seahawks acquired an All-Pro guard two weeks before the deadline. What does this mean for them and the Colts?",
+     "published": "2026-10-27T21:29:32Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50299293/nfl-trade-seahawks-quenton-nelson-colts-deadline",
      "teams": [
       "IND",
       "SEA"
@@ -12309,10 +12289,10 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
+     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
+     "published": "2026-10-27T21:05:18Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
       "BAL",
@@ -12323,15 +12303,14 @@
       "NYG",
       "PHI",
       "PIT",
-      "SEA",
-      "SF"
+      "SEA"
      ]
     },
     {
-     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
-     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+     "headline": "NFL trade deadline grades: Colts deal Quenton Nelson to Seahawks, more",
+     "description": "Will Quenton Nelson upgrade the Seahawks' O-line? Can Marvin Harrison Jr. boost Houston's offense? We're grading NFL trades ahead of November's deadline.",
+     "published": "2026-10-27T18:46:28Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
      "teams": [
       "ARI",
       "BAL",
@@ -16903,13 +16882,7 @@
      "fair_odds": "+785"
     }
    ],
-   "weather": {
-    "temp_f": 62,
-    "wind_mph": 5,
-    "gust_mph": 11,
-    "precip_prob": 10,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "KC": [],
@@ -18677,13 +18650,7 @@
      "fair_odds": "+1195"
     }
    ],
-   "weather": {
-    "temp_f": 84,
-    "wind_mph": 11,
-    "gust_mph": 10,
-    "precip_prob": 39,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "NE": [],
@@ -20397,13 +20364,7 @@
      "fair_odds": "+308"
     }
    ],
-   "weather": {
-    "temp_f": 56,
-    "wind_mph": 5,
-    "gust_mph": 22,
-    "precip_prob": 24,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "PHI": [
@@ -20542,10 +20503,10 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
+     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
+     "published": "2026-10-27T21:05:18Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
       "BAL",
@@ -20556,15 +20517,14 @@
       "NYG",
       "PHI",
       "PIT",
-      "SEA",
-      "SF"
+      "SEA"
      ]
     },
     {
-     "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
-     "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+     "headline": "NFL trade deadline grades: Colts deal Quenton Nelson to Seahawks, more",
+     "description": "Will Quenton Nelson upgrade the Seahawks' O-line? Can Marvin Harrison Jr. boost Houston's offense? We're grading NFL trades ahead of November's deadline.",
+     "published": "2026-10-27T18:46:28Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
      "teams": [
       "ARI",
       "BAL",
@@ -21887,13 +21847,7 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": {
-    "temp_f": 47,
-    "wind_mph": 5,
-    "gust_mph": 13,
-    "precip_prob": 3,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22033,28 +21987,9 @@
    ],
    "news": [
     {
-     "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-     "description": "Does Buckner make 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-     "published": "2026-10-27T23:05:06Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "BAL",
-      "DAL",
-      "HOU",
-      "IND",
-      "MIN",
-      "NYG",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF"
-     ]
-    },
-    {
      "headline": "Montez Sweat returns to Bears following 'devastating' 2-game suspension",
-     "description": "Bears DE Montez Sweat is back with the team following his \"devastating\" two-game suspension violating the NFL's performance enhancing substances policy.",
-     "published": "2026-10-27T22:29:20Z",
+     "description": "Bears DE Montez Sweat is back with the team following his 'devastating' two-game suspension violating the NFL's performance enhancing substances policy.",
+     "published": "2026-10-27T21:53:25Z",
      "link": "https://www.espn.com/nfl/story/_/id/50301493/montez-sweat-back-bears-devastating-2-game-suspension",
      "teams": [
       "CHI"
@@ -22063,7 +21998,7 @@
     {
      "headline": "2026 NFL trade deadline updates: DeForest Buckner, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Colts dealing Quenton Nelson and DeForest Buckner.",
-     "published": "2026-10-27T22:53:53Z",
+     "published": "2026-10-27T21:05:18Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -22095,6 +22030,24 @@
      "link": "https://www.espn.com/nfl/story/_/id/50299293/nfl-trade-seahawks-quenton-nelson-colts-deadline",
      "teams": [
       "IND",
+      "SEA"
+     ]
+    },
+    {
+     "headline": "NFL trade deadline grades: Colts deal Quenton Nelson to Seahawks, more",
+     "description": "Will Quenton Nelson upgrade the Seahawks' O-line? Can Marvin Harrison Jr. boost Houston's offense? We're grading NFL trades ahead of November's deadline.",
+     "published": "2026-10-27T18:46:28Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "BAL",
+      "DAL",
+      "HOU",
+      "IND",
+      "MIN",
+      "NYG",
+      "PHI",
+      "PIT",
       "SEA"
      ]
     }
@@ -26721,7 +26674,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 52,
+     "wind_mph": 7,
+     "gust_mph": 14,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -26801,7 +26760,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -26862,7 +26821,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 64,
+     "wind_mph": 7,
+     "gust_mph": 12,
+     "precip_prob": 6,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -26961,7 +26926,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27016,7 +26981,7 @@
       "pick": "c2567 ML",
       "price": "-360",
       "prob": 0.712,
-      "ev": -0.09,
+      "ev": -0.091,
       "bet": false,
       "stars": 0
      }
@@ -27118,7 +27083,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27162,8 +27127,8 @@
       "edge_pts": 2.9,
       "pick": "Over 36.5",
       "price": "-112",
-      "prob": 0.518,
-      "ev": -0.019,
+      "prob": 0.519,
+      "ev": -0.018,
       "bet": false,
       "stars": 0
      },
@@ -27179,7 +27144,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 56,
+     "wind_mph": 7,
+     "gust_mph": 12,
+     "precip_prob": 58,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27264,7 +27235,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27308,8 +27279,8 @@
       "edge_pts": 3.2,
       "pick": "Under 57.5",
       "price": "-110",
-      "prob": 0.52,
-      "ev": -0.007,
+      "prob": 0.521,
+      "ev": -0.006,
       "bet": false,
       "stars": 0
      },
@@ -27325,7 +27296,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 64,
+     "wind_mph": 8,
+     "gust_mph": 20,
+     "precip_prob": 30,
+     "precip_in": 0.17
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27374,7 +27351,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27497,7 +27474,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27677,7 +27654,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27812,7 +27789,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27947,7 +27924,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28133,7 +28110,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28282,7 +28259,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28322,8 +28299,8 @@
      },
      "total": {
       "market": "44.5",
-      "model_line": "47.4",
-      "edge_pts": 2.9,
+      "model_line": "47.5",
+      "edge_pts": 3.0,
       "pick": "Over 44.5",
       "price": "-105",
       "prob": 0.519,
@@ -28337,7 +28314,7 @@
       "pick": "c26 ML",
       "price": "-1800",
       "prob": 0.894,
-      "ev": -0.056,
+      "ev": -0.057,
       "bet": false,
       "stars": 0
      }
@@ -28429,7 +28406,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28463,7 +28440,7 @@
       "line": 5.5,
       "price": "-112",
       "prob": 0.523,
-      "ev": -0.011,
+      "ev": -0.01,
       "bet": false,
       "stars": 0
      },
@@ -28473,8 +28450,8 @@
       "edge_pts": 4.4,
       "pick": "Over 44.5",
       "price": "-110",
-      "prob": 0.528,
-      "ev": 0.008,
+      "prob": 0.529,
+      "ev": 0.009,
       "bet": false,
       "stars": 0
      },
@@ -28533,7 +28510,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28567,14 +28544,14 @@
       "line": 8.5,
       "price": "-110",
       "prob": 0.502,
-      "ev": -0.042,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "57.5",
-      "model_line": "57.7",
-      "edge_pts": 0.2,
+      "model_line": "57.8",
+      "edge_pts": 0.3,
       "pick": "Under 57.5",
       "price": "-105",
       "prob": 0.498,
@@ -28588,7 +28565,7 @@
       "pick": "c197 ML",
       "price": "-340",
       "prob": 0.739,
-      "ev": -0.043,
+      "ev": -0.044,
       "bet": false,
       "stars": 0
      }
@@ -28698,7 +28675,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28719,14 +28696,14 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2390": 35.5,
+     "c2390": 35.4,
      "c153": 23.2
     },
     "picks": {
      "spread": {
       "market": "c153 +14.5",
-      "model_line": "c153 +12.5",
-      "edge_pts": 2.2,
+      "model_line": "c153 +12",
+      "edge_pts": 2.3,
       "pick": "c153 +14.5",
       "team": "c153",
       "line": 14.5,
@@ -28743,7 +28720,7 @@
       "pick": "Over 52.5",
       "price": "-110",
       "prob": 0.54,
-      "ev": 0.031,
+      "ev": 0.03,
       "bet": true,
       "stars": 1
      },
@@ -28752,7 +28729,7 @@
       "market_prob": 0.837,
       "pick": "c2390 ML",
       "price": "-675",
-      "prob": 0.828,
+      "prob": 0.827,
       "ev": -0.05,
       "bet": false,
       "stars": 0
@@ -28850,7 +28827,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28872,26 +28849,26 @@
     "qbs": {},
     "model_score": {
      "c194": 32.0,
-     "c30": 23.7
+     "c30": 23.8
     },
     "picks": {
      "spread": {
       "market": "c30 +6.5",
       "model_line": "c30 +8",
       "edge_pts": 1.7,
-      "pick": "c194 -6.5",
-      "team": "c194",
-      "line": -6.5,
-      "price": "-115",
-      "prob": 0.511,
+      "pick": "c30 +6.5",
+      "team": "c30",
+      "line": 6.5,
+      "price": "-105",
+      "prob": 0.489,
       "ev": -0.045,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "51.5",
-      "model_line": "55.7",
-      "edge_pts": 4.2,
+      "model_line": "55.8",
+      "edge_pts": 4.3,
       "pick": "Over 51.5",
       "price": "-112",
       "prob": 0.527,
@@ -28966,7 +28943,7 @@
       "kind": "spread",
       "label": "failed to cover",
       "bet": "spread",
-      "agrees": true,
+      "agrees": false,
       "hit": 4,
       "of": 5,
       "rate": 0.8,
@@ -28979,7 +28956,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29013,17 +28990,17 @@
       "line": 20.5,
       "price": "-115",
       "prob": 0.566,
-      "ev": 0.059,
+      "ev": 0.058,
       "bet": true,
       "stars": 2
      },
      "total": {
       "market": "50.5",
-      "model_line": "52.5",
-      "edge_pts": 2.0,
+      "model_line": "52.4",
+      "edge_pts": 1.9,
       "pick": "Over 50.5",
       "price": "-115",
-      "prob": 0.513,
+      "prob": 0.512,
       "ev": -0.042,
       "bet": false,
       "stars": 0
@@ -29137,7 +29114,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29170,7 +29147,7 @@
       "team": "c8",
       "line": 10.0,
       "price": "-112",
-      "prob": 0.53,
+      "prob": 0.531,
       "ev": 0.004,
       "bet": false,
       "stars": 0
@@ -29271,7 +29248,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29332,13 +29309,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 49,
-     "wind_mph": 9,
-     "gust_mph": 18,
-     "precip_prob": 54,
-     "precip_in": 0.04
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29402,7 +29373,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    }
   ],
@@ -29410,8 +29381,8 @@
    "n_games": 566,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.30989505904588,
-   "hfa": 1.84297022087776e-14,
+   "mu": 26.31240440167424,
+   "hfa": 2.886579864025407e-15,
    "top": [
     [
      "c2390",
@@ -29435,7 +29406,7 @@
     ],
     [
      "c154",
-     11.5
+     11.6
     ],
     [
      "c333",
@@ -29451,7 +29422,7 @@
     ],
     [
      "c167",
-     10.1
+     10.2
     ],
     [
      "c256",
@@ -29459,7 +29430,7 @@
     ],
     [
      "c12",
-     9.5
+     9.4
     ],
     [
      "c248",
@@ -29471,7 +29442,7 @@
     ],
     [
      "c254",
-     8.9
+     9.0
     ],
     [
      "c145",
@@ -29515,7 +29486,7 @@
     ],
     [
      "c2483",
-     6.5
+     6.4
     ],
     [
      "c68",
