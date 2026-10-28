@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:03:49.706752+00:00",
+ "generated_at": "2026-10-28T23:34:00.254910+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -29,30 +29,30 @@
    },
    "model_score": {
     "CAR": 20.2,
-    "GB": 23.5
+    "GB": 23.4
    },
    "picks": {
     "spread": {
      "market": "GB -3.5",
-     "model_line": "GB -3.5",
-     "edge_pts": 0.2,
+     "model_line": "GB -3",
+     "edge_pts": 0.3,
      "pick": "CAR +3.5",
      "team": "CAR",
      "line": 3.5,
      "price": "-108",
-     "prob": 0.502,
-     "ev": -0.032,
+     "prob": 0.504,
+     "ev": -0.03,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "47.5",
-     "model_line": "43.7",
-     "edge_pts": 3.8,
+     "model_line": "43.6",
+     "edge_pts": 3.9,
      "pick": "Under 47.5",
      "price": "-108",
-     "prob": 0.541,
-     "ev": 0.041,
+     "prob": 0.542,
+     "ev": 0.044,
      "bet": true,
      "stars": 1
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.631,
      "pick": "GB ML",
      "price": "-192",
-     "prob": 0.629,
-     "ev": -0.044,
+     "prob": 0.628,
+     "ev": -0.046,
      "bet": false,
      "stars": 0
     }
@@ -863,7 +863,7 @@
    },
    "injury_adj": {
     "CAR": -0.6,
-    "GB": -1.0
+    "GB": -1.1
    },
    "injuries": [
     {
@@ -912,6 +912,14 @@
      "position": "OT",
      "status": "Injured Reserve",
      "detail": "The Panthers placed Moton (lower leg) on injured reserve Monday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "GB",
+     "name": "Micah Parsons",
+     "position": "DE",
+     "status": "Out",
+     "detail": "Parsons (knee) could return to practice as soon as Nov. 4, Matt Schneidman of The Athletic reported Tuesday.",
      "source": "ESPN"
     },
     {
@@ -2201,8 +2209,8 @@
     }
    ],
    "weather": {
-    "temp_f": 61,
-    "wind_mph": 3,
+    "temp_f": 64,
+    "wind_mph": 7,
     "gust_mph": 8,
     "precip_prob": 3,
     "precip_in": 0
@@ -2386,7 +2394,7 @@
     {
      "headline": "Ravens list Lamar Jackson as full participant in practice",
      "description": "Lamar Jackson was a full participant in Wednesday's practice for the Ravens.",
-     "published": "2026-10-28T22:53:17Z",
+     "published": "2026-10-28T22:57:41Z",
      "link": "https://www.espn.com/nfl/story/_/id/50311435/ravens-list-lamar-jackson-full-participant-practice",
      "teams": [
       "BAL"
@@ -4064,11 +4072,11 @@
     }
    ],
    "weather": {
-    "temp_f": 57,
+    "temp_f": 58,
     "wind_mph": 8,
     "gust_mph": 23,
     "precip_prob": 33,
-    "precip_in": 0.21
+    "precip_in": 0.02
    },
    "weather_notes": [],
    "injury_notes": {
@@ -4184,6 +4192,15 @@
     }
    ],
    "news": [
+    {
+     "headline": "Shemar Stewart focused on giving Bengals 'confidence' to play him",
+     "description": "After watching his teammates play on Sunday when he was a healthy scratch, Bengals DE Shemar Stewart knows what he has to show and prove moving forward.",
+     "published": "2026-10-28T23:07:55Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50311866/shemar-stewart-focused-giving-bengals-confidence-play-him",
+     "teams": [
+      "CIN"
+     ]
+    },
     {
      "headline": "NFL survivor power rankings: Why this is the week to use Bengals, Patriots",
      "description": "ESPN NFL survivor pool strategy, predictions and ranking the top six options for Week 8.",
@@ -8170,8 +8187,8 @@
     "JAX": "Trevor Lawrence"
    },
    "model_score": {
-    "IND": 17.0,
-    "JAX": 27.2
+    "IND": 17.7,
+    "JAX": 28.0
    },
    "picks": {
     "spread": {
@@ -8189,12 +8206,12 @@
     },
     "total": {
      "market": "46.5",
-     "model_line": "44.2",
-     "edge_pts": 2.3,
+     "model_line": "45.7",
+     "edge_pts": 0.8,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.525,
-     "ev": 0.002,
+     "prob": 0.509,
+     "ev": -0.029,
      "bet": false,
      "stars": 0
     },
@@ -9064,15 +9081,13 @@
     }
    ],
    "weather": {
-    "temp_f": 71,
+    "temp_f": 78,
     "wind_mph": 11,
     "gust_mph": 25,
     "precip_prob": 55,
-    "precip_in": 0.08
+    "precip_in": 0.0
    },
-   "weather_notes": [
-    "55% chance of rain/snow"
-   ],
+   "weather_notes": [],
    "injury_notes": {
     "IND": [
      "Tyler Warren (TE) Questionable",
@@ -10837,7 +10852,7 @@
     }
    ],
    "weather": {
-    "temp_f": 63,
+    "temp_f": 62,
     "wind_mph": 6,
     "gust_mph": 9,
     "precip_prob": 1,
@@ -12686,8 +12701,8 @@
     }
    ],
    "weather": {
-    "temp_f": 66,
-    "wind_mph": 5,
+    "temp_f": 63,
+    "wind_mph": 4,
     "gust_mph": 10,
     "precip_prob": 5,
     "precip_in": 0
@@ -13510,8 +13525,8 @@
     "TB": "Baker Mayfield"
    },
    "model_score": {
-    "ATL": 19.2,
-    "TB": 22.4
+    "ATL": 18.4,
+    "TB": 21.6
    },
    "picks": {
     "spread": {
@@ -13529,14 +13544,14 @@
     },
     "total": {
      "market": "44.5",
-     "model_line": "41.6",
-     "edge_pts": 2.9,
+     "model_line": "40.1",
+     "edge_pts": 4.4,
      "pick": "Under 44.5",
      "price": "-105",
-     "prob": 0.531,
-     "ev": 0.037,
+     "prob": 0.547,
+     "ev": 0.068,
      "bet": true,
-     "stars": 1
+     "stars": 2
     },
     "moneyline": {
      "market": "ATL +114 / TB -135",
@@ -14352,13 +14367,15 @@
     }
    ],
    "weather": {
-    "temp_f": 77,
-    "wind_mph": 4,
+    "temp_f": 79,
+    "wind_mph": 10,
     "gust_mph": 10,
     "precip_prob": 68,
-    "precip_in": 0.01
+    "precip_in": 0.61
    },
-   "weather_notes": [],
+   "weather_notes": [
+    "68% chance of rain/snow"
+   ],
    "injury_notes": {
     "ATL": [],
     "TB": []
@@ -15965,6 +15982,14 @@
    "injuries": [
     {
      "team": "LAC",
+     "name": "Tre' Harris",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Harris (hamstring) was a limited participant in Wednesday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LAC",
      "name": "Ladd McConkey",
      "position": "WR",
      "status": "Questionable",
@@ -16005,14 +16030,6 @@
     },
     {
      "team": "LAC",
-     "name": "Tre' Harris",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "LAC",
      "name": "Donte Jackson",
      "position": "CB",
      "status": "Questionable",
@@ -16040,7 +16057,7 @@
      "name": "Colby Parkinson",
      "position": "TE",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Parkinson did not participate in Wednesday's practice due to a rib injury, Adam Grosbard of The Orange County Register reports.",
      "source": "ESPN"
     },
     {
@@ -17458,13 +17475,7 @@
      "fair_odds": "+807"
     }
    ],
-   "weather": {
-    "temp_f": 61,
-    "wind_mph": 4,
-    "gust_mph": 4,
-    "precip_prob": 3,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "KC": [],
@@ -20250,31 +20261,31 @@
     "WAS": "Jayden Daniels"
    },
    "model_score": {
-    "PHI": 20.1,
+    "PHI": 20.0,
     "WAS": 21.8
    },
    "picks": {
     "spread": {
      "market": "WAS -6",
      "model_line": "WAS -2",
-     "edge_pts": 4.2,
+     "edge_pts": 4.1,
      "pick": "PHI +6",
      "team": "PHI",
      "line": 6.0,
      "price": "-112",
-     "prob": 0.544,
-     "ev": 0.03,
+     "prob": 0.543,
+     "ev": 0.028,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "40.5",
-     "model_line": "41.9",
-     "edge_pts": 1.4,
+     "model_line": "41.8",
+     "edge_pts": 1.3,
      "pick": "Over 40.5",
      "price": "-110",
-     "prob": 0.515,
-     "ev": -0.016,
+     "prob": 0.514,
+     "ev": -0.018,
      "bet": false,
      "stars": 0
     },
@@ -20283,8 +20294,8 @@
      "market_prob": 0.669,
      "pick": "WAS ML",
      "price": "-230",
-     "prob": 0.628,
-     "ev": -0.099,
+     "prob": 0.629,
+     "ev": -0.097,
      "bet": false,
      "stars": 0
     }
@@ -21003,8 +21014,8 @@
    "weather_notes": [],
    "injury_notes": {
     "PHI": [
-     "Dameon Pierce (RB) Injured Reserve",
-     "Dontayvion Wicks (WR) Questionable"
+     "Dontayvion Wicks (WR) Questionable",
+     "Dameon Pierce (RB) Injured Reserve"
     ],
     "WAS": [
      "Stefon Diggs (WR) Questionable",
@@ -21012,32 +21023,16 @@
     ]
    },
    "injury_adj": {
-    "PHI": -1.6,
+    "PHI": -1.8,
     "WAS": -2.2
    },
    "injuries": [
     {
      "team": "PHI",
-     "name": "Dameon Pierce",
-     "position": "RB",
-     "status": "Injured Reserve",
-     "detail": "The Eagles placed Pierce (undisclosed) on injured reserve Wednesday",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Saquon Barkley",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Barkley said after Monday's 38-21 loss to the Cowboys that his \"hamstring came out great,\" and noted that the back issue that kept him out for the entire fourth quarter isn't anything that he expects to prevent him from playing Sunday against the Commanders, Tim McManus of ESPN.com reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
      "name": "Dontayvion Wicks",
      "position": "WR",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Wicks (ankle) didn't take part in Wednesday's walkthrough.",
      "source": "ESPN"
     },
     {
@@ -21045,7 +21040,71 @@
      "name": "DeVonta Smith",
      "position": "WR",
      "status": "Questionable",
+     "detail": "Smith (hamstring) was a non-participant at Wednesday's walkthrough.",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Moro Ojomo",
+     "position": "DT",
+     "status": "Questionable",
      "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Saquon Barkley",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Barkley (hamstring/back) was listed as a non-participant in Wednesday's walkthrough.",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Smael Mondon Jr.",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Jalyx Hunt",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Jonathan Jones",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Jonathan Greenard",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Jihaad Campbell",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Dameon Pierce",
+     "position": "RB",
+     "status": "Injured Reserve",
+     "detail": "The Eagles placed Pierce (undisclosed) on injured reserve Wednesday",
      "source": "ESPN"
     },
     {
@@ -21081,24 +21140,16 @@
      "source": "ESPN"
     },
     {
-     "team": "PHI",
-     "name": "Lane Johnson",
-     "position": "OT",
-     "status": "Out",
-     "detail": "out",
+     "team": "WAS",
+     "name": "Stefon Diggs",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Diggs (hand/hamstring/rest) was a non-participant at Wednesday's practice.",
      "source": "ESPN"
     },
     {
      "team": "WAS",
      "name": "Treylon Burks",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Stefon Diggs",
      "position": "WR",
      "status": "Questionable",
      "detail": "questionable",
@@ -22499,13 +22550,7 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": {
-    "temp_f": 49,
-    "wind_mph": 3,
-    "gust_mph": 5,
-    "precip_prob": 10,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22647,7 +22692,7 @@
     {
      "headline": "Bears' Caleb Williams to continue wearing Caddix 'smart cleats' despite fine",
      "description": "Bears quarterback Caleb Williams said Wednesday he will continue to sport the Caddix cleats he was fined $11,941 for wearing during Chicago's Week 6 win at Atlanta -- a fine that he has appealed, according to a source.",
-     "published": "2026-10-28T22:34:28Z",
+     "published": "2026-10-28T23:20:04Z",
      "link": "https://www.espn.com/nfl/story/_/id/50311661/bears-qb-caleb-williams-continue-wearing-caddix-cleats-fine",
      "teams": [
       "CHI"
@@ -27369,7 +27414,7 @@
     "props": [],
     "weather": {
      "temp_f": 52,
-     "wind_mph": 7,
+     "wind_mph": 6,
      "gust_mph": 12,
      "precip_prob": 0,
      "precip_in": 0
@@ -27493,8 +27538,8 @@
      },
      "total": {
       "market": "54.5",
-      "model_line": "53.7",
-      "edge_pts": 0.8,
+      "model_line": "53.8",
+      "edge_pts": 0.7,
       "pick": "Under 54.5",
       "price": "-108",
       "prob": 0.505,
@@ -27515,8 +27560,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 63,
-     "wind_mph": 5,
+     "temp_f": 61,
+     "wind_mph": 3,
      "gust_mph": 8,
      "precip_prob": 9,
      "precip_in": 0
@@ -27797,7 +27842,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c275": 19.7,
+     "c275": 19.8,
      "c2294": 19.7
     },
     "picks": {
@@ -27816,12 +27861,12 @@
      },
      "total": {
       "market": "36.5",
-      "model_line": "39.4",
-      "edge_pts": 2.9,
+      "model_line": "39.5",
+      "edge_pts": 3.0,
       "pick": "Over 36.5",
       "price": "-112",
       "prob": 0.519,
-      "ev": -0.018,
+      "ev": -0.017,
       "bet": false,
       "stars": 0
      },
@@ -27838,11 +27883,11 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 58,
-     "wind_mph": 5,
+     "temp_f": 54,
+     "wind_mph": 6,
      "gust_mph": 10,
      "precip_prob": 46,
-     "precip_in": 0
+     "precip_in": 0.02
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -27972,8 +28017,8 @@
       "edge_pts": 3.2,
       "pick": "Under 57.5",
       "price": "-110",
-      "prob": 0.52,
-      "ev": -0.007,
+      "prob": 0.521,
+      "ev": -0.006,
       "bet": false,
       "stars": 0
      },
@@ -27990,8 +28035,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 72,
-     "wind_mph": 5,
+     "temp_f": 75,
+     "wind_mph": 7,
      "gust_mph": 13,
      "precip_prob": 6,
      "precip_in": 0.01
@@ -28067,7 +28112,7 @@
      "spread": {
       "market": "c61 -11.5",
       "model_line": "c61 -7",
-      "edge_pts": 4.6,
+      "edge_pts": 4.7,
       "pick": "c57 +11.5",
       "team": "c57",
       "line": 11.5,
@@ -28083,8 +28128,8 @@
       "edge_pts": 6.6,
       "pick": "Over 55.5",
       "price": "-110",
-      "prob": 0.542,
-      "ev": 0.035,
+      "prob": 0.543,
+      "ev": 0.036,
       "bet": true,
       "stars": 1
      },
@@ -28112,10 +28157,6 @@
      {
       "headline": "Cole Cubelic previews Florida vs. Georgia possibilities",
       "link": "https://www.espn.com/video/clip/_/id/50291525/cole-cubelic-previews-florida-vs-georgia-possibilities"
-     },
-     {
-      "headline": "Jon Sumrall emphasizes focus for Florida vs. Georgia",
-      "link": "https://www.espn.com/video/clip/_/id/50289101/jon-sumrall-emphasizes-focus-florida-vs-georgia"
      }
     ],
     "trends": [
@@ -28221,7 +28262,7 @@
     "props": [],
     "weather": {
      "temp_f": 68,
-     "wind_mph": 6,
+     "wind_mph": 5,
      "gust_mph": 13,
      "precip_prob": 2,
      "precip_in": 0
@@ -28359,7 +28400,7 @@
       "line": 16.5,
       "price": "-112",
       "prob": 0.532,
-      "ev": 0.007,
+      "ev": 0.008,
       "bet": false,
       "stars": 0
      },
@@ -28386,7 +28427,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 57,
+     "wind_mph": 5,
+     "gust_mph": 8,
+     "precip_prob": 10,
+     "precip_in": 0.0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28515,7 +28562,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 55,
+     "wind_mph": 2,
+     "gust_mph": 6,
+     "precip_prob": 5,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28611,7 +28664,7 @@
      "spread": {
       "market": "c154 -12.5",
       "model_line": "c154 -12.5",
-      "edge_pts": 0.1,
+      "edge_pts": 0.2,
       "pick": "c258 +12.5",
       "team": "c258",
       "line": 12.5,
@@ -28644,7 +28697,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 67,
+     "wind_mph": 7,
+     "gust_mph": 9,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28785,7 +28844,7 @@
     "qbs": {},
     "model_score": {
      "c254": 30.0,
-     "c2132": 26.6
+     "c2132": 26.5
     },
     "picks": {
      "spread": {
@@ -28825,8 +28884,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 68,
-     "wind_mph": 2,
+     "temp_f": 67,
+     "wind_mph": 3,
      "gust_mph": 6,
      "precip_prob": 0,
      "precip_in": 0
@@ -28973,7 +29032,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 68,
+     "wind_mph": 5,
+     "gust_mph": 6,
+     "precip_prob": 42,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29074,30 +29139,30 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2579": 23.5,
+     "c2579": 23.6,
      "c201": 25.4
     },
     "picks": {
      "spread": {
       "market": "c201 -4.5",
       "model_line": "c201 -2",
-      "edge_pts": 2.6,
+      "edge_pts": 2.7,
       "pick": "c2579 +4.5",
       "team": "c2579",
       "line": 4.5,
       "price": "-105",
-      "prob": 0.516,
-      "ev": 0.008,
+      "prob": 0.517,
+      "ev": 0.009,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "44.5",
-      "model_line": "48.9",
-      "edge_pts": 4.4,
+      "model_line": "49.0",
+      "edge_pts": 4.5,
       "pick": "Over 44.5",
       "price": "-105",
-      "prob": 0.528,
+      "prob": 0.529,
       "ev": 0.032,
       "bet": true,
       "stars": 1
@@ -29108,15 +29173,15 @@
       "pick": "c201 ML",
       "price": "-198",
       "prob": 0.621,
-      "ev": -0.065,
+      "ev": -0.066,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 62,
-     "wind_mph": 3,
+     "temp_f": 63,
+     "wind_mph": 4,
      "gust_mph": 5,
      "precip_prob": 18,
      "precip_in": 0
@@ -29217,8 +29282,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 55,
-     "wind_mph": 7,
+     "temp_f": 56,
+     "wind_mph": 8,
      "gust_mph": 18,
      "precip_prob": 24,
      "precip_in": 0
@@ -29348,13 +29413,13 @@
      "spread": {
       "market": "c153 +14",
       "model_line": "c153 +12",
-      "edge_pts": 1.8,
+      "edge_pts": 1.9,
       "pick": "c153 +14",
       "team": "c153",
       "line": 14.0,
       "price": "-112",
-      "prob": 0.511,
-      "ev": -0.032,
+      "prob": 0.512,
+      "ev": -0.031,
       "bet": false,
       "stars": 0
      },
@@ -29365,7 +29430,7 @@
       "pick": "Over 52.5",
       "price": "-110",
       "prob": 0.539,
-      "ev": 0.03,
+      "ev": 0.029,
       "bet": true,
       "stars": 1
      },
@@ -29382,8 +29447,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 60,
-     "wind_mph": 4,
+     "temp_f": 56,
+     "wind_mph": 5,
      "gust_mph": 9,
      "precip_prob": 0,
      "precip_in": 0
@@ -29500,7 +29565,7 @@
      "spread": {
       "market": "c30 +6.5",
       "model_line": "c30 +8",
-      "edge_pts": 1.7,
+      "edge_pts": 1.6,
       "pick": "c30 +6.5",
       "team": "c30",
       "line": 6.5,
@@ -29517,7 +29582,7 @@
       "pick": "Over 51.5",
       "price": "-112",
       "prob": 0.527,
-      "ev": -0.003,
+      "ev": -0.002,
       "bet": false,
       "stars": 0
      },
@@ -29527,15 +29592,15 @@
       "pick": "c194 ML",
       "price": "-245",
       "prob": 0.69,
-      "ev": -0.028,
+      "ev": -0.029,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 71,
-     "wind_mph": 8,
+     "temp_f": 68,
+     "wind_mph": 7,
      "gust_mph": 7,
      "precip_prob": 73,
      "precip_in": 0
@@ -29647,18 +29712,18 @@
       "team": "c344",
       "line": 20.5,
       "price": "-115",
-      "prob": 0.567,
+      "prob": 0.566,
       "ev": 0.059,
       "bet": true,
       "stars": 2
      },
      "total": {
       "market": "50.5",
-      "model_line": "52.5",
-      "edge_pts": 2.0,
+      "model_line": "52.4",
+      "edge_pts": 1.9,
       "pick": "Over 50.5",
       "price": "-115",
-      "prob": 0.513,
+      "prob": 0.512,
       "ev": -0.042,
       "bet": false,
       "stars": 0
@@ -29669,15 +29734,15 @@
       "pick": "c251 ML",
       "price": "-1350",
       "prob": 0.861,
-      "ev": -0.076,
+      "ev": -0.075,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 76,
-     "wind_mph": 1,
+     "temp_f": 75,
+     "wind_mph": 2,
      "gust_mph": 3,
      "precip_prob": 12,
      "precip_in": 0
@@ -29838,8 +29903,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 60,
-     "wind_mph": 2,
+     "temp_f": 61,
+     "wind_mph": 3,
      "gust_mph": 8,
      "precip_prob": 37,
      "precip_in": 0
@@ -29954,7 +30019,7 @@
       "edge_pts": 5.1,
       "pick": "Under 63.5",
       "price": "-105",
-      "prob": 0.533,
+      "prob": 0.532,
       "ev": 0.04,
       "bet": true,
       "stars": 1
@@ -29972,11 +30037,11 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 50,
-     "wind_mph": 3,
+     "temp_f": 48,
+     "wind_mph": 6,
      "gust_mph": 10,
      "precip_prob": 81,
-     "precip_in": 0.1
+     "precip_in": 0.24
     },
     "weather_notes": [
      "81% chance of rain/snow"
@@ -30051,8 +30116,8 @@
    "n_games": 568,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.274055121673392,
-   "hfa": -1.7319479184152442e-14,
+   "mu": 26.276592063890575,
+   "hfa": -2.886579864025407e-15,
    "top": [
     [
      "c2390",
@@ -30092,7 +30157,7 @@
     ],
     [
      "c167",
-     10.0
+     10.1
     ],
     [
      "c256",
@@ -30148,7 +30213,7 @@
     ],
     [
      "c275",
-     6.7
+     6.8
     ],
     [
      "c2483",
@@ -30199,12 +30264,12 @@
      4.3
     ],
     [
-     "c2348",
+     "c2294",
      4.3
     ],
     [
-     "c2294",
-     4.2
+     "c2348",
+     4.3
     ],
     [
      "c2579",
