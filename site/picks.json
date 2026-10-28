@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:30:40.767803+00:00",
+ "generated_at": "2026-10-28T18:11:21.287046+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -28,31 +28,31 @@
     "GB": "Jordan Love"
    },
    "model_score": {
-    "CAR": 20.6,
+    "CAR": 20.2,
     "GB": 23.6
    },
    "picks": {
     "spread": {
      "market": "GB -3.5",
-     "model_line": "GB -3",
-     "edge_pts": 0.6,
+     "model_line": "GB -3.5",
+     "edge_pts": 0.2,
      "pick": "CAR +3.5",
      "team": "CAR",
      "line": 3.5,
      "price": "-108",
-     "prob": 0.506,
-     "ev": -0.026,
+     "prob": 0.502,
+     "ev": -0.034,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "47.5",
-     "model_line": "44.2",
-     "edge_pts": 3.3,
+     "model_line": "43.8",
+     "edge_pts": 3.7,
      "pick": "Under 47.5",
      "price": "-108",
-     "prob": 0.536,
-     "ev": 0.032,
+     "prob": 0.54,
+     "ev": 0.04,
      "bet": true,
      "stars": 1
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.622,
      "pick": "GB ML",
      "price": "-185",
-     "prob": 0.617,
-     "ev": -0.05,
+     "prob": 0.621,
+     "ev": -0.044,
      "bet": false,
      "stars": 0
     }
@@ -862,48 +862,56 @@
     "GB": []
    },
    "injury_adj": {
-    "CAR": -0.2,
+    "CAR": -0.6,
     "GB": -0.9
    },
    "injuries": [
     {
      "team": "CAR",
-     "name": "Taylor Moton",
-     "position": "OT",
-     "status": "Injured Reserve",
-     "detail": "The Panthers placed Moton (lower leg) on injured reserve Monday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CAR",
      "name": "Jaelan Phillips",
      "position": "LB",
-     "status": "Questionable",
-     "detail": "Phillips (hamstring) was listed as a non-participant on Monday's practice estimate.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CAR",
-     "name": "Akayleb Evans",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "Evans (triceps/knee) was listed as a non-participant on Monday's practice estimate.",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
      "team": "CAR",
      "name": "Torricelli Simpkins III",
      "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
      "team": "CAR",
      "name": "Damien Lewis",
      "position": "G",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "Akayleb Evans",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "Bobby Brown III",
+     "position": "DT",
      "status": "Questionable",
      "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "Taylor Moton",
+     "position": "OT",
+     "status": "Injured Reserve",
+     "detail": "The Panthers placed Moton (lower leg) on injured reserve Monday.",
      "source": "ESPN"
     },
     {
@@ -2210,18 +2218,18 @@
    "injuries": [
     {
      "team": "BAL",
-     "name": "Olaivavega Ioane",
-     "position": "G",
-     "status": "Doubtful",
-     "detail": "Ioane (knee) is expected to miss time after suffering an MCL sprain during Sunday's game versus the Bengals, Jamison Hensley of ESPN.com reports.",
+     "name": "Lamar Jackson",
+     "position": "QB",
+     "status": "Questionable",
+     "detail": "Jackson (ankle) was spotted on the field for the start of Wednesday's practice, Jamison Hensley of ESPN.com reports.",
      "source": "ESPN"
     },
     {
      "team": "BAL",
-     "name": "Lamar Jackson",
-     "position": "QB",
-     "status": "Questionable",
-     "detail": "Jackson (ankle) is \"believed to be close to 100 percent\" and is expected to play Sunday versus the Bills, Ian Rapoport of NFL Network reports.",
+     "name": "Olaivavega Ioane",
+     "position": "G",
+     "status": "Doubtful",
+     "detail": "Ioane (knee) is expected to miss time after suffering an MCL sprain during Sunday's game versus the Bengals, Jamison Hensley of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -3980,7 +3988,7 @@
    "weather": {
     "temp_f": 57,
     "wind_mph": 8,
-    "gust_mph": 20,
+    "gust_mph": 23,
     "precip_prob": 30,
     "precip_in": 0.21
    },
@@ -8884,14 +8892,13 @@
     }
    ],
    "weather": {
-    "temp_f": 78,
-    "wind_mph": 12,
-    "gust_mph": 23,
+    "temp_f": 71,
+    "wind_mph": 11,
+    "gust_mph": 25,
     "precip_prob": 54,
-    "precip_in": 0.13
+    "precip_in": 0.08
    },
    "weather_notes": [
-    "wind 12 mph (gusts 23)",
     "54% chance of rain/snow"
    ],
    "injury_notes": {
@@ -9047,16 +9054,16 @@
     {
      "headline": "Ian Rapoport shares latest on Josh Downs trade talks",
      "description": "Ian Rapoport shares latest on Josh Downs trade talks",
-     "published": "2026-10-28T16:50:17Z",
+     "published": "2026-10-28T17:37:30Z",
      "link": "https://www.espn.com/video/clip/_/id/50309196/ian-rapoport-shares-latest-josh-downs-trade-talks",
      "teams": [
       "IND"
      ]
     },
     {
-     "headline": "Source: Colts' Josh Downs requests trade; Jonathan Taylor hasn't, per coach",
-     "description": "Colts wide receiver Josh Downs is requesting a trade amid the team's rebuilding efforts, a source told ESPN's Jeremy Fowler on Wednesday.",
-     "published": "2026-10-28T17:04:41Z",
+     "headline": "Sources: Colts' Josh Downs requests trade; Jonathan Taylor hasn't, per coach",
+     "description": "Colts wide receiver Josh Downs is requesting a trade amid the team's rebuilding efforts, sources told ESPN's Jeremy Fowler on Wednesday.",
+     "published": "2026-10-28T17:52:08Z",
      "link": "https://www.espn.com/nfl/story/_/id/50309159/source-wr-downs-requests-trade-rb-taylor-per-coach",
      "teams": [
       "IND"
@@ -10634,7 +10641,7 @@
    "weather": {
     "temp_f": 63,
     "wind_mph": 6,
-    "gust_mph": 7,
+    "gust_mph": 9,
     "precip_prob": 2,
     "precip_in": 0
    },
@@ -14064,8 +14071,8 @@
     }
    ],
    "weather": {
-    "temp_f": 84,
-    "wind_mph": 10,
+    "temp_f": 77,
+    "wind_mph": 4,
     "gust_mph": 11,
     "precip_prob": 64,
     "precip_in": 0.01
@@ -14125,7 +14132,7 @@
      "name": "Emeka Egbuka",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Egbuka (concussion/foot) was on the field for the start of Wednesday's practice and was donning a non-contact jersey, Greg Auman of Fox Sports reports.",
+     "detail": "Head coach Todd Bowles said Egbuka (concussion/foot) took part in individual drills Wednesday, but the wide receiver will need to do more Thursday to progress toward a return to action, Scott Smith of the Buccaneers' official site reports.",
      "source": "ESPN"
     },
     {
@@ -17219,7 +17226,13 @@
      "fair_odds": "+807"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 61,
+    "wind_mph": 4,
+    "gust_mph": 4,
+    "precip_prob": 4,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "KC": [],
@@ -17285,7 +17298,7 @@
      "name": "Rashee Rice",
      "position": "WR",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Chiefs head coach Andy Reid said that Rice (hamstring/knee) is expected to practice Wednesday, Nate Taylor of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -19939,30 +19952,30 @@
    },
    "model_score": {
     "PHI": 20.5,
-    "WAS": 22.2
+    "WAS": 22.1
    },
    "picks": {
     "spread": {
      "market": "WAS -5.5",
      "model_line": "WAS -1.5",
-     "edge_pts": 3.8,
+     "edge_pts": 3.9,
      "pick": "PHI +5.5",
      "team": "PHI",
      "line": 5.5,
      "price": "-108",
-     "prob": 0.54,
-     "ev": 0.039,
+     "prob": 0.541,
+     "ev": 0.042,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "40.5",
-     "model_line": "42.8",
-     "edge_pts": 2.3,
+     "model_line": "42.7",
+     "edge_pts": 2.2,
      "pick": "Over 40.5",
      "price": "-110",
-     "prob": 0.524,
-     "ev": 0.001,
+     "prob": 0.523,
+     "ev": -0.001,
      "bet": false,
      "stars": 0
     },
@@ -19971,8 +19984,8 @@
      "market_prob": 0.675,
      "pick": "WAS ML",
      "price": "-238",
-     "prob": 0.638,
-     "ev": -0.094,
+     "prob": 0.637,
+     "ev": -0.096,
      "bet": false,
      "stars": 0
     }
@@ -20605,7 +20618,7 @@
      "team": "WAS",
      "opp": "PHI",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 53.4,
@@ -20625,7 +20638,7 @@
      "team": "WAS",
      "opp": "PHI",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 5.3,
@@ -20646,7 +20659,7 @@
      "team": "WAS",
      "opp": "PHI",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "39% to score",
@@ -20772,7 +20785,7 @@
    },
    "injury_adj": {
     "PHI": -1.2,
-    "WAS": -1.8
+    "WAS": -1.9
    },
    "injuries": [
     {
@@ -20849,6 +20862,14 @@
     },
     {
      "team": "WAS",
+     "name": "Javon Kinlaw",
+     "position": "DT",
+     "status": "Doubtful",
+     "detail": "doubtful",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
      "name": "Terry McLaurin",
      "position": "WR",
      "status": "Injured Reserve",
@@ -20877,14 +20898,6 @@
      "position": "DE",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Javon Kinlaw",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "Kinlaw (knee) won't return to Washington's matchup versus the 49ers on Monday, John Keim of ESPN reports.",
      "source": "ESPN"
     },
     {
@@ -21283,7 +21296,7 @@
       6
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -22264,13 +22277,7 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": {
-    "temp_f": 49,
-    "wind_mph": 3,
-    "gust_mph": 6,
-    "precip_prob": 9,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22291,8 +22298,8 @@
      "team": "CHI",
      "name": "Anthony Johnson Jr.",
      "position": "S",
-     "status": "Injured Reserve",
-     "detail": "ir",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -27105,7 +27112,7 @@
       "line": 30.5,
       "price": "-110",
       "prob": 0.584,
-      "ev": 0.115,
+      "ev": 0.116,
       "bet": true,
       "stars": 3
      },
@@ -27212,7 +27219,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27266,7 +27273,7 @@
       "market_prob": 0.6,
       "pick": "c2641 ML",
       "price": "-166",
-      "prob": 0.575,
+      "prob": 0.576,
       "ev": -0.078,
       "bet": false,
       "stars": 0
@@ -27274,9 +27281,9 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 64,
-     "wind_mph": 4,
-     "gust_mph": 7,
+     "temp_f": 63,
+     "wind_mph": 5,
+     "gust_mph": 8,
      "precip_prob": 8,
      "precip_in": 0
     },
@@ -27378,7 +27385,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27535,7 +27542,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27580,7 +27587,7 @@
       "pick": "Over 36.5",
       "price": "-112",
       "prob": 0.519,
-      "ev": -0.018,
+      "ev": -0.019,
       "bet": false,
       "stars": 0
      },
@@ -27596,7 +27603,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 58,
+     "wind_mph": 5,
+     "gust_mph": 10,
+     "precip_prob": 53,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27681,7 +27694,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27742,7 +27755,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 72,
+     "wind_mph": 5,
+     "gust_mph": 13,
+     "precip_prob": 21,
+     "precip_in": 0.01
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27791,7 +27810,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27910,7 +27929,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28077,7 +28096,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28099,13 +28118,13 @@
     "qbs": {},
     "model_score": {
      "c9": 22.2,
-     "c252": 33.6
+     "c252": 33.5
     },
     "picks": {
      "spread": {
       "market": "c252 -16.5",
       "model_line": "c252 -11.5",
-      "edge_pts": 5.1,
+      "edge_pts": 5.2,
       "pick": "c9 +16.5",
       "team": "c9",
       "line": 16.5,
@@ -28139,9 +28158,9 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 64,
+     "temp_f": 63,
      "wind_mph": 3,
-     "gust_mph": 9,
+     "gust_mph": 8,
      "precip_prob": 11,
      "precip_in": 0
     },
@@ -28212,7 +28231,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28274,9 +28293,9 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 56,
-     "wind_mph": 3,
-     "gust_mph": 7,
+     "temp_f": 55,
+     "wind_mph": 2,
+     "gust_mph": 6,
      "precip_prob": 4,
      "precip_in": 0
     },
@@ -28347,7 +28366,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28533,7 +28552,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28597,7 +28616,7 @@
     "weather": {
      "temp_f": 68,
      "wind_mph": 2,
-     "gust_mph": 9,
+     "gust_mph": 6,
      "precip_prob": 1,
      "precip_in": 0
     },
@@ -28682,7 +28701,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28746,7 +28765,7 @@
     "weather": {
      "temp_f": 69,
      "wind_mph": 5,
-     "gust_mph": 5,
+     "gust_mph": 6,
      "precip_prob": 46,
      "precip_in": 0
     },
@@ -28829,7 +28848,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28891,11 +28910,11 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 61,
-     "wind_mph": 7,
+     "temp_f": 62,
+     "wind_mph": 3,
      "gust_mph": 12,
      "precip_prob": 23,
-     "precip_in": 0.01
+     "precip_in": 0
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -28931,7 +28950,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29096,7 +29115,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29129,7 +29148,7 @@
       "team": "c153",
       "line": 14.0,
       "price": "-112",
-      "prob": 0.512,
+      "prob": 0.511,
       "ev": -0.032,
       "bet": false,
       "stars": 0
@@ -29140,7 +29159,7 @@
       "edge_pts": 6.1,
       "pick": "Over 52.5",
       "price": "-110",
-      "prob": 0.539,
+      "prob": 0.54,
       "ev": 0.03,
       "bet": true,
       "stars": 1
@@ -29158,9 +29177,9 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 58,
-     "wind_mph": 5,
-     "gust_mph": 12,
+     "temp_f": 60,
+     "wind_mph": 4,
+     "gust_mph": 9,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -29248,7 +29267,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29310,8 +29329,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 70,
-     "wind_mph": 5,
+     "temp_f": 71,
+     "wind_mph": 8,
      "gust_mph": 5,
      "precip_prob": 64,
      "precip_in": 0
@@ -29390,7 +29409,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29452,8 +29471,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 77,
-     "wind_mph": 5,
+     "temp_f": 76,
+     "wind_mph": 1,
      "gust_mph": 8,
      "precip_prob": 10,
      "precip_in": 0
@@ -29552,7 +29571,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29618,7 +29637,7 @@
      "wind_mph": 2,
      "gust_mph": 10,
      "precip_prob": 40,
-     "precip_in": 0.23
+     "precip_in": 0
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -29686,7 +29705,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29750,7 +29769,7 @@
     "weather": {
      "temp_f": 50,
      "wind_mph": 3,
-     "gust_mph": 20,
+     "gust_mph": 10,
      "precip_prob": 75,
      "precip_in": 0.1
     },
@@ -29819,7 +29838,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    }
   ],
@@ -29827,8 +29846,8 @@
    "n_games": 568,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.274592191227867,
-   "hfa": -1.0436096431476471e-14,
+   "mu": 26.27503882174821,
+   "hfa": 1.0436096431476471e-14,
    "top": [
     [
      "c2390",
@@ -29836,7 +29855,7 @@
     ],
     [
      "c87",
-     15.1
+     15.0
     ],
     [
      "c194",
