@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T20:16:24.518061+00:00",
+ "generated_at": "2026-10-29T20:55:39.623413+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -28,31 +28,31 @@
     "GB": "Jordan Love"
    },
    "model_score": {
-    "CAR": 20.4,
+    "CAR": 20.2,
     "GB": 23.3
    },
    "picks": {
     "spread": {
      "market": "GB -3.5",
      "model_line": "GB -3",
-     "edge_pts": 0.5,
+     "edge_pts": 0.4,
      "pick": "CAR +3.5",
      "team": "CAR",
      "line": 3.5,
      "price": "-108",
-     "prob": 0.506,
-     "ev": -0.026,
+     "prob": 0.504,
+     "ev": -0.029,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "43.7",
-     "edge_pts": 2.8,
+     "model_line": "43.6",
+     "edge_pts": 2.9,
      "pick": "Under 46.5",
      "price": "+100",
-     "prob": 0.53,
-     "ev": 0.06,
+     "prob": 0.532,
+     "ev": 0.063,
      "bet": true,
      "stars": 2
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.622,
      "pick": "GB ML",
      "price": "-185",
-     "prob": 0.617,
-     "ev": -0.049,
+     "prob": 0.619,
+     "ev": -0.047,
      "bet": false,
      "stars": 0
     }
@@ -850,8 +850,8 @@
     }
    ],
    "weather": {
-    "temp_f": 49,
-    "wind_mph": 6,
+    "temp_f": 50,
+    "wind_mph": 7,
     "gust_mph": 20,
     "precip_prob": 0,
     "precip_in": 0
@@ -862,7 +862,7 @@
     "GB": []
    },
    "injury_adj": {
-    "CAR": -0.5,
+    "CAR": -0.6,
     "GB": -1.1
    },
    "injuries": [
@@ -888,6 +888,14 @@
      "position": "LB",
      "status": "Out",
      "detail": "Phillips (hamstring) has been ruled out ahead of Thursday night's game against the Packers.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "Akayleb Evans",
+     "position": "CB",
+     "status": "Injured Reserve",
+     "detail": "Evans (triceps) has been ruled out ahead of Thursday night's game against the Packers.",
      "source": "ESPN"
     },
     {
@@ -1445,31 +1453,31 @@
     "BUF": "Josh Allen"
    },
    "model_score": {
-    "BAL": 26.4,
-    "BUF": 29.7
+    "BAL": 26.7,
+    "BUF": 29.8
    },
    "picks": {
     "spread": {
      "market": "BUF -3",
-     "model_line": "BUF -3.5",
-     "edge_pts": 0.3,
+     "model_line": "BUF -3",
+     "edge_pts": 0.1,
      "pick": "BAL +3",
      "team": "BAL",
      "line": 3.0,
      "price": "-108",
-     "prob": 0.497,
-     "ev": -0.043,
+     "prob": 0.499,
+     "ev": -0.038,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "54.5",
-     "model_line": "56.2",
-     "edge_pts": 1.7,
+     "model_line": "56.5",
+     "edge_pts": 2.0,
      "pick": "Over 54.5",
      "price": "-110",
-     "prob": 0.518,
-     "ev": -0.011,
+     "prob": 0.522,
+     "ev": -0.004,
      "bet": false,
      "stars": 0
     },
@@ -1478,8 +1486,8 @@
      "market_prob": 0.604,
      "pick": "BUF ML",
      "price": "-170",
-     "prob": 0.607,
-     "ev": -0.036,
+     "prob": 0.604,
+     "ev": -0.04,
      "bet": false,
      "stars": 0
     }
@@ -1990,7 +1998,7 @@
      "team": "BUF",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 95.4,
@@ -2010,7 +2018,7 @@
      "team": "BUF",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 11.9,
@@ -2030,7 +2038,7 @@
      "team": "BUF",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.6,
@@ -2050,7 +2058,7 @@
      "team": "BUF",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "51% to score",
@@ -2218,21 +2226,19 @@
     "temp_f": 61,
     "wind_mph": 4,
     "gust_mph": 10,
-    "precip_prob": 0,
+    "precip_prob": 1,
     "precip_in": 0
    },
    "weather_notes": [],
    "injury_notes": {
-    "BAL": [
-     "Lamar Jackson (QB) Questionable"
-    ],
+    "BAL": [],
     "BUF": [
      "Dalton Kincaid (TE) Questionable"
     ]
    },
    "injury_adj": {
-    "BAL": -0.9,
-    "BUF": -1.1
+    "BAL": -0.6,
+    "BUF": -1.0
    },
    "injuries": [
     {
@@ -2249,14 +2255,6 @@
      "position": "G",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Lamar Jackson",
-     "position": "QB",
-     "status": "Questionable",
-     "detail": "Jackson (ankle) handled all of the first-team work during Wednesday's practice and is on track to play Sunday against the Bills, Matt Zenitz of CBS Sports reports.",
      "source": "ESPN"
     },
     {
@@ -2293,30 +2291,6 @@
     },
     {
      "team": "BAL",
-     "name": "Ronnie Stanley",
-     "position": "OT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "John Jenkins",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Broderick Washington Jr.",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
      "name": "Tavius Robinson",
      "position": "LB",
      "status": "Injured Reserve",
@@ -2337,6 +2311,14 @@
      "position": "S",
      "status": "Suspension",
      "detail": "reserve-sus",
+     "source": "ESPN"
+    },
+    {
+     "team": "BUF",
+     "name": "Joe Andreessen",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -2365,26 +2347,10 @@
     },
     {
      "team": "BUF",
-     "name": "Ed Oliver",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "Oliver (knee) returned to practice on a limited basis Wednesday, Chris Brown of the Bills Radio Network reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "BUF",
      "name": "Tyrell Shavers",
      "position": "WR",
      "status": "Out",
      "detail": "The Bills designated Shavers (knee) to return from the reserve/PUP list Wednesday, but he will not play against the Ravens on Sunday, Cameron Wolfe of NFL Network reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "BUF",
-     "name": "T.J. Sanders",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -2501,7 +2467,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -2546,7 +2512,7 @@
       1
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -2868,7 +2834,7 @@
       58
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -3037,7 +3003,7 @@
       95
      ],
      "agrees": false,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -3267,30 +3233,30 @@
    },
    "model_score": {
     "TEN": 15.6,
-    "CIN": 26.9
+    "CIN": 27.3
    },
    "picks": {
     "spread": {
      "market": "CIN -11.5",
-     "model_line": "CIN -11",
-     "edge_pts": 0.3,
+     "model_line": "CIN -11.5",
+     "edge_pts": 0.2,
      "pick": "CIN -11.5",
      "team": "CIN",
      "line": -11.5,
      "price": "-108",
-     "prob": 0.497,
-     "ev": -0.042,
+     "prob": 0.502,
+     "ev": -0.033,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "42.5",
-     "edge_pts": 4.0,
+     "model_line": "43.0",
+     "edge_pts": 3.5,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.543,
-     "ev": 0.036,
+     "prob": 0.538,
+     "ev": 0.027,
      "bet": true,
      "stars": 1
     },
@@ -3299,8 +3265,8 @@
      "market_prob": 0.827,
      "pick": "CIN ML",
      "price": "-625",
-     "prob": 0.825,
-     "ev": -0.043,
+     "prob": 0.829,
+     "ev": -0.039,
      "bet": false,
      "stars": 0
     }
@@ -3325,7 +3291,7 @@
       "usual": 173.7,
       "eligible": true
      },
-     "top": 1
+     "top": 2
     },
     {
      "player": "Cam Ward",
@@ -3398,7 +3364,7 @@
       "usual": 71.1,
       "eligible": true
      },
-     "top": 2
+     "top": 3
     },
     {
      "player": "Tony Pollard",
@@ -3718,8 +3684,7 @@
       "prob": 0.627,
       "usual": 2.5,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Joe Burrow",
@@ -3772,7 +3737,7 @@
       "usual": 50.1,
       "eligible": true
      },
-     "top": 3
+     "top": 4
     },
     {
      "player": "Chase Brown",
@@ -3955,7 +3920,7 @@
      "team": "CIN",
      "opp": "TEN",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 80.4,
@@ -3975,7 +3940,7 @@
      "team": "CIN",
      "opp": "TEN",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 7.3,
@@ -3988,14 +3953,15 @@
       "prob": 0.655,
       "usual": 6.3,
       "eligible": true
-     }
+     },
+     "top": 1
     },
     {
      "player": "Ja'Marr Chase",
      "team": "CIN",
      "opp": "TEN",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "48% to score",
@@ -4111,7 +4077,7 @@
     "temp_f": 59,
     "wind_mph": 5,
     "gust_mph": 20,
-    "precip_prob": 34,
+    "precip_prob": 22,
     "precip_in": 0.03
    },
    "weather_notes": [],
@@ -4120,24 +4086,15 @@
      "Carnell Tate (WR) Questionable"
     ],
     "CIN": [
-     "Ja'Marr Chase (WR) Questionable",
      "Erick All Jr. (TE) Injured Reserve",
      "Tanner Hudson (TE) Injured Reserve"
     ]
    },
    "injury_adj": {
     "TEN": -0.6,
-    "CIN": -1.5
+    "CIN": -1.0
    },
    "injuries": [
-    {
-     "team": "CIN",
-     "name": "Ja'Marr Chase",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Chase (ankle) is in uniform for Thursday's practice, Charlie Goldsmith of Fox 19 Now Cincinnati reports.",
-     "source": "ESPN"
-    },
     {
      "team": "CIN",
      "name": "Joe Giles-Harris",
@@ -4421,7 +4378,7 @@
       5
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -4678,7 +4635,7 @@
       62
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -4708,7 +4665,7 @@
       1
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -6239,7 +6196,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -6782,30 +6739,30 @@
    },
    "model_score": {
     "MIN": 21.9,
-    "DET": 19.4
+    "DET": 19.9
    },
    "picks": {
     "spread": {
      "market": "DET -3",
-     "model_line": "DET +2.5",
-     "edge_pts": 5.5,
+     "model_line": "DET +2",
+     "edge_pts": 5.0,
      "pick": "MIN +3",
      "team": "MIN",
      "line": 3.0,
      "price": "+100",
-     "prob": 0.557,
-     "ev": 0.115,
+     "prob": 0.552,
+     "ev": 0.105,
      "bet": true,
      "stars": 3
     },
     "total": {
      "market": "46.5",
-     "model_line": "41.4",
-     "edge_pts": 5.1,
+     "model_line": "41.9",
+     "edge_pts": 4.6,
      "pick": "Under 46.5",
      "price": "-120",
-     "prob": 0.555,
-     "ev": 0.017,
+     "prob": 0.55,
+     "ev": 0.008,
      "bet": false,
      "stars": 0
     },
@@ -6814,8 +6771,8 @@
      "market_prob": 0.604,
      "pick": "DET ML",
      "price": "-170",
-     "prob": 0.547,
-     "ev": -0.131,
+     "prob": 0.552,
+     "ev": -0.123,
      "bet": false,
      "stars": 0
     }
@@ -7397,7 +7354,7 @@
      "team": "DET",
      "opp": "MIN",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 71.6,
@@ -7417,7 +7374,7 @@
      "team": "DET",
      "opp": "MIN",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 6.0,
@@ -7437,7 +7394,7 @@
      "team": "DET",
      "opp": "MIN",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "35% to score",
@@ -7606,45 +7563,19 @@
    "weather_notes": [],
    "injury_notes": {
     "MIN": [],
-    "DET": [
-     "Amon-Ra St. Brown (WR) Questionable"
-    ]
+    "DET": []
    },
    "injury_adj": {
     "MIN": -0.5,
-    "DET": -0.9
+    "DET": -0.4
    },
    "injuries": [
-    {
-     "team": "DET",
-     "name": "Amon-Ra St. Brown",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "St. Brown (ankle) returned to practice Thursday, Colton Pouncy of The Athletic reports.",
-     "source": "ESPN"
-    },
     {
      "team": "DET",
      "name": "Kerby Joseph",
      "position": "S",
      "status": "Out",
      "detail": "The Lions opened the 21-day practice window for Joseph (knee) on Wednesday, Tim Twentyman of the Lions' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DET",
-     "name": "Tyleik Williams",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "DET",
-     "name": "Jacob Saylors",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -7777,7 +7708,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -8137,7 +8068,7 @@
       153
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -9172,6 +9103,14 @@
    "injuries": [
     {
      "team": "IND",
+     "name": "Tyler Warren",
+     "position": "TE",
+     "status": "Questionable",
+     "detail": "Warren (groin) was a limited participant at Thursday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "IND",
      "name": "Drew Ogletree",
      "position": "TE",
      "status": "Questionable",
@@ -9184,14 +9123,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Gould (concussion) was estimated as a limited participant on the Colts' official injury report Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "IND",
-     "name": "Tyler Warren",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Warren (groin) returned to practice as a limited participant Wednesday.",
      "source": "ESPN"
     },
     {
@@ -9366,7 +9297,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -10027,31 +9958,31 @@
     "NYJ": "Geno Smith"
    },
    "model_score": {
-    "LV": 21.7,
-    "NYJ": 24.3
+    "LV": 22.2,
+    "NYJ": 24.5
    },
    "picks": {
     "spread": {
      "market": "NYJ -1.5",
      "model_line": "NYJ -2.5",
-     "edge_pts": 1.1,
+     "edge_pts": 0.8,
      "pick": "NYJ -1.5",
      "team": "NYJ",
      "line": -1.5,
      "price": "-110",
-     "prob": 0.511,
-     "ev": -0.024,
+     "prob": 0.509,
+     "ev": -0.029,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "45.5",
-     "model_line": "46.0",
-     "edge_pts": 0.5,
+     "model_line": "46.6",
+     "edge_pts": 1.1,
      "pick": "Over 45.5",
      "price": "-105",
-     "prob": 0.505,
-     "ev": -0.013,
+     "prob": 0.512,
+     "ev": 0.0,
      "bet": false,
      "stars": 0
     },
@@ -10060,8 +9991,8 @@
      "market_prob": 0.526,
      "pick": "NYJ ML",
      "price": "-122",
-     "prob": 0.537,
-     "ev": -0.022,
+     "prob": 0.535,
+     "ev": -0.027,
      "bet": false,
      "stars": 0
     }
@@ -10198,8 +10129,7 @@
       "prob": 0.665,
       "usual": 4.4,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Ashton Jeanty",
@@ -10290,7 +10220,7 @@
      "team": "LV",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 63.5,
@@ -10310,7 +10240,7 @@
      "team": "LV",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 5.1,
@@ -10323,14 +10253,15 @@
       "prob": 0.67,
       "usual": 6.0,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Brock Bowers",
      "team": "LV",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "32% to score",
@@ -10571,7 +10502,7 @@
      "team": "NYJ",
      "opp": "LV",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 62.2,
@@ -10591,7 +10522,7 @@
      "team": "NYJ",
      "opp": "LV",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 12.6,
@@ -10611,7 +10542,7 @@
      "team": "NYJ",
      "opp": "LV",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 2.0,
@@ -10631,7 +10562,7 @@
      "team": "NYJ",
      "opp": "LV",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "28% to score",
@@ -10929,14 +10860,12 @@
    },
    "weather_notes": [],
    "injury_notes": {
-    "LV": [
-     "Brock Bowers (TE) Questionable"
-    ],
+    "LV": [],
     "NYJ": []
    },
    "injury_adj": {
-    "LV": -1.1,
-    "NYJ": -1.0
+    "LV": -0.6,
+    "NYJ": -0.8
    },
    "injuries": [
     {
@@ -10953,14 +10882,6 @@
      "position": "TE",
      "status": "Questionable",
      "detail": "Thomas (shoulder) was a limited participant in Wednesday's practice, Anthony Galaviz of The Fresno Bee reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LV",
-     "name": "Brock Bowers",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Bowers (calf) was listed as a limited participant in Wednesday's practice, Paul Gutierrez of the Raiders' official site reports.",
      "source": "ESPN"
     },
     {
@@ -11005,6 +10926,14 @@
     },
     {
      "team": "NYJ",
+     "name": "Breece Hall",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Hall (quadriceps) remained limited at Thursday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYJ",
      "name": "Joseph Ossai",
      "position": "DE",
      "status": "Doubtful",
@@ -11025,22 +10954,6 @@
      "position": "DT",
      "status": "Doubtful",
      "detail": "Sweat (knee) is week-to-week and is unlikely to suit up for Sunday's game against the Raiders, Rich Cimini of ESPN.com reported Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
-     "name": "Braelon Allen",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Jets head coach Aaron Glenn said that Allen will be a limited participant in Wednesday's practice due to ankle injury, Zack Rosenblatt of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
-     "name": "Breece Hall",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Jets head coach Aaron Glenn said that Hall (quadriceps) will be limited participant in Wednesday's practice, Zack Rosenblatt of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -11260,7 +11173,7 @@
       73
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -11365,7 +11278,7 @@
       104
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -11448,7 +11361,7 @@
       6
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -11527,7 +11440,7 @@
       6
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -12980,7 +12893,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -14635,7 +14548,7 @@
     {
      "headline": "Longtime football coach June Jones, pioneer of run-and-shoot offense, dies at 73",
      "description": "Longtime college and pro football coach June Jones, who helped popularize the run-and-shoot offense, has died at 73.",
-     "published": "2026-10-29T19:47:40Z",
+     "published": "2026-10-29T20:05:35Z",
      "link": "https://www.espn.com/college-football/story/_/id/50321084/long-football-coach-june-jones-dies-age-73",
      "teams": [
       "ATL",
@@ -17569,7 +17482,7 @@
     "temp_f": 60,
     "wind_mph": 8,
     "gust_mph": 8,
-    "precip_prob": 7,
+    "precip_prob": 2,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -17586,18 +17499,18 @@
    "injuries": [
     {
      "team": "DEN",
-     "name": "Marvin Mims Jr.",
+     "name": "Jaylen Waddle",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Mims (ankle) was a limited participant in Denver's practice Wednesday, Aric DiLalla of the team's official site reports.",
+     "detail": "Waddle (chest) is present for the medica-access portion of Thursday's practice, Chris Tomasson of the Denver Gazette reports.",
      "source": "ESPN"
     },
     {
      "team": "DEN",
-     "name": "Jaylen Waddle",
+     "name": "Marvin Mims Jr.",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Waddle (chest) was listed as a non-participant in Wednesday's practice.",
+     "detail": "Mims (ankle) was a limited participant in Denver's practice Wednesday, Aric DiLalla of the team's official site reports.",
      "source": "ESPN"
     },
     {
@@ -17693,7 +17606,7 @@
     {
      "headline": "Toub: Butker still Chiefs' kicker despite struggles, Tucker signing",
      "description": "Chiefs special teams coordinator Dave Toub expressed rather emphatically that Harrison Butker is the team's kicker despite the team signing Justin Tucker, who hasn't played in the NFL since 2024, to their practice squad.",
-     "published": "2026-10-29T19:57:38Z",
+     "published": "2026-10-29T20:39:50Z",
      "link": "https://www.espn.com/nfl/story/_/id/50321154/toub-butker-chiefs-kicker-tucker-signing",
      "teams": [
       "KC"
@@ -19430,6 +19343,14 @@
    "injuries": [
     {
      "team": "MIA",
+     "name": "Malik Washington",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Washington (knee) was a limited participant in Thursday's practice, David Furones of the South Florida Sun Sentinel reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "MIA",
      "name": "Kadyn Proctor",
      "position": "OT",
      "status": "Questionable",
@@ -19458,14 +19379,6 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "Brents (neck/concussion) did not practice Wednesday, Marcel Louis-Jacques of ESPN.com reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Malik Washington",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Washington was a limited participant in Wednesday's practice due to a knee injury, Marcel Louis-Jacques of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -19510,18 +19423,18 @@
     },
     {
      "team": "NE",
-     "name": "A.J. Brown",
-     "position": "WR",
+     "name": "TreVeyon Henderson",
+     "position": "RB",
      "status": "Questionable",
-     "detail": "Brown (knee/ankle) is sidelined Thursday by a knee issue that flared up, and the wide receiver's status for Sunday against the Dolphins is up in the air, Ian Rapoport of NFL Network reports.",
+     "detail": "Henderson (illness) did not practice Thursday, David Furones of the South Florida Sun Sentinel reports.",
      "source": "ESPN"
     },
     {
      "team": "NE",
-     "name": "TreVeyon Henderson",
-     "position": "RB",
+     "name": "A.J. Brown",
+     "position": "WR",
      "status": "Questionable",
-     "detail": "Henderson wasn't on the field for Thursday's practice due to an ankle injury, Doug Kyed of the Boston Herald reports.",
+     "detail": "Brown (ankle/knee) was officially listed as a non-participant at Thursday's practice, David Furones of the South Florida Sun Sentinel reports.",
      "source": "ESPN"
     },
     {
@@ -19600,8 +19513,8 @@
     },
     {
      "headline": "Patriots' A.J. Brown misses practice Thursday due to new knee ailment",
-     "description": "The Patriots' A.J. Brown missed his first practice since returning from IR, with a new knee ailment, in addition to his injured ankle.",
-     "published": "2026-10-29T19:41:11Z",
+     "description": "The Patriots' A.J. Brown missed his first practice since returning from IR, with a new knee ailment in addition to his previously injured ankle.",
+     "published": "2026-10-29T20:47:25Z",
      "link": "https://www.espn.com/nfl/story/_/id/50321006/patriots-aj-brown-misses-practice-due-new-knee-ailment",
      "teams": [
       "NE"
@@ -21159,7 +21072,13 @@
      "fair_odds": "+304"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 53,
+    "wind_mph": 4,
+    "gust_mph": 8,
+    "precip_prob": 0,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "PHI": [
@@ -21410,7 +21329,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -22708,7 +22627,13 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 48,
+    "wind_mph": 4,
+    "gust_mph": 11,
+    "precip_prob": 5,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22729,8 +22654,24 @@
      "team": "CHI",
      "name": "Anthony Johnson Jr.",
      "position": "S",
-     "status": "Injured Reserve",
-     "detail": "ir",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "CHI",
+     "name": "Kyle Monangai",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Monangai (thumb/toe) did not practice Thursday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CHI",
+     "name": "D'Marco Jackson",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -22743,23 +22684,7 @@
     },
     {
      "team": "CHI",
-     "name": "Kyle Monangai",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Monangai (thumb/toe) was on a stationary bike during warmups but wasn't on the field during the open portion of Wednesday's practice, Adam Jahns of AllCHGO.com reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CHI",
      "name": "Jack Sanborn",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CHI",
-     "name": "T.J. Edwards",
      "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
@@ -22856,6 +22781,16 @@
    ],
    "news": [
     {
+     "headline": "Seahawks' dominant defense faces challenge in Bears QB Caleb Williams and NFL's top rushing offense",
+     "description": "Now it's Chicago's turn to face Seattle's \u201cDark Side.\u201d",
+     "published": "2026-10-29T20:46:47Z",
+     "link": "http://www.espn.com/nfl/preview?gameId=401873036",
+     "teams": [
+      "CHI",
+      "SEA"
+     ]
+    },
+    {
      "headline": "NFL Week 8 uniforms: Jaguars, Lions become latest team to debut Rivalries look",
      "description": "Here's a look at what each NFL team is wearing in Week 8, led by Rivalries looks from Jacksonville and Detroit.",
      "published": "2026-10-29T19:57:50Z",
@@ -22934,22 +22869,6 @@
      "teams": [
       "CHI",
       "TEN"
-     ]
-    },
-    {
-     "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-     "description": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-     "published": "2026-10-29T16:06:00Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-     "teams": [
-      "BAL",
-      "BUF",
-      "CHI",
-      "CIN",
-      "KC",
-      "LA",
-      "SEA",
-      "SF"
      ]
     }
    ],
@@ -23763,31 +23682,31 @@
     "BAL": null
    },
    "model_score": {
-    "JAX": 26.7,
-    "BAL": 21.1
+    "JAX": 26.2,
+    "BAL": 21.0
    },
    "picks": {
     "spread": {
      "market": "BAL -3",
      "model_line": "BAL +5.5",
-     "edge_pts": 8.6,
+     "edge_pts": 8.3,
      "pick": "JAX +3",
      "team": "JAX",
      "line": 3.0,
      "price": "-115",
-     "prob": 0.588,
-     "ev": 0.1,
+     "prob": 0.586,
+     "ev": 0.095,
      "bet": true,
      "stars": 3
     },
     "total": {
      "market": "48.5",
-     "model_line": "47.8",
-     "edge_pts": 0.7,
+     "model_line": "47.2",
+     "edge_pts": 1.3,
      "pick": "Under 48.5",
      "price": "-110",
-     "prob": 0.508,
-     "ev": -0.031,
+     "prob": 0.514,
+     "ev": -0.019,
      "bet": false,
      "stars": 0
     },
@@ -23796,8 +23715,8 @@
      "market_prob": 0.593,
      "pick": "BAL ML",
      "price": "-162",
-     "prob": 0.505,
-     "ev": -0.183,
+     "prob": 0.508,
+     "ev": -0.179,
      "bet": false,
      "stars": 0
     }
@@ -23811,17 +23730,18 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 231.1,
-     "median": 224.7,
-     "over_if_line_at_or_below": 214.5,
-     "under_if_line_at_or_above": 234.5,
+     "projection": 228.3,
+     "median": 222.0,
+     "over_if_line_at_or_below": 211.5,
+     "under_if_line_at_or_above": 232.5,
      "matchup": {
       "side": "Under",
       "line": 242.5,
-      "prob": 0.605,
+      "prob": 0.623,
       "usual": 248.9,
       "eligible": true
-     }
+     },
+     "top": 3
     },
     {
      "player": "Trevor Lawrence",
@@ -23831,14 +23751,14 @@
      "status": "Active",
      "stat": "Pass TDs",
      "key": "pass_tds",
-     "projection": 1.9,
+     "projection": 1.8,
      "median": 2.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.577,
+      "prob": 0.583,
       "usual": 2.2,
       "eligible": true
      }
@@ -23858,7 +23778,7 @@
      "matchup": {
       "side": "Under",
       "line": 14.5,
-      "prob": 0.525,
+      "prob": 0.526,
       "usual": 16.0,
       "eligible": false
      }
@@ -23884,7 +23804,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 42.3,
-     "median": 37.9,
+     "median": 38.0,
      "over_if_line_at_or_below": 34.5,
      "under_if_line_at_or_above": 41.5,
      "matchup": {
@@ -23903,14 +23823,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 11.3,
-     "median": 9.7,
+     "projection": 11.2,
+     "median": 9.6,
      "over_if_line_at_or_below": 8.5,
      "under_if_line_at_or_above": 11.5,
      "matchup": {
       "side": "Under",
       "line": 14.5,
-      "prob": 0.718,
+      "prob": 0.724,
       "usual": 16.9,
       "eligible": false
      }
@@ -23930,7 +23850,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.556,
+      "prob": 0.563,
       "usual": 1.7,
       "eligible": false
      }
@@ -23975,14 +23895,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 1.2,
+     "projection": 1.1,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 1.5,
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.715,
+      "prob": 0.722,
       "usual": 1.7,
       "eligible": false
      }
@@ -24002,7 +23922,7 @@
      "matchup": {
       "side": "Under",
       "line": 0.5,
-      "prob": 0.516,
+      "prob": 0.517,
       "usual": 0.2,
       "eligible": false
      }
@@ -24027,14 +23947,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 66.2,
-     "median": 56.5,
-     "over_if_line_at_or_below": 50.5,
-     "under_if_line_at_or_above": 63.5,
+     "projection": 65.5,
+     "median": 55.8,
+     "over_if_line_at_or_below": 49.5,
+     "under_if_line_at_or_above": 62.5,
      "matchup": {
       "side": "Over",
       "line": 54.5,
-      "prob": 0.521,
+      "prob": 0.514,
       "usual": 64.2,
       "eligible": true
      }
@@ -24047,14 +23967,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 4.1,
+     "projection": 4.0,
      "median": 4.0,
      "over_if_line_at_or_below": 3.5,
      "under_if_line_at_or_above": 4.5,
      "matchup": {
-      "side": "Over",
+      "side": "Under",
       "line": 3.5,
-      "prob": 0.501,
+      "prob": 0.509,
       "usual": 4.1,
       "eligible": true
      }
@@ -24079,14 +23999,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 37.7,
-     "median": 32.1,
-     "over_if_line_at_or_below": 28.5,
-     "under_if_line_at_or_above": 36.5,
+     "projection": 37.3,
+     "median": 31.7,
+     "over_if_line_at_or_below": 27.5,
+     "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Under",
-      "line": 41.5,
-      "prob": 0.633,
+      "line": 40.5,
+      "prob": 0.639,
       "usual": 47.3,
       "eligible": true
      }
@@ -24106,7 +24026,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.664,
+      "prob": 0.674,
       "usual": 4.4,
       "eligible": true
      },
@@ -24132,14 +24052,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 52.1,
-     "median": 44.5,
-     "over_if_line_at_or_below": 39.5,
+     "projection": 51.5,
+     "median": 43.9,
+     "over_if_line_at_or_below": 38.5,
      "under_if_line_at_or_above": 49.5,
      "matchup": {
       "side": "Over",
       "line": 43.5,
-      "prob": 0.517,
+      "prob": 0.507,
       "usual": 50.3,
       "eligible": true
      }
@@ -24152,12 +24072,12 @@
      "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 3.9,
+     "projection": 3.8,
      "median": 4.0,
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 4.5,
      "matchup": {
-      "side": "Over",
+      "side": "Under",
       "line": 3.5,
       "prob": 0.505,
       "usual": 3.9,
@@ -24184,14 +24104,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 20.6,
-     "median": 17.6,
+     "projection": 20.4,
+     "median": 17.4,
      "over_if_line_at_or_below": 15.5,
-     "under_if_line_at_or_above": 20.5,
+     "under_if_line_at_or_above": 19.5,
      "matchup": {
       "side": "Over",
       "line": 17.5,
-      "prob": 0.52,
+      "prob": 0.516,
       "usual": 20.0,
       "eligible": false
      }
@@ -24211,7 +24131,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.506,
+      "prob": 0.503,
       "usual": 1.3,
       "eligible": false
      }
@@ -24236,14 +24156,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 167.9,
-     "median": 163.3,
-     "over_if_line_at_or_below": 155.5,
-     "under_if_line_at_or_above": 171.5,
+     "projection": 166.0,
+     "median": 161.2,
+     "over_if_line_at_or_below": 153.5,
+     "under_if_line_at_or_above": 169.5,
      "matchup": {
       "side": "Over",
       "line": 142.5,
-      "prob": 0.676,
+      "prob": 0.664,
       "usual": 146.9,
       "eligible": false
      }
@@ -24263,7 +24183,7 @@
      "matchup": {
       "side": "Under",
       "line": 0.5,
-      "prob": 0.532,
+      "prob": 0.535,
       "usual": 0.8,
       "eligible": false
      }
@@ -24283,7 +24203,7 @@
      "matchup": {
       "side": "Over",
       "line": 21.5,
-      "prob": 0.518,
+      "prob": 0.516,
       "usual": 23.8,
       "eligible": false
      }
@@ -24308,14 +24228,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 67.2,
-     "median": 60.3,
+     "projection": 67.0,
+     "median": 60.2,
      "over_if_line_at_or_below": 54.5,
      "under_if_line_at_or_above": 66.5,
      "matchup": {
       "side": "Under",
       "line": 74.5,
-      "prob": 0.644,
+      "prob": 0.648,
       "usual": 82.3,
       "eligible": true
      },
@@ -24329,14 +24249,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 9.8,
-     "median": 8.3,
+     "projection": 9.6,
+     "median": 8.2,
      "over_if_line_at_or_below": 6.5,
      "under_if_line_at_or_above": 9.5,
      "matchup": {
       "side": "Over",
       "line": 7.5,
-      "prob": 0.57,
+      "prob": 0.561,
       "usual": 8.5,
       "eligible": false
      }
@@ -24356,7 +24276,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.562,
+      "prob": 0.555,
       "usual": 1.2,
       "eligible": false
      }
@@ -24381,14 +24301,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 12.9,
-     "median": 11.6,
+     "projection": 12.8,
+     "median": 11.5,
      "over_if_line_at_or_below": 10.5,
      "under_if_line_at_or_above": 13.5,
      "matchup": {
       "side": "Under",
       "line": 14.5,
-      "prob": 0.644,
+      "prob": 0.649,
       "usual": 15.9,
       "eligible": false
      }
@@ -24401,14 +24321,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 16.6,
-     "median": 14.1,
+     "projection": 16.4,
+     "median": 13.9,
      "over_if_line_at_or_below": 12.5,
-     "under_if_line_at_or_above": 16.5,
+     "under_if_line_at_or_above": 15.5,
      "matchup": {
       "side": "Over",
       "line": 12.5,
-      "prob": 0.568,
+      "prob": 0.56,
       "usual": 14.5,
       "eligible": false
      }
@@ -24428,7 +24348,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.566,
+      "prob": 0.558,
       "usual": 2.1,
       "eligible": false
      }
@@ -24453,14 +24373,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 112.2,
-     "median": 95.7,
-     "over_if_line_at_or_below": 84.5,
-     "under_if_line_at_or_above": 106.5,
+     "projection": 110.6,
+     "median": 94.3,
+     "over_if_line_at_or_below": 83.5,
+     "under_if_line_at_or_above": 105.5,
      "matchup": {
       "side": "Over",
       "line": 76.5,
-      "prob": 0.622,
+      "prob": 0.613,
       "usual": 89.0,
       "eligible": true
      }
@@ -24473,18 +24393,18 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 7.1,
+     "projection": 7.0,
      "median": 7.0,
-     "over_if_line_at_or_below": 6.5,
+     "over_if_line_at_or_below": 5.5,
      "under_if_line_at_or_above": 7.5,
      "matchup": {
       "side": "Over",
       "line": 5.5,
-      "prob": 0.63,
+      "prob": 0.622,
       "usual": 6.2,
       "eligible": true
      },
-     "top": 3
+     "top": 4
     },
     {
      "player": "Zay Flowers",
@@ -24506,14 +24426,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 21.7,
-     "median": 18.5,
-     "over_if_line_at_or_below": 16.5,
-     "under_if_line_at_or_above": 21.5,
+     "projection": 21.5,
+     "median": 18.2,
+     "over_if_line_at_or_below": 15.5,
+     "under_if_line_at_or_above": 20.5,
      "matchup": {
       "side": "Under",
       "line": 21.5,
-      "prob": 0.586,
+      "prob": 0.592,
       "usual": 25.3,
       "eligible": true
      }
@@ -24528,12 +24448,12 @@
      "key": "receptions",
      "projection": 2.9,
      "median": 3.0,
-     "over_if_line_at_or_below": 2.5,
+     "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.566,
+      "prob": 0.57,
       "usual": 3.2,
       "eligible": true
      }
@@ -24558,14 +24478,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 37.1,
-     "median": 31.6,
+     "projection": 36.7,
+     "median": 31.2,
      "over_if_line_at_or_below": 27.5,
      "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Over",
       "line": 25.5,
-      "prob": 0.618,
+      "prob": 0.612,
       "usual": 29.5,
       "eligible": true
      }
@@ -24578,14 +24498,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.4,
+     "projection": 2.3,
      "median": 2.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.57,
+      "prob": 0.56,
       "usual": 2.1,
       "eligible": false
      }
@@ -24610,18 +24530,17 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 32.8,
-     "median": 28.1,
+     "projection": 32.3,
+     "median": 27.7,
      "over_if_line_at_or_below": 24.5,
      "under_if_line_at_or_above": 31.5,
      "matchup": {
       "side": "Over",
       "line": 22.5,
-      "prob": 0.622,
+      "prob": 0.616,
       "usual": 26.0,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Ja'Kobi Lane",
@@ -24631,14 +24550,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 3.2,
+     "projection": 3.1,
      "median": 3.0,
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.595,
+      "prob": 0.586,
       "usual": 2.8,
       "eligible": true
      }
@@ -24656,19 +24575,25 @@
      "fair_odds": "+1290"
     }
    ],
-   "weather": null,
-   "weather_notes": [],
+   "weather": {
+    "temp_f": 66,
+    "wind_mph": 13,
+    "gust_mph": 32,
+    "precip_prob": 39,
+    "precip_in": 0.25
+   },
+   "weather_notes": [
+    "wind 13 mph (gusts 32)"
+   ],
    "injury_notes": {
     "JAX": [
      "Jakobi Meyers (WR) Questionable"
     ],
-    "BAL": [
-     "Lamar Jackson (QB) Questionable"
-    ]
+    "BAL": []
    },
    "injury_adj": {
     "JAX": -0.7,
-    "BAL": -0.9
+    "BAL": -0.6
    },
    "injuries": [
     {
@@ -24685,14 +24610,6 @@
      "position": "G",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Lamar Jackson",
-     "position": "QB",
-     "status": "Questionable",
-     "detail": "Jackson (ankle) handled all of the first-team work during Wednesday's practice and is on track to play Sunday against the Bills, Matt Zenitz of CBS Sports reports.",
      "source": "ESPN"
     },
     {
@@ -24723,30 +24640,6 @@
      "team": "BAL",
      "name": "John Simpson",
      "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Ronnie Stanley",
-     "position": "OT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "John Jenkins",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Broderick Washington Jr.",
-     "position": "DT",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -24905,7 +24798,7 @@
     {
      "headline": "2026 NFL trade deadline updates: Jeffery Simmons, Quenton Nelson on the move",
      "description": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including a blockbuster sending Jeffery Simmons to Chicago.",
-     "published": "2026-10-29T14:38:21Z",
+     "published": "2026-10-29T20:48:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
      "teams": [
       "ARI",
@@ -25081,7 +24974,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 41.5,
+     "line": 40.5,
      "values": [
       95,
       68,
@@ -29476,7 +29369,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29537,13 +29430,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 62,
-     "wind_mph": 9,
-     "gust_mph": 13,
-     "precip_prob": 4,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29642,7 +29529,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29804,7 +29691,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29865,13 +29752,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 53,
-     "wind_mph": 7,
-     "gust_mph": 15,
-     "precip_prob": 68,
-     "precip_in": 0.02
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29956,7 +29837,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30017,13 +29898,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 70,
-     "wind_mph": 4,
-     "gust_mph": 12,
-     "precip_prob": 16,
-     "precip_in": 0.01
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30076,7 +29951,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30195,7 +30070,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30362,7 +30237,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30497,7 +30372,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30562,7 +30437,7 @@
      "temp_f": 49,
      "wind_mph": 1,
      "gust_mph": 2,
-     "precip_prob": 7,
+     "precip_prob": 8,
      "precip_in": 0.01
     },
     "weather_notes": [],
@@ -30636,7 +30511,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30665,12 +30540,12 @@
       "market": "c154 -12.5",
       "model_line": "c154 -12.5",
       "edge_pts": 0.2,
-      "pick": "c154 -12.5",
-      "team": "c154",
-      "line": -12.5,
+      "pick": "c258 +12.5",
+      "team": "c258",
+      "line": 12.5,
       "price": "-108",
-      "prob": 0.499,
-      "ev": -0.04,
+      "prob": 0.501,
+      "ev": -0.034,
       "bet": false,
       "stars": 0
      },
@@ -30716,7 +30591,7 @@
       "kind": "spread",
       "label": "covered the spread",
       "bet": "spread",
-      "agrees": true,
+      "agrees": false,
       "hit": 5,
       "of": 5,
       "rate": 1.0,
@@ -30750,25 +30625,6 @@
       "type": "team",
       "team": "c258",
       "opp": "c154",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": true,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       false,
-       true,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
-      "team": "c258",
-      "opp": "c154",
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
@@ -30807,6 +30663,25 @@
       "type": "team",
       "team": "c258",
       "opp": "c154",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": false,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       false,
+       true,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
+      "team": "c258",
+      "opp": "c154",
       "kind": "moneyline",
       "label": "lost",
       "bet": "moneyline",
@@ -30822,7 +30697,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30971,7 +30846,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31118,7 +30993,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31183,7 +31058,7 @@
      "temp_f": 67,
      "wind_mph": 6,
      "gust_mph": 10,
-     "precip_prob": 15,
+     "precip_prob": 12,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -31220,7 +31095,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31385,7 +31260,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31537,7 +31412,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31558,8 +31433,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c194": 31.9,
-     "c30": 23.8
+     "c194": 31.1,
+     "c30": 23.0
     },
     "picks": {
      "spread": {
@@ -31577,12 +31452,12 @@
      },
      "total": {
       "market": "51.5",
-      "model_line": "55.6",
-      "edge_pts": 4.1,
+      "model_line": "54.1",
+      "edge_pts": 2.6,
       "pick": "Over 51.5",
       "price": "-112",
-      "prob": 0.527,
-      "ev": -0.003,
+      "prob": 0.517,
+      "ev": -0.021,
       "bet": false,
       "stars": 0
      },
@@ -31598,8 +31473,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 67,
+     "wind_mph": 6,
+     "gust_mph": 10,
+     "precip_prob": 80,
+     "precip_in": 0.07
+    },
+    "weather_notes": [
+     "80% chance of rain/snow"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -31677,7 +31560,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31738,7 +31621,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 76,
+     "wind_mph": 5,
+     "gust_mph": 10,
+     "precip_prob": 7,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31754,10 +31643,6 @@
      {
       "headline": "What does Kamario Taylor's season-ending injury mean for Mississippi State?",
       "link": "https://www.espn.com/video/clip/_/id/50300991/what-does-kamario-taylor-season-ending-injury-mean-mississippi-state"
-     },
-     {
-      "headline": "Mississippi State QB Kamario Taylor out for season",
-      "link": "https://www.espn.com/college-football/story/_/id/50298455/sources-mississippi-state-qb-kamario-taylor-season"
      }
     ],
     "trends": [
@@ -31833,7 +31718,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31894,11 +31779,22 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 61,
+     "wind_mph": 5,
+     "gust_mph": 12,
+     "precip_prob": 47,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [],
+    "news": [
+     {
+      "headline": "Sources: Missouri RB Hardy to make season debut vs. Arkansas",
+      "link": "https://www.espn.com/college-football/story/_/id/50321651/sources-missouri-rb-hardy-make-season-debut-vs-arkansas"
+     }
+    ],
     "trends": [
      {
       "type": "team",
@@ -31956,7 +31852,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32017,7 +31913,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 3,
+     "gust_mph": 5,
+     "precip_prob": 71,
+     "precip_in": 0.04
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32081,7 +31983,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    }
   ],
@@ -32089,8 +31991,8 @@
    "n_games": 570,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.26489253251243,
-   "hfa": 4.884981308350689e-15,
+   "mu": 26.26483943016393,
+   "hfa": 6.217248937900877e-15,
    "top": [
     [
      "c2390",
