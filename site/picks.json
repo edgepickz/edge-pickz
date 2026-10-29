@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:41:16.957638+00:00",
+ "generated_at": "2026-10-29T23:15:41.092696+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -28,41 +28,41 @@
     "GB": "Jordan Love"
    },
    "model_score": {
-    "CAR": 20.2,
-    "GB": 23.3
+    "CAR": 19.7,
+    "GB": 23.0
    },
    "picks": {
     "spread": {
      "market": "GB -3.5",
      "model_line": "GB -3",
-     "edge_pts": 0.4,
+     "edge_pts": 0.3,
      "pick": "CAR +3.5",
      "team": "CAR",
      "line": 3.5,
      "price": "-108",
-     "prob": 0.504,
-     "ev": -0.029,
+     "prob": 0.503,
+     "ev": -0.032,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "43.6",
-     "edge_pts": 2.9,
+     "model_line": "42.7",
+     "edge_pts": 3.8,
      "pick": "Under 46.5",
      "price": "+102",
-     "prob": 0.532,
-     "ev": 0.074,
+     "prob": 0.541,
+     "ev": 0.092,
      "bet": true,
-     "stars": 2
+     "stars": 3
     },
     "moneyline": {
      "market": "CAR +150 / GB -180",
      "market_prob": 0.616,
      "pick": "GB ML",
      "price": "-180",
-     "prob": 0.613,
-     "ev": -0.047,
+     "prob": 0.614,
+     "ev": -0.045,
      "bet": false,
      "stars": 0
     }
@@ -427,7 +427,7 @@
      "team": "GB",
      "opp": "CAR",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Pass Yds",
      "key": "pass_yds",
      "projection": 277.4,
@@ -447,7 +447,7 @@
      "team": "GB",
      "opp": "CAR",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Pass TDs",
      "key": "pass_tds",
      "projection": 1.7,
@@ -467,7 +467,7 @@
      "team": "GB",
      "opp": "CAR",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 6.3,
@@ -487,7 +487,7 @@
      "team": "GB",
      "opp": "CAR",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "14% to score",
@@ -624,8 +624,7 @@
       "prob": 0.572,
       "usual": 4.1,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Pierre Strong",
@@ -644,7 +643,7 @@
      "team": "GB",
      "opp": "CAR",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 63.6,
@@ -664,7 +663,7 @@
      "team": "GB",
      "opp": "CAR",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 4.7,
@@ -677,14 +676,15 @@
       "prob": 0.601,
       "usual": 4.2,
       "eligible": true
-     }
+     },
+     "top": 3
     },
     {
      "player": "Matthew Golden",
      "team": "GB",
      "opp": "CAR",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "31% to score",
@@ -730,7 +730,7 @@
       "usual": 4.3,
       "eligible": true
      },
-     "top": 3
+     "top": 4
     },
     {
      "player": "Christian Watson",
@@ -858,12 +858,16 @@
    },
    "weather_notes": [],
    "injury_notes": {
-    "CAR": [],
-    "GB": []
+    "CAR": [
+     "Haynes King (QB) Out"
+    ],
+    "GB": [
+     "Jonnu Smith (TE) Out"
+    ]
    },
    "injury_adj": {
-    "CAR": -0.6,
-    "GB": -1.1
+    "CAR": -1.1,
+    "GB": -1.5
    },
    "injuries": [
     {
@@ -878,8 +882,8 @@
      "team": "CAR",
      "name": "Bobby Brown III",
      "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -911,15 +915,7 @@
      "name": "Zaire Franklin",
      "position": "LB",
      "status": "Out",
-     "detail": "Franklin (shin) has been ruled out for Thursday's game against the Panthers, Wes Hodkiewicz of the Packers' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "GB",
-     "name": "Devonte Wyatt",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "Wyatt (ankle) is listed as questionable for Thursday night's game against the Panthers, Wes Hodkiewicz of the Packers' official site reports.",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -927,15 +923,7 @@
      "name": "Sean Rhyan",
      "position": "G",
      "status": "Out",
-     "detail": "Rhyan (ankle) has been ruled out for Green Bay's matchup versus the Panthers on Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "GB",
-     "name": "Brenton Cox Jr.",
-     "position": "DE",
-     "status": "Questionable",
-     "detail": "questionable",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -943,23 +931,31 @@
      "name": "Travis Glover",
      "position": "OT",
      "status": "Out",
-     "detail": "Glover (knee) won't play in Green Bay's game versus Carolina on Thursday.",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
-     "team": "GB",
-     "name": "Matthew Golden",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "The Packers expect Golden (shoulder/foot), who is listed as questionable for Thursday night's game against the Panthers, to suit up, James Palmer of NFL on Prime Video reports.",
+     "team": "CAR",
+     "name": "Ja'Tavion Sanders",
+     "position": "TE",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
-     "team": "GB",
-     "name": "Anthony Campbell",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
+     "team": "CAR",
+     "name": "Haynes King",
+     "position": "QB",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "AJ Dillon",
+     "position": "RB",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -972,10 +968,26 @@
     },
     {
      "team": "GB",
-     "name": "Keisean Nixon",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "Nixon (shoulder) is questionable for Thursday's game against the Panthers.",
+     "name": "Jonnu Smith",
+     "position": "TE",
+     "status": "Out",
+     "detail": "Smith (coach's decision) is inactive for Thursday's game against the Panthers Mike Spofford of the team's official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "GB",
+     "name": "Donovan Jennings",
+     "position": "G",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "GB",
+     "name": "Kaleb Johnson",
+     "position": "RB",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -1072,15 +1084,6 @@
      "link": "https://www.espn.com/nfl/story/_/id/50308348/carolina-panthers-consistency-packers-week-8-tnf-evero",
      "teams": [
       "CAR"
-     ]
-    },
-    {
-     "headline": "Why Micah Parsons' ACL recovery is taking longer than Patrick Mahomes'",
-     "description": "They were injured the same day, but while Mahomes was ready for Week 1, Parsons has yet to practice.",
-     "published": "2026-10-29T14:29:07Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50307555/packers-micah-parsons-return-acl-patrick-mahomes",
-     "teams": [
-      "GB"
      ]
     }
    ],
@@ -1226,7 +1229,7 @@
       274
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -1256,7 +1259,7 @@
       6
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -1346,7 +1349,7 @@
       2
      ],
      "agrees": false,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -5101,7 +5104,7 @@
     "DAL": "Dak Prescott"
    },
    "model_score": {
-    "ARI": 23.4,
+    "ARI": 23.5,
     "DAL": 30.1
    },
    "picks": {
@@ -5113,19 +5116,19 @@
      "team": "DAL",
      "line": -7.0,
      "price": "-105",
-     "prob": 0.497,
-     "ev": -0.029,
+     "prob": 0.496,
+     "ev": -0.031,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "54.5",
-     "model_line": "53.5",
-     "edge_pts": 1.0,
+     "model_line": "53.6",
+     "edge_pts": 0.9,
      "pick": "Under 54.5",
      "price": "-108",
-     "prob": 0.511,
-     "ev": -0.017,
+     "prob": 0.51,
+     "ev": -0.018,
      "bet": false,
      "stars": 0
     },
@@ -5135,7 +5138,7 @@
      "pick": "DAL ML",
      "price": "-310",
      "prob": 0.723,
-     "ev": -0.043,
+     "ev": -0.044,
      "bet": false,
      "stars": 0
     }
@@ -5945,9 +5948,7 @@
    "weather": null,
    "weather_notes": [],
    "injury_notes": {
-    "ARI": [
-     "Carson Beck (QB) Questionable"
-    ],
+    "ARI": [],
     "DAL": [
      "George Pickens (WR) Questionable"
     ]
@@ -5957,6 +5958,14 @@
     "DAL": -1.0
    },
    "injuries": [
+    {
+     "team": "ARI",
+     "name": "Hjalte Froholdt",
+     "position": "C",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
     {
      "team": "ARI",
      "name": "Michael Wilson",
@@ -5991,24 +6000,8 @@
     },
     {
      "team": "ARI",
-     "name": "Kei'Trel Clark",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "ARI",
      "name": "Elijah Wilkinson",
      "position": "OT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "ARI",
-     "name": "Zaven Collins",
-     "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -6049,14 +6042,6 @@
      "team": "ARI",
      "name": "Jon Gaines II",
      "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "ARI",
-     "name": "Carson Beck",
-     "position": "QB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -10856,6 +10841,14 @@
    "injuries": [
     {
      "team": "LV",
+     "name": "Jack Bech",
+     "position": "WR",
+     "status": "Injured Reserve",
+     "detail": "Bech (forearm) practiced fully Thursday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LV",
      "name": "Jackson Powers-Johnson",
      "position": "G",
      "status": "Questionable",
@@ -10892,14 +10885,6 @@
      "position": "OT",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "LV",
-     "name": "Jack Bech",
-     "position": "WR",
-     "status": "Injured Reserve",
-     "detail": "The Raiders designated Bech (forearm) for return from injured reserve Monday.",
      "source": "ESPN"
     },
     {
@@ -14339,6 +14324,30 @@
    "injuries": [
     {
      "team": "ATL",
+     "name": "C.J. Henderson",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Henderson was limited in Thursday's practice, Will McFadden of the team's official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ATL",
+     "name": "Kendal Daniels",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Daniels (Achilles) was limited in Thursday's practice, Will McFadden of the team's official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ATL",
+     "name": "Divine Deablo",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Deablo (forearm) was a limited participant in Thursday's practice, Will McFadden of the team's official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "ATL",
      "name": "Olamide Zaccheaus",
      "position": "WR",
      "status": "Questionable",
@@ -14363,34 +14372,10 @@
     },
     {
      "team": "ATL",
-     "name": "C.J. Henderson",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "ATL",
-     "name": "Kendal Daniels",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "ATL",
      "name": "Brian Robinson Jr.",
      "position": "RB",
      "status": "Questionable",
      "detail": "Robinson (hamstring) did not practice Thursday for the second day in a row, Will McFadden of the Falcons' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "ATL",
-     "name": "Divine Deablo",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Deablo (forearm) did not participate in Wednesday's practice, Tori McElhaney of the Falcons' official site reports.",
      "source": "ESPN"
     },
     {
@@ -14536,7 +14521,7 @@
     {
      "headline": "Longtime football coach June Jones, pioneer of run-and-shoot offense, dies at 73",
      "description": "Longtime college and pro football coach June Jones, who helped popularize the run-and-shoot offense, has died at 73.",
-     "published": "2026-10-29T22:24:40Z",
+     "published": "2026-10-29T22:35:24Z",
      "link": "https://www.espn.com/college-football/story/_/id/50321084/long-football-coach-june-jones-dies-age-73",
      "teams": [
       "ATL",
@@ -15976,6 +15961,14 @@
    "injuries": [
     {
      "team": "LAC",
+     "name": "Tre' Harris",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Harris (hamstring) remained limited in Thursday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LAC",
      "name": "Ladd McConkey",
      "position": "WR",
      "status": "Questionable",
@@ -16012,14 +16005,6 @@
      "position": "S",
      "status": "Doubtful",
      "detail": "James (hamstring) suffered a setback in his recovery and will likely miss Sunday's game against the Rams, Eric Smith of the Chargers' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LAC",
-     "name": "Tre' Harris",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Harris (hamstring) was a limited participant in Wednesday's practice.",
      "source": "ESPN"
     },
     {
@@ -17476,13 +17461,7 @@
      "fair_odds": "+807"
     }
    ],
-   "weather": {
-    "temp_f": 60,
-    "wind_mph": 8,
-    "gust_mph": 8,
-    "precip_prob": 2,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "KC": [
@@ -21277,6 +21256,16 @@
    ],
    "news": [
     {
+     "headline": "Commanders and Eagles head into 'Sunday Night Football' with season-defining matchup on deck",
+     "description": "\u2014 The Washington Commanders and Philadelphia Eagles are each facing a...",
+     "published": "2026-10-29T22:32:53Z",
+     "link": "http://www.espn.com/nfl/preview?gameId=401873035",
+     "teams": [
+      "PHI",
+      "WAS"
+     ]
+    },
+    {
      "headline": "NFL Week 8 uniforms: Jaguars, Lions become latest team to debut Rivalries look",
      "description": "Here's a look at what each NFL team is wearing in Week 8, led by Rivalries looks from Jacksonville and Detroit.",
      "published": "2026-10-29T19:57:50Z",
@@ -21366,25 +21355,6 @@
       "JAX",
       "MIN",
       "PHI"
-     ]
-    },
-    {
-     "headline": "Ranking the best 2026 NFL rookies: Arvell Reese, Denzel Boston, others in top 10",
-     "description": "Who are the NFL's most impressive rookies through Week 7? Who is overperforming or underperforming? We stacked the top 10 -- and have a tie at No. 1.",
-     "published": "2026-10-29T10:32:13Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50308697/2026-rookies-ranking-top-10-reese-styles-boston-concepcion",
-     "teams": [
-      "BAL",
-      "CAR",
-      "CLE",
-      "DET",
-      "KC",
-      "LV",
-      "MIA",
-      "NYG",
-      "NYJ",
-      "TB",
-      "WAS"
      ]
     }
    ],
@@ -21746,40 +21716,40 @@
    },
    "model_score": {
     "CHI": 18.9,
-    "SEA": 21.5
+    "SEA": 21.3
    },
    "picks": {
     "spread": {
      "market": "SEA -3",
      "model_line": "SEA -2.5",
-     "edge_pts": 0.4,
+     "edge_pts": 0.6,
      "pick": "CHI +3",
      "team": "CHI",
      "line": 3.0,
      "price": "-105",
-     "prob": 0.504,
-     "ev": -0.016,
+     "prob": 0.506,
+     "ev": -0.013,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "40.4",
-     "edge_pts": 6.1,
+     "model_line": "40.2",
+     "edge_pts": 6.3,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.565,
-     "ev": 0.079,
+     "prob": 0.567,
+     "ev": 0.083,
      "bet": true,
-     "stars": 2
+     "stars": 3
     },
     "moneyline": {
      "market": "CHI +142 / SEA -170",
      "market_prob": 0.604,
      "pick": "SEA ML",
      "price": "-170",
-     "prob": 0.6,
-     "ev": -0.047,
+     "prob": 0.598,
+     "ev": -0.05,
      "bet": false,
      "stars": 0
     }
@@ -22638,7 +22608,13 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 48,
+    "wind_mph": 4,
+    "gust_mph": 11,
+    "precip_prob": 5,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22652,15 +22628,15 @@
    },
    "injury_adj": {
     "CHI": -1.1,
-    "SEA": -1.0
+    "SEA": -1.2
    },
    "injuries": [
     {
      "team": "CHI",
      "name": "Anthony Johnson Jr.",
      "position": "S",
-     "status": "Injured Reserve",
-     "detail": "ir",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -22709,6 +22685,38 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "Muhammad (toe) is doubtful to return to Thursday night's contest against the Patriots.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Leonard Williams",
+     "position": "DT",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Uchenna Nwosu",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Patrick O'Connell",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Tyrice Knight",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -29435,13 +29443,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 60,
-     "wind_mph": 7,
-     "gust_mph": 11,
-     "precip_prob": 4,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29585,7 +29587,7 @@
       "pick": "Over 57.5",
       "price": "-112",
       "prob": 0.507,
-      "ev": -0.041,
+      "ev": -0.04,
       "bet": false,
       "stars": 0
      },
@@ -29728,15 +29730,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c2294 -3",
+      "market": "c2294 -2.5",
       "model_line": "c2294 PK",
-      "edge_pts": 3.0,
-      "pick": "c275 +3",
+      "edge_pts": 2.5,
+      "pick": "c275 +2.5",
       "team": "c275",
-      "line": 3.0,
+      "line": 2.5,
       "price": "-102",
-      "prob": 0.518,
-      "ev": 0.027,
+      "prob": 0.515,
+      "ev": 0.021,
       "bet": true,
       "stars": 1
      },
@@ -29752,12 +29754,12 @@
       "stars": 0
      },
      "moneyline": {
-      "market": "c275 +142 / c2294 -170",
-      "market_prob": 0.604,
+      "market": "c275 +110 / c2294 -130",
+      "market_prob": 0.543,
       "pick": "c2294 ML",
-      "price": "-170",
-      "prob": 0.586,
-      "ev": -0.07,
+      "price": "-130",
+      "prob": 0.527,
+      "ev": -0.067,
       "bet": false,
       "stars": 0
      }
@@ -29894,8 +29896,8 @@
      },
      "total": {
       "market": "57.5",
-      "model_line": "54.4",
-      "edge_pts": 3.1,
+      "model_line": "54.3",
+      "edge_pts": 3.2,
       "pick": "Under 57.5",
       "price": "-108",
       "prob": 0.52,
@@ -30007,7 +30009,7 @@
       "team": "c57",
       "line": 12.5,
       "price": "-112",
-      "prob": 0.536,
+      "prob": 0.535,
       "ev": 0.014,
       "bet": false,
       "stars": 0
@@ -30158,13 +30160,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 64,
-     "wind_mph": 6,
-     "gust_mph": 11,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30325,13 +30321,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 60,
-     "wind_mph": 2,
-     "gust_mph": 9,
-     "precip_prob": 8,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30460,13 +30450,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 49,
-     "wind_mph": 1,
-     "gust_mph": 2,
-     "precip_prob": 8,
-     "precip_in": 0.01
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30582,7 +30566,7 @@
       "edge_pts": 3.0,
       "pick": "Under 49.5",
       "price": "-112",
-      "prob": 0.52,
+      "prob": 0.519,
       "ev": -0.017,
       "bet": false,
       "stars": 0
@@ -30750,15 +30734,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c2132 +6.5",
+      "market": "c2132 +7",
       "model_line": "c2132 +3.5",
-      "edge_pts": 3.2,
-      "pick": "c2132 +6.5",
+      "edge_pts": 3.6,
+      "pick": "c2132 +7",
       "team": "c2132",
-      "line": 6.5,
-      "price": "-105",
-      "prob": 0.52,
-      "ev": 0.015,
+      "line": 7.0,
+      "price": "-110",
+      "prob": 0.523,
+      "ev": -0.002,
       "bet": false,
       "stars": 0
      },
@@ -30778,8 +30762,8 @@
       "market_prob": 0.691,
       "pick": "c254 ML",
       "price": "-258",
-      "prob": 0.672,
-      "ev": -0.067,
+      "prob": 0.67,
+      "ev": -0.07,
       "bet": false,
       "stars": 0
      }
@@ -30944,7 +30928,12 @@
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [],
+    "news": [
+     {
+      "headline": "UCLA QB Iamaleava 'heartbroken' over season-ending injury",
+      "link": "https://www.espn.com/college-football/story/_/id/50322728/ucla-qb-nico-iamaleava-heartbroken-season-ending-injury"
+     }
+    ],
     "trends": [
      {
       "type": "team",
@@ -31143,14 +31132,14 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c197": 32.9,
+     "c197": 32.8,
      "c66": 24.8
     },
     "picks": {
      "spread": {
       "market": "c66 +9.5",
       "model_line": "c66 +8",
-      "edge_pts": 1.4,
+      "edge_pts": 1.5,
       "pick": "c66 +9.5",
       "team": "c66",
       "line": 9.5,
@@ -31309,26 +31298,26 @@
     "qbs": {},
     "model_score": {
      "c2390": 35.3,
-     "c153": 23.3
+     "c153": 23.2
     },
     "picks": {
      "spread": {
       "market": "c153 +14",
       "model_line": "c153 +12",
-      "edge_pts": 2.0,
+      "edge_pts": 1.9,
       "pick": "c153 +14",
       "team": "c153",
       "line": 14.0,
       "price": "-105",
       "prob": 0.512,
-      "ev": 0.0,
+      "ev": -0.0,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "52.5",
-      "model_line": "58.6",
-      "edge_pts": 6.1,
+      "model_line": "58.5",
+      "edge_pts": 6.0,
       "pick": "Over 52.5",
       "price": "-110",
       "prob": 0.539,
@@ -31940,7 +31929,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 3,
+     "gust_mph": 5,
+     "precip_prob": 71,
+     "precip_in": 0.04
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32012,12 +32007,12 @@
    "n_games": 570,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.264254771403113,
-   "hfa": 4.884981308350689e-15,
+   "mu": 26.263217286864826,
+   "hfa": -1.7763568394002505e-15,
    "top": [
     [
      "c2390",
-     16.1
+     16.2
     ],
     [
      "c87",
@@ -32069,7 +32064,7 @@
     ],
     [
      "c197",
-     8.9
+     8.8
     ],
     [
      "c254",
@@ -32105,18 +32100,18 @@
     ],
     [
      "c252",
-     7.0
+     6.9
     ],
     [
      "c275",
      6.7
     ],
     [
-     "c2483",
-     6.3
+     "c2641",
+     6.4
     ],
     [
-     "c2641",
+     "c2483",
      6.3
     ],
     [
@@ -32145,7 +32140,7 @@
     ],
     [
      "c2116",
-     4.9
+     4.8
     ],
     [
      "c349",
