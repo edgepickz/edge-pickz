@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T23:34:00.254910+00:00",
+ "generated_at": "2026-10-29T00:05:24.286592+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -28,31 +28,31 @@
     "GB": "Jordan Love"
    },
    "model_score": {
-    "CAR": 20.2,
+    "CAR": 20.4,
     "GB": 23.4
    },
    "picks": {
     "spread": {
      "market": "GB -3.5",
      "model_line": "GB -3",
-     "edge_pts": 0.3,
+     "edge_pts": 0.5,
      "pick": "CAR +3.5",
      "team": "CAR",
      "line": 3.5,
      "price": "-108",
-     "prob": 0.504,
-     "ev": -0.03,
+     "prob": 0.505,
+     "ev": -0.027,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "47.5",
-     "model_line": "43.6",
-     "edge_pts": 3.9,
+     "model_line": "43.7",
+     "edge_pts": 3.8,
      "pick": "Under 47.5",
-     "price": "-108",
-     "prob": 0.542,
-     "ev": 0.044,
+     "price": "-112",
+     "prob": 0.54,
+     "ev": 0.023,
      "bet": true,
      "stars": 1
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.631,
      "pick": "GB ML",
      "price": "-192",
-     "prob": 0.628,
-     "ev": -0.046,
+     "prob": 0.626,
+     "ev": -0.048,
      "bet": false,
      "stars": 0
     }
@@ -862,7 +862,7 @@
     "GB": []
    },
    "injury_adj": {
-    "CAR": -0.6,
+    "CAR": -0.5,
     "GB": -1.1
    },
    "injuries": [
@@ -871,7 +871,7 @@
      "name": "Jaelan Phillips",
      "position": "LB",
      "status": "Out",
-     "detail": "out",
+     "detail": "Phillips (hamstring) has been ruled out ahead of Thursday night's game against the Packers.",
      "source": "ESPN"
     },
     {
@@ -886,14 +886,6 @@
      "team": "CAR",
      "name": "Damien Lewis",
      "position": "G",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "CAR",
-     "name": "Akayleb Evans",
-     "position": "CB",
      "status": "Out",
      "detail": "out",
      "source": "ESPN"
@@ -916,6 +908,14 @@
     },
     {
      "team": "GB",
+     "name": "Zaire Franklin",
+     "position": "LB",
+     "status": "Out",
+     "detail": "Franklin (shin) has been ruled out for Thursday's game against the Panthers, Wes Hodkiewicz of the Packers' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "GB",
      "name": "Micah Parsons",
      "position": "DE",
      "status": "Out",
@@ -928,14 +928,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Golden (shoulder/foot) is listed as questionable for Thursday's game against the Panthers, Weston Hodkiewicz of the Packers' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "GB",
-     "name": "Zaire Franklin",
-     "position": "LB",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -1440,30 +1432,30 @@
    },
    "model_score": {
     "BAL": 26.4,
-    "BUF": 29.9
+    "BUF": 29.8
    },
    "picks": {
     "spread": {
      "market": "BUF -3",
      "model_line": "BUF -3.5",
-     "edge_pts": 0.5,
+     "edge_pts": 0.3,
      "pick": "BAL +3",
      "team": "BAL",
      "line": 3.0,
      "price": "-102",
-     "prob": 0.495,
-     "ev": -0.019,
+     "prob": 0.496,
+     "ev": -0.017,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "54.5",
-     "model_line": "56.3",
-     "edge_pts": 1.8,
+     "model_line": "56.2",
+     "edge_pts": 1.7,
      "pick": "Over 54.5",
      "price": "-110",
-     "prob": 0.52,
-     "ev": -0.008,
+     "prob": 0.518,
+     "ev": -0.01,
      "bet": false,
      "stars": 0
     },
@@ -1472,8 +1464,8 @@
      "market_prob": 0.616,
      "pick": "BUF ML",
      "price": "-180",
-     "prob": 0.621,
-     "ev": -0.034,
+     "prob": 0.62,
+     "ev": -0.036,
      "bet": false,
      "stars": 0
     }
@@ -2211,7 +2203,7 @@
    "weather": {
     "temp_f": 64,
     "wind_mph": 7,
-    "gust_mph": 8,
+    "gust_mph": 11,
     "precip_prob": 3,
     "precip_in": 0
    },
@@ -2226,7 +2218,7 @@
    },
    "injury_adj": {
     "BAL": -0.9,
-    "BUF": -0.9
+    "BUF": -1.0
    },
    "injuries": [
     {
@@ -2323,6 +2315,14 @@
      "position": "S",
      "status": "Suspension",
      "detail": "reserve-sus",
+     "source": "ESPN"
+    },
+    {
+     "team": "BUF",
+     "name": "Tyrell Shavers",
+     "position": "WR",
+     "status": "Out",
+     "detail": "The Bills designated Shavers (knee) to return from the reserve/PUP list Wednesday, but he will not play against the Ravens on Sunday, Cameron Wolfe of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -3236,8 +3236,8 @@
    "picks": {
     "spread": {
      "market": "CIN -10",
-     "model_line": "CIN -11.5",
-     "edge_pts": 1.3,
+     "model_line": "CIN -11",
+     "edge_pts": 1.2,
      "pick": "TEN +10",
      "team": "TEN",
      "line": 10.0,
@@ -4074,7 +4074,7 @@
    "weather": {
     "temp_f": 58,
     "wind_mph": 8,
-    "gust_mph": 23,
+    "gust_mph": 22,
     "precip_prob": 33,
     "precip_in": 0.02
    },
@@ -4193,9 +4193,9 @@
    ],
    "news": [
     {
-     "headline": "Shemar Stewart focused on giving Bengals 'confidence' to play him",
-     "description": "After watching his teammates play on Sunday when he was a healthy scratch, Bengals DE Shemar Stewart knows what he has to show and prove moving forward.",
-     "published": "2026-10-28T23:07:55Z",
+     "headline": "Shemar Stewart focuses on giving Bengals 'confidence' to play him",
+     "description": "After watching his teammates play Sunday when he was a healthy scratch, Bengals DE Shemar Stewart knows what he has to show and prove moving forward.",
+     "published": "2026-10-28T23:49:19Z",
      "link": "https://www.espn.com/nfl/story/_/id/50311866/shemar-stewart-focused-giving-bengals-confidence-play-him",
      "teams": [
       "CIN"
@@ -5133,21 +5133,21 @@
     },
     "total": {
      "market": "54.5",
-     "model_line": "54.1",
-     "edge_pts": 0.4,
+     "model_line": "54.0",
+     "edge_pts": 0.5,
      "pick": "Under 54.5",
      "price": "-112",
      "prob": 0.505,
-     "ev": -0.045,
+     "ev": -0.044,
      "bet": false,
      "stars": 0
     },
     "moneyline": {
-     "market": "ARI +270 / DAL -340",
-     "market_prob": 0.741,
+     "market": "ARI +260 / DAL -325",
+     "market_prob": 0.734,
      "pick": "DAL ML",
-     "price": "-340",
-     "prob": 0.735,
+     "price": "-325",
+     "prob": 0.728,
      "ev": -0.048,
      "bet": false,
      "stars": 0
@@ -6725,20 +6725,20 @@
     "DET": "Jared Goff"
    },
    "model_score": {
-    "MIN": 22.0,
+    "MIN": 21.9,
     "DET": 19.0
    },
    "picks": {
     "spread": {
      "market": "DET -3",
      "model_line": "DET +3",
-     "edge_pts": 6.0,
+     "edge_pts": 5.9,
      "pick": "MIN +3",
      "team": "MIN",
      "line": 3.0,
      "price": "+100",
-     "prob": 0.562,
-     "ev": 0.124,
+     "prob": 0.561,
+     "ev": 0.123,
      "bet": true,
      "stars": 3
     },
@@ -6749,7 +6749,7 @@
      "pick": "Under 46.5",
      "price": "-120",
      "prob": 0.559,
-     "ev": 0.024,
+     "ev": 0.025,
      "bet": true,
      "stars": 1
     },
@@ -6758,8 +6758,8 @@
      "market_prob": 0.604,
      "pick": "DET ML",
      "price": "-170",
-     "prob": 0.542,
-     "ev": -0.139,
+     "prob": 0.543,
+     "ev": -0.138,
      "bet": false,
      "stars": 0
     }
@@ -7556,10 +7556,18 @@
     ]
    },
    "injury_adj": {
-    "MIN": -0.4,
+    "MIN": -0.5,
     "DET": -1.3
    },
    "injuries": [
+    {
+     "team": "DET",
+     "name": "Kerby Joseph",
+     "position": "S",
+     "status": "Out",
+     "detail": "The Lions opened the 21-day practice window for Joseph (knee) on Wednesday, Tim Twentyman of the Lions' official site reports.",
+     "source": "ESPN"
+    },
     {
      "team": "DET",
      "name": "Amon-Ra St. Brown",
@@ -7598,14 +7606,6 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "Rakestraw (ankle) is not believed to be dealing with a major injury after he was forced to exit Sunday's win over the Packers, Nolan Bianchi of The Detroit News reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DET",
-     "name": "Kerby Joseph",
-     "position": "S",
-     "status": "Out",
-     "detail": "Lions head coach Dan Campbell stated Kerby (knee) \"is in a good headspace\" and expects the 25-year-old to play at some point this season, Nolan Bianchi of The Detroit News reports.",
      "source": "ESPN"
     },
     {
@@ -7658,14 +7658,23 @@
     },
     {
      "team": "MIN",
-     "name": "Michael Briscoe",
-     "position": "WR",
-     "status": "Out",
-     "detail": "out",
+     "name": "Donovan Jackson",
+     "position": "G",
+     "status": "Injured Reserve",
+     "detail": "Jackson (knee) was placed on injured reserve by the Vikings on Tuesday.",
      "source": "ESPN"
     }
    ],
    "news": [
+    {
+     "headline": "Justin Jefferson on down year amid Vikes' 6-0 start: 'What we're doing is working'",
+     "description": "Justin Jefferson, whose 23 catches are a career low through the first seven weeks of a season, said ultimately what the 6-0 Vikings are doing now \"is working.\"",
+     "published": "2026-10-28T23:52:03Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50311965/justin-jefferson-addresses-year-amid-vikings-6-0-start",
+     "teams": [
+      "MIN"
+     ]
+    },
     {
      "headline": "Jahmyr Gibbs shares his mindset after fully taking over Lions' backfield",
      "description": "Jahmyr Gibbs shares his mindset after fully taking over Lions' backfield",
@@ -7744,18 +7753,6 @@
       "GB",
       "MIN",
       "NYY"
-     ]
-    },
-    {
-     "headline": "Fantasy football buzz: Vikings defensive dilemma? Check in on the Jaguars",
-     "description": "As the Vikings head to their toughest matchup of the season, pick up an under-the-radar defense.",
-     "published": "2026-10-28T15:22:27Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-     "teams": [
-      "DAL",
-      "JAX",
-      "MIN",
-      "PHI"
      ]
     }
    ],
@@ -8200,7 +8197,7 @@
      "line": -10.0,
      "price": "-108",
      "prob": 0.503,
-     "ev": -0.031,
+     "ev": -0.032,
      "bet": false,
      "stars": 0
     },
@@ -8216,12 +8213,12 @@
      "stars": 0
     },
     "moneyline": {
-     "market": "IND +380 / JAX -500",
-     "market_prob": 0.8,
+     "market": "IND +370 / JAX -485",
+     "market_prob": 0.796,
      "pick": "JAX ML",
-     "price": "-500",
-     "prob": 0.802,
-     "ev": -0.037,
+     "price": "-485",
+     "prob": 0.798,
+     "ev": -0.038,
      "bet": false,
      "stars": 0
     }
@@ -9083,7 +9080,7 @@
    "weather": {
     "temp_f": 78,
     "wind_mph": 11,
-    "gust_mph": 25,
+    "gust_mph": 16,
     "precip_prob": 55,
     "precip_in": 0.0
    },
@@ -9981,18 +9978,18 @@
      "edge_pts": 0.5,
      "pick": "Over 45.5",
      "price": "-105",
-     "prob": 0.506,
+     "prob": 0.505,
      "ev": -0.013,
      "bet": false,
      "stars": 0
     },
     "moneyline": {
-     "market": "LV +105 / NYJ -125",
-     "market_prob": 0.532,
+     "market": "LV +102 / NYJ -122",
+     "market_prob": 0.526,
      "pick": "NYJ ML",
-     "price": "-125",
-     "prob": 0.544,
-     "ev": -0.021,
+     "price": "-122",
+     "prob": 0.537,
+     "ev": -0.022,
      "bet": false,
      "stars": 0
     }
@@ -10936,6 +10933,22 @@
     },
     {
      "team": "NYJ",
+     "name": "David Bailey",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Bailey did not practice Wednesday due to a groin injury, Rich Cimini of ESPN.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYJ",
+     "name": "T'Vondre Sweat",
+     "position": "DT",
+     "status": "Doubtful",
+     "detail": "Sweat (knee) is week-to-week and is unlikely to suit up for Sunday's game against the Raiders, Rich Cimini of ESPN.com reported Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYJ",
      "name": "Braelon Allen",
      "position": "RB",
      "status": "Questionable",
@@ -10956,22 +10969,6 @@
      "position": "DE",
      "status": "Doubtful",
      "detail": "doubtful",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
-     "name": "T'Vondre Sweat",
-     "position": "DT",
-     "status": "Doubtful",
-     "detail": "doubtful",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
-     "name": "David Bailey",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -11003,7 +11000,7 @@
     {
      "headline": "Jets WR Garrett Wilson says he doesn't want to be traded but does want to win",
      "description": "Jets receiver Garrett Wilson says he doesn't want to be traded but he expressed that he's frustrated by his target share and, most of all, losing.",
-     "published": "2026-10-28T22:07:19Z",
+     "published": "2026-10-28T23:55:56Z",
      "link": "https://www.espn.com/nfl/story/_/id/50308919/jets-wr-garrett-wilson-says-want-traded",
      "teams": [
       "NYJ"
@@ -11826,8 +11823,8 @@
     },
     "total": {
      "market": "39.5",
-     "model_line": "37.5",
-     "edge_pts": 2.0,
+     "model_line": "37.6",
+     "edge_pts": 1.9,
      "pick": "Under 39.5",
      "price": "-112",
      "prob": 0.521,
@@ -13549,7 +13546,7 @@
      "pick": "Under 44.5",
      "price": "-105",
      "prob": 0.547,
-     "ev": 0.068,
+     "ev": 0.069,
      "bet": true,
      "stars": 2
     },
@@ -14369,7 +14366,7 @@
    "weather": {
     "temp_f": 79,
     "wind_mph": 10,
-    "gust_mph": 10,
+    "gust_mph": 14,
     "precip_prob": 68,
     "precip_in": 0.61
    },
@@ -15125,7 +15122,7 @@
    },
    "model_score": {
     "LAC": 13.7,
-    "LA": 21.8
+    "LA": 21.9
    },
    "picks": {
     "spread": {
@@ -15136,29 +15133,29 @@
      "team": "LA",
      "line": -6.5,
      "price": "-118",
-     "prob": 0.517,
-     "ev": -0.044,
+     "prob": 0.518,
+     "ev": -0.043,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "45.5",
-     "model_line": "35.5",
-     "edge_pts": 10.0,
+     "model_line": "35.6",
+     "edge_pts": 9.9,
      "pick": "Under 45.5",
      "price": "-115",
-     "prob": 0.606,
-     "ev": 0.133,
+     "prob": 0.605,
+     "ev": 0.132,
      "bet": true,
      "stars": 3
     },
     "moneyline": {
-     "market": "LAC +230 / LA -285",
-     "market_prob": 0.71,
+     "market": "LAC +225 / LA -278",
+     "market_prob": 0.705,
      "pick": "LA ML",
-     "price": "-285",
-     "prob": 0.725,
-     "ev": -0.021,
+     "price": "-278",
+     "prob": 0.721,
+     "ev": -0.02,
      "bet": false,
      "stars": 0
     }
@@ -15982,6 +15979,22 @@
    "injuries": [
     {
      "team": "LAC",
+     "name": "Brenen Thompson",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Thompson (quadriceps/hamstring) did not participate at practice Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LAC",
+     "name": "Derwin James Jr.",
+     "position": "S",
+     "status": "Doubtful",
+     "detail": "James (hamstring) suffered a setback in his recovery and will likely miss Sunday's game against the Rams, Eric Smith of the Chargers' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LAC",
      "name": "Tre' Harris",
      "position": "WR",
      "status": "Questionable",
@@ -16002,22 +16015,6 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "LAC",
-     "name": "Derwin James Jr.",
-     "position": "S",
-     "status": "Doubtful",
-     "detail": "doubtful",
-     "source": "ESPN"
-    },
-    {
-     "team": "LAC",
-     "name": "Brenen Thompson",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Thompson (quadriceps) was active but didn't play any snaps Sunday in the Chargers' 22-6 loss to the Chiefs.",
      "source": "ESPN"
     },
     {
@@ -16050,6 +16047,22 @@
      "position": "FB",
      "status": "Injured Reserve",
      "detail": "The Chargers placed Ingold on injured reserve Thursday due to a shoulder injury.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
+     "name": "Coleman Shelton",
+     "position": "C",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
+     "name": "Joe Cardona",
+     "position": "LS",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -16098,14 +16111,6 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Kobie Turner",
-     "position": "DE",
-     "status": "Injured Reserve",
-     "detail": "The Rams placed Turner (groin) on injured reserve Wednesday.",
      "source": "ESPN"
     }
    ],
@@ -16678,7 +16683,7 @@
      "pick": "Under 40.5",
      "price": "-108",
      "prob": 0.518,
-     "ev": -0.002,
+     "ev": -0.003,
      "bet": false,
      "stars": 0
     },
@@ -17475,7 +17480,13 @@
      "fair_odds": "+807"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 64,
+    "wind_mph": 7,
+    "gust_mph": 9,
+    "precip_prob": 3,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "KC": [],
@@ -18431,7 +18442,7 @@
      "team": "NE",
      "line": -7.0,
      "price": "-105",
-     "prob": 0.508,
+     "prob": 0.507,
      "ev": -0.009,
      "bet": false,
      "stars": 0
@@ -18453,7 +18464,7 @@
      "pick": "NE ML",
      "price": "-310",
      "prob": 0.732,
-     "ev": -0.031,
+     "ev": -0.032,
      "bet": false,
      "stars": 0
     }
@@ -19312,7 +19323,13 @@
      "fair_odds": "+1229"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 83,
+    "wind_mph": 11,
+    "gust_mph": 11,
+    "precip_prob": 65,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "NE": [],
@@ -20261,31 +20278,31 @@
     "WAS": "Jayden Daniels"
    },
    "model_score": {
-    "PHI": 20.0,
-    "WAS": 21.8
+    "PHI": 20.1,
+    "WAS": 21.9
    },
    "picks": {
     "spread": {
      "market": "WAS -6",
      "model_line": "WAS -2",
-     "edge_pts": 4.1,
+     "edge_pts": 4.2,
      "pick": "PHI +6",
      "team": "PHI",
      "line": 6.0,
      "price": "-112",
      "prob": 0.543,
-     "ev": 0.028,
+     "ev": 0.029,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "40.5",
-     "model_line": "41.8",
-     "edge_pts": 1.3,
+     "model_line": "42.0",
+     "edge_pts": 1.5,
      "pick": "Over 40.5",
      "price": "-110",
-     "prob": 0.514,
-     "ev": -0.018,
+     "prob": 0.516,
+     "ev": -0.015,
      "bet": false,
      "stars": 0
     },
@@ -20295,7 +20312,7 @@
      "pick": "WAS ML",
      "price": "-230",
      "prob": 0.629,
-     "ev": -0.097,
+     "ev": -0.098,
      "bet": false,
      "stars": 0
     }
@@ -21010,7 +21027,13 @@
      "fair_odds": "+304"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 56,
+    "wind_mph": 5,
+    "gust_mph": 16,
+    "precip_prob": 0,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "PHI": [
@@ -21023,7 +21046,7 @@
     ]
    },
    "injury_adj": {
-    "PHI": -1.8,
+    "PHI": -1.7,
     "WAS": -2.2
    },
    "injuries": [
@@ -21132,11 +21155,27 @@
      "source": "ESPN"
     },
     {
-     "team": "PHI",
-     "name": "Jakorian Bennett",
-     "position": "CB",
+     "team": "WAS",
+     "name": "Javon Kinlaw",
+     "position": "DT",
+     "status": "Doubtful",
+     "detail": "Head coach Dan Quinn said Wednesday that Kinlaw (knee) is \"unlikely\" to play against the Eagles on Sunday, Zach Selby of the Commanders' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
+     "name": "Jer'Zhan Newton",
+     "position": "DT",
      "status": "Injured Reserve",
-     "detail": "Bennett (knee) will remain on injured reserve and is inactive for Monday night's matchup with Dallas.",
+     "detail": "The Commanders designated Newton (pectoral) for return to practice from their injured reserve list Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
+     "name": "Treylon Burks",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Burks (foot) was limited in Wednesday's practice.",
      "source": "ESPN"
     },
     {
@@ -21149,26 +21188,10 @@
     },
     {
      "team": "WAS",
-     "name": "Treylon Burks",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
      "name": "John Bates",
      "position": "TE",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Javon Kinlaw",
-     "position": "DT",
-     "status": "Doubtful",
-     "detail": "doubtful",
      "source": "ESPN"
     },
     {
@@ -21193,14 +21216,6 @@
      "position": "DE",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Javontae Jean-Baptiste",
-     "position": "LB",
-     "status": "Injured Reserve",
-     "detail": "The Commanders placed Jean-Baptiste (pectoral) on injured reserve Monday.",
      "source": "ESPN"
     }
    ],
@@ -21657,31 +21672,31 @@
     "SEA": "Sam Darnold"
    },
    "model_score": {
-    "CHI": 19.0,
+    "CHI": 18.9,
     "SEA": 21.5
    },
    "picks": {
     "spread": {
      "market": "SEA -3",
      "model_line": "SEA -2.5",
-     "edge_pts": 0.5,
+     "edge_pts": 0.4,
      "pick": "CHI +3",
      "team": "CHI",
      "line": 3.0,
      "price": "-105",
-     "prob": 0.505,
-     "ev": -0.014,
+     "prob": 0.504,
+     "ev": -0.016,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "40.5",
-     "edge_pts": 6.0,
+     "model_line": "40.4",
+     "edge_pts": 6.1,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.564,
-     "ev": 0.077,
+     "prob": 0.565,
+     "ev": 0.079,
      "bet": true,
      "stars": 2
     },
@@ -21690,8 +21705,8 @@
      "market_prob": 0.6,
      "pick": "SEA ML",
      "price": "-166",
-     "prob": 0.595,
-     "ev": -0.047,
+     "prob": 0.596,
+     "ev": -0.045,
      "bet": false,
      "stars": 0
     }
@@ -22550,7 +22565,13 @@
      "fair_odds": "+416"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 51,
+    "wind_mph": 3,
+    "gust_mph": 5,
+    "precip_prob": 10,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "CHI": [
@@ -22563,7 +22584,7 @@
     ]
    },
    "injury_adj": {
-    "CHI": -1.0,
+    "CHI": -1.1,
     "SEA": -1.0
    },
    "injuries": [
@@ -22573,6 +22594,14 @@
      "position": "S",
      "status": "Out",
      "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "CHI",
+     "name": "Coby Bryant",
+     "position": "S",
+     "status": "Injured Reserve",
+     "detail": "Coach Ben Johnson said Wednesday that Bryant (knee) will start running again in the \"near future,\" Courtney Cronin of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -22692,7 +22721,7 @@
     {
      "headline": "Bears' Caleb Williams to continue wearing Caddix 'smart cleats' despite fine",
      "description": "Bears quarterback Caleb Williams said Wednesday he will continue to sport the Caddix cleats he was fined $11,941 for wearing during Chicago's Week 6 win at Atlanta -- a fine that he has appealed, according to a source.",
-     "published": "2026-10-28T23:20:04Z",
+     "published": "2026-10-28T23:33:40Z",
      "link": "https://www.espn.com/nfl/story/_/id/50311661/bears-qb-caleb-williams-continue-wearing-caddix-cleats-fine",
      "teams": [
       "CHI"
@@ -27559,13 +27588,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 61,
-     "wind_mph": 3,
-     "gust_mph": 8,
-     "precip_prob": 9,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27696,9 +27719,9 @@
       "pick": "c183 +10",
       "team": "c183",
       "line": 10.0,
-      "price": "-112",
+      "price": "-108",
       "prob": 0.545,
-      "ev": 0.031,
+      "ev": 0.049,
       "bet": true,
       "stars": 1
      },
@@ -27707,9 +27730,9 @@
       "model_line": "58.6",
       "edge_pts": 0.1,
       "pick": "Over 58.5",
-      "price": "-110",
+      "price": "-105",
       "prob": 0.501,
-      "ev": -0.044,
+      "ev": -0.022,
       "bet": false,
       "stars": 0
      },
@@ -27882,13 +27905,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 54,
-     "wind_mph": 6,
-     "gust_mph": 10,
-     "precip_prob": 46,
-     "precip_in": 0.02
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28017,7 +28034,7 @@
       "edge_pts": 3.2,
       "pick": "Under 57.5",
       "price": "-110",
-      "prob": 0.521,
+      "prob": 0.52,
       "ev": -0.006,
       "bet": false,
       "stars": 0
@@ -28034,13 +28051,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 75,
-     "wind_mph": 7,
-     "gust_mph": 13,
-     "precip_prob": 6,
-     "precip_in": 0.01
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28112,13 +28123,13 @@
      "spread": {
       "market": "c61 -11.5",
       "model_line": "c61 -7",
-      "edge_pts": 4.7,
+      "edge_pts": 4.6,
       "pick": "c57 +11.5",
       "team": "c57",
       "line": 11.5,
       "price": "-108",
       "prob": 0.529,
-      "ev": 0.019,
+      "ev": 0.018,
       "bet": false,
       "stars": 0
      },
@@ -28128,8 +28139,8 @@
       "edge_pts": 6.6,
       "pick": "Over 55.5",
       "price": "-110",
-      "prob": 0.543,
-      "ev": 0.036,
+      "prob": 0.542,
+      "ev": 0.035,
       "bet": true,
       "stars": 1
      },
@@ -28139,7 +28150,7 @@
       "pick": "c61 ML",
       "price": "-440",
       "prob": 0.759,
-      "ev": -0.069,
+      "ev": -0.068,
       "bet": false,
       "stars": 0
      }
@@ -28232,8 +28243,8 @@
       "team": "c135",
       "line": 20.5,
       "price": "-108",
-      "prob": 0.536,
-      "ev": 0.033,
+      "prob": 0.537,
+      "ev": 0.034,
       "bet": true,
       "stars": 1
      },
@@ -28244,7 +28255,7 @@
       "pick": "Over 41.5",
       "price": "-108",
       "prob": 0.498,
-      "ev": -0.04,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      },
@@ -28260,13 +28271,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 68,
-     "wind_mph": 5,
-     "gust_mph": 13,
-     "precip_prob": 2,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28556,7 +28561,7 @@
       "pick": "c2483 ML",
       "price": "-175",
       "prob": 0.593,
-      "ev": -0.067,
+      "ev": -0.068,
       "bet": false,
       "stars": 0
      }
@@ -28843,7 +28848,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c254": 30.0,
+     "c254": 29.9,
      "c2132": 26.5
     },
     "picks": {
@@ -28864,7 +28869,7 @@
       "market": "56.5",
       "model_line": "56.5",
       "edge_pts": 0.0,
-      "pick": "Over 56.5",
+      "pick": "Under 56.5",
       "price": "-110",
       "prob": 0.5,
       "ev": -0.045,
@@ -28916,25 +28921,6 @@
      },
      {
       "type": "team",
-      "team": "c2132",
-      "opp": "c254",
-      "kind": "total",
-      "label": "gone over the total",
-      "bet": "over",
-      "agrees": true,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
       "team": "c254",
       "opp": "c2132",
       "kind": "spread",
@@ -28954,12 +28940,31 @@
      },
      {
       "type": "team",
+      "team": "c2132",
+      "opp": "c254",
+      "kind": "total",
+      "label": "gone over the total",
+      "bet": "over",
+      "agrees": false,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       true,
+       false,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
       "team": "c254",
       "opp": "c2132",
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -28999,7 +29004,7 @@
      "spread": {
       "market": "c26 -22.5",
       "model_line": "c26 -15",
-      "edge_pts": 7.4,
+      "edge_pts": 7.5,
       "pick": "c2440 +22.5",
       "team": "c2440",
       "line": 22.5,
@@ -29035,7 +29040,7 @@
     "weather": {
      "temp_f": 68,
      "wind_mph": 5,
-     "gust_mph": 6,
+     "gust_mph": 5,
      "precip_prob": 42,
      "precip_in": 0
     },
@@ -29158,8 +29163,8 @@
      },
      "total": {
       "market": "44.5",
-      "model_line": "49.0",
-      "edge_pts": 4.5,
+      "model_line": "48.9",
+      "edge_pts": 4.4,
       "pick": "Over 44.5",
       "price": "-105",
       "prob": 0.529,
@@ -29182,7 +29187,7 @@
     "weather": {
      "temp_f": 63,
      "wind_mph": 4,
-     "gust_mph": 5,
+     "gust_mph": 6,
      "precip_prob": 18,
      "precip_in": 0
     },
@@ -29284,7 +29289,7 @@
     "weather": {
      "temp_f": 56,
      "wind_mph": 8,
-     "gust_mph": 18,
+     "gust_mph": 19,
      "precip_prob": 24,
      "precip_in": 0
     },
@@ -29406,7 +29411,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2390": 35.4,
+     "c2390": 35.3,
      "c153": 23.2
     },
     "picks": {
@@ -29601,7 +29606,7 @@
     "weather": {
      "temp_f": 68,
      "wind_mph": 7,
-     "gust_mph": 7,
+     "gust_mph": 6,
      "precip_prob": 73,
      "precip_in": 0
     },
@@ -29712,7 +29717,7 @@
       "team": "c344",
       "line": 20.5,
       "price": "-115",
-      "prob": 0.566,
+      "prob": 0.567,
       "ev": 0.059,
       "bet": true,
       "stars": 2
@@ -29734,7 +29739,7 @@
       "pick": "c251 ML",
       "price": "-1350",
       "prob": 0.861,
-      "ev": -0.075,
+      "ev": -0.076,
       "bet": false,
       "stars": 0
      }
@@ -29862,7 +29867,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c142": 25.8,
+     "c142": 25.9,
      "c8": 20.8
     },
     "picks": {
@@ -29875,7 +29880,7 @@
       "line": 10.0,
       "price": "-112",
       "prob": 0.531,
-      "ev": 0.005,
+      "ev": 0.004,
       "bet": false,
       "stars": 0
      },
@@ -29912,12 +29917,7 @@
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [
-     {
-      "headline": "Ryan Silverfield talks Arkansas' urgency to keep a forward focus",
-      "link": "https://www.espn.com/video/clip/_/id/50289258/ryan-silverfield-talks-arkansas-urgency-keep-forward-focus"
-     }
-    ],
+    "news": [],
     "trends": [
      {
       "type": "team",
@@ -30019,7 +30019,7 @@
       "edge_pts": 5.1,
       "pick": "Under 63.5",
       "price": "-105",
-      "prob": 0.532,
+      "prob": 0.533,
       "ev": 0.04,
       "bet": true,
       "stars": 1
@@ -30039,7 +30039,7 @@
     "weather": {
      "temp_f": 48,
      "wind_mph": 6,
-     "gust_mph": 10,
+     "gust_mph": 20,
      "precip_prob": 81,
      "precip_in": 0.24
     },
@@ -30116,12 +30116,12 @@
    "n_games": 568,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.276592063890575,
-   "hfa": -2.886579864025407e-15,
+   "mu": 26.27636583207727,
+   "hfa": 1.3322676295501878e-14,
    "top": [
     [
      "c2390",
-     16.3
+     16.2
     ],
     [
      "c87",
@@ -30181,7 +30181,7 @@
     ],
     [
      "c145",
-     8.3
+     8.2
     ],
     [
      "c204",
@@ -30193,7 +30193,7 @@
     ],
     [
      "c251",
-     7.9
+     7.8
     ],
     [
      "c158",
@@ -30253,7 +30253,7 @@
     ],
     [
      "c349",
-     4.8
+     4.9
     ],
     [
      "c239",
