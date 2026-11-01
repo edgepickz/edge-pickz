@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T22:53:01.420542+00:00",
+ "generated_at": "2026-11-01T23:19:18.528897+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -29,30 +29,30 @@
    },
    "model_score": {
     "LAC": 12.3,
-    "LA": 21.5
+    "LA": 21.4
    },
    "picks": {
     "spread": {
      "market": "LA -6.5",
      "model_line": "LA -9",
-     "edge_pts": 2.7,
+     "edge_pts": 2.6,
      "pick": "LA -6.5",
      "team": "LA",
      "line": -6.5,
      "price": "-115",
-     "prob": 0.528,
-     "ev": -0.013,
+     "prob": 0.527,
+     "ev": -0.014,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "33.8",
-     "edge_pts": 12.7,
+     "model_line": "33.7",
+     "edge_pts": 12.8,
      "pick": "Under 46.5",
      "price": "-115",
      "prob": 0.634,
-     "ev": 0.185,
+     "ev": 0.186,
      "bet": true,
      "stars": 3
     },
@@ -61,7 +61,7 @@
      "market_prob": 0.71,
      "pick": "LA ML",
      "price": "-285",
-     "prob": 0.734,
+     "prob": 0.733,
      "ev": -0.009,
      "bet": false,
      "stars": 0
@@ -717,7 +717,7 @@
      "team": "LA",
      "opp": "LAC",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 100.6,
@@ -737,7 +737,7 @@
      "team": "LA",
      "opp": "LAC",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 8.7,
@@ -757,7 +757,7 @@
      "team": "LA",
      "opp": "LAC",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "47% to score",
@@ -911,6 +911,14 @@
      "position": "LB",
      "status": "Injured Reserve",
      "detail": "Head coach Jim Harbaugh said Wednesday that Perryman (undisclosed) is \"close\" to returning from injured reserve, Alex Insdorf of BoltBeat.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
+     "name": "Jaylen Watson",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Watson (shoulder) is questionable to return to Sunday's contest against the Chargers, Adam Grosbard of The Orange County Register reports.",
      "source": "ESPN"
     },
     {
@@ -1426,7 +1434,7 @@
       1
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -1645,30 +1653,30 @@
    },
    "model_score": {
     "KC": 19.8,
-    "DEN": 17.5
+    "DEN": 18.2
    },
    "picks": {
     "spread": {
      "market": "DEN -1.5",
-     "model_line": "DEN +2.5",
-     "edge_pts": 3.8,
+     "model_line": "DEN +1.5",
+     "edge_pts": 3.2,
      "pick": "KC +1.5",
      "team": "KC",
      "line": 1.5,
      "price": "-120",
-     "prob": 0.54,
-     "ev": -0.01,
+     "prob": 0.533,
+     "ev": -0.023,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "41.5",
-     "model_line": "37.4",
-     "edge_pts": 4.1,
+     "model_line": "38.0",
+     "edge_pts": 3.5,
      "pick": "Under 41.5",
      "price": "-108",
-     "prob": 0.544,
-     "ev": 0.048,
+     "prob": 0.537,
+     "ev": 0.034,
      "bet": true,
      "stars": 1
     },
@@ -1677,10 +1685,10 @@
      "market_prob": 0.496,
      "pick": "KC ML",
      "price": "-108",
-     "prob": 0.536,
-     "ev": 0.031,
-     "bet": true,
-     "stars": 1
+     "prob": 0.528,
+     "ev": 0.018,
+     "bet": false,
+     "stars": 0
     }
    },
    "props": [
@@ -2394,9 +2402,9 @@
     }
    ],
    "weather": {
-    "temp_f": 63,
-    "wind_mph": 8,
-    "gust_mph": 14,
+    "temp_f": 60,
+    "wind_mph": 9,
+    "gust_mph": 16,
     "precip_prob": 1,
     "precip_in": 0
    },
@@ -2407,13 +2415,12 @@
     ],
     "DEN": [
      "RJ Harvey (RB) Injured Reserve",
-     "Sam Ehlinger (QB) Out",
-     "Tyler Badie (RB) Injured Reserve"
+     "Sam Ehlinger (QB) Out"
     ]
    },
    "injury_adj": {
     "KC": -0.8,
-    "DEN": -2.2
+    "DEN": -1.5
    },
    "injuries": [
     {
@@ -2454,6 +2461,14 @@
      "position": "CB",
      "status": "Out",
      "detail": "Delane (shoulder) has been downgraded from questionable to out for Sunday's game against the Broncos.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DEN",
+     "name": "Kris Abrams-Draine",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Abrams-Draine (ankle) is questionable to return to Sunday's contest versus the Chiefs, Parker Gabriel of The Denver Post reports.",
      "source": "ESPN"
     },
     {
@@ -2502,14 +2517,6 @@
      "position": "OT",
      "status": "Out",
      "detail": "inactive",
-     "source": "ESPN"
-    },
-    {
-     "team": "DEN",
-     "name": "Tyler Badie",
-     "position": "RB",
-     "status": "Injured Reserve",
-     "detail": "The Broncos placed Badie (thumb) on injured reserve Saturday, Aric DiLalla of the team's official site reports.",
      "source": "ESPN"
     },
     {
@@ -4300,9 +4307,9 @@
     }
    ],
    "weather": {
-    "temp_f": 76,
-    "wind_mph": 7,
-    "gust_mph": 26,
+    "temp_f": 75,
+    "wind_mph": 9,
+    "gust_mph": 27,
     "precip_prob": 76,
     "precip_in": 0
    },
@@ -4546,15 +4553,6 @@
      "link": "https://www.espn.com/nfl/story/_/id/50342146/dolphins-wr-caleb-douglas-vs-pats-christian-gonzalez",
      "teams": [
       "MIA"
-     ]
-    },
-    {
-     "headline": "The Patriots are 18-43 all time in Miami. Here are keys to a Week 8 victory",
-     "description": "Former Patriots player and current TV analyst Logan Ryan details what he thinks New England needs to improve on vs. Miami.",
-     "published": "2026-11-01T11:00:10Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50336122/new-england-patriots-miami-dolphins-week-8-key-win",
-     "teams": [
-      "NE"
      ]
     }
    ],
@@ -6069,7 +6067,7 @@
    "weather": {
     "temp_f": 51,
     "wind_mph": 5,
-    "gust_mph": 8,
+    "gust_mph": 9,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -9356,7 +9354,7 @@
      "name": "Tyler Huntley",
      "position": "QB",
      "status": "Questionable",
-     "detail": "The status of Huntley (toe) is uncertain ahead of Thursday night's game against the Jaguars , Tom Pelissero of Netflix reports",
+     "detail": "The status of Huntley (toe) is uncertain ahead of Thursday night's game against the Jaguars,  Tom Pelissero of Netflix reports",
      "source": "ESPN"
     },
     {
@@ -9364,7 +9362,7 @@
      "name": "Lamar Jackson",
      "position": "QB",
      "status": "Out",
-     "detail": "Jackson is slated to have surgery to address his right thumb injury and will be placed on injured reserve, Brian Wacker of The Baltimore Sun reports.",
+     "detail": "Jackson is slated to have surgery to address his right thumb injury and will be placed on injured reserve, per coach Jesse Minter,  Brian Wacker of The Baltimore Sun reports.",
      "source": "ESPN"
     },
     {
@@ -9524,13 +9522,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -9538,7 +9539,8 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
@@ -10740,7 +10742,7 @@
      "team": "ATL",
      "opp": "CIN",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 86.6,
@@ -10760,7 +10762,7 @@
      "team": "ATL",
      "opp": "CIN",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 34.5,
@@ -10780,7 +10782,7 @@
      "team": "ATL",
      "opp": "CIN",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.7,
@@ -10800,7 +10802,7 @@
      "team": "ATL",
      "opp": "CIN",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "42% to score",
@@ -11163,13 +11165,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -11177,7 +11182,8 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
@@ -11202,8 +11208,8 @@
     },
     {
      "headline": "Bucs down Falcons without pass completion; Bucky Irving, Kenny Gainwell run wild",
-     "description": "Baker Mayfield didn't complete a pass but the Buccaneers beat the Falcons 16-0 behind Bucky Irving and Kenny Gainwell's rushing on a wet, sloppy field.",
-     "published": "2026-11-01T22:37:16Z",
+     "description": "Baker Mayfield didn't complete a pass, but the Buccaneers beat the Falcons 16-0 behind Bucky Irving and Kenny Gainwell's rushing on a wet, sloppy field.",
+     "published": "2026-11-01T23:04:56Z",
      "link": "https://www.espn.com/nfl/story/_/id/50351129/buccaneers-silence-falcons-pass-completion",
      "teams": [
       "ATL",
@@ -12160,7 +12166,7 @@
      "team": "LA",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 103.0,
@@ -12180,7 +12186,7 @@
      "team": "LA",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 9.2,
@@ -12200,7 +12206,7 @@
      "team": "LA",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "44% to score",
@@ -12711,6 +12717,14 @@
    "injuries": [
     {
      "team": "LA",
+     "name": "Jaylen Watson",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Watson (shoulder) is questionable to return to Sunday's contest against the Chargers, Adam Grosbard of The Orange County Register reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
      "name": "Joe Cardona",
      "position": "LS",
      "status": "Out",
@@ -13198,7 +13212,7 @@
       1
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -15547,13 +15561,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -15561,7 +15578,8 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
@@ -17200,13 +17218,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -17214,7 +17235,8 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
@@ -17229,8 +17251,8 @@
     },
     {
      "headline": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
-     "description": "\u2014 Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on...",
-     "published": "2026-11-01T21:40:47Z",
+     "description": "\u2014 Kirk Cousins got up after his 1-yard touchdown run, crouched near the Raiders' sideline and started flapping his right elbow like a chicken wing.",
+     "published": "2026-11-01T23:03:46Z",
      "link": "http://www.espn.com/nfl/recap?gameId=401873029",
      "teams": [
       "LV",
@@ -18921,13 +18943,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -18935,7 +18960,8 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
@@ -19749,7 +19775,7 @@
     "CAR": "Bryce Young"
    },
    "model_score": {
-    "DEN": 21.6,
+    "DEN": 22.3,
     "CAR": 20.2
    },
    "picks": {},
@@ -20474,15 +20500,14 @@
    "injury_notes": {
     "DEN": [
      "Sam Ehlinger (QB) Out",
-     "RJ Harvey (RB) Injured Reserve",
-     "Tyler Badie (RB) Injured Reserve"
+     "RJ Harvey (RB) Injured Reserve"
     ],
     "CAR": [
      "Haynes King (QB) Out"
     ]
    },
    "injury_adj": {
-    "DEN": -2.2,
+    "DEN": -1.5,
     "CAR": -1.2
    },
    "injuries": [
@@ -20576,6 +20601,14 @@
     },
     {
      "team": "DEN",
+     "name": "Kris Abrams-Draine",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Abrams-Draine (ankle) is questionable to return to Sunday's contest versus the Chiefs, Parker Gabriel of The Denver Post reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DEN",
      "name": "Sam Ehlinger",
      "position": "QB",
      "status": "Out",
@@ -20636,14 +20669,6 @@
      "position": "RB",
      "status": "Injured Reserve",
      "detail": "The Broncos placed Harvey (knee) on injured reserve Saturday, Ian Rapoport of NFL Network reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DEN",
-     "name": "Tyler Badie",
-     "position": "RB",
-     "status": "Injured Reserve",
-     "detail": "The Broncos placed Badie (thumb) on injured reserve Saturday, Aric DiLalla of the team's official site reports.",
      "source": "ESPN"
     }
    ],
@@ -22197,13 +22222,7 @@
      "fair_odds": "+1379"
     }
    ],
-   "weather": {
-    "temp_f": 85,
-    "wind_mph": 2,
-    "gust_mph": 5,
-    "precip_prob": 9,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "DET": [
@@ -22397,13 +22416,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -22411,13 +22433,14 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
      "headline": "Goff throws go-ahead touchdown pass to Williams and Lions beat Vikings 19-15 for their 1st loss",
-     "description": "\u2014 Jared Goff threw a go-ahead, 7-yard touchdown pass to Jameson Williams with 4:35 left and the Detroit Lions beat the Minnesota Vikings 19-15 on...",
-     "published": "2026-11-01T21:21:59Z",
+     "description": "\u2014 The Detroit Lions handed the Minnesota Vikings their first loss of the season and had a muted celebration because All-Pro linebacker ",
+     "published": "2026-11-01T22:45:46Z",
      "link": "http://www.espn.com/nfl/recap?gameId=401873030",
      "teams": [
       "DET",
@@ -24788,7 +24811,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 25.7,
@@ -24808,7 +24831,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 2.6,
@@ -24828,7 +24851,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 0.6,
@@ -24848,7 +24871,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "16% to score",
@@ -25016,7 +25039,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 17.8,
@@ -25036,7 +25059,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.6,
@@ -25056,7 +25079,7 @@
      "team": "LV",
      "opp": "SF",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "13% to score",
@@ -25673,13 +25696,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -25687,7 +25713,8 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
@@ -25702,8 +25729,8 @@
     },
     {
      "headline": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
-     "description": "\u2014 Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on...",
-     "published": "2026-11-01T21:40:47Z",
+     "description": "\u2014 Kirk Cousins got up after his 1-yard touchdown run, crouched near the Raiders' sideline and started flapping his right elbow like a chicken wing.",
+     "published": "2026-11-01T23:03:46Z",
      "link": "http://www.espn.com/nfl/recap?gameId=401873029",
      "teams": [
       "LV",
@@ -25948,7 +25975,7 @@
       14
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -26300,7 +26327,7 @@
       0
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -26328,7 +26355,7 @@
       2
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -27153,7 +27180,7 @@
      "name": "Michael Wilson",
      "position": "WR",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Wilson said after Sunday's 33-30 win at Dallas that he suffered two broken ribs during the contest, Josh Weinfuss of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -27326,6 +27353,30 @@
     }
    ],
    "news": [
+    {
+     "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
+     "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
+     "published": "2026-11-01T23:06:59Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DET",
+      "IND",
+      "JAX",
+      "LV",
+      "MIN",
+      "NYJ",
+      "PIT",
+      "TB",
+      "TEN"
+     ]
+    },
     {
      "headline": "Arizona Cardinals vs. Dallas Cowboys: Game Highlights",
      "description": "Arizona Cardinals vs. Dallas Cowboys: Game Highlights",
@@ -28942,15 +28993,6 @@
       "TEN",
       "WAS"
      ]
-    },
-    {
-     "headline": "The Patriots are 18-43 all time in Miami. Here are keys to a Week 8 victory",
-     "description": "Former Patriots player and current TV analyst Logan Ryan details what he thinks New England needs to improve on vs. Miami.",
-     "published": "2026-11-01T11:00:10Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50336122/new-england-patriots-miami-dolphins-week-8-key-win",
-     "teams": [
-      "NE"
-     ]
     }
    ],
    "trends": [
@@ -30383,7 +30425,13 @@
      "fair_odds": "+648"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 49,
+    "wind_mph": 10,
+    "gust_mph": 18,
+    "precip_prob": 17,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "TB": [
@@ -30508,13 +30556,16 @@
     {
      "headline": "NFL Week 8: Big takeaways, questions and fantasy spin from Sunday's games",
      "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 8.",
-     "published": "2026-11-01T22:37:11Z",
+     "published": "2026-11-01T23:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
      "teams": [
+      "ARI",
       "ATL",
       "BAL",
       "BUF",
+      "CIN",
       "CLE",
+      "DAL",
       "DET",
       "IND",
       "JAX",
@@ -30522,13 +30573,14 @@
       "MIN",
       "NYJ",
       "PIT",
-      "TB"
+      "TB",
+      "TEN"
      ]
     },
     {
      "headline": "Bucs down Falcons without pass completion; Bucky Irving, Kenny Gainwell run wild",
-     "description": "Baker Mayfield didn't complete a pass but the Buccaneers beat the Falcons 16-0 behind Bucky Irving and Kenny Gainwell's rushing on a wet, sloppy field.",
-     "published": "2026-11-01T22:37:16Z",
+     "description": "Baker Mayfield didn't complete a pass, but the Buccaneers beat the Falcons 16-0 behind Bucky Irving and Kenny Gainwell's rushing on a wet, sloppy field.",
+     "published": "2026-11-01T23:04:56Z",
      "link": "https://www.espn.com/nfl/story/_/id/50351129/buccaneers-silence-falcons-pass-completion",
      "teams": [
       "ATL",
@@ -35000,24 +35052,24 @@
      "spread": {
       "market": "c12 -9.5",
       "model_line": "c12 -7",
-      "edge_pts": 2.7,
+      "edge_pts": 2.6,
       "pick": "c2628 +9.5",
       "team": "c2628",
       "line": 9.5,
       "price": "-110",
-      "prob": 0.517,
+      "prob": 0.516,
       "ev": -0.014,
       "bet": false,
       "stars": 0
      },
      "total": {
-      "market": "44.5",
+      "market": "43.5",
       "model_line": "40.9",
-      "edge_pts": 3.6,
-      "pick": "Under 44.5",
-      "price": "-118",
-      "prob": 0.523,
-      "ev": -0.034,
+      "edge_pts": 2.6,
+      "pick": "Under 43.5",
+      "price": "-108",
+      "prob": 0.516,
+      "ev": -0.005,
       "bet": false,
       "stars": 0
      },
@@ -35158,7 +35210,7 @@
      "spread": {
       "market": "c254 -5.5",
       "model_line": "c254 -7.5",
-      "edge_pts": 2.0,
+      "edge_pts": 2.1,
       "pick": "c254 -5.5",
       "team": "c254",
       "line": -5.5,
@@ -35184,7 +35236,7 @@
       "market_prob": 0.657,
       "pick": "c254 ML",
       "price": "-218",
-      "prob": 0.669,
+      "prob": 0.67,
       "ev": -0.023,
       "bet": false,
       "stars": 0
@@ -35347,12 +35399,12 @@
       "stars": 0
      },
      "moneyline": {
-      "market": "c26 -250 / c135 +205",
-      "market_prob": 0.685,
+      "market": "c26 -238 / c135 +195",
+      "market_prob": 0.675,
       "pick": "c26 ML",
-      "price": "-250",
-      "prob": 0.697,
-      "ev": -0.024,
+      "price": "-238",
+      "prob": 0.687,
+      "ev": -0.025,
       "bet": false,
       "stars": 0
      }
@@ -35645,7 +35697,7 @@
       "line": 10.5,
       "price": "-105",
       "prob": 0.518,
-      "ev": 0.012,
+      "ev": 0.011,
       "bet": false,
       "stars": 0
      },
@@ -35655,7 +35707,7 @@
       "edge_pts": 1.8,
       "pick": "Under 50.5",
       "price": "-102",
-      "prob": 0.511,
+      "prob": 0.512,
       "ev": 0.013,
       "bet": false,
       "stars": 0
@@ -35813,12 +35865,12 @@
      "spread": {
       "market": "c2579 -7",
       "model_line": "c2579 -5",
-      "edge_pts": 2.0,
+      "edge_pts": 1.9,
       "pick": "c245 +7",
       "team": "c245",
       "line": 7.0,
       "price": "-110",
-      "prob": 0.513,
+      "prob": 0.512,
       "ev": -0.022,
       "bet": false,
       "stars": 0
@@ -35835,12 +35887,12 @@
       "stars": 0
      },
      "moneyline": {
-      "market": "c245 +230 / c2579 -285",
-      "market_prob": 0.71,
+      "market": "c245 +235 / c2579 -290",
+      "market_prob": 0.714,
       "pick": "c2579 ML",
-      "price": "-285",
-      "prob": 0.698,
-      "ev": -0.057,
+      "price": "-290",
+      "prob": 0.703,
+      "ev": -0.055,
       "bet": false,
       "stars": 0
      }
@@ -35953,7 +36005,7 @@
     "qbs": {},
     "model_score": {
      "c2132": 24.0,
-     "c248": 34.8
+     "c248": 34.7
     },
     "picks": {
      "spread": {
@@ -35965,7 +36017,7 @@
       "line": -11.5,
       "price": "-105",
       "prob": 0.495,
-      "ev": -0.033,
+      "ev": -0.034,
       "bet": false,
       "stars": 0
      },
@@ -35976,16 +36028,16 @@
       "pick": "Under 62.5",
       "price": "-110",
       "prob": 0.524,
-      "ev": -0.0,
+      "ev": 0.0,
       "bet": false,
       "stars": 0
      },
      "moneyline": {
-      "market": "c2132 +320 / c248 -410",
-      "market_prob": 0.772,
+      "market": "c2132 +340 / c248 -440",
+      "market_prob": 0.782,
       "pick": "c248 ML",
-      "price": "-410",
-      "prob": 0.768,
+      "price": "-440",
+      "prob": 0.778,
       "ev": -0.045,
       "bet": false,
       "stars": 0
@@ -36252,12 +36304,12 @@
       "stars": 1
      },
      "moneyline": {
-      "market": "c333 +180 / c99 -218",
-      "market_prob": 0.657,
+      "market": "c333 +170 / c99 -205",
+      "market_prob": 0.645,
       "pick": "c99 ML",
-      "price": "-218",
-      "prob": 0.655,
-      "ev": -0.045,
+      "price": "-205",
+      "prob": 0.642,
+      "ev": -0.044,
       "bet": false,
       "stars": 0
      }
@@ -36520,7 +36572,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c238": 21.9,
+     "c238": 22.0,
      "c344": 29.7
     },
     "picks": {
@@ -36553,7 +36605,7 @@
       "market_prob": 0.551,
       "pick": "c344 ML",
       "price": "-135",
-      "prob": 0.584,
+      "prob": 0.583,
       "ev": 0.016,
       "bet": false,
       "stars": 0
@@ -36907,7 +36959,7 @@
     "qbs": {},
     "model_score": {
      "c96": 22.3,
-     "c2633": 27.5
+     "c2633": 27.4
     },
     "picks": {
      "spread": {
@@ -36930,7 +36982,7 @@
       "pick": "Under 51.5",
       "price": "-110",
       "prob": 0.511,
-      "ev": -0.025,
+      "ev": -0.024,
       "bet": false,
       "stars": 0
      },
@@ -37065,7 +37117,7 @@
     "qbs": {},
     "model_score": {
      "c2390": 30.3,
-     "c87": 32.7
+     "c87": 32.6
     },
     "picks": {
      "spread": {
@@ -37560,8 +37612,8 @@
       "edge_pts": 5.5,
       "pick": "Over 45.5",
       "price": "-110",
-      "prob": 0.536,
-      "ev": 0.023,
+      "prob": 0.535,
+      "ev": 0.022,
       "bet": true,
       "stars": 1
      },
@@ -37675,9 +37727,9 @@
       "pick": "c277 +17.5",
       "team": "c277",
       "line": 17.5,
-      "price": "-112",
+      "price": "-115",
       "prob": 0.552,
-      "ev": 0.045,
+      "ev": 0.032,
       "bet": true,
       "stars": 1
      },
@@ -37801,8 +37853,8 @@
    "n_games": 622,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.18408588145178,
-   "hfa": 1.199040866595169e-14,
+   "mu": 26.181935739700492,
+   "hfa": 6.439293542825908e-15,
    "top": [
     [
      "c2390",
@@ -37846,7 +37898,7 @@
     ],
     [
      "c333",
-     10.7
+     10.6
     ],
     [
      "c84",
@@ -37877,12 +37929,12 @@
      7.8
     ],
     [
-     "c197",
+     "c2633",
      7.4
     ],
     [
-     "c2633",
-     7.4
+     "c197",
+     7.3
     ],
     [
      "c256",
@@ -37917,12 +37969,12 @@
      6.1
     ],
     [
-     "c252",
+     "c68",
      6.0
     ],
     [
-     "c68",
-     6.0
+     "c252",
+     5.9
     ],
     [
      "c204",
