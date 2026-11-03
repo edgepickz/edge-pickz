@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T21:51:17.434825+00:00",
+ "generated_at": "2026-11-03T22:25:13.266900+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -859,8 +859,8 @@
    "weather_notes": [],
    "injury_notes": {
     "JAX": [
-     "Bhayshul Tuten (RB) Questionable",
-     "Jakobi Meyers (WR) Questionable"
+     "Jakobi Meyers (WR) Questionable",
+     "Bhayshul Tuten (RB) Questionable"
     ],
     "BAL": [
      "Tyler Huntley (QB) Doubtful",
@@ -873,6 +873,14 @@
     "BAL": -4.7
    },
    "injuries": [
+    {
+     "team": "BAL",
+     "name": "Tyler Loop",
+     "position": "PK",
+     "status": "Injured Reserve",
+     "detail": "The Ravens placed Loop (groin) on injured reserve Tuesday.",
+     "source": "ESPN"
+    },
     {
      "team": "BAL",
      "name": "Tyler Huntley",
@@ -911,14 +919,6 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "Smith (foot) was estimated as a limited participant on Monday's practice report.",
-     "source": "ESPN"
-    },
-    {
-     "team": "BAL",
-     "name": "Tyler Loop",
-     "position": "PK",
-     "status": "Injured Reserve",
-     "detail": "Loop was estimated as a non-participant in Monday's walk-through practice due to a right groin injury.",
      "source": "ESPN"
     },
     {
@@ -971,10 +971,26 @@
     },
     {
      "team": "JAX",
+     "name": "Jakobi Meyers",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Meyers (hamstring/ankle) was listed as a limited participant in Tuesday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "JAX",
+     "name": "Chris Rodriguez Jr.",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Rodriguez (hand) was listed as a limited participant in Tuesday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "JAX",
      "name": "Bhayshul Tuten",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Tuten (ankle/foot) was not spotted during the portion of Tuesday's practice open to the media, according to Michael DiRocco of ESPN.com.",
+     "detail": "The Jaguars listed Tuten (ankle/foot) as a non-participant in Tuesday's practice.",
      "source": "ESPN"
     },
     {
@@ -1003,33 +1019,17 @@
     },
     {
      "team": "JAX",
-     "name": "Chris Rodriguez Jr.",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Rodriguez was listed as limited on Monday's practice estimate due to a hand injury.",
-     "source": "ESPN"
-    },
-    {
-     "team": "JAX",
      "name": "Eric Murray",
      "position": "S",
-     "status": "Out",
+     "status": "Injured Reserve",
      "detail": "Murray will miss the remainder of the season due to an elbow injury, Demetrius Harvey of The Florida Times-Union reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "JAX",
-     "name": "Jakobi Meyers",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Meyers logged two catches for 24 yards on three targets in Sunday's 42-7 win against Indianapolis.",
      "source": "ESPN"
     },
     {
      "team": "JAX",
      "name": "DaVon Hamilton",
      "position": "DT",
-     "status": "Out",
+     "status": "Injured Reserve",
      "detail": "Jaguars coach Liam Coen confirmed Monday that Hamilton will miss the remainder of the season after suffering a torn quadriceps in Sunday's win over the Colts, Ryan O'Halloran of The Florida Times-Union reports.",
      "source": "ESPN"
     },
@@ -1052,29 +1052,10 @@
    ],
    "news": [
     {
-     "headline": "Rookie Joe Fagnano to start Thursday night vs. Jaguars, Jesse Minter says",
-     "description": "Ravens rookie quarterback Joe Fagnano will start Thursday night's game against the Jaguars, coach Jesse Minter announced Tuesday.",
-     "published": "2026-11-03T21:01:59Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50371730/rookie-joe-fagnano-start-thursday-night-vs-jaguars",
-     "teams": [
-      "BAL",
-      "JAX"
-     ]
-    },
-    {
-     "headline": "Why trade deadline rumors are swirling around Jaguars receiver Brian Thomas Jr.",
-     "description": "The 2024 first-round pick is sliding down the depth chart. What happened, and could the Jaguars trade him before the Nov. 10 deadline?",
-     "published": "2026-11-03T19:06:35Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50366346/jaguars-wr-brian-thomas-jr-trade-deadline-rumors",
-     "teams": [
-      "JAX"
-     ]
-    },
-    {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -1111,38 +1092,71 @@
      ]
     },
     {
-     "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-     "description": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-     "published": "2026-11-03T18:04:44Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
      "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
       "BUF",
-      "CHI",
-      "CIN",
-      "JAX",
-      "KC",
-      "SEA",
-      "SF"
-     ]
-    },
-    {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-     "teams": [
+      "CAR",
       "CHI",
       "CIN",
       "CLE",
       "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
       "IND",
       "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
       "MIN",
+      "NE",
+      "NO",
+      "NYG",
       "NYJ",
+      "PHI",
       "PIT",
       "SEA",
+      "SF",
       "TB",
-      "TEN"
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "Joe Fagnano to put his best foot forward in first NFL start",
+     "description": "Joe Fagnano to put his best foot forward in first NFL start",
+     "published": "2026-11-03T21:19:53Z",
+     "link": "https://www.espn.com/video/clip/_/id/50371918/joe-fagnano-put-best-foot-forward-first-nfl-start",
+     "teams": [
+      "BAL"
+     ]
+    },
+    {
+     "headline": "Rookie Joe Fagnano to start Thursday night vs. Jaguars, Jesse Minter says",
+     "description": "Ravens rookie quarterback Joe Fagnano will start Thursday night's game against the Jaguars, coach Jesse Minter announced Tuesday.",
+     "published": "2026-11-03T21:20:13Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50371730/rookie-joe-fagnano-start-thursday-night-vs-jaguars",
+     "teams": [
+      "BAL",
+      "JAX"
+     ]
+    },
+    {
+     "headline": "Why trade deadline rumors are swirling around Jaguars receiver Brian Thomas Jr.",
+     "description": "The 2024 first-round pick is sliding down the depth chart. What happened, and could the Jaguars trade him before the Nov. 10 deadline?",
+     "published": "2026-11-03T19:06:35Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50366346/jaguars-wr-brian-thomas-jr-trade-deadline-rumors",
+     "teams": [
+      "JAX"
      ]
     }
    ],
@@ -2658,6 +2672,86 @@
    ],
    "news": [
     {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
      "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
      "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
      "published": "2026-11-03T17:03:26Z",
@@ -2710,66 +2804,6 @@
       "KC",
       "SEA",
       "SF"
-     ]
-    },
-    {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-     "teams": [
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "IND",
-      "JAX",
-      "MIN",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "TB",
-      "TEN"
-     ]
-    },
-    {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
      ]
     }
    ],
@@ -4302,10 +4336,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -4342,10 +4376,50 @@
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -5943,10 +6017,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -5983,39 +6057,59 @@
      ]
     },
     {
-     "headline": "The team Domonique Foxworth says needs Jonathan Taylor the most",
-     "description": "The team Domonique Foxworth says needs Jonathan Taylor the most",
-     "published": "2026-11-03T13:41:44Z",
-     "link": "https://www.espn.com/video/clip/_/id/50368456/the-team-domonique-foxworth-says-needs-jonathan-taylor-most",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "Source: Colts, Adetomiwa Adebawore agree to 2-year, $35M extension",
+     "description": "The Colts and defensive tackle Adetomiwa Adebawore have agreed to terms on a two-year, $35 million extension, a source told NFL Network's Mike Garafolo.",
+     "published": "2026-11-03T21:57:34Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50371976/source-colts-adetomiwa-adebawore-reach-2-year-35m-deal",
      "teams": [
       "IND"
      ]
     },
     {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-     "teams": [
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "IND",
-      "JAX",
-      "MIN",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "TB",
-      "TEN"
-     ]
-    },
-    {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -7555,6 +7649,86 @@
    ],
    "news": [
     {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
      "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
      "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
      "published": "2026-11-03T17:03:26Z",
@@ -7607,66 +7781,6 @@
       "KC",
       "SEA",
       "SF"
-     ]
-    },
-    {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-     "teams": [
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "IND",
-      "JAX",
-      "MIN",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "TB",
-      "TEN"
-     ]
-    },
-    {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
      ]
     }
    ],
@@ -9105,10 +9219,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -9145,10 +9259,50 @@
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -10812,10 +10966,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -10852,30 +11006,59 @@
      ]
     },
     {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
      "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
       "CHI",
       "CIN",
       "CLE",
       "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
       "IND",
       "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
       "MIN",
+      "NE",
+      "NO",
+      "NYG",
       "NYJ",
+      "PHI",
       "PIT",
       "SEA",
+      "SF",
       "TB",
-      "TEN"
+      "TEN",
+      "WAS"
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "Saints release veteran kicker Daniel Carlson after posting 2nd-worst FG% in NFL",
+     "description": "Veteran kicker Daniel Carlson, whose 66.7% accuracy on field goals was tied for second-worst in the NFL this season, was released by the Saints on Tuesday.",
+     "published": "2026-11-03T21:47:39Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50372284/saints-release-veteran-kicker-daniel-carlson-7-games",
+     "teams": [
+      "NO"
+     ]
+    },
+    {
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -12356,10 +12539,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -12396,10 +12579,59 @@
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "Giants, CB Greg Newsome II agree to 3-year, $46M extension",
+     "description": "The Giants have reached agreement with cornerback Greg Newsome II on a three-year, $46 million extension, his agents told ESPN's Adam Schefter.",
+     "published": "2026-11-03T21:44:01Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50372281/giants-cb-greg-newsome-ii-agree-3-year-46m-extension",
+     "teams": [
+      "NYG"
+     ]
+    },
+    {
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -14119,10 +14351,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -14159,10 +14391,50 @@
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -15772,10 +16044,10 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -15812,19 +16084,50 @@
      ]
     },
     {
-     "headline": "C.J. Stroud turned down a big contract. A bigger one awaits",
-     "description": "Sources say C.J. Stroud turned down a deal similar to Trevor Lawrence's. He's in line for a bigger one.",
-     "published": "2026-11-03T18:36:56Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50360444/cj-stroud-texans-contract",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
      "teams": [
-      "HOU"
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -17559,6 +17862,86 @@
    ],
    "news": [
     {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
      "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
      "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
      "published": "2026-11-03T17:03:26Z",
@@ -17611,46 +17994,6 @@
       "KC",
       "SEA",
       "SF"
-     ]
-    },
-    {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
      ]
     }
    ],
@@ -18192,30 +18535,30 @@
    },
    "model_score": {
     "GB": 20.4,
-    "NE": 20.8
+    "NE": 20.9
    },
    "picks": {
     "spread": {
      "market": "NE -3",
      "model_line": "NE -0.5",
-     "edge_pts": 2.6,
+     "edge_pts": 2.5,
      "pick": "GB +3",
      "team": "GB",
      "line": 3.0,
      "price": "-105",
-     "prob": 0.528,
-     "ev": 0.03,
+     "prob": 0.526,
+     "ev": 0.028,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "46.5",
-     "model_line": "41.2",
-     "edge_pts": 5.3,
+     "model_line": "41.3",
+     "edge_pts": 5.2,
      "pick": "Under 46.5",
      "price": "-105",
-     "prob": 0.557,
-     "ev": 0.087,
+     "prob": 0.556,
+     "ev": 0.085,
      "bet": true,
      "stars": 3
     },
@@ -18224,8 +18567,8 @@
      "market_prob": 0.6,
      "pick": "NE ML",
      "price": "-166",
-     "prob": 0.573,
-     "ev": -0.082,
+     "prob": 0.574,
+     "ev": -0.081,
      "bet": false,
      "stars": 0
     }
@@ -19097,7 +19440,7 @@
    },
    "injury_adj": {
     "GB": -0.7,
-    "NE": -2.2
+    "NE": -2.1
    },
    "injuries": [
     {
@@ -19179,17 +19522,89 @@
      "status": "Questionable",
      "detail": "Jacas (knee) is questionable to return to Sunday's contest against Miami, Doug Kyed of the Boston Herald reports.",
      "source": "ESPN"
-    },
-    {
-     "team": "NE",
-     "name": "Marcus Bryant",
-     "position": "OT",
-     "status": "Injured Reserve",
-     "detail": "Bryant (ankle) has been ruled out for Sunday's game against the Dolphins, Mike Kadlick of CLNSMedia.com reports.",
-     "source": "ESPN"
     }
    ],
    "news": [
+    {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
     {
      "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
      "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
@@ -19238,46 +19653,6 @@
      "teams": [
       "CHI",
       "GB"
-     ]
-    },
-    {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
      ]
     }
    ],
@@ -20988,6 +21363,86 @@
    ],
    "news": [
     {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
      "headline": "Who are offensive rookie of the year front-runners after Love's injury?",
      "description": "Who are offensive rookie of the year front-runners after Love's injury?",
      "published": "2026-11-03T19:55:24Z",
@@ -20998,9 +21453,9 @@
      ]
     },
     {
-     "headline": "Sources: Cardinals' Jeremiyah Love to IR, out 4-5 weeks with high ankle sprain",
-     "description": "Cardinals RB Jeremiyah Love is headed to IR because of a high ankle sprain that will sideline the rookie for 4-5 weeks, sources told NFL Network.",
-     "published": "2026-11-03T20:12:49Z",
+     "headline": "Cardinals RB Jeremiyah Love placed on IR, out 4-5 weeks with high ankle sprain",
+     "description": "Cardinals running back Jeremiyah Love was placed on injured reserve because of a high ankle sprain that will sideline the rookie for four to five weeks.",
+     "published": "2026-11-03T21:17:22Z",
      "link": "https://www.espn.com/nfl/story/_/id/50370763/sources-cards-jeremiyah-love-headed-ir-4-5-weeks",
      "teams": [
       "ARI"
@@ -21044,41 +21499,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-     "description": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-     "published": "2026-11-03T18:04:44Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-     "teams": [
-      "BUF",
-      "CHI",
-      "CIN",
-      "JAX",
-      "KC",
-      "SEA",
-      "SF"
-     ]
-    },
-    {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-     "teams": [
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "IND",
-      "JAX",
-      "MIN",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "TB",
-      "TEN"
      ]
     }
    ],
@@ -22647,7 +23067,13 @@
      "fair_odds": "+721"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 51,
+    "wind_mph": 5,
+    "gust_mph": 15,
+    "precip_prob": 2,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "TB": [],
@@ -22735,6 +23161,86 @@
    ],
    "news": [
     {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "BUF",
+      "CAR",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
+      "IND",
+      "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
+      "MIN",
+      "NE",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TB",
+      "TEN",
+      "WAS"
+     ]
+    },
+    {
      "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
      "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
      "published": "2026-11-03T17:03:26Z",
@@ -22797,24 +23303,6 @@
      "teams": [
       "CHI",
       "GB"
-     ]
-    },
-    {
-     "headline": "Are the Bears the best team in the NFL?",
-     "description": "Are the Bears the best team in the NFL?",
-     "published": "2026-11-03T13:24:53Z",
-     "link": "https://www.espn.com/video/clip/_/id/50368412/are-bears-best-team-nfl",
-     "teams": [
-      "CHI"
-     ]
-    },
-    {
-     "headline": "Cleats, controversy and the choice of Bears QB Caleb Williams",
-     "description": "Williams wore Caddix cleats Monday night in Seattle, but the logo was not visible as he tries to 'calm things down.'",
-     "published": "2026-11-03T12:19:30Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50320658/caddix-shoes-bears-caleb-williams-fines",
-     "teams": [
-      "CHI"
      ]
     }
    ],
@@ -24568,10 +25056,19 @@
    ],
    "news": [
     {
-     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
-     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
-     "published": "2026-11-03T17:03:26Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
+     "headline": "Josh Allen-produced short doc on Buffalo storm gets release date, trailer",
+     "description": "The short documentary on the once-in-a-generation Buffalo blizzard will be released on Nov. 24.",
+     "published": "2026-11-03T22:13:50Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50370431/buffalo-miracle-hbo-trailer-josh-allen",
+     "teams": [
+      "BUF"
+     ]
+    },
+    {
+     "headline": "Countdown to Super Bowl LXI: Top-10 lists, projections, rankings, more coverage",
+     "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
+     "published": "2026-11-03T22:00:54Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
      "teams": [
       "ARI",
       "ATL",
@@ -24608,45 +25105,59 @@
      ]
     },
     {
-     "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-     "description": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-     "published": "2026-11-03T18:04:44Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
+     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
+     "published": "2026-11-03T21:53:13Z",
+     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
      "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
       "BUF",
-      "CHI",
-      "CIN",
-      "JAX",
-      "KC",
-      "SEA",
-      "SF"
-     ]
-    },
-    {
-     "headline": "Seven things Solak thinks for NFL Week 9: Bucs atop NFC South? RB trades coming?",
-     "description": "Get ready for Week 9 with takes on the Bucs' division chances, why RBs could dominate the trade deadline and which teams should at least ask about Justin Herbert.",
-     "published": "2026-11-03T17:03:18Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50355612/week-9-seven-things-solak-thinks-trades-standings",
-     "teams": [
+      "CAR",
       "CHI",
       "CIN",
       "CLE",
       "DAL",
+      "DEN",
+      "DET",
+      "GB",
+      "HOU",
       "IND",
       "JAX",
+      "KC",
+      "LA",
+      "LAC",
+      "LV",
+      "MIA",
       "MIN",
+      "NE",
+      "NO",
+      "NYG",
       "NYJ",
+      "PHI",
       "PIT",
       "SEA",
+      "SF",
       "TB",
-      "TEN"
+      "TEN",
+      "WAS"
      ]
     },
     {
-     "headline": "NFL Power Rankings: Stacking all 32 teams for Week 9, plus best in-season trades",
-     "description": "How does every NFL team stack up heading into Week 9? We made our 1-32 list and picked the best trade deadline acquisitions of all time.",
-     "published": "2026-11-03T16:44:34Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50359434/nfl-power-rankings-week-9-teams-best-season-trades-deadline",
+     "headline": "Bills release C.J. Gardner-Johnson after one-game spitting suspension",
+     "description": "The Bills have released safety C.J. Gardner-Johnson, the team announced Tuesday.",
+     "published": "2026-11-03T22:03:38Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50372292/bills-release-safety-cj-gardner-johnson",
+     "teams": [
+      "BUF"
+     ]
+    },
+    {
+     "headline": "Fantasy football D/ST outlook for Weeks 9-12: Fire up Texans, and how 'bout them Cowboys?",
+     "description": "Looking for the right D/ST units to stream over the next four weeks? Here's what you need to know.",
+     "published": "2026-11-03T17:03:26Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/50369005/fantasy-football-defense-special-teams-streaming-week-9",
      "teams": [
       "ARI",
       "ATL",
@@ -29580,7 +30091,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 53,
+     "wind_mph": 4,
+     "gust_mph": 6,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29660,7 +30177,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29721,13 +30238,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 72,
-     "wind_mph": 3,
-     "gust_mph": 8,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29809,7 +30320,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29870,13 +30381,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 52,
-     "wind_mph": 2,
-     "gust_mph": 4,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29976,7 +30481,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30037,13 +30542,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 51,
-     "wind_mph": 5,
-     "gust_mph": 9,
-     "precip_prob": 3,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30143,7 +30642,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30165,7 +30664,7 @@
     "qbs": {},
     "model_score": {
      "c251": 23.0,
-     "c142": 22.5
+     "c142": 22.6
     },
     "picks": {
      "spread": {
@@ -30198,19 +30697,13 @@
       "pick": "c251 ML",
       "price": "-142",
       "prob": 0.551,
-      "ev": -0.061,
+      "ev": -0.062,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 52,
-     "wind_mph": 3,
-     "gust_mph": 4,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30289,7 +30782,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30467,7 +30960,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30626,7 +31119,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -30811,7 +31304,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31033,7 +31526,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31189,7 +31682,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31381,7 +31874,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31408,8 +31901,8 @@
     "picks": {
      "spread": {
       "market": "c36 +17.5",
-      "model_line": "c36 +12",
-      "edge_pts": 5.7,
+      "model_line": "c36 +11.5",
+      "edge_pts": 5.8,
       "pick": "c36 +17.5",
       "team": "c36",
       "line": 17.5,
@@ -31421,8 +31914,8 @@
      },
      "total": {
       "market": "68.5",
-      "model_line": "73.7",
-      "edge_pts": 5.2,
+      "model_line": "73.8",
+      "edge_pts": 5.3,
       "pick": "Over 68.5",
       "price": "-115",
       "prob": 0.534,
@@ -31566,7 +32059,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31732,7 +32225,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31917,7 +32410,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32082,7 +32575,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32217,7 +32710,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32278,7 +32771,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 68,
+     "wind_mph": 6,
+     "gust_mph": 17,
+     "precip_prob": 2,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32351,7 +32850,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32377,17 +32876,17 @@
     },
     "picks": {
      "spread": {
-      "market": "c2641 -17.5",
+      "market": "c2641 -16.5",
       "model_line": "c2641 -9",
-      "edge_pts": 8.4,
-      "pick": "c277 +17.5",
+      "edge_pts": 7.4,
+      "pick": "c277 +16.5",
       "team": "c277",
-      "line": 17.5,
-      "price": "-115",
-      "prob": 0.552,
-      "ev": 0.033,
+      "line": 16.5,
+      "price": "-102",
+      "prob": 0.546,
+      "ev": 0.082,
       "bet": true,
-      "stars": 1
+      "stars": 3
      },
      "total": {
       "market": "64.5",
@@ -32405,14 +32904,20 @@
       "market_prob": 0.863,
       "pick": "c2641 ML",
       "price": "-900",
-      "prob": 0.832,
-      "ev": -0.076,
+      "prob": 0.834,
+      "ev": -0.073,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 8,
+     "gust_mph": 15,
+     "precip_prob": 4,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32495,7 +33000,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    }
   ],
@@ -32503,8 +33008,8 @@
    "n_games": 622,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.18422983793444,
-   "hfa": -3.1086244689504383e-15,
+   "mu": 26.184070058652928,
+   "hfa": 1.6209256159527285e-14,
    "top": [
     [
      "c2390",
@@ -32567,11 +33072,11 @@
      8.4
     ],
     [
-     "c12",
-     8.0
+     "c239",
+     8.1
     ],
     [
-     "c239",
+     "c12",
      8.0
     ],
     [
