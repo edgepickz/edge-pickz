@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T22:25:10.363873+00:00",
+ "generated_at": "2026-11-04T23:06:09.669628+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -853,7 +853,7 @@
     "temp_f": 67,
     "wind_mph": 5,
     "gust_mph": 14,
-    "precip_prob": 24,
+    "precip_prob": 33,
     "precip_in": 0.28
    },
    "weather_notes": [],
@@ -948,7 +948,7 @@
     {
      "headline": "Sources: Ravens finalizing trade with Cardinals for QB Jacoby Brissett",
      "description": "The Cardinals are finalizing a trade to send quarterback Jacoby Brissett to the Ravens, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
-     "published": "2026-11-04T21:57:28Z",
+     "published": "2026-11-04T22:31:42Z",
      "link": "https://www.espn.com/nfl/story/_/id/50381318/sources-ravens-finalizing-trade-cardinals-qb-brissett",
      "teams": [
       "ARI",
@@ -3119,8 +3119,8 @@
      "team": "CAR",
      "line": 2.5,
      "price": "+100",
-     "prob": 0.513,
-     "ev": 0.026,
+     "prob": 0.514,
+     "ev": 0.028,
      "bet": true,
      "stars": 1
     },
@@ -3140,8 +3140,8 @@
      "market_prob": 0.572,
      "pick": "DEN ML",
      "price": "-148",
-     "prob": 0.559,
-     "ev": -0.063,
+     "prob": 0.558,
+     "ev": -0.065,
      "bet": false,
      "stars": 0
     }
@@ -3473,7 +3473,7 @@
      "team": "DEN",
      "opp": "CAR",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 22.5,
@@ -3493,7 +3493,7 @@
      "team": "DEN",
      "opp": "CAR",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 2.3,
@@ -3513,7 +3513,7 @@
      "team": "DEN",
      "opp": "CAR",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "12% to score",
@@ -3992,14 +3992,6 @@
     },
     {
      "team": "CAR",
-     "name": "Bobby Brown III",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CAR",
      "name": "Will Lee III",
      "position": "CB",
      "status": "Questionable",
@@ -4036,6 +4028,14 @@
      "position": "CB",
      "status": "Injured Reserve",
      "detail": "Evans (triceps) was placed on injured reserve by the Panthers on Thursday, Darin Gantt of the team's official website reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DEN",
+     "name": "Eyioma Uwazurike",
+     "position": "DE",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -4116,7 +4116,7 @@
       2
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -4399,7 +4399,7 @@
       10
      ],
      "agrees": false,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -5669,6 +5669,15 @@
    ],
    "news": [
     {
+     "headline": "Quinnen Williams says Cowboys must 'execute,' over and over",
+     "description": "When asked about issues on defense, the Cowboys' Quinnen Williams said the team needed to \"execute\" -- using a form of the word 32 times during an interview.",
+     "published": "2026-11-04T22:42:10Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50382806/quinnen-williams-says-cowboys-execute-over",
+     "teams": [
+      "DAL"
+     ]
+    },
+    {
      "headline": "Colts' Shane Steichen defends Jonathan Taylor usage, says RB will keep role",
      "description": "Jonathan Taylor will continue to play his usual role with the Colts despite being at the center of trade talks with multiple teams, Shane Steichen said.",
      "published": "2026-11-04T21:16:35Z",
@@ -5709,33 +5718,6 @@
      "teams": [
       "DAL",
       "IND"
-     ]
-    },
-    {
-     "headline": "NFL Week 9 latest intel, buzz questions, fantasy tips and trade deadline news",
-     "description": "What now for the Ravens without Lamar Jackson? What are people around the NFL saying about Justin Herbert's struggles? And what's the latest on the looming trade deadline?",
-     "published": "2026-11-04T19:56:36Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50369642/week-9-buzz-fantasy-predictions-graziano-fowler-2026-trades",
-     "teams": [
-      "ARI",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "GB",
-      "IND",
-      "JAX",
-      "LAC",
-      "LV",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "TB",
-      "TEN",
-      "WAS"
      ]
     }
    ],
@@ -7265,7 +7247,7 @@
      "name": "Breece Hall",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Hall (quadriceps) is slated to be limited at practice Wednesday, ack Rosenblatt of The Athletic reports.",
+     "detail": "Jets head coach Aaron Glenn said that Hall (quadriceps) will be a limited practice participant Wednesday, Zack Rosenblatt of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -7273,7 +7255,7 @@
      "name": "Garrett Wilson",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Wilson, who is in the NFL's concussion protocol, is considered day-to-day,  Zack Rosenblatt of The Athletic reports.",
+     "detail": "Jets head coach Aaron Glenn said that Wilson is in the NFL's concussion protocol and is considered day-to-day,  Zack Rosenblatt of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -10531,6 +10513,22 @@
    "injuries": [
     {
      "team": "CLE",
+     "name": "Deshaun Watson",
+     "position": "QB",
+     "status": "Questionable",
+     "detail": "The Browns listed Watson (concussion) as a non-participant in Wednesday's practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CLE",
+     "name": "Denzel Boston",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Boston was a limited participant in Wednesday's practice due to a calf injury, Scott Petrak of the Elyria Chronicle-Telegram reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CLE",
      "name": "Carson Schwesinger",
      "position": "LB",
      "status": "Questionable",
@@ -10579,14 +10577,6 @@
     },
     {
      "team": "CLE",
-     "name": "Denzel Boston",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CLE",
      "name": "Quincy Williams",
      "position": "LB",
      "status": "Questionable",
@@ -10594,11 +10584,11 @@
      "source": "ESPN"
     },
     {
-     "team": "CLE",
-     "name": "Deshaun Watson",
-     "position": "QB",
+     "team": "NO",
+     "name": "Alvin Kamara",
+     "position": "RB",
      "status": "Questionable",
-     "detail": "Mary Kay Cabot of the Cleveland Plain Dealer suggests that Watson may have difficulty clearing the NFL's concussion protocol ahead of Sunday's game against the Saints.",
+     "detail": "Kamara (rest/back) didn't practice Wednesday.",
      "source": "ESPN"
     },
     {
@@ -10613,14 +10603,6 @@
      "team": "NO",
      "name": "Martin Emerson Jr.",
      "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NO",
-     "name": "Alvin Kamara",
-     "position": "RB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -10706,7 +10688,7 @@
     {
      "headline": "Browns QB Deshaun Watson in concussion protocol; status vs. Saints unclear",
      "description": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, leaving his status for Sunday's matchup against the Saints in question.",
-     "published": "2026-11-04T18:01:03Z",
+     "published": "2026-11-04T23:00:30Z",
      "link": "https://www.espn.com/nfl/story/_/id/50378819/browns-qb-watson-concussion-protocol-status-vs-saints-unclear",
      "teams": [
       "CLE"
@@ -13839,6 +13821,14 @@
    "injuries": [
     {
      "team": "LA",
+     "name": "Myles Garrett",
+     "position": "DE",
+     "status": "Injured Reserve",
+     "detail": "Head coach Sean McVay said Garrett (knee) will practice Wednesday, Sarah Barshop of ESPN.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
      "name": "Terrance Ferguson",
      "position": "TE",
      "status": "Injured Reserve",
@@ -13891,14 +13881,6 @@
      "position": "QB",
      "status": "Questionable",
      "detail": "Stafford left the locker room after Sunday's 24-9 win over the Chargers with a bag of ice wrapped on his right arm, and Rams coach Sean McVay acknowledged Monday that the quarterback has been dealing with some arm soreness, Adam Grosbard of The Orange County Register reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Myles Garrett",
-     "position": "DE",
-     "status": "Injured Reserve",
-     "detail": "Coach Sean McVay indicated Monday that Garrett (knee) is on track to practice this week, Sarah Barshop of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -13976,6 +13958,15 @@
    ],
    "news": [
     {
+     "headline": "Rams CB Jaylen Watson needs season-ending shoulder surgery, Sean Mcvay says",
+     "description": "Rams cornerback Jaylen Watson will need shoulder surgery and will be out for the rest of the season.",
+     "published": "2026-11-04T22:45:42Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50382837/rams-cb-jaylen-watson-needs-season-ending-shoulder-surgery",
+     "teams": [
+      "LA"
+     ]
+    },
+    {
      "headline": "Hall of Fame names Doug Williams, Robert Kraft among 5 contributor candidates",
      "description": "The Pro Football Hall of Fame on Wednesday announced the list of five contributor candidates, with the final candidate to be decided in 2027.",
      "published": "2026-11-04T18:21:40Z",
@@ -14009,15 +14000,6 @@
       "PIT",
       "TB",
       "TEN",
-      "WAS"
-     ]
-    },
-    {
-     "headline": "Source: Commanders lose another DL with Kinlaw out for season after knee surgery",
-     "description": "The Commanders lost a second defensive line starter for the season in less than a week as Javon Kinlaw underwent season-ending knee surgery, a source told ESPN's Adam Schefter.",
-     "published": "2026-11-04T14:03:22Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50378427/source-commanders-javon-kinlaw-knee-surgery-season",
-     "teams": [
       "WAS"
      ]
     }
@@ -16264,31 +16246,31 @@
     "SF": "Brock Purdy"
    },
    "model_score": {
-    "LV": 22.6,
+    "LV": 22.7,
     "SF": 29.7
    },
    "picks": {
     "spread": {
      "market": "SF -10",
      "model_line": "SF -7",
-     "edge_pts": 2.9,
+     "edge_pts": 3.0,
      "pick": "LV +10",
      "team": "LV",
      "line": 10.0,
      "price": "-112",
-     "prob": 0.53,
-     "ev": 0.004,
+     "prob": 0.531,
+     "ev": 0.005,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "52.5",
-     "model_line": "52.3",
-     "edge_pts": 0.2,
+     "model_line": "52.4",
+     "edge_pts": 0.1,
      "pick": "Under 52.5",
      "price": "-108",
-     "prob": 0.502,
-     "ev": -0.032,
+     "prob": 0.501,
+     "ev": -0.034,
      "bet": false,
      "stars": 0
     },
@@ -16297,8 +16279,8 @@
      "market_prob": 0.804,
      "pick": "SF ML",
      "price": "-520",
-     "prob": 0.781,
-     "ev": -0.069,
+     "prob": 0.78,
+     "ev": -0.07,
      "bet": false,
      "stars": 0
     }
@@ -17174,7 +17156,7 @@
     ]
    },
    "injury_adj": {
-    "LV": -0.3,
+    "LV": -0.2,
     "SF": -2.9
    },
    "injuries": [
@@ -17192,14 +17174,6 @@
      "position": "DE",
      "status": "Injured Reserve",
      "detail": "The Raiders placed Johnson (neck) on injured reserve Saturday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LV",
-     "name": "Carter Runyon",
-     "position": "TE",
-     "status": "Injured Reserve",
-     "detail": "Runyon (foot) has been ruled out for Sunday's game against the Jets, Sam Warren of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -17346,7 +17320,7 @@
     {
      "headline": "Brandon Aiyuk files to be reinstated, plans to report to 49ers on Friday",
      "description": "Brandon Aiyuk has turned in paperwork to be reinstated, agent Drew Rosenhaus told ESPN's Adam Schefter on Wednesday.",
-     "published": "2026-11-04T22:00:54Z",
+     "published": "2026-11-04T22:06:59Z",
      "link": "https://www.espn.com/nfl/story/_/id/50378691/brandon-aiyuk-applies-reinstated-plans-report-49ers",
      "teams": [
       "SF"
@@ -18783,16 +18757,8 @@
      "fair_odds": "+312"
     }
    ],
-   "weather": {
-    "temp_f": 48,
-    "wind_mph": 12,
-    "gust_mph": 27,
-    "precip_prob": 5,
-    "precip_in": 0
-   },
-   "weather_notes": [
-    "wind 12 mph (gusts 27)"
-   ],
+   "weather": null,
+   "weather_notes": [],
    "injury_notes": {
     "GB": [
      "Christian Watson (WR) Questionable"
@@ -18953,6 +18919,15 @@
     }
    ],
    "news": [
+    {
+     "headline": "Packers open Micah Parsons' practice window; still mum on return",
+     "description": "The Packers opened Micha Parsons' 21-day window to practice while still on the PUP list but the All-Pro edge avoided giving a firm return date.",
+     "published": "2026-11-04T22:07:52Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50382457/packers-open-parsons-practice-window-mum-return",
+     "teams": [
+      "GB"
+     ]
+    },
     {
      "headline": "Hall of Fame names Doug Williams, Robert Kraft among 5 contributor candidates",
      "description": "The Pro Football Hall of Fame on Wednesday announced the list of five contributor candidates, with the final candidate to be decided in 2027.",
@@ -20532,13 +20507,7 @@
      "fair_odds": "+242"
     }
    ],
-   "weather": {
-    "temp_f": 50,
-    "wind_mph": 7,
-    "gust_mph": 13,
-    "precip_prob": 18,
-    "precip_in": 0.02
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "ARI": [
@@ -20555,6 +20524,14 @@
     "SEA": -2.5
    },
    "injuries": [
+    {
+     "team": "ARI",
+     "name": "Michael Wilson",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Wilson (ribs) wore a yellow non-contact jersey at Wednesday's practice, Bo Brack of GoPHNX.com reports.",
+     "source": "ESPN"
+    },
     {
      "team": "ARI",
      "name": "James Conner",
@@ -20601,14 +20578,6 @@
      "position": "RB",
      "status": "Questionable",
      "detail": "Head coach Mike LaFleur revealed Monday that Knight is in the concussion protocol following Sunday's overtime win in Dallas, Josh Weinfuss of ESPN.com reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "ARI",
-     "name": "Michael Wilson",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Wilson said after Sunday's 33-30 win at Dallas that he suffered two broken ribs during the contest, Josh Weinfuss of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -20688,7 +20657,7 @@
     {
      "headline": "Sources: Ravens finalizing trade with Cardinals for QB Jacoby Brissett",
      "description": "The Cardinals are finalizing a trade to send quarterback Jacoby Brissett to the Ravens, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
-     "published": "2026-11-04T21:57:28Z",
+     "published": "2026-11-04T22:31:42Z",
      "link": "https://www.espn.com/nfl/story/_/id/50381318/sources-ravens-finalizing-trade-cardinals-qb-brissett",
      "teams": [
       "ARI",
@@ -20708,7 +20677,7 @@
     {
      "headline": "Coach: Seahawks QB Sam Darnold ruled out with quad injury, is week-to-week",
      "description": "Seahawks quarterback Sam Darnold will miss Sunday's game against the Arizona Cardinals because of a quad injury, coach Mike Macdonald announced Wednesday.",
-     "published": "2026-11-04T22:03:36Z",
+     "published": "2026-11-04T22:22:17Z",
      "link": "https://www.espn.com/nfl/story/_/id/50380713/seahawks-qb-sam-darnold-ruled-quad-injury",
      "teams": [
       "SEA"
@@ -21428,30 +21397,30 @@
    },
    "model_score": {
     "TB": 19.2,
-    "CHI": 20.8
+    "CHI": 20.7
    },
    "picks": {
     "spread": {
      "market": "CHI -6",
      "model_line": "CHI -1.5",
-     "edge_pts": 4.4,
+     "edge_pts": 4.5,
      "pick": "TB +6",
      "team": "TB",
      "line": 6.0,
      "price": "-108",
-     "prob": 0.545,
-     "ev": 0.05,
+     "prob": 0.546,
+     "ev": 0.052,
      "bet": true,
      "stars": 2
     },
     "total": {
      "market": "47.5",
-     "model_line": "40.0",
-     "edge_pts": 7.5,
+     "model_line": "39.9",
+     "edge_pts": 7.6,
      "pick": "Under 47.5",
      "price": "-115",
-     "prob": 0.58,
-     "ev": 0.085,
+     "prob": 0.581,
+     "ev": 0.087,
      "bet": true,
      "stars": 3
     },
@@ -21460,8 +21429,8 @@
      "market_prob": 0.718,
      "pick": "CHI ML",
      "price": "-298",
-     "prob": 0.676,
-     "ev": -0.097,
+     "prob": 0.675,
+     "ev": -0.099,
      "bet": false,
      "stars": 0
     }
@@ -22268,13 +22237,7 @@
      "fair_odds": "+707"
     }
    ],
-   "weather": {
-    "temp_f": 49,
-    "wind_mph": 6,
-    "gust_mph": 13,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "TB": [],
@@ -22284,23 +22247,23 @@
    },
    "injury_adj": {
     "TB": -0.5,
-    "CHI": -0.6
+    "CHI": -0.7
    },
    "injuries": [
+    {
+     "team": "CHI",
+     "name": "Kentavius Street",
+     "position": "DT",
+     "status": "Injured Reserve",
+     "detail": "ir",
+     "source": "ESPN"
+    },
     {
      "team": "CHI",
      "name": "Kyle Monangai",
      "position": "RB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CHI",
-     "name": "Kentavius Street",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "Street (knee) will not return to Monday night's game against the Seahawks.",
      "source": "ESPN"
     },
     {
@@ -28907,7 +28870,7 @@
       "line": 8.5,
       "price": "-108",
       "prob": 0.511,
-      "ev": -0.016,
+      "ev": -0.017,
       "bet": false,
       "stars": 0
      },
@@ -28916,9 +28879,9 @@
       "model_line": "41.2",
       "edge_pts": 3.3,
       "pick": "Under 44.5",
-      "price": "-115",
+      "price": "-108",
       "prob": 0.521,
-      "ev": -0.025,
+      "ev": 0.004,
       "bet": false,
       "stars": 0
      },
@@ -29042,7 +29005,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c252": 21.8,
+     "c252": 21.9,
      "c254": 29.3
     },
     "picks": {
@@ -29061,8 +29024,8 @@
      },
      "total": {
       "market": "48.5",
-      "model_line": "51.1",
-      "edge_pts": 2.6,
+      "model_line": "51.2",
+      "edge_pts": 2.7,
       "pick": "Over 48.5",
       "price": "-110",
       "prob": 0.517,
@@ -29082,7 +29045,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 52,
+     "wind_mph": 2,
+     "gust_mph": 2,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29357,13 +29326,13 @@
      "spread": {
       "market": "c135 +5.5",
       "model_line": "c135 +8",
-      "edge_pts": 2.4,
+      "edge_pts": 2.3,
       "pick": "c26 -5.5",
       "team": "c26",
       "line": -5.5,
       "price": "-110",
       "prob": 0.515,
-      "ev": -0.017,
+      "ev": -0.018,
       "bet": false,
       "stars": 0
      },
@@ -29390,7 +29359,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 48,
+     "wind_mph": 5,
+     "gust_mph": 8,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29518,7 +29493,7 @@
      "spread": {
       "market": "c2 -10.5",
       "model_line": "c2 -7.5",
-      "edge_pts": 3.1,
+      "edge_pts": 3.0,
       "pick": "c8 +10.5",
       "team": "c8",
       "line": 10.5,
@@ -29535,7 +29510,7 @@
       "pick": "Under 52.5",
       "price": "-112",
       "prob": 0.524,
-      "ev": -0.009,
+      "ev": -0.008,
       "bet": false,
       "stars": 0
      },
@@ -29551,7 +29526,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 44,
+     "wind_mph": 8,
+     "gust_mph": 14,
+     "precip_prob": 67,
+     "precip_in": 0.02
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29676,19 +29657,19 @@
     "qbs": {},
     "model_score": {
      "c245": 24.5,
-     "c2579": 29.4
+     "c2579": 29.5
     },
     "picks": {
      "spread": {
       "market": "c2579 -7",
       "model_line": "c2579 -5",
-      "edge_pts": 2.1,
+      "edge_pts": 2.0,
       "pick": "c245 +7",
       "team": "c245",
       "line": 7.0,
       "price": "-112",
       "prob": 0.513,
-      "ev": -0.029,
+      "ev": -0.03,
       "bet": false,
       "stars": 0
      },
@@ -29699,7 +29680,7 @@
       "pick": "Over 51.5",
       "price": "-102",
       "prob": 0.516,
-      "ev": 0.021,
+      "ev": 0.022,
       "bet": true,
       "stars": 1
      },
@@ -29708,7 +29689,7 @@
       "market_prob": 0.705,
       "pick": "c2579 ML",
       "price": "-278",
-      "prob": 0.693,
+      "prob": 0.694,
       "ev": -0.057,
       "bet": false,
       "stars": 0
@@ -29846,7 +29827,7 @@
       "team": "c2132",
       "line": 10.5,
       "price": "-108",
-      "prob": 0.499,
+      "prob": 0.5,
       "ev": -0.038,
       "bet": false,
       "stars": 0
@@ -30043,7 +30024,7 @@
       "pick": "Under 59.5",
       "price": "-110",
       "prob": 0.51,
-      "ev": -0.027,
+      "ev": -0.026,
       "bet": false,
       "stars": 0
      }
@@ -30142,12 +30123,12 @@
      },
      "total": {
       "market": "52.5",
-      "model_line": "57.6",
-      "edge_pts": 5.1,
+      "model_line": "57.5",
+      "edge_pts": 5.0,
       "pick": "Over 52.5",
       "price": "-110",
-      "prob": 0.533,
-      "ev": 0.017,
+      "prob": 0.532,
+      "ev": 0.016,
       "bet": false,
       "stars": 0
      },
@@ -30302,7 +30283,7 @@
       "pick": "c194 ML",
       "price": "-305",
       "prob": 0.721,
-      "ev": -0.043,
+      "ev": -0.042,
       "bet": false,
       "stars": 0
      }
@@ -30436,7 +30417,7 @@
       "team": "c344",
       "line": -3.0,
       "price": "-108",
-      "prob": 0.529,
+      "prob": 0.528,
       "ev": 0.018,
       "bet": false,
       "stars": 0
@@ -30612,7 +30593,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c68": 42.7,
+     "c68": 42.6,
      "c36": 31.0
     },
     "picks": {
@@ -30631,12 +30612,12 @@
      },
      "total": {
       "market": "68.5",
-      "model_line": "73.7",
-      "edge_pts": 5.2,
+      "model_line": "73.6",
+      "edge_pts": 5.1,
       "pick": "Over 68.5",
       "price": "-115",
       "prob": 0.533,
-      "ev": -0.003,
+      "ev": -0.004,
       "bet": false,
       "stars": 0
      },
@@ -30959,7 +30940,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2390": 30.2,
+     "c2390": 30.1,
      "c87": 32.6
     },
     "picks": {
@@ -31468,7 +31449,7 @@
       "pick": "Over 44.5",
       "price": "-112",
       "prob": 0.542,
-      "ev": 0.027,
+      "ev": 0.026,
       "bet": true,
       "stars": 1
      },
@@ -31585,7 +31566,7 @@
     "qbs": {},
     "model_score": {
      "c277": 27.8,
-     "c2641": 36.8
+     "c2641": 36.9
     },
     "picks": {
      "spread": {
@@ -31608,7 +31589,7 @@
       "pick": "Under 65.5",
       "price": "-112",
       "prob": 0.505,
-      "ev": -0.043,
+      "ev": -0.044,
       "bet": false,
       "stars": 0
      },
@@ -31721,8 +31702,8 @@
    "n_games": 624,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.2001874908938,
-   "hfa": 5.551115123125783e-15,
+   "mu": 26.198078421292916,
+   "hfa": 1.7763568394002505e-15,
    "top": [
     [
      "c2390",
@@ -31873,15 +31854,15 @@
      4.8
     ],
     [
-     "c96",
-     4.7
-    ],
-    [
      "c213",
      4.6
     ],
     [
      "c2567",
+     4.6
+    ],
+    [
+     "c96",
      4.6
     ]
    ]
