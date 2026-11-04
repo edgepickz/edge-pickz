@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:33:55.940933+00:00",
+ "generated_at": "2026-11-04T18:23:15.216345+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -853,7 +853,7 @@
     "temp_f": 66,
     "wind_mph": 2,
     "gust_mph": 11,
-    "precip_prob": 14,
+    "precip_prob": 22,
     "precip_in": 0.23
    },
    "weather_notes": [],
@@ -4996,30 +4996,30 @@
    },
    "model_score": {
     "DAL": 27.7,
-    "IND": 25.0
+    "IND": 24.4
    },
    "picks": {
     "spread": {
      "market": "IND +6",
-     "model_line": "IND +2.5",
-     "edge_pts": 3.3,
+     "model_line": "IND +3.5",
+     "edge_pts": 2.7,
      "pick": "IND +6",
      "team": "IND",
      "line": 6.0,
      "price": "-112",
-     "prob": 0.535,
-     "ev": 0.012,
+     "prob": 0.528,
+     "ev": -0.001,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "51.5",
-     "model_line": "52.7",
-     "edge_pts": 1.2,
+     "model_line": "52.0",
+     "edge_pts": 0.5,
      "pick": "Over 51.5",
      "price": "-110",
-     "prob": 0.513,
-     "ev": -0.021,
+     "prob": 0.506,
+     "ev": -0.035,
      "bet": false,
      "stars": 0
     },
@@ -5028,8 +5028,8 @@
      "market_prob": 0.685,
      "pick": "DAL ML",
      "price": "-250",
-     "prob": 0.654,
-     "ev": -0.085,
+     "prob": 0.66,
+     "ev": -0.076,
      "bet": false,
      "stars": 0
     }
@@ -5892,11 +5892,13 @@
    "weather_notes": [],
    "injury_notes": {
     "DAL": [],
-    "IND": []
+    "IND": [
+     "Alec Pierce (WR) Injured Reserve"
+    ]
    },
    "injury_adj": {
     "DAL": -0.7,
-    "IND": -0.1
+    "IND": -0.7
    },
    "injuries": [
     {
@@ -5969,6 +5971,14 @@
      "position": "LB",
      "status": "Injured Reserve",
      "detail": "Liufau (forearm) has been downgraded from questionable to out ahead of Monday night's game against the Eagles.",
+     "source": "ESPN"
+    },
+    {
+     "team": "IND",
+     "name": "Alec Pierce",
+     "position": "WR",
+     "status": "Injured Reserve",
+     "detail": "When asked Wednesday when Pierce (heel) might be able to resume to practice, Colts head coach Shane Steichen noted that he \"can't put a timetable on it right now,\" Kevin Bowen of 107.5 The Fan Indianapolis reports.",
      "source": "ESPN"
     },
     {
@@ -7591,10 +7601,18 @@
     },
     {
      "team": "NYJ",
+     "name": "Breece Hall",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "Hall (quadriceps) is slated to be limited at practice Wednesday, ack Rosenblatt of The Athletic reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYJ",
      "name": "Garrett Wilson",
      "position": "WR",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Wilson, who is in the NFL's concussion protocol, is considered day-to-day,  Zack Rosenblatt of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -7623,14 +7641,6 @@
     },
     {
      "team": "NYJ",
-     "name": "Breece Hall",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Hall (quadriceps) is considered \"good to go\" and is expected to return to action in next Sunday's game against the Chiefs, Ian Rapoport of NFL Network reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
      "name": "T'Vondre Sweat",
      "position": "DT",
      "status": "Injured Reserve",
@@ -7639,6 +7649,15 @@
     }
    ],
    "news": [
+    {
+     "headline": "Jets' Garrett Wilson in concussion protocol, Breece Hall trending toward return",
+     "description": "Jets wide receiver Garrett Wilson is in the concussion protocol but running back Breece Hall, is \"trending in the right direction\" toward returning.",
+     "published": "2026-11-04T18:03:03Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50380113/jets-wr-wilson-protocol-rb-hall-trending-return",
+     "teams": [
+      "NYJ"
+     ]
+    },
     {
      "headline": "NFL Week 9 latest intel, buzz questions, fantasy tips and trade deadline news",
      "description": "What now for the Ravens without Lamar Jackson? What are people around the NFL saying about Justin Herbert's struggles? And what's the latest on the looming trade deadline?",
@@ -7720,46 +7739,6 @@
      "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
      "published": "2026-11-03T22:00:54Z",
      "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
-     ]
-    },
-    {
-     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
-     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
-     "published": "2026-11-03T21:53:13Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
      "teams": [
       "ARI",
       "ATL",
@@ -9125,12 +9104,14 @@
    ],
    "weather": {
     "temp_f": 83,
-    "wind_mph": 10,
+    "wind_mph": 12,
     "gust_mph": 9,
     "precip_prob": 9,
-    "precip_in": 0.01
+    "precip_in": 0
    },
-   "weather_notes": [],
+   "weather_notes": [
+    "wind 12 mph (gusts 9)"
+   ],
    "injury_notes": {
     "DET": [],
     "MIA": []
@@ -9231,6 +9212,15 @@
    ],
    "news": [
     {
+     "headline": "Lions' Jack Campbell has full movement in lower body after neck injury",
+     "description": "Lions All-Pro linebacker Jack Campbell released a statement Wednesday saying he has full movement in his lower body and is making progress with movement in his upper body as he recovers from a neck injury, suffered in Sunday's game.",
+     "published": "2026-11-04T18:03:51Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50380067/lions-lb-campbell-full-movement-lower-body-neck-injury",
+     "teams": [
+      "DET"
+     ]
+    },
+    {
      "headline": "Why Dopp backs Williams, St. Brown as Week 9 starts",
      "description": "Why Dopp backs Williams, St. Brown as Week 9 starts",
      "published": "2026-11-04T17:14:58Z",
@@ -9311,46 +9301,6 @@
      "description": "The Super Bowl is Feb. 14 on ESPN. We are counting down with all-time lists, predictions and unforgettable moments.",
      "published": "2026-11-03T22:00:54Z",
      "link": "https://www.espn.com/nfl/story/_/id/50119009/super-bowl-2027-lxi-countdown-top-10-lists-rankings",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CAR",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DAL",
-      "DEN",
-      "DET",
-      "GB",
-      "HOU",
-      "IND",
-      "JAX",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "MIN",
-      "NE",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TB",
-      "TEN",
-      "WAS"
-     ]
-    },
-    {
-     "headline": "NFL Week 9 betting odds: Lines and totals for every game",
-     "description": "Odds, spreads, totals and FPI predictions for every NFL game in Week 9.",
-     "published": "2026-11-03T21:53:13Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/50358691/2026-nfl-week-9-schedule-odds-point-spreads-totals",
      "teams": [
       "ARI",
       "ATL",
@@ -11069,8 +11019,8 @@
     },
     {
      "headline": "Browns QB Deshaun Watson in concussion protocol; status vs. Saints unclear",
-     "description": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, the team announced Wednesday, leaving his status for Sunday's matchup against the Saints in question.",
-     "published": "2026-11-04T15:08:59Z",
+     "description": "The Browns have placed starting QB Deshaun Watson in the concussion protocol, leaving his status for Sunday's matchup against the Saints in question.",
+     "published": "2026-11-04T18:01:03Z",
      "link": "https://www.espn.com/nfl/story/_/id/50378819/browns-qb-watson-concussion-protocol-status-vs-saints-unclear",
      "teams": [
       "CLE"
@@ -17907,7 +17857,7 @@
    ],
    "weather": {
     "temp_f": 73,
-    "wind_mph": 7,
+    "wind_mph": 6,
     "gust_mph": 8,
     "precip_prob": 0,
     "precip_in": 0
@@ -19594,6 +19544,14 @@
    "injuries": [
     {
      "team": "GB",
+     "name": "Micah Parsons",
+     "position": "DE",
+     "status": "Out",
+     "detail": "Packers head coach Matt LaFleur said that Parsons (knee) will be designated for return from the PUP list and will take part in individual work during Wednesday's practice, Matt Schneidman of The Athletic reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "GB",
      "name": "Sean Rhyan",
      "position": "G",
      "status": "Questionable",
@@ -19622,14 +19580,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Packers passing game coordinator Jason Vrable said Monday that Watson (ribs) is sore but \"doing great,\" Matt Schneidman of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "GB",
-     "name": "Micah Parsons",
-     "position": "DE",
-     "status": "Out",
-     "detail": "Head coach Matt LaFleur said Monday that the Packers' \"intention\" is for Parsons (knee) to resume practicing in Week 9, Weston Hodkiewicz of the team's official site reports. \"It's gonna be a process trying to get him back,\" LaFleur said. \"We're hopeful he'll be able to get out there sometime this week.\"",
      "source": "ESPN"
     },
     {
@@ -21435,7 +21385,13 @@
      "fair_odds": "+210"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 50,
+    "wind_mph": 7,
+    "gust_mph": 19,
+    "precip_prob": 20,
+    "precip_in": 0.02
+   },
    "weather_notes": [],
    "injury_notes": {
     "ARI": [
@@ -23295,7 +23251,13 @@
      "fair_odds": "+707"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 49,
+    "wind_mph": 6,
+    "gust_mph": 17,
+    "precip_prob": 0,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "TB": [],
@@ -30154,26 +30116,26 @@
     },
     "picks": {
      "spread": {
-      "market": "c12 -9.5",
+      "market": "c12 -8.5",
       "model_line": "c12 -7",
-      "edge_pts": 2.7,
-      "pick": "c2628 +9.5",
+      "edge_pts": 1.7,
+      "pick": "c2628 +8.5",
       "team": "c2628",
-      "line": 9.5,
-      "price": "-115",
-      "prob": 0.517,
-      "ev": -0.033,
+      "line": 8.5,
+      "price": "-108",
+      "prob": 0.511,
+      "ev": -0.016,
       "bet": false,
       "stars": 0
      },
      "total": {
-      "market": "43.5",
+      "market": "44.5",
       "model_line": "41.1",
-      "edge_pts": 2.4,
-      "pick": "Under 43.5",
-      "price": "-105",
-      "prob": 0.515,
-      "ev": 0.006,
+      "edge_pts": 3.4,
+      "pick": "Under 44.5",
+      "price": "-115",
+      "prob": 0.522,
+      "ev": -0.025,
       "bet": false,
       "stars": 0
      },
@@ -30182,8 +30144,8 @@
       "market_prob": 0.744,
       "pick": "c12 ML",
       "price": "-345",
-      "prob": 0.73,
-      "ev": -0.059,
+      "prob": 0.735,
+      "ev": -0.052,
       "bet": false,
       "stars": 0
      }
@@ -30298,7 +30260,7 @@
     "qbs": {},
     "model_score": {
      "c252": 21.8,
-     "c254": 29.3
+     "c254": 29.4
     },
     "picks": {
      "spread": {
@@ -30503,13 +30465,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 49,
-     "wind_mph": 6,
-     "gust_mph": 7,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30645,13 +30601,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 48,
-     "wind_mph": 5,
-     "gust_mph": 8,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30783,9 +30733,9 @@
       "pick": "c8 +10.5",
       "team": "c8",
       "line": 10.5,
-      "price": "-105",
+      "price": "-112",
       "prob": 0.519,
-      "ev": 0.013,
+      "ev": -0.018,
       "bet": false,
       "stars": 0
      },
@@ -30814,10 +30764,10 @@
     "props": [],
     "weather": {
      "temp_f": 44,
-     "wind_mph": 9,
+     "wind_mph": 8,
      "gust_mph": 18,
      "precip_prob": 61,
-     "precip_in": 0.03
+     "precip_in": 0.02
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -30991,8 +30941,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 69,
-     "wind_mph": 6,
+     "temp_f": 71,
+     "wind_mph": 5,
      "gust_mph": 8,
      "precip_prob": 0,
      "precip_in": 0
@@ -31114,15 +31064,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c248 -11.5",
+      "market": "c248 -10.5",
       "model_line": "c248 -10.5",
-      "edge_pts": 0.8,
-      "pick": "c248 -11.5",
-      "team": "c248",
-      "line": -11.5,
-      "price": "-105",
-      "prob": 0.495,
-      "ev": -0.034,
+      "edge_pts": 0.2,
+      "pick": "c2132 +10.5",
+      "team": "c2132",
+      "line": 10.5,
+      "price": "-108",
+      "prob": 0.499,
+      "ev": -0.039,
       "bet": false,
       "stars": 0
      },
@@ -31142,16 +31092,16 @@
       "market_prob": 0.782,
       "pick": "c248 ML",
       "price": "-440",
-      "prob": 0.778,
-      "ev": -0.045,
+      "prob": 0.783,
+      "ev": -0.039,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 75,
-     "wind_mph": 8,
+     "temp_f": 79,
+     "wind_mph": 9,
      "gust_mph": 10,
      "precip_prob": 1,
      "precip_in": 0
@@ -31161,6 +31111,25 @@
     "injuries": [],
     "news": [],
     "trends": [
+     {
+      "type": "team",
+      "team": "c248",
+      "opp": "c2132",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": true,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       true,
+       false,
+       true,
+       true
+      ]
+     },
      {
       "type": "team",
       "team": "c248",
@@ -31201,43 +31170,6 @@
      },
      {
       "type": "team",
-      "team": "c248",
-      "opp": "c2132",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": false,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
-      "team": "c2132",
-      "opp": "c248",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": true,
-      "hit": 3,
-      "of": 4,
-      "rate": 0.75,
-      "dots": [
-       true,
-       true,
-       false,
-       true
-      ]
-     },
-     {
-      "type": "team",
       "team": "c2132",
       "opp": "c248",
       "kind": "moneyline",
@@ -31262,6 +31194,24 @@
       "label": "gone under the total",
       "bet": "under",
       "agrees": true,
+      "hit": 3,
+      "of": 4,
+      "rate": 0.75,
+      "dots": [
+       true,
+       true,
+       false,
+       true
+      ]
+     },
+     {
+      "type": "team",
+      "team": "c2132",
+      "opp": "c248",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": false,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -31715,7 +31665,7 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 60,
+     "temp_f": 59,
      "wind_mph": 9,
      "gust_mph": 18,
      "precip_prob": 0,
@@ -31903,8 +31853,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 58,
-     "wind_mph": 3,
+     "temp_f": 54,
+     "wind_mph": 6,
      "gust_mph": 12,
      "precip_prob": 0,
      "precip_in": 0
@@ -32216,13 +32166,13 @@
      "spread": {
       "market": "c87 -5.5",
       "model_line": "c87 -2.5",
-      "edge_pts": 3.0,
+      "edge_pts": 3.1,
       "pick": "c2390 +5.5",
       "team": "c2390",
       "line": 5.5,
       "price": "-110",
       "prob": 0.519,
-      "ev": -0.01,
+      "ev": -0.009,
       "bet": false,
       "stars": 0
      },
@@ -32243,7 +32193,7 @@
       "pick": "c87 ML",
       "price": "-205",
       "prob": 0.627,
-      "ev": -0.067,
+      "ev": -0.068,
       "bet": false,
       "stars": 0
      }
@@ -32600,8 +32550,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 46,
-     "wind_mph": 4,
+     "temp_f": 47,
+     "wind_mph": 5,
      "gust_mph": 8,
      "precip_prob": 0,
      "precip_in": 0
@@ -32874,13 +32824,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 52,
-     "wind_mph": 5,
-     "gust_mph": 15,
-     "precip_prob": 5,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32971,8 +32915,8 @@
    "n_games": 624,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.199080254793873,
-   "hfa": -2.220446049250313e-16,
+   "mu": 26.199535329423398,
+   "hfa": -4.218847493575595e-15,
    "top": [
     [
      "c2390",
@@ -32980,7 +32924,7 @@
     ],
     [
      "c87",
-     14.8
+     14.7
     ],
     [
      "c154",
