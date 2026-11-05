@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T02:29:38.746549+00:00",
+ "generated_at": "2026-11-05T03:16:21.715704+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -850,11 +850,11 @@
     }
    ],
    "weather": {
-    "temp_f": 67,
-    "wind_mph": 5,
-    "gust_mph": 14,
-    "precip_prob": 32,
-    "precip_in": 0.28
+    "temp_f": 68,
+    "wind_mph": 2,
+    "gust_mph": 12,
+    "precip_prob": 31,
+    "precip_in": 0.26
    },
    "weather_notes": [],
    "injury_notes": {
@@ -2427,18 +2427,18 @@
    "injuries": [
     {
      "team": "ATL",
-     "name": "Brian Robinson Jr.",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "The Falcons listed Robinson (hamstring) as a limited participant on Wednesday's estimated practice report, Tori McElhaney of the team's official site reports.",
+     "name": "Yasir Abdullah",
+     "position": "LB",
+     "status": "Injured Reserve",
+     "detail": "Abdullah (hamstring) was a limited participant at practice Wednesday.",
      "source": "ESPN"
     },
     {
      "team": "ATL",
-     "name": "Yasir Abdullah",
-     "position": "LB",
-     "status": "Injured Reserve",
-     "detail": "The Falcons designated Abdullah (hamstring) for return to practice from their injured reserve list Tuesday, per the NFL's transaction log.",
+     "name": "Brian Robinson Jr.",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "The Falcons listed Robinson (hamstring) as a limited participant on Wednesday's estimated practice report, Tori McElhaney of the team's official site reports.",
      "source": "ESPN"
     },
     {
@@ -5642,6 +5642,14 @@
    "injuries": [
     {
      "team": "DAL",
+     "name": "Dee Winters",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Winters (calf) was limited in Wednesday's practice, Patrik Walker of the Cowboys' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DAL",
      "name": "KaVontae Turpin",
      "position": "WR",
      "status": "Questionable",
@@ -5684,14 +5692,6 @@
      "team": "DAL",
      "name": "Tyler Smith",
      "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "DAL",
-     "name": "Dee Winters",
-     "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -7268,7 +7268,7 @@
     "temp_f": 55,
     "wind_mph": 6,
     "gust_mph": 7,
-    "precip_prob": 0,
+    "precip_prob": 1,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -8821,7 +8821,7 @@
     "temp_f": 84,
     "wind_mph": 10,
     "gust_mph": 8,
-    "precip_prob": 12,
+    "precip_prob": 8,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -9768,19 +9768,19 @@
    },
    "model_score": {
     "CLE": 20.2,
-    "NO": 21.1
+    "NO": 21.0
    },
    "picks": {
     "spread": {
      "market": "NO -3",
      "model_line": "NO -1",
-     "edge_pts": 2.1,
+     "edge_pts": 2.2,
      "pick": "CLE +3",
      "team": "CLE",
      "line": 3.0,
      "price": "-108",
      "prob": 0.522,
-     "ev": 0.005,
+     "ev": 0.006,
      "bet": false,
      "stars": 0
     },
@@ -9791,7 +9791,7 @@
      "pick": "Under 42.5",
      "price": "-110",
      "prob": 0.514,
-     "ev": -0.019,
+     "ev": -0.018,
      "bet": false,
      "stars": 0
     },
@@ -9800,8 +9800,8 @@
      "market_prob": 0.593,
      "pick": "NO ML",
      "price": "-162",
-     "prob": 0.572,
-     "ev": -0.075,
+     "prob": 0.571,
+     "ev": -0.076,
      "bet": false,
      "stars": 0
     }
@@ -10456,7 +10456,7 @@
      "team": "NO",
      "opp": "CLE",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 73.7,
@@ -10476,7 +10476,7 @@
      "team": "NO",
      "opp": "CLE",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 6.1,
@@ -10496,7 +10496,7 @@
      "team": "NO",
      "opp": "CLE",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "30% to score",
@@ -10672,7 +10672,7 @@
    },
    "injury_adj": {
     "CLE": -1.4,
-    "NO": -0.9
+    "NO": -1.0
    },
    "injuries": [
     {
@@ -10745,6 +10745,14 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "Williams (hamstring) did not participate in practice Wednesday, Chris Easterling of the Akron Beacon Journal reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "Justin Reid",
+     "position": "S",
+     "status": "Questionable",
+     "detail": "Reid (concussion) was a full participant in New Orleans' practice Wednesday.",
      "source": "ESPN"
     },
     {
@@ -10864,7 +10872,7 @@
       56
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -10890,7 +10898,7 @@
       6
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -12222,7 +12230,7 @@
     "temp_f": 59,
     "wind_mph": 12,
     "gust_mph": 23,
-    "precip_prob": 1,
+    "precip_prob": 0,
     "precip_in": 0
    },
    "weather_notes": [
@@ -12305,6 +12313,22 @@
     },
     {
      "team": "PHI",
+     "name": "Jihaad Campbell",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Campbell (hamstring/quadriceps) did not participate at the Eagles' practice Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Jake Elliott",
+     "position": "PK",
+     "status": "Questionable",
+     "detail": "Elliott (ankle) was a limited participant at the Eagles' practice Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
      "name": "Dontayvion Wicks",
      "position": "WR",
      "status": "Questionable",
@@ -12345,24 +12369,8 @@
     },
     {
      "team": "PHI",
-     "name": "Jake Elliott",
-     "position": "PK",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
      "name": "Jonathan Jones",
      "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Jihaad Campbell",
-     "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -15722,6 +15730,22 @@
    "injuries": [
     {
      "team": "HOU",
+     "name": "Reed Blankenship",
+     "position": "S",
+     "status": "Questionable",
+     "detail": "Blankenship (concussion/hand) did not participate at the Texans' practice Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "HOU",
+     "name": "Azeez Al-Shaair",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Al-Shaair (groin) was a limited participant at the Texans' practice Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "HOU",
      "name": "Braden Smith",
      "position": "OT",
      "status": "Questionable",
@@ -15738,26 +15762,10 @@
     },
     {
      "team": "HOU",
-     "name": "Azeez Al-Shaair",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
      "name": "David Montgomery",
      "position": "RB",
      "status": "Out",
      "detail": "While Montgomery (groin) has made some progress, coach DeMeco Ryans noted Wednesday that the running back will remain out for Sunday's game against the Chargers, Jonathan M. Alexander of the Houston Chronicle reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "Reed Blankenship",
-     "position": "S",
-     "status": "Questionable",
-     "detail": "Blankenship (concussion/hand) underwent surgery on his left hand in October, Jonathan M. Alexander of the Houston Chronicle reports.",
      "source": "ESPN"
     },
     {
@@ -18248,31 +18256,31 @@
     "NE": "Drake Maye"
    },
    "model_score": {
-    "GB": 20.3,
+    "GB": 20.1,
     "NE": 20.7
    },
    "picks": {
     "spread": {
      "market": "NE -3",
      "model_line": "NE -0.5",
-     "edge_pts": 2.7,
+     "edge_pts": 2.5,
      "pick": "GB +3",
      "team": "GB",
      "line": 3.0,
      "price": "-102",
-     "prob": 0.528,
-     "ev": 0.045,
+     "prob": 0.526,
+     "ev": 0.041,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "45.5",
-     "model_line": "41.0",
-     "edge_pts": 4.5,
+     "model_line": "40.8",
+     "edge_pts": 4.7,
      "pick": "Under 45.5",
      "price": "-105",
-     "prob": 0.549,
-     "ev": 0.071,
+     "prob": 0.551,
+     "ev": 0.075,
      "bet": true,
      "stars": 2
     },
@@ -18281,8 +18289,8 @@
      "market_prob": 0.609,
      "pick": "NE ML",
      "price": "-175",
-     "prob": 0.582,
-     "ev": -0.086,
+     "prob": 0.584,
+     "ev": -0.082,
      "bet": false,
      "stars": 0
     }
@@ -19145,7 +19153,7 @@
     "temp_f": 45,
     "wind_mph": 5,
     "gust_mph": 17,
-    "precip_prob": 5,
+    "precip_prob": 2,
     "precip_in": 0.01
    },
    "weather_notes": [],
@@ -19159,10 +19167,26 @@
     ]
    },
    "injury_adj": {
-    "GB": -0.8,
+    "GB": -1.0,
     "NE": -2.3
    },
    "injuries": [
+    {
+     "team": "GB",
+     "name": "Keisean Nixon",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Nixon (groin) was a limited participant at the Packers' practice Wednesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "GB",
+     "name": "Chris Brooks",
+     "position": "RB",
+     "status": "Injured Reserve",
+     "detail": "Brooks (ankle) was designated to return from injured reserve by the Packers on Wednesday, per the NFL's official transaction log.",
+     "source": "ESPN"
+    },
     {
      "team": "GB",
      "name": "Micah Parsons",
@@ -19177,14 +19201,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Watson (ribs) practiced in a limited capacity Wednesday, Matt Schneidman of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "GB",
-     "name": "Keisean Nixon",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -20114,30 +20130,30 @@
    },
    "model_score": {
     "ARI": 17.3,
-    "SEA": 23.9
+    "SEA": 23.8
    },
    "picks": {
     "spread": {
      "market": "SEA -8.5",
      "model_line": "SEA -6.5",
-     "edge_pts": 1.9,
+     "edge_pts": 2.0,
      "pick": "ARI +8.5",
      "team": "ARI",
      "line": 8.5,
      "price": "-112",
-     "prob": 0.519,
-     "ev": -0.017,
+     "prob": 0.521,
+     "ev": -0.014,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "39.5",
-     "model_line": "41.3",
-     "edge_pts": 1.8,
+     "model_line": "41.1",
+     "edge_pts": 1.6,
      "pick": "Over 39.5",
      "price": "-112",
-     "prob": 0.519,
-     "ev": -0.018,
+     "prob": 0.518,
+     "ev": -0.02,
      "bet": false,
      "stars": 0
     },
@@ -20146,8 +20162,8 @@
      "market_prob": 0.787,
      "pick": "SEA ML",
      "price": "-455",
-     "prob": 0.771,
-     "ev": -0.06,
+     "prob": 0.769,
+     "ev": -0.061,
      "bet": false,
      "stars": 0
     }
@@ -20886,7 +20902,7 @@
     "temp_f": 56,
     "wind_mph": 6,
     "gust_mph": 12,
-    "precip_prob": 18,
+    "precip_prob": 20,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -20902,7 +20918,7 @@
    },
    "injury_adj": {
     "ARI": -1.7,
-    "SEA": -2.5
+    "SEA": -2.7
    },
    "injuries": [
     {
@@ -20910,7 +20926,7 @@
      "name": "Bam Knight",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Coach Mike LaFleur said Wednesday that the Cardinals planned on Knight (concussion) being one of their top two backs before he and Jeremiyah Love (ankle) suffered injuries in Week 8 against the Cowboys, Theo Mackie of The Arizona Republic reports.",
+     "detail": "Knight (concussion) did not practice Wednesday, Theo Mackie of The Arizona Republic reports.",
      "source": "ESPN"
     },
     {
@@ -20918,7 +20934,7 @@
      "name": "Michael Wilson",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Wilson (ribs) wore a yellow non-contact jersey at Wednesday's practice, Bo Brack of GoPHNX.com reports.",
+     "detail": "Wilson (rest/ribs) practiced in a limited capacity Wednesday, Theo Mackie of The Arizona Republic reports.",
      "source": "ESPN"
     },
     {
@@ -20971,10 +20987,42 @@
     },
     {
      "team": "SEA",
+     "name": "Rashid Shaheed",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Shaheed (knee) did not practice Wednesday, John Boyle of the Seahawks' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Quenton Nelson",
+     "position": "G",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Anthony Bradford",
+     "position": "G",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Connor O'Toole",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
      "name": "Drew Lock",
      "position": "QB",
      "status": "Questionable",
-     "detail": "Lock (elbow) is slated to start Sunday's game against the Cardinals, perNFL reporter Andrew Siciliano.",
+     "detail": "Lock (right elbow) was limited at Wednesday's walkthrough, John Boyle of the Seahawks' official site reports.",
      "source": "ESPN"
     },
     {
@@ -20983,14 +21031,6 @@
      "position": "QB",
      "status": "Out",
      "detail": "Head coach Mike Macdonald announced that Darnold won't play Sunday against the Cardinals due to a quadriceps injury, NFL reporter Andrew Siciliano reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "SEA",
-     "name": "Rashid Shaheed",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Seahawks head coach Mike Macdonald said Tuesday that Shaheed (knee) has a chance to play Sunday against the Cardinals, Brady Henderson of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -21098,7 +21138,7 @@
     {
      "headline": "Coach: Seahawks QB Sam Darnold ruled out with quad injury, is week-to-week",
      "description": "Seahawks quarterback Sam Darnold will miss Sunday's game against the Arizona Cardinals because of a quad injury, coach Mike Macdonald announced Wednesday.",
-     "published": "2026-11-04T22:22:17Z",
+     "published": "2026-11-05T02:57:17Z",
      "link": "https://www.espn.com/nfl/story/_/id/50380713/seahawks-qb-sam-darnold-ruled-quad-injury",
      "teams": [
       "SEA"
@@ -21790,7 +21830,7 @@
     "CHI": "Caleb Williams"
    },
    "model_score": {
-    "TB": 19.1,
+    "TB": 19.0,
     "CHI": 20.7
    },
    "picks": {
@@ -21809,12 +21849,12 @@
     },
     "total": {
      "market": "47.5",
-     "model_line": "39.8",
-     "edge_pts": 7.7,
+     "model_line": "39.7",
+     "edge_pts": 7.8,
      "pick": "Under 47.5",
      "price": "-115",
-     "prob": 0.582,
-     "ev": 0.089,
+     "prob": 0.583,
+     "ev": 0.091,
      "bet": true,
      "stars": 3
     },
@@ -22646,10 +22686,26 @@
     ]
    },
    "injury_adj": {
-    "TB": -0.6,
-    "CHI": -0.7
+    "TB": -0.7,
+    "CHI": -0.8
    },
    "injuries": [
+    {
+     "team": "CHI",
+     "name": "Zavier Scott",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "CHI",
+     "name": "Theo Benedet",
+     "position": "OT",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
     {
      "team": "CHI",
      "name": "Kyle Monangai",
@@ -22688,6 +22744,14 @@
      "position": "S",
      "status": "Injured Reserve",
      "detail": "Coach Ben Johnson said Wednesday that Bryant (knee) will start running again in the \"near future,\" Courtney Cronin of ESPN.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "TB",
+     "name": "Tykee Smith",
+     "position": "S",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -26062,8 +26126,16 @@
      "fair_odds": "+1104"
     }
    ],
-   "weather": null,
-   "weather_notes": [],
+   "weather": {
+    "temp_f": 40,
+    "wind_mph": 12,
+    "gust_mph": 24,
+    "precip_prob": 16,
+    "precip_in": 0
+   },
+   "weather_notes": [
+    "wind 12 mph (gusts 24)"
+   ],
    "injury_notes": {
     "WAS": [
      "Terry McLaurin (WR) Injured Reserve"
@@ -31095,11 +31167,11 @@
       "market": "c12 -7.5",
       "model_line": "c12 -7",
       "edge_pts": 0.7,
-      "pick": "c12 -7.5",
-      "team": "c12",
-      "line": -7.5,
-      "price": "-108",
-      "prob": 0.496,
+      "pick": "c2628 +7.5",
+      "team": "c2628",
+      "line": 7.5,
+      "price": "-112",
+      "prob": 0.504,
       "ev": -0.045,
       "bet": false,
       "stars": 0
@@ -31110,8 +31182,8 @@
       "edge_pts": 4.3,
       "pick": "Under 45.5",
       "price": "-112",
-      "prob": 0.528,
-      "ev": -0.001,
+      "prob": 0.527,
+      "ev": -0.002,
       "bet": false,
       "stars": 0
      },
@@ -31159,25 +31231,6 @@
      },
      {
       "type": "team",
-      "team": "c2628",
-      "opp": "c12",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": true,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
       "team": "c12",
       "opp": "c2628",
       "kind": "moneyline",
@@ -31197,12 +31250,31 @@
      },
      {
       "type": "team",
+      "team": "c2628",
+      "opp": "c12",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": false,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       true,
+       false,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
       "team": "c12",
       "opp": "c2628",
       "kind": "spread",
       "label": "covered the spread",
       "bet": "spread",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -31240,15 +31312,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c254 -5.5",
+      "market": "c254 -4.5",
       "model_line": "c254 -7.5",
-      "edge_pts": 2.0,
-      "pick": "c254 -5.5",
+      "edge_pts": 3.0,
+      "pick": "c254 -4.5",
       "team": "c254",
-      "line": -5.5,
-      "price": "-105",
-      "prob": 0.513,
-      "ev": 0.001,
+      "line": -4.5,
+      "price": "-112",
+      "prob": 0.519,
+      "ev": -0.018,
       "bet": false,
       "stars": 0
      },
@@ -31268,8 +31340,8 @@
       "market_prob": 0.637,
       "pick": "c254 ML",
       "price": "-198",
-      "prob": 0.649,
-      "ev": -0.024,
+      "prob": 0.655,
+      "ev": -0.014,
       "bet": false,
       "stars": 0
      }
@@ -31537,7 +31609,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c26": 25.3,
+     "c26": 25.2,
      "c135": 17.4
     },
     "picks": {
@@ -31549,19 +31621,19 @@
       "team": "c26",
       "line": -5.5,
       "price": "-110",
-      "prob": 0.514,
+      "prob": 0.515,
       "ev": -0.018,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "39.5",
-      "model_line": "42.7",
-      "edge_pts": 3.2,
+      "model_line": "42.6",
+      "edge_pts": 3.1,
       "pick": "Over 39.5",
       "price": "-110",
       "prob": 0.52,
-      "ev": -0.006,
+      "ev": -0.007,
       "bet": false,
       "stars": 0
      },
@@ -31577,13 +31649,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 46,
-     "wind_mph": 5,
-     "gust_mph": 8,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31748,7 +31814,7 @@
      "temp_f": 44,
      "wind_mph": 9,
      "gust_mph": 16,
-     "precip_prob": 67,
+     "precip_prob": 69,
      "precip_in": 0.0
     },
     "weather_notes": [],
@@ -31928,14 +31994,6 @@
      {
       "headline": "Shane Beamer praises Gamecocks' resilience through adversity",
       "link": "https://www.espn.com/video/clip/_/id/50371346/shane-beamer-praises-gamecocks-resilience-adversity"
-     },
-     {
-      "headline": "Mike Elko details Texas A&M's attitude and effort while previewing SC",
-      "link": "https://www.espn.com/video/clip/_/id/50362528/mike-elko-details-texas-attitude-effort-previewing-sc"
-     },
-     {
-      "headline": "Mike Elko details Texas A&M's attitude and effort while previewing SC",
-      "link": "https://www.espn.com/video/clip/_/id/50362528/mike-elko-details-texas-attitude-effort-previewing-sc"
      }
     ],
     "trends": [
@@ -32045,15 +32103,15 @@
       "team": "c2132",
       "line": 10.5,
       "price": "-108",
-      "prob": 0.499,
+      "prob": 0.5,
       "ev": -0.038,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "62.5",
-      "model_line": "58.6",
-      "edge_pts": 3.9,
+      "model_line": "58.7",
+      "edge_pts": 3.8,
       "pick": "Under 62.5",
       "price": "-110",
       "prob": 0.525,
@@ -32077,7 +32135,7 @@
      "temp_f": 78,
      "wind_mph": 9,
      "gust_mph": 11,
-     "precip_prob": 2,
+     "precip_prob": 3,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -32231,7 +32289,7 @@
       "line": -47.5,
       "price": "-110",
       "prob": 0.516,
-      "ev": -0.015,
+      "ev": -0.016,
       "bet": false,
       "stars": 0
      },
@@ -32242,7 +32300,7 @@
       "pick": "Under 59.5",
       "price": "-110",
       "prob": 0.51,
-      "ev": -0.026,
+      "ev": -0.027,
       "bet": false,
       "stars": 0
      }
@@ -32498,7 +32556,7 @@
       "market_prob": 0.722,
       "pick": "c194 ML",
       "price": "-305",
-      "prob": 0.721,
+      "prob": 0.722,
       "ev": -0.042,
       "bet": false,
       "stars": 0
@@ -32621,7 +32679,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c238": 22.0,
+     "c238": 22.1,
      "c344": 29.6
     },
     "picks": {
@@ -32634,7 +32692,7 @@
       "line": -3.0,
       "price": "-108",
       "prob": 0.528,
-      "ev": 0.018,
+      "ev": 0.017,
       "bet": false,
       "stars": 0
      },
@@ -32816,7 +32874,7 @@
      "spread": {
       "market": "c36 +17.5",
       "model_line": "c36 +11.5",
-      "edge_pts": 5.8,
+      "edge_pts": 5.9,
       "pick": "c36 +17.5",
       "team": "c36",
       "line": 17.5,
@@ -33046,12 +33104,12 @@
     "injuries": [],
     "news": [
      {
-      "headline": "Where the odds and rankings agree and disagree on Notre Dame, Kentucky in the CFP",
-      "link": "https://www.espn.com/espn/betting/story/_/id/50373913/college-football-playoff-rankings-betting-odds-favorites"
+      "headline": "Will Stein reacts to Kentucky's ranking in CFP Top 25",
+      "link": "https://www.espn.com/video/clip/_/id/50384470/will-stein-reacts-kentucky-ranking-cfp-top-25"
      },
      {
-      "headline": "Kentucky's Stein praises Heupel, anticipates tough test at Tennessee",
-      "link": "https://www.espn.com/video/clip/_/id/50371528/kentucky-stein-praises-heupel-anticipates-tough-test-tennessee"
+      "headline": "Where the odds and rankings agree and disagree on Notre Dame, Kentucky in the CFP",
+      "link": "https://www.espn.com/espn/betting/story/_/id/50373913/college-football-playoff-rankings-betting-odds-favorites"
      }
     ],
     "trends": [
@@ -33821,7 +33879,7 @@
      "temp_f": 58,
      "wind_mph": 7,
      "gust_mph": 11,
-     "precip_prob": 10,
+     "precip_prob": 3,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -33914,8 +33972,8 @@
    "n_games": 624,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.201035324227057,
-   "hfa": -1.176836406102666e-14,
+   "mu": 26.200875959276175,
+   "hfa": -1.9984014443252818e-15,
    "top": [
     [
      "c2390",
@@ -33979,11 +34037,11 @@
     ],
     [
      "c12",
-     8.0
+     7.9
     ],
     [
      "c239",
-     8.0
+     7.9
     ],
     [
      "c2294",
@@ -34034,11 +34092,11 @@
      5.9
     ],
     [
-     "c252",
-     5.8
+     "c204",
+     5.7
     ],
     [
-     "c204",
+     "c252",
      5.7
     ],
     [
@@ -34046,11 +34104,11 @@
      5.6
     ],
     [
-     "c30",
-     5.6
+     "c2449",
+     5.5
     ],
     [
-     "c2449",
+     "c30",
      5.5
     ],
     [
