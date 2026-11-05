@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T21:11:03.479763+00:00",
+ "generated_at": "2026-11-05T21:51:08.499821+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -696,7 +696,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "TE",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 15.9,
@@ -716,7 +716,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "TE",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 2.3,
@@ -737,7 +737,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "TE",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "14% to score",
@@ -851,10 +851,10 @@
    ],
    "weather": {
     "temp_f": 67,
-    "wind_mph": 4,
+    "wind_mph": 3,
     "gust_mph": 14,
-    "precip_prob": 51,
-    "precip_in": 0
+    "precip_prob": 41,
+    "precip_in": 0.04
    },
    "weather_notes": [],
    "injury_notes": {
@@ -862,8 +862,8 @@
      "Bhayshul Tuten (RB) Questionable"
     ],
     "BAL": [
-     "Lamar Jackson (QB) Out",
-     "Tyler Huntley (QB) Out"
+     "Lamar Jackson (QB) Injured Reserve",
+     "Tyler Huntley (QB) Injured Reserve"
     ]
    },
    "injury_adj": {
@@ -875,16 +875,16 @@
      "team": "BAL",
      "name": "Lamar Jackson",
      "position": "QB",
-     "status": "Out",
-     "detail": "Thumb",
-     "source": "NFL report"
+     "status": "Injured Reserve",
+     "detail": "The Ravens have officially placed Jackson (thumb)on injured reserve.",
+     "source": "ESPN"
     },
     {
      "team": "BAL",
      "name": "Tyler Huntley",
      "position": "QB",
-     "status": "Out",
-     "detail": "Huntley (toe) has reportedly sustained a season-ending turf toe injury, Adam Schefter of ESPN reports.",
+     "status": "Injured Reserve",
+     "detail": "Huntley (toe) was placed on injured reserve Thursday.",
      "source": "ESPN"
     },
     {
@@ -1236,7 +1236,7 @@
       3
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -6613,31 +6613,31 @@
     "KC": "Patrick Mahomes"
    },
    "model_score": {
-    "NYJ": 19.2,
-    "KC": 25.4
+    "NYJ": 19.4,
+    "KC": 26.1
    },
    "picks": {
     "spread": {
      "market": "KC -10",
-     "model_line": "KC -6",
-     "edge_pts": 3.9,
+     "model_line": "KC -6.5",
+     "edge_pts": 3.4,
      "pick": "NYJ +10",
      "team": "NYJ",
      "line": 10.0,
      "price": "-112",
-     "prob": 0.54,
-     "ev": 0.023,
-     "bet": true,
-     "stars": 1
+     "prob": 0.535,
+     "ev": 0.013,
+     "bet": false,
+     "stars": 0
     },
     "total": {
      "market": "47.5",
-     "model_line": "44.6",
-     "edge_pts": 2.9,
+     "model_line": "45.5",
+     "edge_pts": 2.0,
      "pick": "Under 47.5",
      "price": "-112",
-     "prob": 0.531,
-     "ev": 0.006,
+     "prob": 0.521,
+     "ev": -0.013,
      "bet": false,
      "stars": 0
     },
@@ -6646,8 +6646,8 @@
      "market_prob": 0.817,
      "pick": "KC ML",
      "price": "-575",
-     "prob": 0.786,
-     "ev": -0.078,
+     "prob": 0.79,
+     "ev": -0.073,
      "bet": false,
      "stars": 0
     }
@@ -6928,7 +6928,7 @@
      "team": "NYJ",
      "opp": "KC",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 29.3,
@@ -6948,7 +6948,7 @@
      "team": "NYJ",
      "opp": "KC",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.6,
@@ -6968,7 +6968,7 @@
      "team": "NYJ",
      "opp": "KC",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "22% to score",
@@ -6993,8 +6993,7 @@
       "prob": 0.596,
       "usual": 87.2,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Omar Cooper Jr.",
@@ -7171,7 +7170,7 @@
       "usual": 88.5,
       "eligible": true
      },
-     "top": 3
+     "top": 4
     },
     {
      "player": "Kenneth Walker III",
@@ -7302,7 +7301,7 @@
      "team": "KC",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 63.6,
@@ -7322,7 +7321,7 @@
      "team": "KC",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 4.8,
@@ -7335,14 +7334,15 @@
       "prob": 0.614,
       "usual": 4.2,
       "eligible": true
-     }
+     },
+     "top": 3
     },
     {
      "player": "Travis Kelce",
      "team": "KC",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "25% to score",
@@ -7406,7 +7406,7 @@
      "team": "KC",
      "opp": "NYJ",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 67.7,
@@ -7426,7 +7426,7 @@
      "team": "KC",
      "opp": "NYJ",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 6.2,
@@ -7446,7 +7446,7 @@
      "team": "KC",
      "opp": "NYJ",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "47% to score",
@@ -7518,14 +7518,11 @@
     "NYJ": [
      "Garrett Wilson (WR) Questionable"
     ],
-    "KC": [
-     "Rashee Rice (WR) Questionable",
-     "Travis Kelce (TE) Questionable"
-    ]
+    "KC": []
    },
    "injury_adj": {
-    "NYJ": -1.4,
-    "KC": -1.1
+    "NYJ": -1.2,
+    "KC": -0.3
    },
    "injuries": [
     {
@@ -7534,22 +7531,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Remigio (hip) was limited in Wednesday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "KC",
-     "name": "Rashee Rice",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Rice (hamstring/knee) was limited in Wednesday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "KC",
-     "name": "Travis Kelce",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Kelce (ankle) was listed as limited in Wednesday's practice.",
      "source": "ESPN"
     },
     {
@@ -7589,7 +7570,7 @@
      "name": "Breece Hall",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Hall (quadriceps) indicated Thursday that he's ready to play Sunday against the Chiefs, Rich Cimini of ESPN.com reports.",
+     "detail": "Hall (quadriceps) was a full participant in Thursday's practice.",
      "source": "ESPN"
     },
     {
@@ -7597,7 +7578,7 @@
      "name": "Garrett Wilson",
      "position": "WR",
      "status": "Questionable",
-     "detail": "Wilson, who is in the NFL's concussion protocol, wasn't seen at Thursday's practice, Antwan Staley of the New York Daily News reports.",
+     "detail": "Wilson (concussion) did not practice Thursday.",
      "source": "ESPN"
     },
     {
@@ -7618,14 +7599,6 @@
     },
     {
      "team": "NYJ",
-     "name": "Mason Taylor",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Taylor was a limited participant in Wednesday's practice due to a back injury.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
      "name": "Trevin Wallace",
      "position": "LB",
      "status": "Questionable",
@@ -7638,14 +7611,6 @@
      "position": "DT",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYJ",
-     "name": "David Bailey",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Bailey (groin) was a limited participant in practice Wednesday, Zack Rosenblatt of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -7666,15 +7631,6 @@
     }
    ],
    "news": [
-    {
-     "headline": "Chiefs WR Rashee Rice files for bankruptcy, claims he owes over $3.45M in debts",
-     "description": "Chiefs wide receiver Rashee Rice filed for bankruptcy in federal court, claiming he has more than $3.45 million in debts.",
-     "published": "2026-11-05T20:56:07Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50391911/chiefs-rashee-rice-files-bankruptcy-cites-345m-debt",
-     "teams": [
-      "KC"
-     ]
-    },
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
@@ -7789,6 +7745,15 @@
       "PIT",
       "SEA",
       "SF"
+     ]
+    },
+    {
+     "headline": "Chiefs' floundering pass rush starts with Chris Jones: 'I always can be better'",
+     "description": "Jones, 32, is off to another slow start, recording only 0.5 sacks through seven games. But he's not worried.",
+     "published": "2026-11-05T11:00:10Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50380580/chris-jones-chiefs-pass-rush-struggles",
+     "teams": [
+      "KC"
      ]
     }
    ],
@@ -8143,7 +8108,7 @@
       5
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -9122,7 +9087,7 @@
    "weather": {
     "temp_f": 84,
     "wind_mph": 11,
-    "gust_mph": 10,
+    "gust_mph": 9,
     "precip_prob": 5,
     "precip_in": 0
    },
@@ -9138,6 +9103,14 @@
     "MIA": -0.5
    },
    "injuries": [
+    {
+     "team": "DET",
+     "name": "Amon-Ra St. Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "St. Brown (ribs) practiced in a limited capacity Thursday, Tim Twentyman of the Lions' official site reports.",
+     "source": "ESPN"
+    },
     {
      "team": "DET",
      "name": "Kerby Joseph",
@@ -9160,14 +9133,6 @@
      "position": "LB",
      "status": "Doubtful",
      "detail": "Campbell (neck) said Wednesday that he has full movement in his lower body and is making progress with movement in his upper body, Colton Pouncy of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DET",
-     "name": "Amon-Ra St. Brown",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "St. Brown was a limited participant at Wednesday's walkthrough due to a rib injury, Nolan Bianchi of The Detroit News reports.",
      "source": "ESPN"
     },
     {
@@ -10152,31 +10117,31 @@
     "NO": "Tyler Shough"
    },
    "model_score": {
-    "CLE": 20.2,
+    "CLE": 20.0,
     "NO": 20.9
    },
    "picks": {
     "spread": {
      "market": "NO -3",
-     "model_line": "NO -0.5",
-     "edge_pts": 2.3,
+     "model_line": "NO -1",
+     "edge_pts": 2.1,
      "pick": "CLE +3",
      "team": "CLE",
      "line": 3.0,
      "price": "-105",
-     "prob": 0.524,
-     "ev": 0.023,
-     "bet": true,
-     "stars": 1
+     "prob": 0.522,
+     "ev": 0.019,
+     "bet": false,
+     "stars": 0
     },
     "total": {
      "market": "42.5",
-     "model_line": "41.0",
-     "edge_pts": 1.5,
+     "model_line": "40.8",
+     "edge_pts": 1.7,
      "pick": "Under 42.5",
      "price": "-110",
-     "prob": 0.516,
-     "ev": -0.015,
+     "prob": 0.518,
+     "ev": -0.011,
      "bet": false,
      "stars": 0
     },
@@ -10185,8 +10150,8 @@
      "market_prob": 0.6,
      "pick": "NO ML",
      "price": "-166",
-     "prob": 0.576,
-     "ev": -0.077,
+     "prob": 0.578,
+     "ev": -0.074,
      "bet": false,
      "stars": 0
     }
@@ -10282,7 +10247,8 @@
       "prob": 0.569,
       "usual": 53.6,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Quinshon Judkins",
@@ -10395,7 +10361,7 @@
       "usual": 2.8,
       "eligible": true
      },
-     "top": 3
+     "top": 2
     },
     {
      "player": "Dylan Sampson",
@@ -10466,7 +10432,7 @@
      "team": "CLE",
      "opp": "NO",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 68.9,
@@ -10486,7 +10452,7 @@
      "team": "CLE",
      "opp": "NO",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 5.6,
@@ -10499,15 +10465,14 @@
       "prob": 0.644,
       "usual": 4.7,
       "eligible": true
-     },
-     "top": 1
+     }
     },
     {
      "player": "Harold Fannin Jr.",
      "team": "CLE",
      "opp": "NO",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "30% to score",
@@ -10637,7 +10602,7 @@
       "usual": 225.7,
       "eligible": true
      },
-     "top": 4
+     "top": 3
     },
     {
      "player": "Tyler Shough",
@@ -10710,7 +10675,7 @@
       "usual": 27.4,
       "eligible": true
      },
-     "top": 2
+     "top": 1
     },
     {
      "player": "Kendre Miller",
@@ -11049,6 +11014,7 @@
    "weather_notes": [],
    "injury_notes": {
     "CLE": [
+     "Harold Fannin Jr. (TE) Questionable",
      "Deshaun Watson (QB) Questionable"
     ],
     "NO": [
@@ -11056,10 +11022,34 @@
     ]
    },
    "injury_adj": {
-    "CLE": -1.4,
+    "CLE": -1.6,
     "NO": -1.1
    },
    "injuries": [
+    {
+     "team": "CLE",
+     "name": "Denzel Boston",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Boston (calf) remained limited in Thursday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CLE",
+     "name": "Emmanuel McNeil-Warren",
+     "position": "S",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "CLE",
+     "name": "Harold Fannin Jr.",
+     "position": "TE",
+     "status": "Questionable",
+     "detail": "Fannin (groin) was a limited participant in Thursday's practice, Scott Petrak of the Elyria Chronicle-Telegram reports.",
+     "source": "ESPN"
+    },
     {
      "team": "CLE",
      "name": "Deshaun Watson",
@@ -11074,38 +11064,6 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "Schwesinger notched 10 tackles (four solo) in Sunday's 27-6 loss to the Steelers.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CLE",
-     "name": "Denzel Boston",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Boston was a limited participant in Wednesday's practice due to a calf injury, Scott Petrak of the Elyria Chronicle-Telegram reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CLE",
-     "name": "Jared Verse",
-     "position": "DE",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CLE",
-     "name": "Elgton Jenkins",
-     "position": "C",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "CLE",
-     "name": "Myles Harden",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -11130,6 +11088,14 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "Williams (hamstring) did not participate in practice Wednesday, Chris Easterling of the Akron Beacon Journal reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "Jordyn Tyson",
+     "position": "WR",
+     "status": "Injured Reserve",
+     "detail": "Tyson (hamstring) remained a limited participant at Thursday's practice, Katherine Terrell of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -11178,14 +11144,6 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NO",
-     "name": "Jordyn Tyson",
-     "position": "WR",
-     "status": "Injured Reserve",
-     "detail": "Tyson (hamstring) had his 21-day practice window opened and was a limited participant in Wednesday's session.",
      "source": "ESPN"
     },
     {
@@ -12736,18 +12694,26 @@
     },
     {
      "team": "NYG",
-     "name": "Malik Nabers",
-     "position": "WR",
+     "name": "Cam Skattebo",
+     "position": "RB",
      "status": "Questionable",
-     "detail": "Nabers (undisclosed) said Thursday, \"I'll be good,\" for Sunday's game at Philadelphia, Art Stapleton of USA Today reports.",
+     "detail": "Skattebo (hamstring) was a non-participant at Thursday's practice, Dan Salomone of the Giants' official site reports.",
      "source": "ESPN"
     },
     {
      "team": "NYG",
-     "name": "Cam Skattebo",
-     "position": "RB",
+     "name": "Malik Nabers",
+     "position": "WR",
      "status": "Questionable",
-     "detail": "Skattebo (hamstring) was spotted working off to the side with the Giants' training staff Thursday, Art Stapleton of The Bergen Record reports.",
+     "detail": "Nabers didn't practice Thursday due to a knee injury, Dan Salomone of the Giants' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYG",
+     "name": "Abdul Carter",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Carter (illness) returned to practice Thursday, Dan Duggan of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -12778,14 +12744,6 @@
      "team": "NYG",
      "name": "Colton Hood",
      "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
-     "name": "Abdul Carter",
-     "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -14540,12 +14498,12 @@
    "weather": {
     "temp_f": 61,
     "wind_mph": 12,
-    "gust_mph": 20,
+    "gust_mph": 18,
     "precip_prob": 0,
     "precip_in": 0
    },
    "weather_notes": [
-    "wind 12 mph (gusts 20)"
+    "wind 12 mph (gusts 18)"
    ],
    "injury_notes": {
     "LA": [],
@@ -18121,8 +18079,8 @@
     "LV": [],
     "SF": [
      "Mike Evans (WR) Questionable",
-     "Demarcus Robinson (WR) Injured Reserve",
-     "Christian McCaffrey (RB) Questionable"
+     "Christian McCaffrey (RB) Questionable",
+     "Demarcus Robinson (WR) Injured Reserve"
     ]
    },
    "injury_adj": {
@@ -18172,10 +18130,10 @@
     },
     {
      "team": "SF",
-     "name": "Brandon Aiyuk",
+     "name": "Deebo Samuel Sr.",
      "position": "WR",
-     "status": "Out",
-     "detail": "Head coach Kyle Shanahan and GM John Lynch both declined to get into specifics when discussing the future of Aiyuk, who has filed his paperwork for reinstatement and plans to show up to the 49ers' facility Friday, Eric Branch of the San Francisco Chronicle reports.",
+     "status": "Questionable",
+     "detail": "Samuel (hamstring) did not participate in the portion of Thursday's practice open to the media, Nick Wagoner of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -18183,15 +18141,23 @@
      "name": "Mike Evans",
      "position": "WR",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Evans (Achilles) did not participate in the portion of Thursday's practice open to the media, Nick Wagoner of ESPN.com reports.",
      "source": "ESPN"
     },
     {
      "team": "SF",
-     "name": "Deebo Samuel Sr.",
-     "position": "WR",
+     "name": "Christian McCaffrey",
+     "position": "RB",
      "status": "Questionable",
-     "detail": "According to GM John Lynch, Samuel (hamstring) is unlikely to be available for Sunday's game against the Raiders, Matt Maiocco of NBC Sports Bay Area reports.",
+     "detail": "McCaffrey (hamstring) was present for the open portion of Thursday's practice, Nick Wagoner of ESPN reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SF",
+     "name": "Brandon Aiyuk",
+     "position": "WR",
+     "status": "Out",
+     "detail": "Head coach Kyle Shanahan and GM John Lynch both declined to get into specifics when discussing the future of Aiyuk, who has filed his paperwork for reinstatement and plans to show up to the 49ers' facility Friday, Eric Branch of the San Francisco Chronicle reports.",
      "source": "ESPN"
     },
     {
@@ -18240,14 +18206,6 @@
      "position": "S",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "SF",
-     "name": "Christian McCaffrey",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "McCaffrey (hamstring) will not participate in Wednesday's practice, Cam Inman of Bay Area News Group reports.",
      "source": "ESPN"
     },
     {
@@ -22676,14 +22634,14 @@
    "picks": {
     "spread": {
      "market": "CHI -6",
-     "model_line": "CHI -1",
-     "edge_pts": 4.8,
+     "model_line": "CHI -1.5",
+     "edge_pts": 4.7,
      "pick": "TB +6",
      "team": "TB",
      "line": 6.0,
      "price": "-108",
-     "prob": 0.55,
-     "ev": 0.058,
+     "prob": 0.549,
+     "ev": 0.057,
      "bet": true,
      "stars": 2
     },
@@ -22694,7 +22652,7 @@
      "pick": "Under 47.5",
      "price": "-115",
      "prob": 0.581,
-     "ev": 0.086,
+     "ev": 0.087,
      "bet": true,
      "stars": 3
     },
@@ -22704,7 +22662,7 @@
      "pick": "CHI ML",
      "price": "-298",
      "prob": 0.672,
-     "ev": -0.103,
+     "ev": -0.102,
      "bet": false,
      "stars": 0
     }
@@ -23511,13 +23469,7 @@
      "fair_odds": "+707"
     }
    ],
-   "weather": {
-    "temp_f": 55,
-    "wind_mph": 9,
-    "gust_mph": 25,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "TB": [],
@@ -23526,10 +23478,18 @@
     ]
    },
    "injury_adj": {
-    "TB": -0.3,
+    "TB": -0.4,
     "CHI": -0.9
    },
    "injuries": [
+    {
+     "team": "CHI",
+     "name": "Zavier Scott",
+     "position": "RB",
+     "status": "Injured Reserve",
+     "detail": "The Bears placed Scott (wrist) on injured reserve Thursday.",
+     "source": "ESPN"
+    },
     {
      "team": "CHI",
      "name": "D'Marco Jackson",
@@ -23544,14 +23504,6 @@
      "position": "RB",
      "status": "Questionable",
      "detail": "Monangai (thumb/toe) didn't practice Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "CHI",
-     "name": "Zavier Scott",
-     "position": "RB",
-     "status": "Injured Reserve",
-     "detail": "ir",
      "source": "ESPN"
     },
     {
@@ -23592,6 +23544,14 @@
      "position": "DE",
      "status": "Questionable",
      "detail": "Jarrett (groin) is doubtful to return to Monday night's game against the Seahawks.",
+     "source": "ESPN"
+    },
+    {
+     "team": "TB",
+     "name": "Tristan Wirfs",
+     "position": "OT",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -27088,13 +27048,7 @@
      "fair_odds": "+1104"
     }
    ],
-   "weather": {
-    "temp_f": 46,
-    "wind_mph": 8,
-    "gust_mph": 17,
-    "precip_prob": 13,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "WAS": [
@@ -27119,18 +27073,26 @@
     },
     {
      "team": "NYG",
-     "name": "Malik Nabers",
-     "position": "WR",
+     "name": "Cam Skattebo",
+     "position": "RB",
      "status": "Questionable",
-     "detail": "Nabers (undisclosed) said Thursday, \"I'll be good,\" for Sunday's game at Philadelphia, Art Stapleton of USA Today reports.",
+     "detail": "Skattebo (hamstring) was a non-participant at Thursday's practice, Dan Salomone of the Giants' official site reports.",
      "source": "ESPN"
     },
     {
      "team": "NYG",
-     "name": "Cam Skattebo",
-     "position": "RB",
+     "name": "Malik Nabers",
+     "position": "WR",
      "status": "Questionable",
-     "detail": "Skattebo (hamstring) was spotted working off to the side with the Giants' training staff Thursday, Art Stapleton of The Bergen Record reports.",
+     "detail": "Nabers didn't practice Thursday due to a knee injury, Dan Salomone of the Giants' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYG",
+     "name": "Abdul Carter",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "Carter (illness) returned to practice Thursday, Dan Duggan of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -27161,14 +27123,6 @@
      "team": "NYG",
      "name": "Colton Hood",
      "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
-     "name": "Abdul Carter",
-     "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -32235,7 +32189,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 61,
+     "wind_mph": 4,
+     "gust_mph": 12,
+     "precip_prob": 5,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32322,7 +32282,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32383,7 +32343,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 52,
+     "wind_mph": 2,
+     "gust_mph": 2,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32496,7 +32462,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32619,7 +32585,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32780,7 +32746,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32801,8 +32767,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c8": 20.0,
-     "c2": 27.4
+     "c8": 20.7,
+     "c2": 28.1
     },
     "picks": {
      "spread": {
@@ -32820,12 +32786,12 @@
      },
      "total": {
       "market": "53.5",
-      "model_line": "47.3",
-      "edge_pts": 6.2,
+      "model_line": "48.8",
+      "edge_pts": 4.7,
       "pick": "Under 53.5",
       "price": "-108",
-      "prob": 0.54,
-      "ev": 0.039,
+      "prob": 0.53,
+      "ev": 0.021,
       "bet": true,
       "stars": 1
      },
@@ -32841,16 +32807,8 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 45,
-     "wind_mph": 9,
-     "gust_mph": 12,
-     "precip_prob": 73,
-     "precip_in": 0.13
-    },
-    "weather_notes": [
-     "73% chance of rain/snow"
-    ],
+    "weather": null,
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -32952,7 +32910,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32991,15 +32949,15 @@
       "stars": 0
      },
      "total": {
-      "market": "51.5",
+      "market": "50.5",
       "model_line": "53.9",
-      "edge_pts": 2.4,
-      "pick": "Over 51.5",
-      "price": "-102",
-      "prob": 0.516,
-      "ev": 0.021,
-      "bet": true,
-      "stars": 1
+      "edge_pts": 3.4,
+      "pick": "Over 50.5",
+      "price": "-118",
+      "prob": 0.522,
+      "ev": -0.036,
+      "bet": false,
+      "stars": 0
      },
      "moneyline": {
       "market": "c245 +215 / c2579 -265",
@@ -33016,7 +32974,7 @@
     "weather": {
      "temp_f": 70,
      "wind_mph": 5,
-     "gust_mph": 7,
+     "gust_mph": 8,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -33098,7 +33056,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33283,7 +33241,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33305,7 +33263,7 @@
     "qbs": {},
     "model_score": {
      "c2771": 4.0,
-     "c154": 54.0
+     "c154": 53.9
     },
     "picks": {
      "spread": {
@@ -33385,7 +33343,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33406,7 +33364,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c333": 26.3,
+     "c333": 26.2,
      "c99": 31.3
     },
     "picks": {
@@ -33530,7 +33488,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33677,7 +33635,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33860,7 +33818,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33924,7 +33882,7 @@
     "weather": {
      "temp_f": 59,
      "wind_mph": 2,
-     "gust_mph": 3,
+     "gust_mph": 4,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -34045,7 +34003,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34084,13 +34042,13 @@
       "stars": 0
      },
      "total": {
-      "market": "50.5",
+      "market": "49.5",
       "model_line": "49.9",
-      "edge_pts": 0.6,
-      "pick": "Over 50.5",
-      "price": "-105",
-      "prob": 0.496,
-      "ev": -0.031,
+      "edge_pts": 0.4,
+      "pick": "Under 49.5",
+      "price": "-108",
+      "prob": 0.497,
+      "ev": -0.042,
       "bet": false,
       "stars": 0
      },
@@ -34172,7 +34130,7 @@
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
-      "agrees": false,
+      "agrees": true,
       "hit": 4,
       "of": 5,
       "rate": 0.8,
@@ -34203,7 +34161,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34388,7 +34346,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34545,7 +34503,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34675,7 +34633,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34815,7 +34773,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34965,7 +34923,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    }
   ],
@@ -34973,8 +34931,8 @@
    "n_games": 627,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.185141755046086,
-   "hfa": -1.0658141036401503e-14,
+   "mu": 26.184641081493872,
+   "hfa": -8.215650382226158e-15,
    "top": [
     [
      "c2390",
