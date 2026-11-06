@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T04:11:27.426071+00:00",
+ "generated_at": "2026-11-06T04:59:55.586750+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -499,7 +499,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 57.1,
@@ -520,7 +520,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 7.6,
@@ -540,7 +540,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.2,
@@ -560,7 +560,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "44% to score",
@@ -749,7 +749,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 21.6,
@@ -769,7 +769,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 2.1,
@@ -789,7 +789,7 @@
      "team": "BAL",
      "opp": "JAX",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "5% to score",
@@ -1017,22 +1017,22 @@
    ],
    "news": [
     {
-     "headline": "Jaguars-Ravens highlights: Best plays, moments, touchdowns, more",
-     "description": "Here are the best plays from Jags-Ravens on Thursday Night Football.",
-     "published": "2026-11-06T03:47:13Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50394179/best-plays-moments-touchdowns-more",
-     "teams": [
-      "BAL",
-      "JAX"
-     ]
-    },
-    {
      "headline": "Ravens' Derrick Henry moves into 7th place on NFL all-time rushing list",
      "description": "Derrick Henry passed LaDainian Tomlinson and moved into seventh on the NFL's all-time rushing list.",
      "published": "2026-11-06T02:26:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50395212/ravens-derrick-henry-now-7th-all-nfl-rushing",
      "teams": [
       "BAL"
+     ]
+    },
+    {
+     "headline": "Jaguars-Ravens highlights: Best plays, moments, touchdowns, more",
+     "description": "Here are the best plays from Jags-Ravens on Thursday Night Football.",
+     "published": "2026-11-06T02:07:50Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50394179/best-plays-moments-touchdowns-more",
+     "teams": [
+      "BAL",
+      "JAX"
      ]
     },
     {
@@ -1248,7 +1248,7 @@
       53
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -1482,7 +1482,7 @@
       7
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -1569,7 +1569,7 @@
       2
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -4444,6 +4444,32 @@
       "TB",
       "TEN",
       "WAS"
+     ]
+    },
+    {
+     "headline": "What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
+     "description": "Should the Giants keep adding? Could the Bills go all-in? Would the Steelers stay conservative? Here's how 18 teams at or above .500 should approach the deadline.",
+     "published": "2026-11-05T18:32:13Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50360077/2026-nfl-trade-deadline-contenders-activity-add-subtract",
+     "teams": [
+      "BAL",
+      "BUF",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DEN",
+      "DET",
+      "GB",
+      "JAX",
+      "KC",
+      "LA",
+      "LV",
+      "MIN",
+      "NE",
+      "NYG",
+      "PIT",
+      "SEA",
+      "SF"
      ]
     }
    ],
@@ -9169,13 +9195,7 @@
      "fair_odds": "+1050"
     }
    ],
-   "weather": {
-    "temp_f": 83,
-    "wind_mph": 11,
-    "gust_mph": 9,
-    "precip_prob": 9,
-    "precip_in": 0.01
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "DET": [
@@ -18158,13 +18178,7 @@
      "fair_odds": "+1258"
     }
    ],
-   "weather": {
-    "temp_f": 71,
-    "wind_mph": 7,
-    "gust_mph": 8,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LV": [],
@@ -18444,6 +18458,32 @@
      "link": "http://www.espn.com/nfl/preview?gameId=401873047",
      "teams": [
       "LV",
+      "SF"
+     ]
+    },
+    {
+     "headline": "What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
+     "description": "Should the Giants keep adding? Could the Bills go all-in? Would the Steelers stay conservative? Here's how 18 teams at or above .500 should approach the deadline.",
+     "published": "2026-11-05T18:32:13Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50360077/2026-nfl-trade-deadline-contenders-activity-add-subtract",
+     "teams": [
+      "BAL",
+      "BUF",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DEN",
+      "DET",
+      "GB",
+      "JAX",
+      "KC",
+      "LA",
+      "LV",
+      "MIN",
+      "NE",
+      "NYG",
+      "PIT",
+      "SEA",
       "SF"
      ]
     }
@@ -23844,6 +23884,32 @@
       "CHI",
       "TB"
      ]
+    },
+    {
+     "headline": "What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
+     "description": "Should the Giants keep adding? Could the Bills go all-in? Would the Steelers stay conservative? Here's how 18 teams at or above .500 should approach the deadline.",
+     "published": "2026-11-05T18:32:13Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50360077/2026-nfl-trade-deadline-contenders-activity-add-subtract",
+     "teams": [
+      "BAL",
+      "BUF",
+      "CHI",
+      "CIN",
+      "CLE",
+      "DEN",
+      "DET",
+      "GB",
+      "JAX",
+      "KC",
+      "LA",
+      "LV",
+      "MIN",
+      "NE",
+      "NYG",
+      "PIT",
+      "SEA",
+      "SF"
+     ]
     }
    ],
    "trends": [
@@ -25680,16 +25746,6 @@
    ],
    "news": [
     {
-     "headline": "Bills have the NFL's most points. Vikings are the hardest to score on. Which side gives on Monday?",
-     "description": "\u2014 The Buffalo Bills are back to playing their usual catch-us-if-you-can game this season under first-year coach Joe Brady, ",
-     "published": "2026-11-06T03:37:41Z",
-     "link": "http://www.espn.com/nfl/preview?gameId=401873051",
-     "teams": [
-      "BUF",
-      "MIN"
-     ]
-    },
-    {
      "headline": "NFL Week 9 arrivals: Trevor Lawrence doubles up on denim, Ethan Burke reps Ovechkin",
      "description": "NFL stars continue to turn gameday arrivals into their own weekly fashion showcase.",
      "published": "2026-11-06T00:38:13Z",
@@ -25816,6 +25872,15 @@
       "TB",
       "TEN",
       "WAS"
+     ]
+    },
+    {
+     "headline": "Should Vikings stick with Wentz over Murray for rest of season?",
+     "description": "Should Vikings stick with Wentz over Murray for rest of season?",
+     "published": "2026-11-05T18:50:16Z",
+     "link": "https://www.espn.com/video/clip/_/id/50390770/should-vikings-stick-wentz-murray-rest-season",
+     "teams": [
+      "MIN"
      ]
     }
    ],
@@ -27293,7 +27358,13 @@
      "fair_odds": "+1104"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 44,
+    "wind_mph": 8,
+    "gust_mph": 12,
+    "precip_prob": 16,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "WAS": [
@@ -32391,19 +32462,19 @@
     "qbs": {},
     "model_score": {
      "c2628": 17.3,
-     "c12": 24.0
+     "c12": 24.1
     },
     "picks": {
      "spread": {
       "market": "c12 -7.5",
       "model_line": "c12 -7",
       "edge_pts": 0.7,
-      "pick": "c2628 +7.5",
-      "team": "c2628",
-      "line": 7.5,
-      "price": "-112",
-      "prob": 0.504,
-      "ev": -0.045,
+      "pick": "c12 -7.5",
+      "team": "c12",
+      "line": -7.5,
+      "price": "-102",
+      "prob": 0.496,
+      "ev": -0.019,
       "bet": false,
       "stars": 0
      },
@@ -32414,7 +32485,7 @@
       "pick": "Under 46.5",
       "price": "-112",
       "prob": 0.533,
-      "ev": 0.01,
+      "ev": 0.009,
       "bet": false,
       "stars": 0
      },
@@ -32462,6 +32533,25 @@
      },
      {
       "type": "team",
+      "team": "c2628",
+      "opp": "c12",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": true,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       true,
+       false,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
       "team": "c12",
       "opp": "c2628",
       "kind": "moneyline",
@@ -32481,31 +32571,12 @@
      },
      {
       "type": "team",
-      "team": "c2628",
-      "opp": "c12",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": false,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
       "team": "c12",
       "opp": "c2628",
       "kind": "spread",
       "label": "covered the spread",
       "bet": "spread",
-      "agrees": false,
+      "agrees": true,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -32517,7 +32588,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32538,8 +32609,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c252": 21.8,
-     "c254": 29.3
+     "c252": 21.9,
+     "c254": 29.4
     },
     "picks": {
      "spread": {
@@ -32562,7 +32633,7 @@
       "pick": "Over 48.5",
       "price": "-108",
       "prob": 0.517,
-      "ev": -0.004,
+      "ev": -0.003,
       "bet": false,
       "stars": 0
      },
@@ -32578,13 +32649,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 51,
-     "wind_mph": 1,
-     "gust_mph": 1,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32693,7 +32758,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32714,20 +32779,20 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c251": 23.0,
+     "c251": 22.8,
      "c142": 22.7
     },
     "picks": {
      "spread": {
       "market": "c142 +2.5",
-      "model_line": "c142 +0.5",
-      "edge_pts": 2.2,
+      "model_line": "c142 PK",
+      "edge_pts": 2.4,
       "pick": "c142 +2.5",
       "team": "c142",
       "line": 2.5,
       "price": "-105",
-      "prob": 0.514,
-      "ev": 0.003,
+      "prob": 0.515,
+      "ev": 0.005,
       "bet": false,
       "stars": 0
      },
@@ -32738,7 +32803,7 @@
       "pick": "Over 42.5",
       "price": "-115",
       "prob": 0.52,
-      "ev": -0.027,
+      "ev": -0.028,
       "bet": false,
       "stars": 0
      },
@@ -32747,8 +32812,8 @@
       "market_prob": 0.563,
       "pick": "c251 ML",
       "price": "-142",
-      "prob": 0.55,
-      "ev": -0.063,
+      "prob": 0.549,
+      "ev": -0.065,
       "bet": false,
       "stars": 0
      }
@@ -32827,7 +32892,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -32867,8 +32932,8 @@
      },
      "total": {
       "market": "38.5",
-      "model_line": "42.6",
-      "edge_pts": 4.1,
+      "model_line": "42.7",
+      "edge_pts": 4.2,
       "pick": "Over 38.5",
       "price": "-115",
       "prob": 0.527,
@@ -32994,7 +33059,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33016,32 +33081,32 @@
     "qbs": {},
     "model_score": {
      "c8": 20.0,
-     "c2": 27.3
+     "c2": 27.2
     },
     "picks": {
      "spread": {
       "market": "c2 -10",
-      "model_line": "c2 -7.5",
-      "edge_pts": 2.6,
+      "model_line": "c2 -7",
+      "edge_pts": 2.8,
       "pick": "c8 +10",
       "team": "c8",
       "line": 10.0,
-      "price": "-108",
-      "prob": 0.516,
-      "ev": -0.005,
-      "bet": false,
-      "stars": 0
-     },
-     "total": {
-      "market": "54.5",
-      "model_line": "47.3",
-      "edge_pts": 7.2,
-      "pick": "Under 54.5",
-      "price": "-115",
-      "prob": 0.546,
-      "ev": 0.021,
+      "price": "-102",
+      "prob": 0.517,
+      "ev": 0.024,
       "bet": true,
       "stars": 1
+     },
+     "total": {
+      "market": "53.5",
+      "model_line": "47.2",
+      "edge_pts": 6.3,
+      "pick": "Under 53.5",
+      "price": "-105",
+      "prob": 0.54,
+      "ev": 0.055,
+      "bet": true,
+      "stars": 2
      },
      "moneyline": {
       "market": "c8 +310 / c2 -395",
@@ -33049,7 +33114,7 @@
       "pick": "c2 ML",
       "price": "-395",
       "prob": 0.752,
-      "ev": -0.057,
+      "ev": -0.058,
       "bet": false,
       "stars": 0
      }
@@ -33166,7 +33231,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33206,8 +33271,8 @@
      },
      "total": {
       "market": "50.5",
-      "model_line": "53.9",
-      "edge_pts": 3.4,
+      "model_line": "54.0",
+      "edge_pts": 3.5,
       "pick": "Over 50.5",
       "price": "-118",
       "prob": 0.522,
@@ -33312,7 +33377,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33352,11 +33417,11 @@
      },
      "total": {
       "market": "58.5",
-      "model_line": "58.0",
-      "edge_pts": 0.5,
+      "model_line": "57.9",
+      "edge_pts": 0.6,
       "pick": "Under 58.5",
       "price": "-108",
-      "prob": 0.503,
+      "prob": 0.504,
       "ev": -0.03,
       "bet": false,
       "stars": 0
@@ -33414,7 +33479,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33443,9 +33508,9 @@
       "market": "c248 -10.5",
       "model_line": "c248 -10.5",
       "edge_pts": 0.0,
-      "pick": "c2132 +10.5",
-      "team": "c2132",
-      "line": 10.5,
+      "pick": "c248 -10.5",
+      "team": "c248",
+      "line": -10.5,
       "price": "-108",
       "prob": 0.5,
       "ev": -0.037,
@@ -33454,12 +33519,12 @@
      },
      "total": {
       "market": "62.5",
-      "model_line": "58.6",
-      "edge_pts": 3.9,
+      "model_line": "58.7",
+      "edge_pts": 3.8,
       "pick": "Under 62.5",
       "price": "-110",
       "prob": 0.525,
-      "ev": 0.002,
+      "ev": 0.001,
       "bet": false,
       "stars": 0
      },
@@ -33487,25 +33552,6 @@
     "injuries": [],
     "news": [],
     "trends": [
-     {
-      "type": "team",
-      "team": "c248",
-      "opp": "c2132",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": true,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
-       true,
-       true
-      ]
-     },
      {
       "type": "team",
       "team": "c248",
@@ -33546,6 +33592,43 @@
      },
      {
       "type": "team",
+      "team": "c248",
+      "opp": "c2132",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": false,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
+      "dots": [
+       true,
+       true,
+       false,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
+      "team": "c2132",
+      "opp": "c248",
+      "kind": "spread",
+      "label": "failed to cover",
+      "bet": "spread",
+      "agrees": true,
+      "hit": 3,
+      "of": 4,
+      "rate": 0.75,
+      "dots": [
+       true,
+       true,
+       false,
+       true
+      ]
+     },
+     {
+      "type": "team",
       "team": "c2132",
       "opp": "c248",
       "kind": "moneyline",
@@ -33579,27 +33662,9 @@
        false,
        true
       ]
-     },
-     {
-      "type": "team",
-      "team": "c2132",
-      "opp": "c248",
-      "kind": "spread",
-      "label": "failed to cover",
-      "bet": "spread",
-      "agrees": false,
-      "hit": 3,
-      "of": 4,
-      "rate": 0.75,
-      "dots": [
-       true,
-       true,
-       false,
-       true
-      ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33620,8 +33685,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c333": 26.2,
-     "c99": 31.2
+     "c333": 26.3,
+     "c99": 31.3
     },
     "picks": {
      "spread": {
@@ -33631,9 +33696,9 @@
       "pick": "c333 +6",
       "team": "c333",
       "line": 6.0,
-      "price": "-108",
+      "price": "-105",
       "prob": 0.506,
-      "ev": -0.025,
+      "ev": -0.012,
       "bet": false,
       "stars": 0
      },
@@ -33744,7 +33809,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33789,7 +33854,7 @@
       "pick": "Over 46.5",
       "price": "-110",
       "prob": 0.531,
-      "ev": 0.014,
+      "ev": 0.015,
       "bet": false,
       "stars": 0
      },
@@ -33891,7 +33956,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -33931,11 +33996,11 @@
      },
      "total": {
       "market": "48.5",
-      "model_line": "51.6",
-      "edge_pts": 3.1,
+      "model_line": "51.7",
+      "edge_pts": 3.2,
       "pick": "Over 48.5",
       "price": "-112",
-      "prob": 0.52,
+      "prob": 0.521,
       "ev": -0.015,
       "bet": false,
       "stars": 0
@@ -34074,7 +34139,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34095,31 +34160,31 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c68": 42.4,
-     "c36": 30.9
+     "c68": 42.5,
+     "c36": 30.7
     },
     "picks": {
      "spread": {
       "market": "c36 +17.5",
-      "model_line": "c36 +11.5",
-      "edge_pts": 5.9,
+      "model_line": "c36 +12",
+      "edge_pts": 5.7,
       "pick": "c36 +17.5",
       "team": "c36",
       "line": 17.5,
       "price": "-110",
-      "prob": 0.537,
-      "ev": 0.025,
+      "prob": 0.536,
+      "ev": 0.022,
       "bet": true,
       "stars": 1
      },
      "total": {
       "market": "68.5",
-      "model_line": "73.3",
-      "edge_pts": 4.8,
+      "model_line": "73.2",
+      "edge_pts": 4.7,
       "pick": "Over 68.5",
       "price": "-115",
-      "prob": 0.531,
-      "ev": -0.008,
+      "prob": 0.53,
+      "ev": -0.009,
       "bet": false,
       "stars": 0
      },
@@ -34128,8 +34193,8 @@
       "market_prob": 0.868,
       "pick": "c68 ML",
       "price": "-950",
-      "prob": 0.846,
-      "ev": -0.065,
+      "prob": 0.847,
+      "ev": -0.064,
       "bet": false,
       "stars": 0
      }
@@ -34259,7 +34324,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34287,7 +34352,7 @@
      "spread": {
       "market": "c2633 -6.5",
       "model_line": "c2633 -5",
-      "edge_pts": 1.4,
+      "edge_pts": 1.5,
       "pick": "c96 +6.5",
       "team": "c96",
       "line": 6.5,
@@ -34417,7 +34482,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34438,8 +34503,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2390": 30.2,
-     "c87": 32.4
+     "c2390": 30.3,
+     "c87": 32.5
     },
     "picks": {
      "spread": {
@@ -34457,12 +34522,12 @@
      },
      "total": {
       "market": "54.5",
-      "model_line": "62.6",
-      "edge_pts": 8.1,
+      "model_line": "62.7",
+      "edge_pts": 8.2,
       "pick": "Over 54.5",
       "price": "-115",
-      "prob": 0.552,
-      "ev": 0.032,
+      "prob": 0.553,
+      "ev": 0.033,
       "bet": true,
       "stars": 1
      },
@@ -34602,7 +34667,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34636,7 +34701,7 @@
       "line": 3.5,
       "price": "-108",
       "prob": 0.532,
-      "ev": 0.025,
+      "ev": 0.024,
       "bet": true,
       "stars": 1
      },
@@ -34646,8 +34711,8 @@
       "edge_pts": 0.1,
       "pick": "Under 56.5",
       "price": "-110",
-      "prob": 0.501,
-      "ev": -0.044,
+      "prob": 0.5,
+      "ev": -0.045,
       "bet": false,
       "stars": 0
      },
@@ -34759,7 +34824,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34804,7 +34869,7 @@
       "pick": "Over 45.5",
       "price": "-105",
       "prob": 0.505,
-      "ev": -0.014,
+      "ev": -0.013,
       "bet": false,
       "stars": 0
      },
@@ -34889,7 +34954,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -34910,27 +34975,27 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c201": 23.4,
+     "c201": 23.3,
      "c57": 27.7
     },
     "picks": {
      "spread": {
       "market": "c57 -6.5",
       "model_line": "c57 -4.5",
-      "edge_pts": 2.2,
+      "edge_pts": 2.1,
       "pick": "c201 +6.5",
       "team": "c201",
       "line": 6.5,
       "price": "-115",
-      "prob": 0.514,
-      "ev": -0.039,
+      "prob": 0.513,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "45.5",
-      "model_line": "51.1",
-      "edge_pts": 5.6,
+      "model_line": "51.0",
+      "edge_pts": 5.5,
       "pick": "Over 45.5",
       "price": "-105",
       "prob": 0.536,
@@ -34943,8 +35008,8 @@
       "market_prob": 0.675,
       "pick": "c57 ML",
       "price": "-238",
-      "prob": 0.662,
-      "ev": -0.059,
+      "prob": 0.663,
+      "ev": -0.058,
       "bet": false,
       "stars": 0
      }
@@ -35029,7 +35094,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -35179,7 +35244,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -35344,7 +35409,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -35370,13 +35435,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 48,
-     "wind_mph": 9,
-     "gust_mph": 8,
-     "precip_prob": 2,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -35499,11 +35558,11 @@
    }
   ],
   "debug": {
-   "n_games": 627,
+   "n_games": 629,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.185323701691182,
-   "hfa": 2.220446049250313e-16,
+   "mu": 26.231387203188085,
+   "hfa": -4.884981308350689e-15,
    "top": [
     [
      "c2390",
@@ -35523,27 +35582,27 @@
     ],
     [
      "c194",
-     11.5
+     11.4
     ],
     [
      "c61",
-     11.2
+     11.3
     ],
     [
      "c26",
      10.8
     ],
     [
+     "c2335",
+     10.7
+    ],
+    [
      "c254",
      10.7
     ],
     [
-     "c2335",
-     10.5
-    ],
-    [
      "c145",
-     10.4
+     10.3
     ],
     [
      "c333",
@@ -35554,8 +35613,12 @@
      9.8
     ],
     [
+     "c256",
+     9.4
+    ],
+    [
      "c251",
-     9.1
+     8.9
     ],
     [
      "c167",
@@ -35576,10 +35639,6 @@
     [
      "c2294",
      7.5
-    ],
-    [
-     "c256",
-     7.3
     ],
     [
      "c197",
@@ -35619,19 +35678,19 @@
     ],
     [
      "c68",
-     5.9
-    ],
-    [
-     "c204",
-     5.7
+     5.8
     ],
     [
      "c252",
      5.7
     ],
     [
+     "c204",
+     5.6
+    ],
+    [
      "c2449",
-     5.5
+     5.6
     ],
     [
      "c2579",
@@ -35646,12 +35705,12 @@
      5.4
     ],
     [
-     "c2348",
-     5.1
+     "c249",
+     5.2
     ],
     [
-     "c249",
-     4.8
+     "c2348",
+     5.1
     ],
     [
      "c213",
