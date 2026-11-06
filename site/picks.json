@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T22:18:02.552290+00:00",
+ "generated_at": "2026-11-06T22:55:25.666527+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -6511,31 +6511,31 @@
     "MIA": "Malik Willis"
    },
    "model_score": {
-    "DET": 27.9,
+    "DET": 27.8,
     "MIA": 23.2
    },
    "picks": {
     "spread": {
      "market": "MIA +6.5",
-     "model_line": "MIA +5",
-     "edge_pts": 1.7,
+     "model_line": "MIA +4.5",
+     "edge_pts": 1.8,
      "pick": "MIA +6.5",
      "team": "MIA",
      "line": 6.5,
      "price": "-105",
-     "prob": 0.518,
-     "ev": 0.012,
+     "prob": 0.519,
+     "ev": 0.013,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "50.5",
-     "model_line": "51.1",
-     "edge_pts": 0.6,
+     "model_line": "51.0",
+     "edge_pts": 0.5,
      "pick": "Under 50.5",
      "price": "-105",
-     "prob": 0.494,
-     "ev": -0.036,
+     "prob": 0.495,
+     "ev": -0.034,
      "bet": false,
      "stars": 0
     },
@@ -6545,7 +6545,7 @@
      "pick": "DET ML",
      "price": "-325",
      "prob": 0.717,
-     "ev": -0.062,
+     "ev": -0.063,
      "bet": false,
      "stars": 0
     }
@@ -6700,7 +6700,7 @@
      "team": "DET",
      "opp": "MIA",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 15.9,
@@ -6720,7 +6720,7 @@
      "team": "DET",
      "opp": "MIA",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 4.7,
@@ -6740,7 +6740,7 @@
      "team": "DET",
      "opp": "MIA",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 0.4,
@@ -6760,7 +6760,7 @@
      "team": "DET",
      "opp": "MIA",
      "pos": "RB",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "8% to score",
@@ -7367,10 +7367,18 @@
     "MIA": []
    },
    "injury_adj": {
-    "DET": -1.1,
+    "DET": -1.2,
     "MIA": -0.2
    },
    "injuries": [
+    {
+     "team": "DET",
+     "name": "Sione Vaki",
+     "position": "RB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
     {
      "team": "DET",
      "name": "Amon-Ra St. Brown",
@@ -8219,7 +8227,7 @@
       65
      ],
      "agrees": false,
-     "status": "Active",
+     "status": "Questionable",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -9920,30 +9928,30 @@
    },
    "model_score": {
     "NYG": 22.9,
-    "PHI": 16.5
+    "PHI": 16.3
    },
    "picks": {
     "spread": {
      "market": "PHI +3",
      "model_line": "PHI +6.5",
-     "edge_pts": 3.4,
+     "edge_pts": 3.6,
      "pick": "NYG -3",
      "team": "NYG",
      "line": -3.0,
      "price": "-115",
-     "prob": 0.536,
-     "ev": 0.002,
+     "prob": 0.538,
+     "ev": 0.005,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "38.5",
-     "model_line": "39.4",
-     "edge_pts": 0.9,
+     "model_line": "39.2",
+     "edge_pts": 0.7,
      "pick": "Over 38.5",
      "price": "-112",
-     "prob": 0.509,
-     "ev": -0.036,
+     "prob": 0.507,
+     "ev": -0.04,
      "bet": false,
      "stars": 0
     },
@@ -9952,8 +9960,8 @@
      "market_prob": 0.583,
      "pick": "NYG ML",
      "price": "-155",
-     "prob": 0.618,
-     "ev": 0.016,
+     "prob": 0.619,
+     "ev": 0.019,
      "bet": false,
      "stars": 0
     }
@@ -10635,7 +10643,7 @@
    },
    "injury_adj": {
     "NYG": -1.2,
-    "PHI": -2.4
+    "PHI": -2.6
    },
    "injuries": [
     {
@@ -10688,6 +10696,30 @@
     },
     {
      "team": "PHI",
+     "name": "Jonathan Jones",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Michael Carter II",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Jihaad Campbell",
+     "position": "LB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
      "name": "DeVonta Smith",
      "position": "WR",
      "status": "Out",
@@ -10712,66 +10744,18 @@
     },
     {
      "team": "PHI",
-     "name": "Jake Elliott",
-     "position": "PK",
-     "status": "Questionable",
-     "detail": "Elliott (ankle) was a limited participant in Thursday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
      "name": "Tanner McKee",
      "position": "QB",
      "status": "Questionable",
      "detail": "McKee (rib) was limited in Thursday's practice.",
      "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Jihaad Campbell",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Campbell (hamstring/quadriceps) did not participate at the Eagles' practice Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Jonathan Greenard",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Jalyx Hunt",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Jonathan Jones",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
-     "name": "Michael Carter II",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "Carter (abdomen) is questionable to return to Sunday night's contest against the Commanders.",
-     "source": "ESPN"
     }
    ],
    "news": [
     {
-     "headline": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full-go'",
-     "description": "Giants running back Cam Skattebo is unlikely to play against the Eagles on Sunday, but receiver Malik Nabers is expected to be a \"full-go\" without limitations.",
-     "published": "2026-11-06T22:13:57Z",
+     "headline": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'",
+     "description": "Giants running back Cam Skattebo is unlikely to play against the Eagles on Sunday, but receiver Malik Nabers is expected to be a \"full go\" without limitations.",
+     "published": "2026-11-06T22:38:03Z",
      "link": "https://www.espn.com/nfl/story/_/id/50402162/giants-cam-skattebo-doubtful-vs-eagles-nabers-full-go",
      "teams": [
       "NYG"
@@ -11413,30 +11397,30 @@
    },
    "model_score": {
     "LA": 24.7,
-    "WAS": 17.4
+    "WAS": 17.5
    },
    "picks": {
     "spread": {
      "market": "WAS +4.5",
-     "model_line": "WAS +7.5",
-     "edge_pts": 2.8,
+     "model_line": "WAS +7",
+     "edge_pts": 2.7,
      "pick": "LA -4.5",
      "team": "LA",
      "line": -4.5,
      "price": "-112",
-     "prob": 0.529,
-     "ev": 0.001,
+     "prob": 0.528,
+     "ev": -0.001,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "47.5",
-     "model_line": "42.1",
-     "edge_pts": 5.4,
+     "model_line": "42.2",
+     "edge_pts": 5.3,
      "pick": "Under 47.5",
      "price": "-105",
-     "prob": 0.558,
-     "ev": 0.089,
+     "prob": 0.557,
+     "ev": 0.087,
      "bet": true,
      "stars": 3
     },
@@ -11445,8 +11429,8 @@
      "market_prob": 0.657,
      "pick": "LA ML",
      "price": "-218",
-     "prob": 0.685,
-     "ev": -0.001,
+     "prob": 0.684,
+     "ev": -0.003,
      "bet": false,
      "stars": 0
     }
@@ -12270,7 +12254,7 @@
    },
    "injury_adj": {
     "LA": -1.0,
-    "WAS": -2.9
+    "WAS": -2.8
    },
    "injuries": [
     {
@@ -12278,7 +12262,7 @@
      "name": "Terrance Ferguson",
      "position": "TE",
      "status": "Injured Reserve",
-     "detail": "Ferguson (ankle) doesn't have an injury designation for Sunday's game against the Commanders, Adam Caplan of SiriusXM NFL Radio reports.",
+     "detail": "Ferguson (ankle) was expected to return for Sunday's game against Washington, but he's been ruled out after injuring his hamstring during Friday's practice, Cameron DaSilva of USA Today reports.",
      "source": "ESPN"
     },
     {
@@ -12387,30 +12371,6 @@
     },
     {
      "team": "WAS",
-     "name": "Shy Tuttle",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "John Bates",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Sam Cosmi",
-     "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
      "name": "Daron Payne",
      "position": "DT",
      "status": "Injured Reserve",
@@ -12464,7 +12424,7 @@
     {
      "headline": "Rams' Myles Garrett to be activated from injured reserve, play vs. Commanders",
      "description": "Rams star pass rusher Myles Garrett is on track to be activated from injured reserve ahead of Sunday's game at the Commanders.",
-     "published": "2026-11-06T20:35:55Z",
+     "published": "2026-11-06T22:24:26Z",
      "link": "https://www.espn.com/nfl/story/_/id/50400738/sources-rams-myles-garrett-track-return-vs-commanders",
      "teams": [
       "LA"
@@ -14868,7 +14828,7 @@
     "SF": "Brock Purdy"
    },
    "model_score": {
-    "LV": 22.8,
+    "LV": 22.7,
     "SF": 28.4
    },
    "picks": {
@@ -14880,19 +14840,19 @@
      "team": "LV",
      "line": 10.0,
      "price": "-112",
-     "prob": 0.546,
-     "ev": 0.034,
+     "prob": 0.545,
+     "ev": 0.032,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "51.5",
-     "model_line": "51.2",
-     "edge_pts": 0.3,
+     "model_line": "51.1",
+     "edge_pts": 0.4,
      "pick": "Under 51.5",
      "price": "+100",
-     "prob": 0.503,
-     "ev": 0.007,
+     "prob": 0.504,
+     "ev": 0.008,
      "bet": false,
      "stars": 0
     },
@@ -14901,8 +14861,8 @@
      "market_prob": 0.796,
      "pick": "SF ML",
      "price": "-485",
-     "prob": 0.759,
-     "ev": -0.084,
+     "prob": 0.76,
+     "ev": -0.083,
      "bet": false,
      "stars": 0
     }
@@ -15726,24 +15686,16 @@
     ]
    },
    "injury_adj": {
-    "LV": -0.1,
+    "LV": -0.2,
     "SF": -4.2
    },
    "injuries": [
     {
      "team": "LV",
-     "name": "Dont'e Thornton Jr.",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Thornton (back) was a limited participant at the Raiders' practice Thursday, Paul Gutierrez of the team's official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LV",
      "name": "Thomas Booker IV",
      "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -18334,30 +18286,30 @@
    },
    "model_score": {
     "ARI": 16.7,
-    "SEA": 23.4
+    "SEA": 23.5
    },
    "picks": {
     "spread": {
      "market": "SEA -8.5",
-     "model_line": "SEA -6.5",
-     "edge_pts": 1.9,
+     "model_line": "SEA -7",
+     "edge_pts": 1.7,
      "pick": "ARI +8.5",
      "team": "ARI",
      "line": 8.5,
      "price": "-110",
-     "prob": 0.519,
-     "ev": -0.009,
+     "prob": 0.518,
+     "ev": -0.012,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "39.5",
-     "model_line": "40.1",
-     "edge_pts": 0.6,
+     "model_line": "40.2",
+     "edge_pts": 0.7,
      "pick": "Over 39.5",
      "price": "-112",
-     "prob": 0.506,
-     "ev": -0.042,
+     "prob": 0.508,
+     "ev": -0.039,
      "bet": false,
      "stars": 0
     },
@@ -18366,8 +18318,8 @@
      "market_prob": 0.791,
      "pick": "SEA ML",
      "price": "-470",
-     "prob": 0.775,
-     "ev": -0.06,
+     "prob": 0.777,
+     "ev": -0.058,
      "bet": false,
      "stars": 0
     }
@@ -19047,13 +18999,12 @@
      "Kendrick Bourne (WR) Injured Reserve"
     ],
     "SEA": [
-     "Drew Lock (QB) Questionable",
      "Sam Darnold (QB) Out"
     ]
    },
    "injury_adj": {
     "ARI": -2.2,
-    "SEA": -2.9
+    "SEA": -2.8
    },
    "injuries": [
     {
@@ -19174,14 +19125,6 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "SEA",
-     "name": "Drew Lock",
-     "position": "QB",
-     "status": "Questionable",
-     "detail": "Lock (right elbow) practiced in a limited capacity Thursday, John Boyle of the Seahawks' official site reports.",
      "source": "ESPN"
     },
     {
@@ -20845,7 +20788,13 @@
      "fair_odds": "+707"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 54,
+    "wind_mph": 9,
+    "gust_mph": 24,
+    "precip_prob": 0,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "TB": [],
@@ -22772,6 +22721,14 @@
    "injuries": [
     {
      "team": "BUF",
+     "name": "Keon Coleman",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Coleman (shoulder) was a limited practice participant Friday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "BUF",
      "name": "Sam Franklin Jr.",
      "position": "S",
      "status": "Questionable",
@@ -22784,14 +22741,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Moore (shoulder) was a limited practice participant Friday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "BUF",
-     "name": "Keon Coleman",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Coleman (shoulder) was limited in practice Thursday.",
      "source": "ESPN"
     },
     {
@@ -23696,31 +23645,31 @@
     "NYG": "J.J. McCarthy"
    },
    "model_score": {
-    "WAS": 19.4,
+    "WAS": 19.5,
     "NYG": 23.9
    },
    "picks": {
     "spread": {
      "market": "NYG -1.5",
      "model_line": "NYG -4.5",
-     "edge_pts": 3.1,
+     "edge_pts": 3.0,
      "pick": "NYG -1.5",
      "team": "NYG",
      "line": -1.5,
      "price": "-105",
-     "prob": 0.532,
-     "ev": 0.038,
+     "prob": 0.531,
+     "ev": 0.036,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "44.5",
-     "model_line": "43.3",
-     "edge_pts": 1.2,
+     "model_line": "43.4",
+     "edge_pts": 1.1,
      "pick": "Under 44.5",
      "price": "-110",
-     "prob": 0.512,
-     "ev": -0.022,
+     "prob": 0.511,
+     "ev": -0.024,
      "bet": false,
      "stars": 0
     },
@@ -23729,8 +23678,8 @@
      "market_prob": 0.517,
      "pick": "NYG ML",
      "price": "-118",
-     "prob": 0.549,
-     "ev": 0.014,
+     "prob": 0.548,
+     "ev": 0.012,
      "bet": false,
      "stars": 0
     }
@@ -24393,7 +24342,13 @@
      "fair_odds": "+1104"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 46,
+    "wind_mph": 6,
+    "gust_mph": 8,
+    "precip_prob": 11,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "WAS": [
@@ -24405,7 +24360,7 @@
     ]
    },
    "injury_adj": {
-    "WAS": -2.9,
+    "WAS": -2.8,
     "NYG": -1.2
    },
    "injuries": [
@@ -24483,30 +24438,6 @@
     },
     {
      "team": "WAS",
-     "name": "Shy Tuttle",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "John Bates",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Sam Cosmi",
-     "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
      "name": "Daron Payne",
      "position": "DT",
      "status": "Injured Reserve",
@@ -24548,9 +24479,9 @@
    ],
    "news": [
     {
-     "headline": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full-go'",
-     "description": "Giants running back Cam Skattebo is unlikely to play against the Eagles on Sunday, but receiver Malik Nabers is expected to be a \"full-go\" without limitations.",
-     "published": "2026-11-06T22:13:57Z",
+     "headline": "Giants' Cam Skattebo doubtful vs. Eagles; Malik Nabers 'full go'",
+     "description": "Giants running back Cam Skattebo is unlikely to play against the Eagles on Sunday, but receiver Malik Nabers is expected to be a \"full go\" without limitations.",
+     "published": "2026-11-06T22:38:03Z",
      "link": "https://www.espn.com/nfl/story/_/id/50402162/giants-cam-skattebo-doubtful-vs-eagles-nabers-full-go",
      "teams": [
       "NYG"
@@ -28064,13 +27995,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 44,
-     "wind_mph": 5,
-     "gust_mph": 7,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28181,8 +28106,8 @@
      },
      "total": {
       "market": "38.5",
-      "model_line": "42.7",
-      "edge_pts": 4.2,
+      "model_line": "42.8",
+      "edge_pts": 4.3,
       "pick": "Over 38.5",
       "price": "-115",
       "prob": 0.527,
@@ -28202,13 +28127,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 38,
-     "wind_mph": 7,
-     "gust_mph": 14,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28516,9 +28435,9 @@
       "model_line": "54.0",
       "edge_pts": 1.5,
       "pick": "Over 52.5",
-      "price": "-105",
+      "price": "-108",
       "prob": 0.509,
-      "ev": -0.006,
+      "ev": -0.019,
       "bet": false,
       "stars": 0
      },
@@ -28983,16 +28902,12 @@
       "link": "https://www.espn.com/college-football/story/_/id/50401690/alabama-ryan-coleman-williams-trio-return-vs-lsu"
      },
      {
-      "headline": "LSU's Whit Weeks doubtful to return against Alabama",
-      "link": "https://www.espn.com/college-football/story/_/id/50384078/lsu-whit-weeks-doubtful-return-alabama"
+      "headline": "Peter Burns on Alabama at No. 5: 'Literally relax'",
+      "link": "https://www.espn.com/video/clip/_/id/50402299/literally-relax"
      },
      {
       "headline": "Alabama's Ryan Coleman-Williams among trio to return vs. LSU",
       "link": "https://www.espn.com/college-football/story/_/id/50401690/alabama-ryan-coleman-williams-trio-return-vs-lsu"
-     },
-     {
-      "headline": "LSU's Whit Weeks doubtful to return against Alabama",
-      "link": "https://www.espn.com/college-football/story/_/id/50384078/lsu-whit-weeks-doubtful-return-alabama"
      }
     ],
     "trends": [
@@ -29402,8 +29317,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c68": 42.5,
-     "c36": 30.8
+     "c68": 42.4,
+     "c36": 30.7
     },
     "picks": {
      "spread": {
@@ -29642,12 +29557,7 @@
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [
-     {
-      "headline": "Will Stein reacts to Kentucky's ranking in CFP Top 25",
-      "link": "https://www.espn.com/video/clip/_/id/50384470/will-stein-reacts-kentucky-ranking-cfp-top-25"
-     }
-    ],
+    "news": [],
     "trends": [
      {
       "type": "team",
@@ -29746,7 +29656,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2390": 30.3,
+     "c2390": 30.2,
      "c87": 32.4
     },
     "picks": {
@@ -29983,6 +29893,10 @@
     "injuries": [],
     "news": [
      {
+      "headline": "Keith Carter loves that Ole Miss is booming with big matchups",
+      "link": "https://www.espn.com/video/clip/_/id/50402366/keith-carter-loves-ole-miss-booming-big-matchups"
+     },
+     {
       "headline": "2027 NFL draft questions, latest intel, risers, CFB standouts",
       "link": "https://www.espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects"
      },
@@ -30099,9 +30013,9 @@
       "pick": "c77 +2.5",
       "team": "c77",
       "line": 2.5,
-      "price": "-115",
+      "price": "-108",
       "prob": 0.527,
-      "ev": -0.015,
+      "ev": 0.015,
       "bet": false,
       "stars": 0
      },
@@ -30277,10 +30191,6 @@
      {
       "headline": "Source: Gators' Tramell Jones set to replace Aaron Philo as starter vs. Sooners",
       "link": "https://www.espn.com/college-football/story/_/id/50388555/source-florida-start-qb-tramell-jones-jr-oklahoma"
-     },
-     {
-      "headline": "Florida suspends DT Jeramiah McCloud 1 game for detrimental conduct",
-      "link": "https://www.espn.com/college-football/story/_/id/50383936/florida-suspends-jeramiah-mccloud-1-game-conduct-detrimental-team"
      }
     ],
     "trends": [
@@ -30679,13 +30589,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 41,
-     "wind_mph": 2,
-     "gust_mph": 2,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30829,13 +30733,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 30,
-     "wind_mph": 6,
-     "gust_mph": 6,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30887,13 +30785,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 47,
-     "wind_mph": 7,
-     "gust_mph": 11,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30982,17 +30874,15 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 39,
-     "wind_mph": 8,
-     "gust_mph": 17,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
+     {
+      "headline": "Keith Carter loves that Ole Miss is booming with big matchups",
+      "link": "https://www.espn.com/video/clip/_/id/50402366/keith-carter-loves-ole-miss-booming-big-matchups"
+     },
      {
       "headline": "2027 NFL draft questions, latest intel, risers, CFB standouts",
       "link": "https://www.espn.com/nfl/draft2027/story/_/id/49881131/2027-nfl-draft-risers-questions-college-football-prospects"
@@ -31099,7 +30989,7 @@
       "edge_pts": 0.9,
       "pick": "Under 47.5",
       "price": "-110",
-      "prob": 0.506,
+      "prob": 0.505,
       "ev": -0.035,
       "bet": false,
       "stars": 0
@@ -31431,16 +31321,8 @@
     "injuries": [],
     "news": [
      {
-      "headline": "Will Stein reacts to Kentucky's ranking in CFP Top 25",
-      "link": "https://www.espn.com/video/clip/_/id/50384470/will-stein-reacts-kentucky-ranking-cfp-top-25"
-     },
-     {
       "headline": "Source: Gators' Tramell Jones set to replace Aaron Philo as starter vs. Sooners",
       "link": "https://www.espn.com/college-football/story/_/id/50388555/source-florida-start-qb-tramell-jones-jr-oklahoma"
-     },
-     {
-      "headline": "Florida suspends DT Jeramiah McCloud 1 game for detrimental conduct",
-      "link": "https://www.espn.com/college-football/story/_/id/50383936/florida-suspends-jeramiah-mccloud-1-game-conduct-detrimental-team"
      }
     ],
     "trends": [
@@ -31597,7 +31479,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 68,
+     "wind_mph": 4,
+     "gust_mph": 9,
+     "precip_prob": 12,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31764,7 +31652,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 48,
+     "wind_mph": 6,
+     "gust_mph": 17,
+     "precip_prob": 3,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31915,7 +31809,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 50,
+     "wind_mph": 9,
+     "gust_mph": 19,
+     "precip_prob": 1,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31923,10 +31823,6 @@
      {
       "headline": "Alabama's Ryan Coleman-Williams among trio to return vs. LSU",
       "link": "https://www.espn.com/college-football/story/_/id/50401690/alabama-ryan-coleman-williams-trio-return-vs-lsu"
-     },
-     {
-      "headline": "LSU's Whit Weeks doubtful to return against Alabama",
-      "link": "https://www.espn.com/college-football/story/_/id/50384078/lsu-whit-weeks-doubtful-return-alabama"
      },
      {
       "headline": "Source: Texas RB Hollywood Smothers done for season with torn MCL",
@@ -31998,7 +31894,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 78,
+     "wind_mph": 7,
+     "gust_mph": 9,
+     "precip_prob": 9,
+     "precip_in": 0.0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32394,13 +32296,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 52,
-     "wind_mph": 11,
-     "gust_mph": 13,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32542,24 +32438,18 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 46,
-     "wind_mph": 8,
-     "gust_mph": 10,
-     "precip_prob": 2,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
      {
-      "headline": "Alabama's Ryan Coleman-Williams among trio to return vs. LSU",
-      "link": "https://www.espn.com/college-football/story/_/id/50401690/alabama-ryan-coleman-williams-trio-return-vs-lsu"
+      "headline": "Peter Burns on Alabama at No. 5: 'Literally relax'",
+      "link": "https://www.espn.com/video/clip/_/id/50402299/literally-relax"
      },
      {
-      "headline": "LSU's Whit Weeks doubtful to return against Alabama",
-      "link": "https://www.espn.com/college-football/story/_/id/50384078/lsu-whit-weeks-doubtful-return-alabama"
+      "headline": "Alabama's Ryan Coleman-Williams among trio to return vs. LSU",
+      "link": "https://www.espn.com/college-football/story/_/id/50401690/alabama-ryan-coleman-williams-trio-return-vs-lsu"
      }
     ],
     "trends": [
@@ -32661,13 +32551,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 39,
-     "wind_mph": 9,
-     "gust_mph": 10,
-     "precip_prob": 3,
-     "precip_in": 0.02
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32819,13 +32703,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 42,
-     "wind_mph": 8,
-     "gust_mph": 12,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -33081,8 +32959,8 @@
    "n_games": 629,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.23105082148423,
-   "hfa": -1.3322676295501878e-14,
+   "mu": 26.231122584533004,
+   "hfa": -3.3306690738754696e-15,
    "top": [
     [
      "c2390",
