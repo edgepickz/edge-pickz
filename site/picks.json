@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T21:04:38.593280+00:00",
+ "generated_at": "2026-11-06T21:39:25.637990+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -6513,30 +6513,30 @@
    },
    "model_score": {
     "DET": 27.9,
-    "MIA": 22.9
+    "MIA": 23.2
    },
    "picks": {
     "spread": {
      "market": "MIA +6.5",
      "model_line": "MIA +5",
-     "edge_pts": 1.5,
+     "edge_pts": 1.7,
      "pick": "MIA +6.5",
      "team": "MIA",
      "line": 6.5,
      "price": "-105",
-     "prob": 0.515,
-     "ev": 0.006,
+     "prob": 0.518,
+     "ev": 0.012,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "50.5",
-     "model_line": "50.8",
-     "edge_pts": 0.3,
+     "model_line": "51.1",
+     "edge_pts": 0.6,
      "pick": "Under 50.5",
      "price": "-105",
-     "prob": 0.497,
-     "ev": -0.03,
+     "prob": 0.494,
+     "ev": -0.036,
      "bet": false,
      "stars": 0
     },
@@ -6545,8 +6545,8 @@
      "market_prob": 0.734,
      "pick": "DET ML",
      "price": "-325",
-     "prob": 0.72,
-     "ev": -0.059,
+     "prob": 0.717,
+     "ev": -0.062,
      "bet": false,
      "stars": 0
     }
@@ -7369,9 +7369,17 @@
    },
    "injury_adj": {
     "DET": -1.1,
-    "MIA": -0.5
+    "MIA": -0.2
    },
    "injuries": [
+    {
+     "team": "DET",
+     "name": "Amon-Ra St. Brown",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "St. Brown (ribs) is questionable for Sunday's game against the Dolphins, Tim Twentyman of the Lions' official site reports.",
+     "source": "ESPN"
+    },
     {
      "team": "DET",
      "name": "Kerby Joseph",
@@ -7386,14 +7394,6 @@
      "position": "S",
      "status": "Questionable",
      "detail": "Branch (concussion) was a full participant in Thursday's practice, Tim Twentyman of the Lions' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DET",
-     "name": "Amon-Ra St. Brown",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "St. Brown (ribs) practiced in a limited capacity Thursday, Tim Twentyman of the Lions' official site reports.",
      "source": "ESPN"
     },
     {
@@ -7454,18 +7454,18 @@
     },
     {
      "team": "MIA",
-     "name": "Jaylen Wright",
+     "name": "Kaytron Allen",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Wright (quadriceps) will practice Friday, Barry Jackson of the Miami Herald reports.",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
      "team": "MIA",
-     "name": "Kadyn Proctor",
-     "position": "OT",
+     "name": "Jaylen Wright",
+     "position": "RB",
      "status": "Questionable",
-     "detail": "Proctor (concussion) practiced fully Wednesday.",
+     "detail": "Wright (quadriceps) will practice Friday, Barry Jackson of the Miami Herald reports.",
      "source": "ESPN"
     },
     {
@@ -7478,66 +7478,10 @@
     },
     {
      "team": "MIA",
-     "name": "Kaytron Allen",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Allen (quadriceps) was a limited participant at the Dolphins' practice Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Will Kacmarek",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Kacmarek (hamstring) was a limited participant at the Dolphins' practice Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
      "name": "Darrell Baker Jr.",
      "position": "CB",
      "status": "Out",
      "detail": "Baker (undisclosed) is not ready to return to practice, David Furones of the South Florida Sun Sentinel reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Michael Taaffe",
-     "position": "S",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Dante Trader Jr.",
-     "position": "S",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Zach Sieler",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Chop Robinson",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Tucker Addington",
-     "position": "LS",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     }
    ],
@@ -9976,31 +9920,31 @@
     "PHI": "Joe Milton III"
    },
    "model_score": {
-    "NYG": 23.0,
-    "PHI": 17.7
+    "NYG": 22.9,
+    "PHI": 16.5
    },
    "picks": {
     "spread": {
      "market": "PHI +3",
-     "model_line": "PHI +5.5",
-     "edge_pts": 2.3,
+     "model_line": "PHI +6.5",
+     "edge_pts": 3.4,
      "pick": "NYG -3",
      "team": "NYG",
      "line": -3.0,
      "price": "-115",
-     "prob": 0.524,
-     "ev": -0.02,
+     "prob": 0.536,
+     "ev": 0.002,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "38.5",
-     "model_line": "40.7",
-     "edge_pts": 2.2,
+     "model_line": "39.4",
+     "edge_pts": 0.9,
      "pick": "Over 38.5",
      "price": "-112",
-     "prob": 0.524,
-     "ev": -0.009,
+     "prob": 0.509,
+     "ev": -0.036,
      "bet": false,
      "stars": 0
     },
@@ -10009,8 +9953,8 @@
      "market_prob": 0.583,
      "pick": "NYG ML",
      "price": "-155",
-     "prob": 0.606,
-     "ev": -0.002,
+     "prob": 0.618,
+     "ev": 0.016,
      "bet": false,
      "stars": 0
     }
@@ -10090,93 +10034,21 @@
      "fair_odds": "+292"
     },
     {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 75.6,
-     "median": 67.9,
-     "over_if_line_at_or_below": 61.5,
-     "under_if_line_at_or_above": 74.5,
-     "matchup": {
-      "side": "Over",
-      "line": 58.5,
-      "prob": 0.598,
-      "usual": 65.5,
-      "eligible": true
-     }
-    },
-    {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "projection": 12.5,
-     "median": 10.7,
-     "over_if_line_at_or_below": 9.5,
-     "under_if_line_at_or_above": 12.5,
-     "matchup": {
-      "side": "Under",
-      "line": 14.5,
-      "prob": 0.663,
-      "usual": 16.9,
-      "eligible": false
-     }
-    },
-    {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 1.8,
-     "median": 2.0,
-     "over_if_line_at_or_below": 0.5,
-     "under_if_line_at_or_above": 2.5,
-     "matchup": {
-      "side": "Under",
-      "line": 2.5,
-      "prob": 0.611,
-      "usual": 2.2,
-      "eligible": false
-     }
-    },
-    {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Anytime TD",
-     "key": "anytime_td",
-     "projection": "36% to score",
-     "prob_yes": 0.358,
-     "fair_odds": "+180"
-    },
-    {
      "player": "Malik Nabers",
      "team": "NYG",
      "opp": "PHI",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 92.5,
-     "median": 78.8,
+     "projection": 91.7,
+     "median": 78.3,
      "over_if_line_at_or_below": 69.5,
-     "under_if_line_at_or_above": 88.5,
+     "under_if_line_at_or_above": 87.5,
      "matchup": {
       "side": "Over",
-      "line": 75.5,
-      "prob": 0.524,
+      "line": 74.5,
+      "prob": 0.527,
       "usual": 87.8,
       "eligible": true
      }
@@ -10186,7 +10058,7 @@
      "team": "NYG",
      "opp": "PHI",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 6.4,
@@ -10196,7 +10068,7 @@
      "matchup": {
       "side": "Under",
       "line": 6.5,
-      "prob": 0.512,
+      "prob": 0.506,
       "usual": 6.5,
       "eligible": true
      }
@@ -10206,7 +10078,7 @@
      "team": "NYG",
      "opp": "PHI",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "27% to score",
@@ -10221,14 +10093,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 37.2,
-     "median": 31.6,
+     "projection": 36.9,
+     "median": 31.4,
      "over_if_line_at_or_below": 27.5,
      "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Under",
-      "line": 39.5,
-      "prob": 0.616,
+      "line": 38.5,
+      "prob": 0.619,
       "usual": 45.4,
       "eligible": true
      }
@@ -10241,14 +10113,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 3.6,
+     "projection": 3.7,
      "median": 3.0,
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 4.5,
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.653,
+      "prob": 0.662,
       "usual": 4.4,
       "eligible": true
      },
@@ -10274,14 +10146,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 41.3,
-     "median": 35.1,
-     "over_if_line_at_or_below": 31.5,
+     "projection": 41.4,
+     "median": 35.2,
+     "over_if_line_at_or_below": 30.5,
      "under_if_line_at_or_above": 39.5,
      "matchup": {
       "side": "Over",
       "line": 33.5,
-      "prob": 0.526,
+      "prob": 0.524,
       "usual": 39.3,
       "eligible": true
      }
@@ -10301,7 +10173,7 @@
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.505,
+      "prob": 0.507,
       "usual": 2.4,
       "eligible": false
      }
@@ -10326,14 +10198,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 19.3,
-     "median": 16.4,
+     "projection": 19.4,
+     "median": 16.6,
      "over_if_line_at_or_below": 14.5,
-     "under_if_line_at_or_above": 18.5,
+     "under_if_line_at_or_above": 19.5,
      "matchup": {
       "side": "Over",
-      "line": 15.5,
-      "prob": 0.527,
+      "line": 16.5,
+      "prob": 0.528,
       "usual": 18.5,
       "eligible": false
      }
@@ -10351,9 +10223,9 @@
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 1.5,
      "matchup": {
-      "side": "Over",
+      "side": "Under",
       "line": 1.5,
-      "prob": 0.501,
+      "prob": 0.503,
       "usual": 1.5,
       "eligible": false
      }
@@ -10378,14 +10250,14 @@
      "status": "Questionable",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 131.7,
-     "median": 128.0,
+     "projection": 131.2,
+     "median": 127.7,
      "over_if_line_at_or_below": 121.5,
-     "under_if_line_at_or_above": 134.5,
+     "under_if_line_at_or_above": 133.5,
      "matchup": {
       "side": "Under",
       "line": 137.5,
-      "prob": 0.597,
+      "prob": 0.598,
       "usual": 141.5,
       "eligible": false
      }
@@ -10405,7 +10277,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.552,
+      "prob": 0.543,
       "usual": 0.4,
       "eligible": false
      }
@@ -10418,14 +10290,14 @@
      "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 5.9,
-     "median": 5.3,
+     "projection": 5.8,
+     "median": 5.2,
      "over_if_line_at_or_below": 4.5,
      "under_if_line_at_or_above": 6.5,
      "matchup": {
       "side": "Under",
       "line": 5.5,
-      "prob": 0.528,
+      "prob": 0.536,
       "usual": 6.1,
       "eligible": false
      }
@@ -10450,14 +10322,14 @@
      "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 20.7,
-     "median": 18.6,
+     "projection": 20.9,
+     "median": 18.8,
      "over_if_line_at_or_below": 16.5,
      "under_if_line_at_or_above": 20.5,
      "matchup": {
-      "side": "Under",
+      "side": "Over",
       "line": 18.5,
-      "prob": 0.501,
+      "prob": 0.508,
       "usual": 20.7,
       "eligible": false
      }
@@ -10471,13 +10343,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 2.0,
-     "median": 1.8,
+     "median": 1.7,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.599,
+      "prob": 0.601,
       "usual": 2.4,
       "eligible": false
      }
@@ -10496,8 +10368,8 @@
      "under_if_line_at_or_above": 1.5,
      "matchup": {
       "side": "Under",
-      "line": 0.5,
-      "prob": 0.549,
+      "line": 1.5,
+      "prob": 0.556,
       "usual": 1.2,
       "eligible": false
      }
@@ -10522,14 +10394,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 10.0,
-     "median": 9.0,
+     "projection": 10.1,
+     "median": 9.1,
      "over_if_line_at_or_below": 7.5,
      "under_if_line_at_or_above": 10.5,
      "matchup": {
-      "side": "Under",
+      "side": "Over",
       "line": 9.5,
-      "prob": 0.502,
+      "prob": 0.511,
       "usual": 10.0,
       "eligible": false
      }
@@ -10543,13 +10415,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 4.4,
-     "median": 3.7,
+     "median": 3.8,
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 4.5,
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.607,
+      "prob": 0.598,
       "usual": 5.2,
       "eligible": false
      }
@@ -10569,7 +10441,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.564,
+      "prob": 0.566,
       "usual": 1.5,
       "eligible": false
      }
@@ -10594,18 +10466,17 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 36.1,
-     "median": 30.6,
-     "over_if_line_at_or_below": 26.5,
-     "under_if_line_at_or_above": 34.5,
+     "projection": 36.5,
+     "median": 31.1,
+     "over_if_line_at_or_below": 27.5,
+     "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Under",
       "line": 32.5,
-      "prob": 0.536,
+      "prob": 0.522,
       "usual": 38.1,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Makai Lemon",
@@ -10620,9 +10491,9 @@
      "over_if_line_at_or_below": 3.5,
      "under_if_line_at_or_above": 5.5,
      "matchup": {
-      "side": "Under",
+      "side": "Over",
       "line": 4.5,
-      "prob": 0.501,
+      "prob": 0.504,
       "usual": 4.4,
       "eligible": true
      }
@@ -10650,14 +10521,15 @@
      "projection": 37.6,
      "median": 32.0,
      "over_if_line_at_or_below": 28.5,
-     "under_if_line_at_or_above": 35.5,
+     "under_if_line_at_or_above": 36.5,
      "matchup": {
       "side": "Under",
-      "line": 34.5,
-      "prob": 0.542,
+      "line": 35.5,
+      "prob": 0.551,
       "usual": 40.9,
       "eligible": true
-     }
+     },
+     "top": 3
     },
     {
      "player": "Dallas Goedert",
@@ -10667,18 +10539,17 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 4.5,
+     "projection": 4.6,
      "median": 4.0,
      "over_if_line_at_or_below": 3.5,
      "under_if_line_at_or_above": 5.5,
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.549,
+      "prob": 0.546,
       "usual": 4.3,
       "eligible": true
-     },
-     "top": 3
+     }
     },
     {
      "player": "Dallas Goedert",
@@ -10693,58 +10564,6 @@
      "fair_odds": "+205"
     },
     {
-     "player": "DeVonta Smith",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "projection": 66.7,
-     "median": 56.6,
-     "over_if_line_at_or_below": 50.5,
-     "under_if_line_at_or_above": 63.5,
-     "matchup": {
-      "side": "Under",
-      "line": 59.5,
-      "prob": 0.526,
-      "usual": 69.8,
-      "eligible": true
-     }
-    },
-    {
-     "player": "DeVonta Smith",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 5.8,
-     "median": 6.0,
-     "over_if_line_at_or_below": 4.5,
-     "under_if_line_at_or_above": 6.5,
-     "matchup": {
-      "side": "Under",
-      "line": 5.5,
-      "prob": 0.506,
-      "usual": 5.8,
-      "eligible": true
-     }
-    },
-    {
-     "player": "DeVonta Smith",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Anytime TD",
-     "key": "anytime_td",
-     "projection": "32% to score",
-     "prob_yes": 0.319,
-     "fair_odds": "+214"
-    },
-    {
      "player": "Darius Cooper",
      "team": "PHI",
      "opp": "NYG",
@@ -10753,13 +10572,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 19.0,
-     "median": 16.2,
-     "over_if_line_at_or_below": 14.5,
+     "median": 16.0,
+     "over_if_line_at_or_below": 13.5,
      "under_if_line_at_or_above": 18.5,
      "matchup": {
       "side": "Under",
       "line": 17.5,
-      "prob": 0.529,
+      "prob": 0.533,
       "usual": 20.0,
       "eligible": false
      }
@@ -10779,7 +10598,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.505,
+      "prob": 0.511,
       "usual": 1.5,
       "eligible": false
      }
@@ -10807,16 +10626,17 @@
    "weather_notes": [],
    "injury_notes": {
     "NYG": [
-     "Malik Nabers (WR) Questionable"
+     "Cam Skattebo (RB) Doubtful"
     ],
     "PHI": [
-     "Dontayvion Wicks (WR) Questionable",
+     "DeVonta Smith (WR) Out",
+     "Dontayvion Wicks (WR) Out",
      "Tanner McKee (QB) Questionable"
     ]
    },
    "injury_adj": {
-    "NYG": -1.0,
-    "PHI": -1.2
+    "NYG": -1.2,
+    "PHI": -2.4
    },
    "injuries": [
     {
@@ -10829,18 +10649,10 @@
     },
     {
      "team": "NYG",
-     "name": "Malik Nabers",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Head coach John Harbaugh said Nabers (knee) \"practiced fully\" Friday and will be \"full go\" for Sunday's game at Philadelphia, Matt Citak of the Giants' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
      "name": "Cam Skattebo",
      "position": "RB",
-     "status": "Questionable",
-     "detail": "Head coach John Harbaugh said Skattebo (hamstring) didn't practice Friday, but the Giants are \"keeping the door open\" for the running back to play Sunday at Philadelphia, Ryan Dunleavy of the New York Post reports.",
+     "status": "Doubtful",
+     "detail": "Skattebo (hamstring) is listed as doubtful for Sunday's game at Philadelphia, Dan Salomone of the Giants' official site reports.",
      "source": "ESPN"
     },
     {
@@ -10877,26 +10689,26 @@
     },
     {
      "team": "PHI",
-     "name": "Britain Covey",
-     "position": "WR",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "PHI",
      "name": "DeVonta Smith",
      "position": "WR",
-     "status": "Questionable",
-     "detail": "Smith (hamstring) was not seen at Friday's practice, Jeff McLane of the Philadelphia Inquirer reports.",
+     "status": "Out",
+     "detail": "Smith (hamstring) has been ruled out for Sunday's game against the Giants.",
      "source": "ESPN"
     },
     {
      "team": "PHI",
      "name": "Dontayvion Wicks",
      "position": "WR",
-     "status": "Questionable",
-     "detail": "Wicks (ankle) is not practicing Friday, Andrew DiCecco of InsideTheBirds.com reports.",
+     "status": "Out",
+     "detail": "Wicks (ankle) is listed as out for Sunday's game against the Giants.",
+     "source": "ESPN"
+    },
+    {
+     "team": "PHI",
+     "name": "Britain Covey",
+     "position": "WR",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -11138,7 +10950,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 75.5,
+     "line": 74.5,
      "values": [
       112,
       121,
@@ -11146,7 +10958,7 @@
       111
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -11166,7 +10978,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Under",
-     "line": 15.5,
+     "line": 16.5,
      "values": [
       0,
       14,
@@ -11180,58 +10992,6 @@
      "rate": 1.0,
      "dots": [
       true,
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "RB",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Under",
-     "line": 14.5,
-     "values": [
-      8,
-      12,
-      -3
-     ],
-     "agrees": true,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "RB",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Under",
-     "line": 2.5,
-     "values": [
-      1,
-      2,
-      1
-     ],
-     "agrees": true,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
       true,
       true,
       true
@@ -11253,7 +11013,7 @@
       7
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -11277,84 +11037,6 @@
       215,
       211,
       212
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Dameon Pierce",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "RB",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Over",
-     "line": 0.5,
-     "values": [
-      2,
-      4,
-      1
-     ],
-     "agrees": false,
-     "status": null,
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "DeVonta Smith",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "WR",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Over",
-     "line": 59.5,
-     "values": [
-      117,
-      65,
-      75
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "DeVonta Smith",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "WR",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Over",
-     "line": 5.5,
-     "values": [
-      10,
-      6,
-      7
      ],
      "agrees": false,
      "status": "Questionable",
@@ -11455,22 +11137,50 @@
     },
     {
      "type": "player",
-     "player": "Cam Skattebo",
+     "player": "Darnell Mooney",
      "team": "NYG",
      "opp": "PHI",
-     "pos": "RB",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "side": "Over",
-     "line": 58.5,
+     "pos": "WR",
+     "stat": "Receptions",
+     "key": "receptions",
+     "side": "Under",
+     "line": 1.5,
      "values": [
-      60,
-      58,
-      59,
-      124
+      0,
+      2,
+      0,
+      1
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
+     "hit": 3,
+     "of": 4,
+     "rate": 0.75,
+     "dots": [
+      true,
+      false,
+      true,
+      true
+     ]
+    },
+    {
+     "type": "player",
+     "player": "Makai Lemon",
+     "team": "PHI",
+     "opp": "NYG",
+     "pos": "WR",
+     "stat": "Receptions",
+     "key": "receptions",
+     "side": "Over",
+     "line": 4.5,
+     "values": [
+      5,
+      3,
+      7,
+      6
+     ],
+     "agrees": true,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -11592,7 +11302,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 39.5,
+     "line": 38.5,
      "values": [
       66,
       94,
@@ -11641,34 +11351,6 @@
     },
     {
      "type": "player",
-     "player": "Darnell Mooney",
-     "team": "NYG",
-     "opp": "PHI",
-     "pos": "WR",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Under",
-     "line": 1.5,
-     "values": [
-      0,
-      2,
-      0,
-      1
-     ],
-     "agrees": false,
-     "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      false,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
      "player": "Makai Lemon",
      "team": "PHI",
      "opp": "NYG",
@@ -11697,34 +11379,6 @@
     },
     {
      "type": "player",
-     "player": "Makai Lemon",
-     "team": "PHI",
-     "opp": "NYG",
-     "pos": "WR",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Over",
-     "line": 4.5,
-     "values": [
-      5,
-      3,
-      7,
-      6
-     ],
-     "agrees": false,
-     "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      false,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
      "player": "Dallas Goedert",
      "team": "PHI",
      "opp": "NYG",
@@ -11732,7 +11386,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 34.5,
+     "line": 35.5,
      "values": [
       38,
       61,
@@ -11772,41 +11426,41 @@
     "WAS": "Jayden Daniels"
    },
    "model_score": {
-    "LA": 24.8,
-    "WAS": 17.9
+    "LA": 24.7,
+    "WAS": 17.4
    },
    "picks": {
     "spread": {
      "market": "WAS +4.5",
-     "model_line": "WAS +7",
-     "edge_pts": 2.4,
+     "model_line": "WAS +7.5",
+     "edge_pts": 2.8,
      "pick": "LA -4.5",
      "team": "LA",
      "line": -4.5,
      "price": "-112",
-     "prob": 0.525,
-     "ev": -0.006,
+     "prob": 0.529,
+     "ev": 0.001,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "47.5",
-     "model_line": "42.7",
-     "edge_pts": 4.8,
+     "model_line": "42.1",
+     "edge_pts": 5.4,
      "pick": "Under 47.5",
      "price": "-105",
-     "prob": 0.551,
-     "ev": 0.076,
+     "prob": 0.558,
+     "ev": 0.089,
      "bet": true,
-     "stars": 2
+     "stars": 3
     },
     "moneyline": {
      "market": "LA -218 / WAS +180",
      "market_prob": 0.657,
      "pick": "LA ML",
      "price": "-218",
-     "prob": 0.681,
-     "ev": -0.007,
+     "prob": 0.685,
+     "ev": -0.001,
      "bet": false,
      "stars": 0
     }
@@ -11820,18 +11474,18 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 289.2,
-     "median": 281.0,
-     "over_if_line_at_or_below": 267.5,
-     "under_if_line_at_or_above": 293.5,
+     "projection": 289.5,
+     "median": 281.6,
+     "over_if_line_at_or_below": 268.5,
+     "under_if_line_at_or_above": 294.5,
      "matchup": {
       "side": "Over",
-      "line": 256.5,
-      "prob": 0.623,
+      "line": 257.5,
+      "prob": 0.621,
       "usual": 263.3,
       "eligible": true
      },
-     "top": 2
+     "top": 3
     },
     {
      "player": "Matthew Stafford",
@@ -11842,13 +11496,13 @@
      "stat": "Pass TDs",
      "key": "pass_tds",
      "projection": 2.7,
-     "median": 2.0,
+     "median": 3.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.619,
+      "prob": 0.614,
       "usual": 2.1,
       "eligible": true
      }
@@ -11868,7 +11522,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.535,
+      "prob": 0.541,
       "usual": 1.3,
       "eligible": false
      }
@@ -11900,7 +11554,7 @@
      "matchup": {
       "side": "Under",
       "line": 62.5,
-      "prob": 0.535,
+      "prob": 0.534,
       "usual": 69.6,
       "eligible": true
      }
@@ -11913,14 +11567,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 25.7,
-     "median": 22.0,
-     "over_if_line_at_or_below": 19.5,
+     "projection": 25.5,
+     "median": 21.7,
+     "over_if_line_at_or_below": 18.5,
      "under_if_line_at_or_above": 24.5,
      "matchup": {
       "side": "Over",
       "line": 20.5,
-      "prob": 0.55,
+      "prob": 0.552,
       "usual": 23.5,
       "eligible": false
      }
@@ -11965,14 +11619,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 47.4,
-     "median": 42.7,
+     "projection": 47.3,
+     "median": 42.4,
      "over_if_line_at_or_below": 38.5,
      "under_if_line_at_or_above": 46.5,
      "matchup": {
       "side": "Under",
       "line": 44.5,
-      "prob": 0.527,
+      "prob": 0.532,
       "usual": 49.4,
       "eligible": true
      }
@@ -11985,14 +11639,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 10.3,
+     "projection": 10.4,
      "median": 8.9,
      "over_if_line_at_or_below": 7.5,
      "under_if_line_at_or_above": 10.5,
      "matchup": {
       "side": "Over",
       "line": 8.5,
-      "prob": 0.558,
+      "prob": 0.55,
       "usual": 9.5,
       "eligible": false
      }
@@ -12005,14 +11659,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 1.2,
+     "projection": 1.1,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 1.5,
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.55,
+      "prob": 0.543,
       "usual": 1.0,
       "eligible": false
      }
@@ -12037,14 +11691,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 102.8,
-     "median": 88.0,
-     "over_if_line_at_or_below": 78.5,
-     "under_if_line_at_or_above": 98.5,
+     "projection": 102.6,
+     "median": 87.3,
+     "over_if_line_at_or_below": 77.5,
+     "under_if_line_at_or_above": 97.5,
      "matchup": {
       "side": "Over",
       "line": 83.5,
-      "prob": 0.531,
+      "prob": 0.527,
       "usual": 97.4,
       "eligible": true
      }
@@ -12064,7 +11718,7 @@
      "matchup": {
       "side": "Over",
       "line": 8.5,
-      "prob": 0.617,
+      "prob": 0.614,
       "usual": 9.0,
       "eligible": true
      },
@@ -12090,14 +11744,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 31.4,
-     "median": 26.7,
-     "over_if_line_at_or_below": 23.5,
-     "under_if_line_at_or_above": 30.5,
+     "projection": 30.8,
+     "median": 26.3,
+     "over_if_line_at_or_below": 22.5,
+     "under_if_line_at_or_above": 29.5,
      "matchup": {
       "side": "Over",
-      "line": 21.5,
-      "prob": 0.612,
+      "line": 22.5,
+      "prob": 0.601,
       "usual": 25.5,
       "eligible": true
      }
@@ -12117,7 +11771,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.571,
+      "prob": 0.58,
       "usual": 2.9,
       "eligible": true
      }
@@ -12142,14 +11796,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 40.0,
+     "projection": 40.1,
      "median": 33.9,
      "over_if_line_at_or_below": 29.5,
      "under_if_line_at_or_above": 38.5,
      "matchup": {
       "side": "Over",
-      "line": 28.5,
-      "prob": 0.599,
+      "line": 27.5,
+      "prob": 0.609,
       "usual": 32.7,
       "eligible": true
      }
@@ -12169,7 +11823,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.578,
+      "prob": 0.577,
       "usual": 3.0,
       "eligible": true
      }
@@ -12194,14 +11848,14 @@
      "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 15.5,
-     "median": 13.2,
+     "projection": 15.7,
+     "median": 13.3,
      "over_if_line_at_or_below": 11.5,
      "under_if_line_at_or_above": 15.5,
      "matchup": {
       "side": "Over",
       "line": 12.5,
-      "prob": 0.534,
+      "prob": 0.531,
       "usual": 14.7,
       "eligible": false
      }
@@ -12221,7 +11875,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.537,
+      "prob": 0.538,
       "usual": 1.1,
       "eligible": false
      }
@@ -12246,14 +11900,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 175.3,
-     "median": 170.0,
-     "over_if_line_at_or_below": 162.5,
+     "projection": 174.8,
+     "median": 169.7,
+     "over_if_line_at_or_below": 161.5,
      "under_if_line_at_or_above": 177.5,
      "matchup": {
       "side": "Under",
-      "line": 191.5,
-      "prob": 0.661,
+      "line": 190.5,
+      "prob": 0.651,
       "usual": 195.1,
       "eligible": true
      },
@@ -12274,7 +11928,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.559,
+      "prob": 0.554,
       "usual": 1.2,
       "eligible": true
      }
@@ -12287,14 +11941,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 40.0,
-     "median": 35.9,
+     "projection": 40.3,
+     "median": 36.2,
      "over_if_line_at_or_below": 32.5,
      "under_if_line_at_or_above": 39.5,
      "matchup": {
       "side": "Under",
       "line": 38.5,
-      "prob": 0.546,
+      "prob": 0.533,
       "usual": 42.5,
       "eligible": true
      }
@@ -12319,14 +11973,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 30.2,
-     "median": 27.2,
+     "projection": 30.5,
+     "median": 27.5,
      "over_if_line_at_or_below": 24.5,
      "under_if_line_at_or_above": 30.5,
      "matchup": {
       "side": "Under",
-      "line": 31.5,
-      "prob": 0.587,
+      "line": 30.5,
+      "prob": 0.578,
       "usual": 34.4,
       "eligible": true
      }
@@ -12340,13 +11994,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 15.3,
-     "median": 13.1,
+     "median": 13.2,
      "over_if_line_at_or_below": 11.5,
-     "under_if_line_at_or_above": 14.5,
+     "under_if_line_at_or_above": 15.5,
      "matchup": {
       "side": "Over",
       "line": 11.5,
-      "prob": 0.56,
+      "prob": 0.565,
       "usual": 13.6,
       "eligible": false
      }
@@ -12366,7 +12020,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.55,
+      "prob": 0.546,
       "usual": 2.5,
       "eligible": true
      }
@@ -12398,7 +12052,7 @@
      "matchup": {
       "side": "Under",
       "line": 17.5,
-      "prob": 0.583,
+      "prob": 0.584,
       "usual": 19.2,
       "eligible": false
      }
@@ -12411,14 +12065,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 13.4,
-     "median": 11.4,
+     "projection": 13.5,
+     "median": 11.5,
      "over_if_line_at_or_below": 9.5,
      "under_if_line_at_or_above": 13.5,
      "matchup": {
       "side": "Over",
       "line": 10.5,
-      "prob": 0.56,
+      "prob": 0.557,
       "usual": 12.0,
       "eligible": false
      }
@@ -12431,14 +12085,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 1.7,
+     "projection": 1.8,
      "median": 2.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.542,
+      "prob": 0.545,
       "usual": 1.6,
       "eligible": false
      }
@@ -12465,12 +12119,12 @@
      "key": "rec_yds",
      "projection": 32.2,
      "median": 27.4,
-     "over_if_line_at_or_below": 24.5,
+     "over_if_line_at_or_below": 23.5,
      "under_if_line_at_or_above": 30.5,
      "matchup": {
       "side": "Under",
       "line": 31.5,
-      "prob": 0.566,
+      "prob": 0.578,
       "usual": 36.7,
       "eligible": true
      }
@@ -12490,7 +12144,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.562,
+      "prob": 0.558,
       "usual": 3.4,
       "eligible": true
      }
@@ -12508,58 +12162,6 @@
      "fair_odds": "+1118"
     },
     {
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "LA",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "projection": 29.9,
-     "median": 25.5,
-     "over_if_line_at_or_below": 22.5,
-     "under_if_line_at_or_above": 28.5,
-     "matchup": {
-      "side": "Under",
-      "line": 29.5,
-      "prob": 0.583,
-      "usual": 34.9,
-      "eligible": true
-     }
-    },
-    {
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "LA",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 1.6,
-     "median": 1.0,
-     "over_if_line_at_or_below": 0.5,
-     "under_if_line_at_or_above": 2.5,
-     "matchup": {
-      "side": "Under",
-      "line": 1.5,
-      "prob": 0.577,
-      "usual": 1.9,
-      "eligible": false
-     }
-    },
-    {
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "LA",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Anytime TD",
-     "key": "anytime_td",
-     "projection": "20% to score",
-     "prob_yes": 0.198,
-     "fair_odds": "+405"
-    },
-    {
      "player": "Antonio Williams",
      "team": "WAS",
      "opp": "LA",
@@ -12567,14 +12169,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 33.2,
-     "median": 28.4,
+     "projection": 32.9,
+     "median": 28.2,
      "over_if_line_at_or_below": 24.5,
-     "under_if_line_at_or_above": 32.5,
+     "under_if_line_at_or_above": 31.5,
      "matchup": {
       "side": "Under",
       "line": 32.5,
-      "prob": 0.576,
+      "prob": 0.586,
       "usual": 38.5,
       "eligible": true
      }
@@ -12587,14 +12189,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.9,
+     "projection": 3.0,
      "median": 3.0,
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.607,
+      "prob": 0.603,
       "usual": 3.4,
       "eligible": true
      }
@@ -12619,14 +12221,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 39.1,
+     "projection": 38.7,
      "median": 33.1,
      "over_if_line_at_or_below": 29.5,
      "under_if_line_at_or_above": 37.5,
      "matchup": {
       "side": "Under",
       "line": 39.5,
-      "prob": 0.59,
+      "prob": 0.597,
       "usual": 45.6,
       "eligible": true
      }
@@ -12646,11 +12248,11 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.622,
+      "prob": 0.633,
       "usual": 4.6,
       "eligible": true
      },
-     "top": 3
+     "top": 2
     },
     {
      "player": "Stefon Diggs",
@@ -12676,14 +12278,23 @@
    "injury_notes": {
     "LA": [],
     "WAS": [
+     "Treylon Burks (WR) Out",
      "Terry McLaurin (WR) Injured Reserve"
     ]
    },
    "injury_adj": {
-    "LA": -0.9,
-    "WAS": -2.4
+    "LA": -1.0,
+    "WAS": -2.9
    },
    "injuries": [
+    {
+     "team": "LA",
+     "name": "Joe Cardona",
+     "position": "LS",
+     "status": "Doubtful",
+     "detail": "doubtful",
+     "source": "ESPN"
+    },
     {
      "team": "LA",
      "name": "Kam Curl",
@@ -12758,14 +12369,6 @@
     },
     {
      "team": "LA",
-     "name": "Joe Cardona",
-     "position": "LS",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
      "name": "Grant Stuard",
      "position": "LB",
      "status": "Questionable",
@@ -12776,7 +12379,7 @@
      "team": "WAS",
      "name": "Dyami Brown",
      "position": "WR",
-     "status": "Questionable",
+     "status": "Out",
      "detail": "Brown (calf) was injured in practice Friday, Martenzie Johnson of The Washington Sun reports.",
      "source": "ESPN"
     },
@@ -12784,7 +12387,7 @@
      "team": "WAS",
      "name": "Treylon Burks",
      "position": "WR",
-     "status": "Questionable",
+     "status": "Out",
      "detail": "Burks (foot) was a non-participant at Thursday's practice.",
      "source": "ESPN"
     },
@@ -13061,7 +12664,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Under",
-     "line": 256.5,
+     "line": 257.5,
      "values": [
       222,
       195,
@@ -13139,7 +12742,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Under",
-     "line": 28.5,
+     "line": 27.5,
      "values": [
       22,
       14,
@@ -13165,7 +12768,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 191.5,
+     "line": 190.5,
      "values": [
       199,
       300,
@@ -13356,36 +12959,6 @@
       true,
       true,
       false
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "LA",
-     "pos": "WR",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Over",
-     "line": 1.5,
-     "values": [
-      2,
-      1,
-      2,
-      4,
-      3
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 4,
-     "of": 5,
-     "rate": 0.8,
-     "dots": [
-      true,
-      false,
-      true,
-      true,
-      true
      ]
     },
     {
@@ -13629,34 +13202,6 @@
       false,
       true
      ]
-    },
-    {
-     "type": "player",
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "LA",
-     "pos": "WR",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Over",
-     "line": 29.5,
-     "values": [
-      47,
-      26,
-      66,
-      81
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      false,
-      true,
-      true
-     ]
     }
    ],
    "locked": null
@@ -13727,14 +13272,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 228.8,
-     "median": 222.2,
+     "projection": 229.7,
+     "median": 222.9,
      "over_if_line_at_or_below": 212.5,
-     "under_if_line_at_or_above": 232.5,
+     "under_if_line_at_or_above": 233.5,
      "matchup": {
       "side": "Under",
-      "line": 236.5,
-      "prob": 0.583,
+      "line": 237.5,
+      "prob": 0.585,
       "usual": 243.9,
       "eligible": true
      }
@@ -13754,7 +13299,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.575,
+      "prob": 0.573,
       "usual": 1.6,
       "eligible": true
      }
@@ -13767,14 +13312,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 11.8,
+     "projection": 11.9,
      "median": 10.6,
      "over_if_line_at_or_below": 9.5,
      "under_if_line_at_or_above": 12.5,
      "matchup": {
       "side": "Over",
       "line": 10.5,
-      "prob": 0.543,
+      "prob": 0.55,
       "usual": 11.0,
       "eligible": false
      }
@@ -13799,14 +13344,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 51.2,
-     "median": 45.7,
+     "projection": 51.7,
+     "median": 46.3,
      "over_if_line_at_or_below": 41.5,
      "under_if_line_at_or_above": 50.5,
      "matchup": {
       "side": "Over",
       "line": 40.5,
-      "prob": 0.585,
+      "prob": 0.597,
       "usual": 44.8,
       "eligible": true
      },
@@ -13821,13 +13366,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 11.9,
-     "median": 10.2,
+     "median": 10.1,
      "over_if_line_at_or_below": 8.5,
      "under_if_line_at_or_above": 11.5,
      "matchup": {
       "side": "Under",
       "line": 12.5,
-      "prob": 0.587,
+      "prob": 0.598,
       "usual": 14.0,
       "eligible": false
      }
@@ -13840,14 +13385,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 1.6,
+     "projection": 1.5,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.558,
+      "prob": 0.568,
       "usual": 1.8,
       "eligible": false
      }
@@ -13872,14 +13417,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 60.2,
-     "median": 51.3,
+     "projection": 60.8,
+     "median": 51.6,
      "over_if_line_at_or_below": 45.5,
-     "under_if_line_at_or_above": 57.5,
+     "under_if_line_at_or_above": 58.5,
      "matchup": {
       "side": "Under",
       "line": 55.5,
-      "prob": 0.539,
+      "prob": 0.534,
       "usual": 64.2,
       "eligible": true
      }
@@ -13899,7 +13444,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.536,
+      "prob": 0.531,
       "usual": 4.5,
       "eligible": true
      }
@@ -13924,14 +13469,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 41.4,
-     "median": 35.2,
+     "projection": 41.5,
+     "median": 35.3,
      "over_if_line_at_or_below": 31.5,
      "under_if_line_at_or_above": 39.5,
      "matchup": {
       "side": "Under",
       "line": 36.5,
-      "prob": 0.522,
+      "prob": 0.515,
       "usual": 42.9,
       "eligible": true
      }
@@ -13951,7 +13496,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.584,
+      "prob": 0.587,
       "usual": 4.5,
       "eligible": true
      },
@@ -13977,14 +13522,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 30.4,
-     "median": 25.8,
+     "projection": 30.2,
+     "median": 25.6,
      "over_if_line_at_or_below": 22.5,
      "under_if_line_at_or_above": 29.5,
      "matchup": {
       "side": "Under",
       "line": 27.5,
-      "prob": 0.528,
+      "prob": 0.532,
       "usual": 31.9,
       "eligible": true
      }
@@ -13997,14 +13542,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.6,
+     "projection": 2.7,
      "median": 2.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.528,
+      "prob": 0.516,
       "usual": 2.7,
       "eligible": true
      }
@@ -14029,14 +13574,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 253.0,
-     "median": 245.8,
+     "projection": 252.7,
+     "median": 246.0,
      "over_if_line_at_or_below": 234.5,
-     "under_if_line_at_or_above": 257.5,
+     "under_if_line_at_or_above": 258.5,
      "matchup": {
       "side": "Over",
-      "line": 207.5,
-      "prob": 0.72,
+      "line": 206.5,
+      "prob": 0.725,
       "usual": 211.6,
       "eligible": true
      },
@@ -14057,7 +13602,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.533,
+      "prob": 0.534,
       "usual": 0.9,
       "eligible": false
      }
@@ -14070,14 +13615,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 26.7,
-     "median": 24.1,
+     "projection": 26.9,
+     "median": 24.3,
      "over_if_line_at_or_below": 21.5,
-     "under_if_line_at_or_above": 26.5,
+     "under_if_line_at_or_above": 27.5,
      "matchup": {
       "side": "Under",
-      "line": 25.5,
-      "prob": 0.545,
+      "line": 26.5,
+      "prob": 0.542,
       "usual": 28.9,
       "eligible": true
      }
@@ -14102,14 +13647,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 40.0,
-     "median": 36.0,
+     "projection": 40.3,
+     "median": 36.3,
      "over_if_line_at_or_below": 32.5,
-     "under_if_line_at_or_above": 39.5,
+     "under_if_line_at_or_above": 40.5,
      "matchup": {
       "side": "Under",
-      "line": 40.5,
-      "prob": 0.574,
+      "line": 39.5,
+      "prob": 0.558,
       "usual": 44.1,
       "eligible": true
      }
@@ -14122,14 +13667,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 12.1,
-     "median": 10.4,
+     "projection": 12.2,
+     "median": 10.3,
      "over_if_line_at_or_below": 8.5,
      "under_if_line_at_or_above": 12.5,
      "matchup": {
       "side": "Under",
       "line": 11.5,
-      "prob": 0.538,
+      "prob": 0.543,
       "usual": 13.0,
       "eligible": false
      }
@@ -14149,7 +13694,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.597,
+      "prob": 0.602,
       "usual": 2.3,
       "eligible": false
      }
@@ -14174,14 +13719,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 30.4,
-     "median": 27.3,
+     "projection": 30.2,
+     "median": 27.1,
      "over_if_line_at_or_below": 24.5,
      "under_if_line_at_or_above": 30.5,
      "matchup": {
       "side": "Under",
-      "line": 29.5,
-      "prob": 0.552,
+      "line": 30.5,
+      "prob": 0.566,
       "usual": 33.2,
       "eligible": true
      }
@@ -14201,7 +13746,7 @@
      "matchup": {
       "side": "Under",
       "line": 8.5,
-      "prob": 0.541,
+      "prob": 0.539,
       "usual": 9.7,
       "eligible": false
      }
@@ -14221,7 +13766,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.589,
+      "prob": 0.588,
       "usual": 1.5,
       "eligible": false
      }
@@ -14246,14 +13791,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 17.4,
-     "median": 14.9,
+     "projection": 17.2,
+     "median": 14.7,
      "over_if_line_at_or_below": 12.5,
-     "under_if_line_at_or_above": 17.5,
+     "under_if_line_at_or_above": 16.5,
      "matchup": {
       "side": "Over",
       "line": 14.5,
-      "prob": 0.521,
+      "prob": 0.508,
       "usual": 16.7,
       "eligible": false
      }
@@ -14273,7 +13818,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.512,
+      "prob": 0.521,
       "usual": 1.5,
       "eligible": false
      }
@@ -14298,14 +13843,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 31.9,
-     "median": 27.0,
+     "projection": 31.8,
+     "median": 27.1,
      "over_if_line_at_or_below": 23.5,
      "under_if_line_at_or_above": 30.5,
      "matchup": {
       "side": "Over",
       "line": 26.5,
-      "prob": 0.514,
+      "prob": 0.52,
       "usual": 30.9,
       "eligible": true
      }
@@ -14325,7 +13870,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.525,
+      "prob": 0.526,
       "usual": 2.9,
       "eligible": true
      }
@@ -14350,14 +13895,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 11.8,
-     "median": 10.0,
+     "projection": 12.0,
+     "median": 10.2,
      "over_if_line_at_or_below": 8.5,
      "under_if_line_at_or_above": 11.5,
      "matchup": {
       "side": "Over",
       "line": 8.5,
-      "prob": 0.631,
+      "prob": 0.64,
       "usual": 9.2,
       "eligible": false
      }
@@ -14377,7 +13922,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.603,
+      "prob": 0.597,
       "usual": 1.3,
       "eligible": false
      }
@@ -14402,18 +13947,17 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 42.6,
-     "median": 36.4,
-     "over_if_line_at_or_below": 31.5,
+     "projection": 42.9,
+     "median": 36.3,
+     "over_if_line_at_or_below": 32.5,
      "under_if_line_at_or_above": 40.5,
      "matchup": {
       "side": "Over",
       "line": 28.5,
-      "prob": 0.641,
+      "prob": 0.638,
       "usual": 33.3,
       "eligible": true
-     },
-     "top": 2
+     }
     },
     {
      "player": "Tre Harris",
@@ -14430,10 +13974,11 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.634,
+      "prob": 0.649,
       "usual": 2.6,
       "eligible": true
-     }
+     },
+     "top": 2
     },
     {
      "player": "Tre Harris",
@@ -14786,7 +14331,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "side": "Under",
-     "line": 40.5,
+     "line": 39.5,
      "values": [
       33,
       18,
@@ -14947,7 +14492,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "side": "Under",
-     "line": 29.5,
+     "line": 30.5,
      "values": [
       6,
       25,
@@ -15257,7 +14802,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 236.5,
+     "line": 237.5,
      "values": [
       347,
       261,
@@ -15313,40 +14858,12 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Under",
-     "line": 207.5,
+     "line": 206.5,
      "values": [
       189,
       121,
       204,
       257
-     ],
-     "agrees": false,
-     "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      true,
-      true,
-      false
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Justin Herbert",
-     "team": "LAC",
-     "opp": "HOU",
-     "pos": "QB",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "side": "Over",
-     "line": 25.5,
-     "values": [
-      40,
-      54,
-      26,
-      15
      ],
      "agrees": false,
      "status": "Active",
@@ -15429,14 +14946,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 196.5,
-     "median": 191.3,
+     "projection": 196.8,
+     "median": 191.6,
      "over_if_line_at_or_below": 182.5,
      "under_if_line_at_or_above": 200.5,
      "matchup": {
       "side": "Under",
-      "line": 230.5,
-      "prob": 0.747,
+      "line": 233.5,
+      "prob": 0.758,
       "usual": 238.2,
       "eligible": true
      },
@@ -15457,7 +14974,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.607,
+      "prob": 0.608,
       "usual": 1.9,
       "eligible": true
      }
@@ -15477,7 +14994,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.578,
+      "prob": 0.588,
       "usual": 1.3,
       "eligible": false
      }
@@ -15502,14 +15019,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 31.7,
+     "projection": 31.5,
      "median": 28.5,
      "over_if_line_at_or_below": 25.5,
      "under_if_line_at_or_above": 31.5,
      "matchup": {
       "side": "Under",
       "line": 35.5,
-      "prob": 0.64,
+      "prob": 0.643,
       "usual": 39.0,
       "eligible": true
      }
@@ -15529,7 +15046,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.544,
+      "prob": 0.552,
       "usual": 1.6,
       "eligible": false
      }
@@ -15549,7 +15066,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.527,
+      "prob": 0.532,
       "usual": 0.4,
       "eligible": false
      }
@@ -15574,14 +15091,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 33.7,
-     "median": 30.3,
-     "over_if_line_at_or_below": 27.5,
+     "projection": 33.4,
+     "median": 29.9,
+     "over_if_line_at_or_below": 26.5,
      "under_if_line_at_or_above": 33.5,
      "matchup": {
       "side": "Under",
-      "line": 37.5,
-      "prob": 0.635,
+      "line": 36.5,
+      "prob": 0.637,
       "usual": 41.3,
       "eligible": true
      }
@@ -15594,14 +15111,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 44.3,
-     "median": 37.8,
-     "over_if_line_at_or_below": 33.5,
-     "under_if_line_at_or_above": 42.5,
+     "projection": 43.6,
+     "median": 37.0,
+     "over_if_line_at_or_below": 32.5,
+     "under_if_line_at_or_above": 41.5,
      "matchup": {
       "side": "Over",
       "line": 34.5,
-      "prob": 0.55,
+      "prob": 0.548,
       "usual": 40.2,
       "eligible": true
      }
@@ -15620,8 +15137,8 @@
      "under_if_line_at_or_above": 5.5,
      "matchup": {
       "side": "Over",
-      "line": 4.5,
-      "prob": 0.57,
+      "line": 3.5,
+      "prob": 0.566,
       "usual": 4.2,
       "eligible": true
      }
@@ -15646,14 +15163,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 57.5,
-     "median": 49.0,
+     "projection": 57.4,
+     "median": 48.7,
      "over_if_line_at_or_below": 43.5,
-     "under_if_line_at_or_above": 55.5,
+     "under_if_line_at_or_above": 54.5,
      "matchup": {
       "side": "Under",
-      "line": 66.5,
-      "prob": 0.669,
+      "line": 65.5,
+      "prob": 0.663,
       "usual": 76.7,
       "eligible": true
      },
@@ -15674,7 +15191,7 @@
      "matchup": {
       "side": "Under",
       "line": 5.5,
-      "prob": 0.622,
+      "prob": 0.625,
       "usual": 6.1,
       "eligible": true
      }
@@ -15699,14 +15216,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 40.8,
-     "median": 34.6,
-     "over_if_line_at_or_below": 30.5,
+     "projection": 41.6,
+     "median": 35.4,
+     "over_if_line_at_or_below": 31.5,
      "under_if_line_at_or_above": 39.5,
      "matchup": {
       "side": "Under",
       "line": 44.5,
-      "prob": 0.645,
+      "prob": 0.619,
       "usual": 51.8,
       "eligible": true
      }
@@ -15726,7 +15243,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.64,
+      "prob": 0.628,
       "usual": 3.4,
       "eligible": true
      }
@@ -15751,17 +15268,18 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 29.9,
-     "median": 25.4,
-     "over_if_line_at_or_below": 22.5,
+     "projection": 29.4,
+     "median": 25.0,
+     "over_if_line_at_or_below": 21.5,
      "under_if_line_at_or_above": 28.5,
      "matchup": {
       "side": "Under",
       "line": 33.5,
-      "prob": 0.653,
+      "prob": 0.658,
       "usual": 39.3,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Michael Mayer",
@@ -15778,7 +15296,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.603,
+      "prob": 0.602,
       "usual": 3.9,
       "eligible": true
      }
@@ -15803,14 +15321,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 17.6,
-     "median": 15.0,
-     "over_if_line_at_or_below": 12.5,
+     "projection": 17.9,
+     "median": 15.3,
+     "over_if_line_at_or_below": 13.5,
      "under_if_line_at_or_above": 17.5,
      "matchup": {
       "side": "Under",
       "line": 19.5,
-      "prob": 0.631,
+      "prob": 0.622,
       "usual": 22.3,
       "eligible": false
      }
@@ -15830,7 +15348,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.606,
+      "prob": 0.607,
       "usual": 2.0,
       "eligible": false
      }
@@ -15855,14 +15373,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 268.8,
-     "median": 261.4,
-     "over_if_line_at_or_below": 249.5,
-     "under_if_line_at_or_above": 273.5,
+     "projection": 269.6,
+     "median": 262.1,
+     "over_if_line_at_or_below": 250.5,
+     "under_if_line_at_or_above": 274.5,
      "matchup": {
       "side": "Over",
-      "line": 239.5,
-      "prob": 0.621,
+      "line": 238.5,
+      "prob": 0.625,
       "usual": 245.6,
       "eligible": true
      }
@@ -15882,7 +15400,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.641,
+      "prob": 0.649,
       "usual": 1.9,
       "eligible": true
      }
@@ -15895,14 +15413,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 22.4,
-     "median": 20.2,
+     "projection": 22.3,
+     "median": 20.0,
      "over_if_line_at_or_below": 17.5,
      "under_if_line_at_or_above": 22.5,
      "matchup": {
       "side": "Over",
-      "line": 18.5,
-      "prob": 0.575,
+      "line": 17.5,
+      "prob": 0.581,
       "usual": 19.9,
       "eligible": false
      }
@@ -15927,14 +15445,14 @@
      "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 79.8,
-     "median": 71.7,
-     "over_if_line_at_or_below": 65.5,
-     "under_if_line_at_or_above": 78.5,
+     "projection": 79.0,
+     "median": 70.4,
+     "over_if_line_at_or_below": 64.5,
+     "under_if_line_at_or_above": 77.5,
      "matchup": {
       "side": "Over",
       "line": 53.5,
-      "prob": 0.689,
+      "prob": 0.678,
       "usual": 59.5,
       "eligible": true
      }
@@ -15947,14 +15465,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 48.3,
-     "median": 41.5,
+     "projection": 48.5,
+     "median": 41.3,
      "over_if_line_at_or_below": 36.5,
      "under_if_line_at_or_above": 46.5,
      "matchup": {
       "side": "Over",
-      "line": 38.5,
-      "prob": 0.547,
+      "line": 37.5,
+      "prob": 0.549,
       "usual": 44.3,
       "eligible": true
      }
@@ -15999,14 +15517,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 45.7,
-     "median": 41.1,
+     "projection": 46.0,
+     "median": 41.6,
      "over_if_line_at_or_below": 37.5,
      "under_if_line_at_or_above": 45.5,
      "matchup": {
       "side": "Over",
       "line": 31.5,
-      "prob": 0.684,
+      "prob": 0.678,
       "usual": 34.4,
       "eligible": true
      },
@@ -16045,9 +15563,9 @@
      "over_if_line_at_or_below": null,
      "under_if_line_at_or_above": 0.5,
      "matchup": {
-      "side": "Under",
+      "side": "Over",
       "line": 0.5,
-      "prob": 0.5,
+      "prob": 0.503,
       "usual": 0.5,
       "eligible": false
      }
@@ -16072,14 +15590,14 @@
      "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 63.9,
-     "median": 54.4,
-     "over_if_line_at_or_below": 48.5,
-     "under_if_line_at_or_above": 61.5,
+     "projection": 63.3,
+     "median": 54.0,
+     "over_if_line_at_or_below": 47.5,
+     "under_if_line_at_or_above": 60.5,
      "matchup": {
       "side": "Over",
       "line": 51.5,
-      "prob": 0.527,
+      "prob": 0.53,
       "usual": 60.0,
       "eligible": true
      }
@@ -16099,11 +15617,10 @@
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.655,
+      "prob": 0.651,
       "usual": 5.1,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "George Kittle",
@@ -16126,13 +15643,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 72.2,
-     "median": 61.9,
-     "over_if_line_at_or_below": 55.5,
+     "median": 61.7,
+     "over_if_line_at_or_below": 54.5,
      "under_if_line_at_or_above": 69.5,
      "matchup": {
       "side": "Over",
       "line": 55.5,
-      "prob": 0.567,
+      "prob": 0.559,
       "usual": 64.8,
       "eligible": true
      }
@@ -16152,7 +15669,7 @@
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.509,
+      "prob": 0.502,
       "usual": 4.2,
       "eligible": true
      }
@@ -16177,14 +15694,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 17.3,
-     "median": 14.7,
+     "projection": 17.4,
+     "median": 14.9,
      "over_if_line_at_or_below": 12.5,
-     "under_if_line_at_or_above": 16.5,
+     "under_if_line_at_or_above": 17.5,
      "matchup": {
       "side": "Over",
       "line": 13.5,
-      "prob": 0.556,
+      "prob": 0.561,
       "usual": 15.6,
       "eligible": false
      }
@@ -16204,7 +15721,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.504,
+      "prob": 0.502,
       "usual": 1.3,
       "eligible": false
      }
@@ -16229,14 +15746,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 32.9,
-     "median": 28.2,
+     "projection": 33.3,
+     "median": 28.3,
      "over_if_line_at_or_below": 24.5,
-     "under_if_line_at_or_above": 31.5,
+     "under_if_line_at_or_above": 32.5,
      "matchup": {
       "side": "Over",
       "line": 25.5,
-      "prob": 0.561,
+      "prob": 0.558,
       "usual": 29.7,
       "eligible": true
      }
@@ -16254,9 +15771,9 @@
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
-      "side": "Under",
+      "side": "Over",
       "line": 1.5,
-      "prob": 0.5,
+      "prob": 0.503,
       "usual": 1.5,
       "eligible": false
      }
@@ -16321,6 +15838,14 @@
     },
     {
      "team": "SF",
+     "name": "Deebo Samuel Sr.",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Samuel (hamstring) didn't participate in the early portion of Friday's practice, Nick Wagoner of ESPN.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SF",
      "name": "Christian McCaffrey",
      "position": "RB",
      "status": "Questionable",
@@ -16357,14 +15882,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Kirk (knee) didn't practice Thursday, Sam Warren of The Athletic reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "SF",
-     "name": "Deebo Samuel Sr.",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Samuel (hamstring) was a non-participant at Thursday's practice, Sam Warren of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -16658,7 +16175,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 230.5,
+     "line": 233.5,
      "values": [
       365,
       243,
@@ -16688,7 +16205,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 66.5,
+     "line": 65.5,
      "values": [
       86,
       110,
@@ -16718,7 +16235,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "side": "Under",
-     "line": 37.5,
+     "line": 36.5,
      "values": [
       27,
       22,
@@ -17084,34 +16601,6 @@
       true,
       true
      ]
-    },
-    {
-     "type": "player",
-     "player": "Ashton Jeanty",
-     "team": "LV",
-     "opp": "SF",
-     "pos": "RB",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Under",
-     "line": 4.5,
-     "values": [
-      3,
-      4,
-      8,
-      3
-     ],
-     "agrees": false,
-     "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      true,
-      false,
-      true
-     ]
     }
    ],
    "locked": null
@@ -17182,14 +16671,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 261.3,
-     "median": 254.7,
-     "over_if_line_at_or_below": 243.5,
-     "under_if_line_at_or_above": 266.5,
+     "projection": 260.7,
+     "median": 254.3,
+     "over_if_line_at_or_below": 242.5,
+     "under_if_line_at_or_above": 265.5,
      "matchup": {
       "side": "Under",
-      "line": 257.5,
-      "prob": 0.514,
+      "line": 256.5,
+      "prob": 0.512,
       "usual": 264.6,
       "eligible": true
      }
@@ -17209,7 +16698,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.534,
+      "prob": 0.544,
       "usual": 1.9,
       "eligible": true
      }
@@ -17229,7 +16718,7 @@
      "matchup": {
       "side": "Under",
       "line": 5.5,
-      "prob": 0.518,
+      "prob": 0.511,
       "usual": 5.6,
       "eligible": false
      }
@@ -17254,8 +16743,8 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 46.6,
-     "median": 41.7,
+     "projection": 46.5,
+     "median": 41.8,
      "over_if_line_at_or_below": 37.5,
      "under_if_line_at_or_above": 46.5,
      "matchup": {
@@ -17275,14 +16764,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 23.3,
-     "median": 19.7,
+     "projection": 23.4,
+     "median": 19.9,
      "over_if_line_at_or_below": 17.5,
      "under_if_line_at_or_above": 22.5,
      "matchup": {
       "side": "Under",
       "line": 20.5,
-      "prob": 0.523,
+      "prob": 0.513,
       "usual": 24.0,
       "eligible": false
      }
@@ -17302,7 +16791,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.557,
+      "prob": 0.55,
       "usual": 3.7,
       "eligible": true
      }
@@ -17327,14 +16816,14 @@
      "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 15.1,
-     "median": 13.6,
-     "over_if_line_at_or_below": 11.5,
+     "projection": 15.2,
+     "median": 13.7,
+     "over_if_line_at_or_below": 12.5,
      "under_if_line_at_or_above": 15.5,
      "matchup": {
       "side": "Under",
       "line": 15.5,
-      "prob": 0.566,
+      "prob": 0.563,
       "usual": 16.8,
       "eligible": false
      }
@@ -17348,13 +16837,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 10.0,
-     "median": 8.5,
+     "median": 8.6,
      "over_if_line_at_or_below": 7.5,
-     "under_if_line_at_or_above": 9.5,
+     "under_if_line_at_or_above": 10.5,
      "matchup": {
       "side": "Under",
       "line": 8.5,
-      "prob": 0.511,
+      "prob": 0.51,
       "usual": 10.2,
       "eligible": false
      }
@@ -17367,14 +16856,14 @@
      "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 1.5,
+     "projection": 1.4,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 1.5,
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.535,
+      "prob": 0.534,
       "usual": 1.6,
       "eligible": false
      }
@@ -17399,14 +16888,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 60.3,
-     "median": 51.3,
+     "projection": 60.9,
+     "median": 51.6,
      "over_if_line_at_or_below": 45.5,
-     "under_if_line_at_or_above": 57.5,
+     "under_if_line_at_or_above": 58.5,
      "matchup": {
-      "side": "Under",
-      "line": 52.5,
-      "prob": 0.506,
+      "side": "Over",
+      "line": 51.5,
+      "prob": 0.503,
       "usual": 60.5,
       "eligible": true
      }
@@ -17426,7 +16915,7 @@
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.514,
+      "prob": 0.515,
       "usual": 4.5,
       "eligible": true
      }
@@ -17451,10 +16940,10 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 77.6,
-     "median": 65.9,
+     "projection": 78.2,
+     "median": 66.0,
      "over_if_line_at_or_below": 58.5,
-     "under_if_line_at_or_above": 73.5,
+     "under_if_line_at_or_above": 74.5,
      "matchup": {
       "side": "Under",
       "line": 67.5,
@@ -17478,7 +16967,7 @@
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.507,
+      "prob": 0.509,
       "usual": 4.7,
       "eligible": true
      }
@@ -17503,8 +16992,8 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 48.6,
-     "median": 41.6,
+     "projection": 48.5,
+     "median": 41.3,
      "over_if_line_at_or_below": 36.5,
      "under_if_line_at_or_above": 46.5,
      "matchup": {
@@ -17530,7 +17019,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.514,
+      "prob": 0.52,
       "usual": 4.4,
       "eligible": true
      }
@@ -17555,14 +17044,14 @@
      "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 16.8,
-     "median": 14.4,
+     "projection": 16.7,
+     "median": 14.2,
      "over_if_line_at_or_below": 12.5,
      "under_if_line_at_or_above": 16.5,
      "matchup": {
-      "side": "Over",
+      "side": "Under",
       "line": 14.5,
-      "prob": 0.509,
+      "prob": 0.501,
       "usual": 16.6,
       "eligible": false
      }
@@ -17580,9 +17069,9 @@
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
-      "side": "Under",
+      "side": "Over",
       "line": 1.5,
-      "prob": 0.506,
+      "prob": 0.511,
       "usual": 1.7,
       "eligible": false
      }
@@ -17607,14 +17096,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 250.7,
-     "median": 244.2,
-     "over_if_line_at_or_below": 233.5,
+     "projection": 250.9,
+     "median": 243.5,
+     "over_if_line_at_or_below": 232.5,
      "under_if_line_at_or_above": 255.5,
      "matchup": {
       "side": "Under",
       "line": 245.5,
-      "prob": 0.506,
+      "prob": 0.507,
       "usual": 252.7,
       "eligible": true
      }
@@ -17634,11 +17123,10 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.541,
+      "prob": 0.535,
       "usual": 2.0,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Drake Maye",
@@ -17655,7 +17143,7 @@
      "matchup": {
       "side": "Over",
       "line": 23.5,
-      "prob": 0.533,
+      "prob": 0.525,
       "usual": 26.2,
       "eligible": true
      }
@@ -17680,14 +17168,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 48.9,
-     "median": 44.0,
+     "projection": 48.7,
+     "median": 43.8,
      "over_if_line_at_or_below": 39.5,
      "under_if_line_at_or_above": 48.5,
      "matchup": {
       "side": "Over",
       "line": 42.5,
-      "prob": 0.525,
+      "prob": 0.527,
       "usual": 47.2,
       "eligible": true
      }
@@ -17700,14 +17188,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 28.8,
-     "median": 24.5,
+     "projection": 29.0,
+     "median": 24.9,
      "over_if_line_at_or_below": 21.5,
-     "under_if_line_at_or_above": 27.5,
+     "under_if_line_at_or_above": 28.5,
      "matchup": {
       "side": "Over",
       "line": 23.5,
-      "prob": 0.529,
+      "prob": 0.533,
       "usual": 27.5,
       "eligible": true
      }
@@ -17722,15 +17210,16 @@
      "key": "receptions",
      "projection": 2.9,
      "median": 3.0,
-     "over_if_line_at_or_below": 1.5,
+     "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.534,
+      "prob": 0.548,
       "usual": 2.7,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Rhamondre Stevenson",
@@ -17753,13 +17242,13 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 24.0,
-     "median": 21.5,
+     "median": 21.4,
      "over_if_line_at_or_below": 19.5,
      "under_if_line_at_or_above": 23.5,
      "matchup": {
       "side": "Over",
-      "line": 20.5,
-      "prob": 0.524,
+      "line": 21.5,
+      "prob": 0.514,
       "usual": 23.1,
       "eligible": false
      }
@@ -17779,7 +17268,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.532,
+      "prob": 0.529,
       "usual": 2.4,
       "eligible": false
      }
@@ -17799,7 +17288,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.514,
+      "prob": 0.509,
       "usual": 0.3,
       "eligible": false
      }
@@ -17824,14 +17313,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 35.8,
-     "median": 30.3,
+     "projection": 35.9,
+     "median": 30.6,
      "over_if_line_at_or_below": 26.5,
      "under_if_line_at_or_above": 34.5,
      "matchup": {
       "side": "Under",
       "line": 36.5,
-      "prob": 0.601,
+      "prob": 0.591,
       "usual": 42.8,
       "eligible": true
      }
@@ -17851,7 +17340,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.598,
+      "prob": 0.586,
       "usual": 3.7,
       "eligible": true
      }
@@ -17876,14 +17365,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 42.3,
-     "median": 36.1,
-     "over_if_line_at_or_below": 32.5,
+     "projection": 42.2,
+     "median": 35.9,
+     "over_if_line_at_or_below": 31.5,
      "under_if_line_at_or_above": 40.5,
      "matchup": {
       "side": "Over",
       "line": 35.5,
-      "prob": 0.522,
+      "prob": 0.518,
       "usual": 40.6,
       "eligible": true
      }
@@ -17903,7 +17392,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.584,
+      "prob": 0.586,
       "usual": 2.9,
       "eligible": true
      },
@@ -17929,14 +17418,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 21.3,
-     "median": 18.2,
+     "projection": 21.4,
+     "median": 18.3,
      "over_if_line_at_or_below": 15.5,
      "under_if_line_at_or_above": 20.5,
      "matchup": {
       "side": "Under",
-      "line": 22.5,
-      "prob": 0.609,
+      "line": 21.5,
+      "prob": 0.601,
       "usual": 25.6,
       "eligible": true
      },
@@ -17957,7 +17446,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.563,
+      "prob": 0.568,
       "usual": 1.9,
       "eligible": false
      }
@@ -17986,10 +17475,10 @@
    "injury_notes": {
     "GB": [],
     "NE": [
+     "Mack Hollins (WR) Injured Reserve",
      "Hunter Henry (TE) Questionable",
      "A.J. Brown (WR) Out",
-     "TreVeyon Henderson (RB) Out",
-     "Mack Hollins (WR) Injured Reserve"
+     "TreVeyon Henderson (RB) Out"
     ]
    },
    "injury_adj": {
@@ -18071,6 +17560,14 @@
     },
     {
      "team": "NE",
+     "name": "Mack Hollins",
+     "position": "WR",
+     "status": "Injured Reserve",
+     "detail": "Hollins (calf) is listed as questionable for Sunday's game against the Packers.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
      "name": "Hunter Henry",
      "position": "TE",
      "status": "Questionable",
@@ -18115,14 +17612,6 @@
      "position": "OT",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NE",
-     "name": "Mack Hollins",
-     "position": "WR",
-     "status": "Injured Reserve",
-     "detail": "The Patriots are expected to designate Hollins (calf) for return from injured reserve Wednesday, Ian Rapoport of NFL Network reports.",
      "source": "ESPN"
     },
     {
@@ -18411,7 +17900,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 257.5,
+     "line": 256.5,
      "values": [
       367,
       276,
@@ -18725,6 +18214,34 @@
     },
     {
      "type": "player",
+     "player": "Matthew Golden",
+     "team": "GB",
+     "opp": "NE",
+     "pos": "WR",
+     "stat": "Rec Yds",
+     "key": "rec_yds",
+     "side": "Over",
+     "line": 51.5,
+     "values": [
+      123,
+      104,
+      39,
+      79
+     ],
+     "agrees": true,
+     "status": "Active",
+     "hit": 3,
+     "of": 4,
+     "rate": 0.75,
+     "dots": [
+      true,
+      true,
+      false,
+      true
+     ]
+    },
+    {
+     "type": "player",
      "player": "Christian Watson",
      "team": "GB",
      "opp": "NE",
@@ -18760,7 +18277,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "side": "Over",
-     "line": 20.5,
+     "line": 21.5,
      "values": [
       52,
       57,
@@ -18796,34 +18313,6 @@
       76
      ],
      "agrees": true,
-     "status": "Active",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      true,
-      false,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Matthew Golden",
-     "team": "GB",
-     "opp": "NE",
-     "pos": "WR",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Over",
-     "line": 52.5,
-     "values": [
-      123,
-      104,
-      39,
-      79
-     ],
-     "agrees": false,
      "status": "Active",
      "hit": 3,
      "of": 4,
@@ -18969,30 +18458,30 @@
    },
    "model_score": {
     "ARI": 16.6,
-    "SEA": 23.6
+    "SEA": 23.4
    },
    "picks": {
     "spread": {
      "market": "SEA -8.5",
      "model_line": "SEA -7",
-     "edge_pts": 1.5,
+     "edge_pts": 1.7,
      "pick": "ARI +8.5",
      "team": "ARI",
      "line": 8.5,
      "price": "-110",
-     "prob": 0.515,
-     "ev": -0.016,
+     "prob": 0.518,
+     "ev": -0.011,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "39.5",
-     "model_line": "40.2",
-     "edge_pts": 0.7,
+     "model_line": "39.9",
+     "edge_pts": 0.4,
      "pick": "Over 39.5",
      "price": "-112",
-     "prob": 0.507,
-     "ev": -0.04,
+     "prob": 0.505,
+     "ev": -0.045,
      "bet": false,
      "stars": 0
     },
@@ -19001,8 +18490,8 @@
      "market_prob": 0.791,
      "pick": "SEA ML",
      "price": "-470",
-     "prob": 0.779,
-     "ev": -0.056,
+     "prob": 0.777,
+     "ev": -0.058,
      "bet": false,
      "stars": 0
     }
@@ -19016,14 +18505,14 @@
      "status": null,
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 158.4,
-     "median": 153.9,
+     "projection": 158.2,
+     "median": 154.1,
      "over_if_line_at_or_below": 146.5,
      "under_if_line_at_or_above": 161.5,
      "matchup": {
       "side": "Under",
       "line": 215.5,
-      "prob": 0.887,
+      "prob": 0.885,
       "usual": 220.9,
       "eligible": true
      },
@@ -19044,7 +18533,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.633,
+      "prob": 0.629,
       "usual": 1.3,
       "eligible": true
      }
@@ -19057,14 +18546,14 @@
      "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 10.1,
+     "projection": 10.0,
      "median": 9.0,
      "over_if_line_at_or_below": 7.5,
      "under_if_line_at_or_above": 10.5,
      "matchup": {
       "side": "Under",
       "line": 10.5,
-      "prob": 0.58,
+      "prob": 0.584,
       "usual": 11.2,
       "eligible": false
      }
@@ -19089,14 +18578,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 34.2,
-     "median": 30.7,
+     "projection": 34.4,
+     "median": 30.9,
      "over_if_line_at_or_below": 27.5,
-     "under_if_line_at_or_above": 33.5,
+     "under_if_line_at_or_above": 34.5,
      "matchup": {
       "side": "Under",
       "line": 38.5,
-      "prob": 0.663,
+      "prob": 0.645,
       "usual": 42.9,
       "eligible": true
      },
@@ -19110,14 +18599,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 12.2,
+     "projection": 12.3,
      "median": 10.4,
      "over_if_line_at_or_below": 8.5,
      "under_if_line_at_or_above": 12.5,
      "matchup": {
       "side": "Under",
       "line": 13.5,
-      "prob": 0.625,
+      "prob": 0.617,
       "usual": 15.1,
       "eligible": false
      }
@@ -19137,7 +18626,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.552,
+      "prob": 0.551,
       "usual": 2.1,
       "eligible": false
      }
@@ -19162,14 +18651,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 49.9,
-     "median": 42.2,
+     "projection": 50.2,
+     "median": 42.8,
      "over_if_line_at_or_below": 37.5,
-     "under_if_line_at_or_above": 47.5,
+     "under_if_line_at_or_above": 48.5,
      "matchup": {
       "side": "Under",
-      "line": 60.5,
-      "prob": 0.7,
+      "line": 61.5,
+      "prob": 0.698,
       "usual": 71.1,
       "eligible": true
      }
@@ -19189,7 +18678,7 @@
      "matchup": {
       "side": "Under",
       "line": 7.5,
-      "prob": 0.735,
+      "prob": 0.729,
       "usual": 7.9,
       "eligible": true
      },
@@ -19215,14 +18704,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 44.4,
-     "median": 37.8,
+     "projection": 44.2,
+     "median": 37.5,
      "over_if_line_at_or_below": 33.5,
      "under_if_line_at_or_above": 42.5,
      "matchup": {
       "side": "Under",
-      "line": 54.5,
-      "prob": 0.704,
+      "line": 53.5,
+      "prob": 0.703,
       "usual": 62.7,
       "eligible": true
      }
@@ -19242,7 +18731,7 @@
      "matchup": {
       "side": "Under",
       "line": 5.5,
-      "prob": 0.712,
+      "prob": 0.711,
       "usual": 5.3,
       "eligible": true
      }
@@ -19268,13 +18757,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 14.3,
-     "median": 12.2,
+     "median": 12.3,
      "over_if_line_at_or_below": 10.5,
      "under_if_line_at_or_above": 14.5,
      "matchup": {
       "side": "Under",
       "line": 17.5,
-      "prob": 0.702,
+      "prob": 0.698,
       "usual": 20.3,
       "eligible": false
      }
@@ -19294,7 +18783,7 @@
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.623,
+      "prob": 0.622,
       "usual": 2.2,
       "eligible": false
      }
@@ -19319,14 +18808,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 57.5,
-     "median": 51.5,
+     "projection": 57.3,
+     "median": 51.7,
      "over_if_line_at_or_below": 46.5,
      "under_if_line_at_or_above": 56.5,
      "matchup": {
       "side": "Over",
-      "line": 45.5,
-      "prob": 0.581,
+      "line": 46.5,
+      "prob": 0.58,
       "usual": 50.7,
       "eligible": true
      },
@@ -19340,14 +18829,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 8.5,
-     "median": 7.3,
+     "projection": 8.4,
+     "median": 7.1,
      "over_if_line_at_or_below": 5.5,
      "under_if_line_at_or_above": 8.5,
      "matchup": {
       "side": "Under",
       "line": 7.5,
-      "prob": 0.5,
+      "prob": 0.522,
       "usual": 8.6,
       "eligible": false
      }
@@ -19367,7 +18856,7 @@
      "matchup": {
       "side": "Under",
       "line": 0.5,
-      "prob": 0.552,
+      "prob": 0.551,
       "usual": 0.9,
       "eligible": false
      }
@@ -19392,14 +18881,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 12.6,
-     "median": 11.2,
+     "projection": 12.7,
+     "median": 11.4,
      "over_if_line_at_or_below": 9.5,
      "under_if_line_at_or_above": 12.5,
      "matchup": {
       "side": "Over",
       "line": 10.5,
-      "prob": 0.577,
+      "prob": 0.586,
       "usual": 11.2,
       "eligible": false
      }
@@ -19412,14 +18901,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 7.7,
-     "median": 6.6,
+     "projection": 7.9,
+     "median": 6.7,
      "over_if_line_at_or_below": 5.5,
      "under_if_line_at_or_above": 7.5,
      "matchup": {
       "side": "Under",
       "line": 7.5,
-      "prob": 0.514,
+      "prob": 0.513,
       "usual": 7.9,
       "eligible": false
      }
@@ -19439,7 +18928,7 @@
      "matchup": {
       "side": "Under",
       "line": 0.5,
-      "prob": 0.551,
+      "prob": 0.547,
       "usual": 1.0,
       "eligible": false
      }
@@ -19464,8 +18953,8 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 118.7,
-     "median": 101.5,
+     "projection": 119.6,
+     "median": 101.8,
      "over_if_line_at_or_below": 90.5,
      "under_if_line_at_or_above": 113.5,
      "matchup": {
@@ -19491,7 +18980,7 @@
      "matchup": {
       "side": "Under",
       "line": 7.5,
-      "prob": 0.567,
+      "prob": 0.565,
       "usual": 7.5,
       "eligible": true
      }
@@ -19517,13 +19006,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 30.1,
-     "median": 25.7,
+     "median": 25.6,
      "over_if_line_at_or_below": 22.5,
-     "under_if_line_at_or_above": 29.5,
+     "under_if_line_at_or_above": 28.5,
      "matchup": {
       "side": "Over",
-      "line": 25.5,
-      "prob": 0.52,
+      "line": 24.5,
+      "prob": 0.518,
       "usual": 29.1,
       "eligible": true
      }
@@ -19543,7 +19032,7 @@
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.542,
+      "prob": 0.532,
       "usual": 2.6,
       "eligible": true
      }
@@ -19568,14 +19057,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 27.6,
-     "median": 23.5,
+     "projection": 27.3,
+     "median": 23.4,
      "over_if_line_at_or_below": 20.5,
      "under_if_line_at_or_above": 26.5,
      "matchup": {
       "side": "Over",
       "line": 23.5,
-      "prob": 0.509,
+      "prob": 0.504,
       "usual": 27.2,
       "eligible": true
      }
@@ -19595,7 +19084,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.506,
+      "prob": 0.515,
       "usual": 2.8,
       "eligible": true
      }
@@ -19620,14 +19109,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 18.8,
-     "median": 16.0,
-     "over_if_line_at_or_below": 13.5,
+     "projection": 19.1,
+     "median": 16.3,
+     "over_if_line_at_or_below": 14.5,
      "under_if_line_at_or_above": 18.5,
      "matchup": {
       "side": "Over",
       "line": 15.5,
-      "prob": 0.514,
+      "prob": 0.524,
       "usual": 18.4,
       "eligible": false
      }
@@ -19647,7 +19136,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.528,
+      "prob": 0.525,
       "usual": 1.6,
       "eligible": false
      }
@@ -19688,7 +19177,7 @@
    },
    "injury_adj": {
     "ARI": -2.3,
-    "SEA": -2.7
+    "SEA": -2.9
    },
    "injuries": [
     {
@@ -19775,8 +19264,16 @@
      "team": "SEA",
      "name": "Quenton Nelson",
      "position": "G",
-     "status": "Questionable",
-     "detail": "Nelson (knee) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site reports.",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
+     "name": "Rashid Shaheed",
+     "position": "WR",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -19809,14 +19306,6 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "SEA",
-     "name": "Rashid Shaheed",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Shaheed (knee) didn't participate at the Seahawks' practice Thursday, John Boyle of the team's official site reports.",
      "source": "ESPN"
     },
     {
@@ -19893,7 +19382,7 @@
     {
      "headline": "Sources: Ravens trade 4th-, 7th-rounders to get Jacoby Brissett, 5th-round pick",
      "description": "The Ravens will acquire quarterback Jacoby Brissett and a 2027 fifth-round pick for a fourth-round pick in 2027 and seventh-round pick in 2028, sources told ESPN and NFL Network.",
-     "published": "2026-11-06T19:14:10Z",
+     "published": "2026-11-06T21:06:00Z",
      "link": "https://www.espn.com/nfl/story/_/id/50400123/ravens-complete-trade-cardinals-qb-jacoby-brissett",
      "teams": [
       "ARI",
@@ -20013,7 +19502,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "side": "Over",
-     "line": 45.5,
+     "line": 46.5,
      "values": [
       81,
       61,
@@ -20193,7 +19682,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Under",
-     "line": 25.5,
+     "line": 24.5,
      "values": [
       13,
       15,
@@ -20439,7 +19928,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 60.5,
+     "line": 61.5,
      "values": [
       66,
       53,
@@ -20695,14 +20184,14 @@
      "status": null,
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 95.1,
-     "median": 92.5,
+     "projection": 94.9,
+     "median": 92.0,
      "over_if_line_at_or_below": 87.5,
-     "under_if_line_at_or_above": 97.5,
+     "under_if_line_at_or_above": 96.5,
      "matchup": {
       "side": "Under",
-      "line": 95.5,
-      "prob": 0.546,
+      "line": 96.5,
+      "prob": 0.558,
       "usual": 98.9,
       "eligible": false
      }
@@ -20722,7 +20211,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.505,
+      "prob": 0.501,
       "usual": 0.6,
       "eligible": false
      }
@@ -20736,13 +20225,13 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 21.3,
-     "median": 19.2,
-     "over_if_line_at_or_below": 17.5,
+     "median": 19.0,
+     "over_if_line_at_or_below": 16.5,
      "under_if_line_at_or_above": 21.5,
      "matchup": {
       "side": "Under",
       "line": 20.5,
-      "prob": 0.551,
+      "prob": 0.556,
       "usual": 23.0,
       "eligible": false
      }
@@ -20767,14 +20256,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 72.0,
-     "median": 64.7,
+     "projection": 71.5,
+     "median": 64.2,
      "over_if_line_at_or_below": 58.5,
      "under_if_line_at_or_above": 70.5,
      "matchup": {
       "side": "Under",
-      "line": 78.5,
-      "prob": 0.635,
+      "line": 79.5,
+      "prob": 0.646,
       "usual": 87.3,
       "eligible": true
      },
@@ -20788,14 +20277,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 13.5,
-     "median": 11.6,
+     "projection": 13.4,
+     "median": 11.4,
      "over_if_line_at_or_below": 9.5,
      "under_if_line_at_or_above": 13.5,
      "matchup": {
       "side": "Under",
-      "line": 11.5,
-      "prob": 0.509,
+      "line": 12.5,
+      "prob": 0.527,
       "usual": 13.9,
       "eligible": false
      }
@@ -20808,14 +20297,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.0,
+     "projection": 1.9,
      "median": 2.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.553,
+      "prob": 0.57,
       "usual": 2.1,
       "eligible": false
      }
@@ -20840,14 +20329,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 36.5,
-     "median": 32.7,
+     "projection": 36.1,
+     "median": 32.4,
      "over_if_line_at_or_below": 29.5,
-     "under_if_line_at_or_above": 36.5,
+     "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Under",
       "line": 39.5,
-      "prob": 0.633,
+      "prob": 0.641,
       "usual": 44.2,
       "eligible": true
      },
@@ -20868,7 +20357,7 @@
      "matchup": {
       "side": "Under",
       "line": 12.5,
-      "prob": 0.516,
+      "prob": 0.511,
       "usual": 14.0,
       "eligible": false
      }
@@ -20881,14 +20370,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.1,
+     "projection": 2.0,
      "median": 2.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.551,
+      "prob": 0.559,
       "usual": 2.3,
       "eligible": false
      }
@@ -20913,14 +20402,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 44.4,
-     "median": 37.9,
+     "projection": 44.1,
+     "median": 37.5,
      "over_if_line_at_or_below": 33.5,
      "under_if_line_at_or_above": 42.5,
      "matchup": {
       "side": "Under",
       "line": 38.5,
-      "prob": 0.509,
+      "prob": 0.512,
       "usual": 45.4,
       "eligible": true
      }
@@ -20933,14 +20422,14 @@
      "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 3.9,
+     "projection": 4.0,
      "median": 4.0,
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 4.5,
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.601,
+      "prob": 0.599,
       "usual": 4.5,
       "eligible": true
      }
@@ -20965,14 +20454,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 30.5,
-     "median": 26.0,
+     "projection": 30.2,
+     "median": 25.9,
      "over_if_line_at_or_below": 22.5,
      "under_if_line_at_or_above": 29.5,
      "matchup": {
       "side": "Under",
       "line": 26.5,
-      "prob": 0.514,
+      "prob": 0.517,
       "usual": 31.3,
       "eligible": true
      }
@@ -20987,12 +20476,12 @@
      "key": "receptions",
      "projection": 2.9,
      "median": 3.0,
-     "over_if_line_at_or_below": 1.5,
+     "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.591,
+      "prob": 0.59,
       "usual": 3.3,
       "eligible": true
      },
@@ -21018,14 +20507,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 19.5,
+     "projection": 19.6,
      "median": 16.7,
      "over_if_line_at_or_below": 14.5,
      "under_if_line_at_or_above": 19.5,
      "matchup": {
       "side": "Under",
       "line": 17.5,
-      "prob": 0.51,
+      "prob": 0.516,
       "usual": 20.0,
       "eligible": false
      }
@@ -21038,14 +20527,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 1.2,
+     "projection": 1.1,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 1.5,
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.546,
+      "prob": 0.565,
       "usual": 1.3,
       "eligible": false
      }
@@ -21070,14 +20559,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 242.5,
-     "median": 235.6,
+     "projection": 243.1,
+     "median": 236.3,
      "over_if_line_at_or_below": 225.5,
      "under_if_line_at_or_above": 247.5,
      "matchup": {
       "side": "Under",
       "line": 244.5,
-      "prob": 0.548,
+      "prob": 0.545,
       "usual": 250.4,
       "eligible": true
      }
@@ -21090,14 +20579,14 @@
      "status": "Active",
      "stat": "Pass TDs",
      "key": "pass_tds",
-     "projection": 1.3,
+     "projection": 1.2,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 1.5,
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.542,
+      "prob": 0.549,
       "usual": 1.4,
       "eligible": true
      }
@@ -21111,13 +20600,13 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 23.6,
-     "median": 21.3,
+     "median": 21.1,
      "over_if_line_at_or_below": 18.5,
      "under_if_line_at_or_above": 23.5,
      "matchup": {
       "side": "Over",
       "line": 20.5,
-      "prob": 0.547,
+      "prob": 0.545,
       "usual": 22.1,
       "eligible": false
      }
@@ -21142,14 +20631,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 61.1,
-     "median": 54.9,
+     "projection": 61.4,
+     "median": 55.2,
      "over_if_line_at_or_below": 49.5,
      "under_if_line_at_or_above": 60.5,
      "matchup": {
       "side": "Under",
-      "line": 59.5,
-      "prob": 0.552,
+      "line": 60.5,
+      "prob": 0.555,
       "usual": 66.2,
       "eligible": true
      },
@@ -21164,13 +20653,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 19.1,
-     "median": 16.2,
+     "median": 16.3,
      "over_if_line_at_or_below": 14.5,
      "under_if_line_at_or_above": 18.5,
      "matchup": {
       "side": "Over",
       "line": 16.5,
-      "prob": 0.506,
+      "prob": 0.513,
       "usual": 18.8,
       "eligible": false
      }
@@ -21183,14 +20672,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.8,
+     "projection": 2.9,
      "median": 3.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.536,
+      "prob": 0.54,
       "usual": 2.7,
       "eligible": true
      }
@@ -21215,14 +20704,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 11.7,
-     "median": 10.5,
+     "projection": 11.6,
+     "median": 10.4,
      "over_if_line_at_or_below": 9.5,
      "under_if_line_at_or_above": 11.5,
      "matchup": {
       "side": "Under",
       "line": 11.5,
-      "prob": 0.557,
+      "prob": 0.555,
       "usual": 12.6,
       "eligible": false
      }
@@ -21235,14 +20724,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 9.3,
+     "projection": 9.2,
      "median": 7.9,
      "over_if_line_at_or_below": 6.5,
      "under_if_line_at_or_above": 9.5,
      "matchup": {
       "side": "Over",
       "line": 7.5,
-      "prob": 0.51,
+      "prob": 0.515,
       "usual": 9.0,
       "eligible": false
      }
@@ -21262,7 +20751,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.519,
+      "prob": 0.532,
       "usual": 0.9,
       "eligible": false
      }
@@ -21287,14 +20776,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 48.3,
-     "median": 41.3,
+     "projection": 48.2,
+     "median": 40.8,
      "over_if_line_at_or_below": 36.5,
      "under_if_line_at_or_above": 46.5,
      "matchup": {
-      "side": "Over",
-      "line": 40.5,
-      "prob": 0.51,
+      "side": "Under",
+      "line": 41.5,
+      "prob": 0.507,
       "usual": 48.0,
       "eligible": true
      }
@@ -21314,7 +20803,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.512,
+      "prob": 0.51,
       "usual": 4.6,
       "eligible": true
      }
@@ -21339,14 +20828,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 59.8,
-     "median": 51.0,
-     "over_if_line_at_or_below": 45.5,
-     "under_if_line_at_or_above": 57.5,
+     "projection": 59.5,
+     "median": 50.5,
+     "over_if_line_at_or_below": 44.5,
+     "under_if_line_at_or_above": 56.5,
      "matchup": {
       "side": "Under",
-      "line": 54.5,
-      "prob": 0.531,
+      "line": 53.5,
+      "prob": 0.533,
       "usual": 62.8,
       "eligible": true
      }
@@ -21366,7 +20855,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.509,
+      "prob": 0.519,
       "usual": 4.7,
       "eligible": true
      }
@@ -21391,14 +20880,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 56.0,
-     "median": 47.7,
+     "projection": 56.5,
+     "median": 48.3,
      "over_if_line_at_or_below": 42.5,
-     "under_if_line_at_or_above": 53.5,
+     "under_if_line_at_or_above": 54.5,
      "matchup": {
       "side": "Under",
       "line": 50.5,
-      "prob": 0.532,
+      "prob": 0.526,
       "usual": 59.0,
       "eligible": true
      }
@@ -21418,7 +20907,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.517,
+      "prob": 0.524,
       "usual": 3.6,
       "eligible": true
      }
@@ -21444,13 +20933,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 21.1,
-     "median": 18.1,
+     "median": 17.9,
      "over_if_line_at_or_below": 15.5,
      "under_if_line_at_or_above": 20.5,
      "matchup": {
       "side": "Under",
       "line": 19.5,
-      "prob": 0.527,
+      "prob": 0.53,
       "usual": 22.3,
       "eligible": false
      }
@@ -21470,7 +20959,7 @@
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.522,
+      "prob": 0.519,
       "usual": 2.4,
       "eligible": false
      }
@@ -21744,7 +21233,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Under",
-     "line": 11.5,
+     "line": 12.5,
      "values": [
       0,
       10,
@@ -21975,36 +21464,6 @@
     },
     {
      "type": "player",
-     "player": "Colston Loveland",
-     "team": "CHI",
-     "opp": "TB",
-     "pos": "TE",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Over",
-     "line": 40.5,
-     "values": [
-      57,
-      19,
-      65,
-      69,
-      65
-     ],
-     "agrees": true,
-     "status": "Active",
-     "hit": 4,
-     "of": 5,
-     "rate": 0.8,
-     "dots": [
-      true,
-      false,
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
      "player": "Kalif Raymond",
      "team": "CHI",
      "opp": "TB",
@@ -22148,6 +21607,36 @@
      "team": "CHI",
      "opp": "TB",
      "pos": "TE",
+     "stat": "Rec Yds",
+     "key": "rec_yds",
+     "side": "Over",
+     "line": 41.5,
+     "values": [
+      57,
+      19,
+      65,
+      69,
+      65
+     ],
+     "agrees": false,
+     "status": "Active",
+     "hit": 4,
+     "of": 5,
+     "rate": 0.8,
+     "dots": [
+      true,
+      false,
+      true,
+      true,
+      true
+     ]
+    },
+    {
+     "type": "player",
+     "player": "Colston Loveland",
+     "team": "CHI",
+     "opp": "TB",
+     "pos": "TE",
      "stat": "Receptions",
      "key": "receptions",
      "side": "Over",
@@ -22181,7 +21670,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 54.5,
+     "line": 53.5,
      "values": [
       63,
       47,
@@ -22387,7 +21876,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 95.5,
+     "line": 96.5,
      "values": [
       148,
       189,
@@ -22443,7 +21932,7 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "side": "Over",
-     "line": 78.5,
+     "line": 79.5,
      "values": [
       165,
       46,
@@ -22559,13 +22048,13 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 184.3,
-     "median": 179.7,
+     "projection": 185.0,
+     "median": 180.2,
      "over_if_line_at_or_below": 171.5,
      "under_if_line_at_or_above": 188.5,
      "matchup": {
       "side": "Under",
-      "line": 240.5,
+      "line": 241.5,
       "prob": 0.853,
       "usual": 247.8,
       "eligible": true
@@ -22587,7 +22076,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.74,
+      "prob": 0.737,
       "usual": 1.6,
       "eligible": true
      }
@@ -22600,14 +22089,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 39.0,
-     "median": 35.1,
+     "projection": 39.1,
+     "median": 35.4,
      "over_if_line_at_or_below": 31.5,
-     "under_if_line_at_or_above": 38.5,
+     "under_if_line_at_or_above": 39.5,
      "matchup": {
       "side": "Over",
       "line": 34.5,
-      "prob": 0.528,
+      "prob": 0.524,
       "usual": 37.8,
       "eligible": true
      }
@@ -22632,14 +22121,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 106.4,
-     "median": 95.1,
-     "over_if_line_at_or_below": 86.5,
+     "projection": 106.6,
+     "median": 95.4,
+     "over_if_line_at_or_below": 87.5,
      "under_if_line_at_or_above": 104.5,
      "matchup": {
       "side": "Over",
-      "line": 86.5,
-      "prob": 0.565,
+      "line": 87.5,
+      "prob": 0.561,
       "usual": 97.2,
       "eligible": true
      }
@@ -22652,14 +22141,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 12.3,
-     "median": 10.5,
+     "projection": 12.2,
+     "median": 10.4,
      "over_if_line_at_or_below": 8.5,
      "under_if_line_at_or_above": 12.5,
      "matchup": {
       "side": "Under",
       "line": 15.5,
-      "prob": 0.723,
+      "prob": 0.726,
       "usual": 18.3,
       "eligible": false
      }
@@ -22679,7 +22168,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.661,
+      "prob": 0.664,
       "usual": 1.8,
       "eligible": false
      }
@@ -22705,13 +22194,13 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 6.6,
-     "median": 5.9,
+     "median": 6.0,
      "over_if_line_at_or_below": 4.5,
-     "under_if_line_at_or_above": 6.5,
+     "under_if_line_at_or_above": 7.5,
      "matchup": {
       "side": "Over",
       "line": 5.5,
-      "prob": 0.56,
+      "prob": 0.558,
       "usual": 6.1,
       "eligible": false
      }
@@ -22725,13 +22214,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 17.4,
-     "median": 14.9,
+     "median": 14.8,
      "over_if_line_at_or_below": 12.5,
      "under_if_line_at_or_above": 17.5,
      "matchup": {
       "side": "Under",
       "line": 22.5,
-      "prob": 0.725,
+      "prob": 0.727,
       "usual": 26.0,
       "eligible": true
      }
@@ -22745,13 +22234,13 @@
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.7,
-     "median": 2.0,
+     "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.673,
+      "prob": 0.679,
       "usual": 2.3,
       "eligible": false
      }
@@ -22776,14 +22265,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 36.7,
-     "median": 31.3,
+     "projection": 36.9,
+     "median": 31.4,
      "over_if_line_at_or_below": 27.5,
      "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Under",
       "line": 43.5,
-      "prob": 0.684,
+      "prob": 0.681,
       "usual": 51.3,
       "eligible": true
      }
@@ -22796,14 +22285,14 @@
      "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 2.5,
+     "projection": 2.4,
      "median": 2.0,
      "over_if_line_at_or_below": 1.5,
      "under_if_line_at_or_above": 3.5,
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.767,
+      "prob": 0.773,
       "usual": 3.7,
       "eligible": true
      }
@@ -22828,14 +22317,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 39.8,
-     "median": 34.1,
+     "projection": 39.9,
+     "median": 33.9,
      "over_if_line_at_or_below": 29.5,
      "under_if_line_at_or_above": 38.5,
      "matchup": {
       "side": "Under",
       "line": 43.5,
-      "prob": 0.639,
+      "prob": 0.642,
       "usual": 51.4,
       "eligible": true
      }
@@ -22855,7 +22344,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.676,
+      "prob": 0.669,
       "usual": 4.4,
       "eligible": true
      },
@@ -22882,13 +22371,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 28.5,
-     "median": 24.4,
+     "median": 24.3,
      "over_if_line_at_or_below": 21.5,
      "under_if_line_at_or_above": 27.5,
      "matchup": {
       "side": "Under",
       "line": 31.5,
-      "prob": 0.641,
+      "prob": 0.638,
       "usual": 36.8,
       "eligible": true
      }
@@ -22908,7 +22397,7 @@
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.655,
+      "prob": 0.651,
       "usual": 2.8,
       "eligible": true
      }
@@ -22933,14 +22422,14 @@
      "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 37.1,
-     "median": 31.5,
+     "projection": 37.0,
+     "median": 31.6,
      "over_if_line_at_or_below": 27.5,
      "under_if_line_at_or_above": 35.5,
      "matchup": {
       "side": "Under",
-      "line": 41.5,
-      "prob": 0.653,
+      "line": 40.5,
+      "prob": 0.643,
       "usual": 47.8,
       "eligible": true
      }
@@ -22960,7 +22449,7 @@
      "matchup": {
       "side": "Under",
       "line": 3.5,
-      "prob": 0.643,
+      "prob": 0.653,
       "usual": 3.2,
       "eligible": true
      }
@@ -22985,14 +22474,14 @@
      "status": "Questionable",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 201.5,
-     "median": 196.1,
+     "projection": 200.5,
+     "median": 195.5,
      "over_if_line_at_or_below": 186.5,
-     "under_if_line_at_or_above": 205.5,
+     "under_if_line_at_or_above": 204.5,
      "matchup": {
       "side": "Over",
-      "line": 179.5,
-      "prob": 0.616,
+      "line": 180.5,
+      "prob": 0.611,
       "usual": 185.1,
       "eligible": true
      }
@@ -23012,7 +22501,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.571,
+      "prob": 0.563,
       "usual": 1.1,
       "eligible": true
      }
@@ -23025,14 +22514,14 @@
      "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 30.9,
-     "median": 27.8,
+     "projection": 31.0,
+     "median": 28.0,
      "over_if_line_at_or_below": 24.5,
-     "under_if_line_at_or_above": 30.5,
+     "under_if_line_at_or_above": 31.5,
      "matchup": {
       "side": "Under",
       "line": 29.5,
-      "prob": 0.523,
+      "prob": 0.518,
       "usual": 32.2,
       "eligible": true
      }
@@ -23057,18 +22546,17 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 50.2,
-     "median": 45.1,
+     "projection": 49.8,
+     "median": 44.6,
      "over_if_line_at_or_below": 40.5,
      "under_if_line_at_or_above": 49.5,
      "matchup": {
       "side": "Under",
-      "line": 50.5,
-      "prob": 0.571,
+      "line": 49.5,
+      "prob": 0.575,
       "usual": 55.4,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Aaron Jones",
@@ -23078,14 +22566,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 16.3,
+     "projection": 16.2,
      "median": 13.8,
      "over_if_line_at_or_below": 11.5,
      "under_if_line_at_or_above": 15.5,
      "matchup": {
       "side": "Over",
       "line": 12.5,
-      "prob": 0.572,
+      "prob": 0.566,
       "usual": 14.4,
       "eligible": false
      }
@@ -23105,7 +22593,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.587,
+      "prob": 0.576,
       "usual": 2.3,
       "eligible": false
      }
@@ -23130,17 +22618,18 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 42.4,
-     "median": 38.3,
-     "over_if_line_at_or_below": 34.5,
-     "under_if_line_at_or_above": 42.5,
+     "projection": 42.2,
+     "median": 37.7,
+     "over_if_line_at_or_below": 33.5,
+     "under_if_line_at_or_above": 41.5,
      "matchup": {
       "side": "Under",
       "line": 42.5,
-      "prob": 0.567,
+      "prob": 0.575,
       "usual": 47.1,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Jordan Mason",
@@ -23157,7 +22646,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.571,
+      "prob": 0.576,
       "usual": 1.6,
       "eligible": false
      }
@@ -23177,7 +22666,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.54,
+      "prob": 0.543,
       "usual": 0.4,
       "eligible": false
      }
@@ -23203,13 +22692,13 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 57.6,
-     "median": 48.8,
+     "median": 49.1,
      "over_if_line_at_or_below": 43.5,
-     "under_if_line_at_or_above": 54.5,
+     "under_if_line_at_or_above": 55.5,
      "matchup": {
       "side": "Over",
       "line": 48.5,
-      "prob": 0.512,
+      "prob": 0.513,
       "usual": 55.7,
       "eligible": true
      }
@@ -23229,7 +22718,7 @@
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.531,
+      "prob": 0.537,
       "usual": 4.7,
       "eligible": true
      }
@@ -23254,14 +22743,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 44.1,
+     "projection": 44.2,
      "median": 37.8,
      "over_if_line_at_or_below": 33.5,
      "under_if_line_at_or_above": 42.5,
      "matchup": {
       "side": "Over",
       "line": 33.5,
-      "prob": 0.576,
+      "prob": 0.577,
       "usual": 38.6,
       "eligible": true
      },
@@ -23282,7 +22771,7 @@
      "matchup": {
       "side": "Over",
       "line": 3.5,
-      "prob": 0.544,
+      "prob": 0.553,
       "usual": 4.1,
       "eligible": true
      }
@@ -23307,14 +22796,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 45.9,
-     "median": 39.2,
+     "projection": 46.0,
+     "median": 39.4,
      "over_if_line_at_or_below": 34.5,
      "under_if_line_at_or_above": 44.5,
      "matchup": {
       "side": "Over",
-      "line": 38.5,
-      "prob": 0.514,
+      "line": 37.5,
+      "prob": 0.525,
       "usual": 44.5,
       "eligible": true
      }
@@ -23334,7 +22823,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.533,
+      "prob": 0.518,
       "usual": 2.9,
       "eligible": true
      }
@@ -23366,7 +22855,7 @@
      "matchup": {
       "side": "Over",
       "line": 16.5,
-      "prob": 0.575,
+      "prob": 0.572,
       "usual": 18.6,
       "eligible": false
      }
@@ -23386,7 +22875,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.551,
+      "prob": 0.543,
       "usual": 2.3,
       "eligible": false
      }
@@ -24027,7 +23516,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 179.5,
+     "line": 180.5,
      "values": [
       247,
       229,
@@ -24111,7 +23600,7 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Over",
-     "line": 38.5,
+     "line": 37.5,
      "values": [
       90,
       52,
@@ -24203,7 +23692,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 240.5,
+     "line": 241.5,
      "values": [
       253,
       210,
@@ -24355,31 +23844,31 @@
     "NYG": "J.J. McCarthy"
    },
    "model_score": {
-    "WAS": 19.9,
-    "NYG": 24.1
+    "WAS": 19.4,
+    "NYG": 23.9
    },
    "picks": {
     "spread": {
      "market": "NYG -1.5",
-     "model_line": "NYG -4",
-     "edge_pts": 2.7,
+     "model_line": "NYG -4.5",
+     "edge_pts": 3.1,
      "pick": "NYG -1.5",
      "team": "NYG",
      "line": -1.5,
      "price": "-105",
-     "prob": 0.528,
-     "ev": 0.031,
+     "prob": 0.532,
+     "ev": 0.038,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "44.5",
-     "model_line": "43.9",
-     "edge_pts": 0.6,
+     "model_line": "43.3",
+     "edge_pts": 1.2,
      "pick": "Under 44.5",
      "price": "-110",
-     "prob": 0.506,
-     "ev": -0.034,
+     "prob": 0.512,
+     "ev": -0.022,
      "bet": false,
      "stars": 0
     },
@@ -24388,8 +23877,8 @@
      "market_prob": 0.517,
      "pick": "NYG ML",
      "price": "-118",
-     "prob": 0.545,
-     "ev": 0.007,
+     "prob": 0.549,
+     "ev": 0.014,
      "bet": false,
      "stars": 0
     }
@@ -24403,14 +23892,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 172.5,
-     "median": 167.6,
+     "projection": 172.3,
+     "median": 167.5,
      "over_if_line_at_or_below": 159.5,
      "under_if_line_at_or_above": 175.5,
      "matchup": {
       "side": "Under",
-      "line": 189.5,
-      "prob": 0.666,
+      "line": 190.5,
+      "prob": 0.674,
       "usual": 195.1,
       "eligible": true
      },
@@ -24431,7 +23920,7 @@
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.548,
+      "prob": 0.546,
       "usual": 1.2,
       "eligible": true
      }
@@ -24445,13 +23934,13 @@
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 41.9,
-     "median": 37.9,
+     "median": 37.5,
      "over_if_line_at_or_below": 33.5,
      "under_if_line_at_or_above": 41.5,
      "matchup": {
       "side": "Under",
       "line": 38.5,
-      "prob": 0.509,
+      "prob": 0.505,
       "usual": 42.5,
       "eligible": true
      }
@@ -24476,14 +23965,14 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 35.3,
-     "median": 31.6,
+     "projection": 35.0,
+     "median": 31.4,
      "over_if_line_at_or_below": 28.5,
-     "under_if_line_at_or_above": 35.5,
+     "under_if_line_at_or_above": 34.5,
      "matchup": {
       "side": "Over",
       "line": 31.5,
-      "prob": 0.518,
+      "prob": 0.515,
       "usual": 34.4,
       "eligible": true
      }
@@ -24496,14 +23985,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 11.0,
-     "median": 9.4,
+     "projection": 10.8,
+     "median": 9.2,
      "over_if_line_at_or_below": 7.5,
-     "under_if_line_at_or_above": 11.5,
+     "under_if_line_at_or_above": 10.5,
      "matchup": {
       "side": "Under",
       "line": 11.5,
-      "prob": 0.623,
+      "prob": 0.63,
       "usual": 13.6,
       "eligible": false
      }
@@ -24523,7 +24012,7 @@
      "matchup": {
       "side": "Under",
       "line": 2.5,
-      "prob": 0.609,
+      "prob": 0.603,
       "usual": 2.5,
       "eligible": true
      },
@@ -24549,7 +24038,7 @@
      "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
-     "projection": 19.7,
+     "projection": 19.8,
      "median": 17.7,
      "over_if_line_at_or_below": 15.5,
      "under_if_line_at_or_above": 19.5,
@@ -24569,14 +24058,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 9.6,
-     "median": 8.3,
+     "projection": 9.7,
+     "median": 8.2,
      "over_if_line_at_or_below": 6.5,
      "under_if_line_at_or_above": 9.5,
      "matchup": {
       "side": "Under",
       "line": 10.5,
-      "prob": 0.623,
+      "prob": 0.626,
       "usual": 12.0,
       "eligible": false
      }
@@ -24596,7 +24085,7 @@
      "matchup": {
       "side": "Under",
       "line": 1.5,
-      "prob": 0.591,
+      "prob": 0.586,
       "usual": 1.6,
       "eligible": false
      }
@@ -24621,14 +24110,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 31.9,
-     "median": 27.1,
-     "over_if_line_at_or_below": 23.5,
-     "under_if_line_at_or_above": 30.5,
+     "projection": 32.2,
+     "median": 27.6,
+     "over_if_line_at_or_below": 24.5,
+     "under_if_line_at_or_above": 31.5,
      "matchup": {
       "side": "Under",
       "line": 31.5,
-      "prob": 0.578,
+      "prob": 0.567,
       "usual": 36.7,
       "eligible": true
      },
@@ -24647,9 +24136,9 @@
      "over_if_line_at_or_below": 2.5,
      "under_if_line_at_or_above": 4.5,
      "matchup": {
-      "side": "Over",
+      "side": "Under",
       "line": 3.5,
-      "prob": 0.505,
+      "prob": 0.502,
       "usual": 3.4,
       "eligible": true
      }
@@ -24667,58 +24156,6 @@
      "fair_odds": "+1118"
     },
     {
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "NYG",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "projection": 31.4,
-     "median": 26.8,
-     "over_if_line_at_or_below": 23.5,
-     "under_if_line_at_or_above": 30.5,
-     "matchup": {
-      "side": "Under",
-      "line": 30.5,
-      "prob": 0.56,
-      "usual": 34.9,
-      "eligible": true
-     }
-    },
-    {
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "NYG",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 1.8,
-     "median": 2.0,
-     "over_if_line_at_or_below": 0.5,
-     "under_if_line_at_or_above": 2.5,
-     "matchup": {
-      "side": "Under",
-      "line": 1.5,
-      "prob": 0.536,
-      "usual": 1.9,
-      "eligible": false
-     }
-    },
-    {
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "NYG",
-     "pos": "WR",
-     "status": "Questionable",
-     "stat": "Anytime TD",
-     "key": "anytime_td",
-     "projection": "20% to score",
-     "prob_yes": 0.198,
-     "fair_odds": "+405"
-    },
-    {
      "player": "Antonio Williams",
      "team": "WAS",
      "opp": "NYG",
@@ -24726,14 +24163,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 34.7,
-     "median": 29.7,
+     "projection": 35.1,
+     "median": 30.0,
      "over_if_line_at_or_below": 26.5,
      "under_if_line_at_or_above": 33.5,
      "matchup": {
       "side": "Under",
-      "line": 33.5,
-      "prob": 0.563,
+      "line": 32.5,
+      "prob": 0.549,
       "usual": 38.5,
       "eligible": true
      }
@@ -24778,14 +24215,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 41.4,
+     "projection": 41.3,
      "median": 35.1,
      "over_if_line_at_or_below": 30.5,
      "under_if_line_at_or_above": 39.5,
      "matchup": {
       "side": "Under",
       "line": 39.5,
-      "prob": 0.557,
+      "prob": 0.556,
       "usual": 45.6,
       "eligible": true
      }
@@ -24805,7 +24242,7 @@
      "matchup": {
       "side": "Under",
       "line": 4.5,
-      "prob": 0.547,
+      "prob": 0.553,
       "usual": 4.6,
       "eligible": true
      }
@@ -24830,14 +24267,14 @@
      "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
-     "projection": 172.7,
-     "median": 167.9,
+     "projection": 172.6,
+     "median": 167.6,
      "over_if_line_at_or_below": 160.5,
-     "under_if_line_at_or_above": 176.5,
+     "under_if_line_at_or_above": 175.5,
      "matchup": {
       "side": "Over",
       "line": 161.5,
-      "prob": 0.552,
+      "prob": 0.561,
       "usual": 165.6,
       "eligible": true
      }
@@ -24857,7 +24294,7 @@
      "matchup": {
       "side": "Over",
       "line": 0.5,
-      "prob": 0.565,
+      "prob": 0.559,
       "usual": 1.0,
       "eligible": false
      }
@@ -24877,7 +24314,7 @@
      "matchup": {
       "side": "Over",
       "line": 7.5,
-      "prob": 0.521,
+      "prob": 0.506,
       "usual": 8.1,
       "eligible": false
      }
@@ -24895,93 +24332,21 @@
      "fair_odds": "+259"
     },
     {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "WAS",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 60.7,
-     "median": 54.6,
-     "over_if_line_at_or_below": 49.5,
-     "under_if_line_at_or_above": 59.5,
-     "matchup": {
-      "side": "Under",
-      "line": 59.5,
-      "prob": 0.552,
-      "usual": 65.5,
-      "eligible": true
-     }
-    },
-    {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "WAS",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "projection": 17.5,
-     "median": 15.0,
-     "over_if_line_at_or_below": 12.5,
-     "under_if_line_at_or_above": 17.5,
-     "matchup": {
-      "side": "Over",
-      "line": 14.5,
-      "prob": 0.517,
-      "usual": 16.9,
-      "eligible": false
-     }
-    },
-    {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "WAS",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 2.4,
-     "median": 2.0,
-     "over_if_line_at_or_below": 1.5,
-     "under_if_line_at_or_above": 2.5,
-     "matchup": {
-      "side": "Over",
-      "line": 2.5,
-      "prob": 0.53,
-      "usual": 2.2,
-      "eligible": false
-     }
-    },
-    {
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "WAS",
-     "pos": "RB",
-     "status": "Questionable",
-     "stat": "Anytime TD",
-     "key": "anytime_td",
-     "projection": "39% to score",
-     "prob_yes": 0.388,
-     "fair_odds": "+158"
-    },
-    {
      "player": "Malik Nabers",
      "team": "NYG",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 88.3,
-     "median": 75.7,
-     "over_if_line_at_or_below": 67.5,
+     "projection": 87.6,
+     "median": 75.0,
+     "over_if_line_at_or_below": 66.5,
      "under_if_line_at_or_above": 84.5,
      "matchup": {
-      "side": "Over",
+      "side": "Under",
       "line": 75.5,
-      "prob": 0.503,
+      "prob": 0.5,
       "usual": 87.8,
       "eligible": true
      }
@@ -24991,7 +24356,7 @@
      "team": "NYG",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 6.8,
@@ -25001,7 +24366,7 @@
      "matchup": {
       "side": "Over",
       "line": 6.5,
-      "prob": 0.551,
+      "prob": 0.56,
       "usual": 6.5,
       "eligible": true
      }
@@ -25011,7 +24376,7 @@
      "team": "NYG",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "29% to score",
@@ -25026,14 +24391,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 53.1,
-     "median": 45.3,
+     "projection": 53.0,
+     "median": 45.2,
      "over_if_line_at_or_below": 40.5,
      "under_if_line_at_or_above": 50.5,
      "matchup": {
       "side": "Over",
       "line": 39.5,
-      "prob": 0.582,
+      "prob": 0.58,
       "usual": 45.4,
       "eligible": true
      },
@@ -25054,7 +24419,7 @@
      "matchup": {
       "side": "Over",
       "line": 4.5,
-      "prob": 0.555,
+      "prob": 0.554,
       "usual": 4.4,
       "eligible": true
      }
@@ -25079,13 +24444,13 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 40.0,
-     "median": 33.9,
+     "projection": 39.7,
+     "median": 33.8,
      "over_if_line_at_or_below": 29.5,
-     "under_if_line_at_or_above": 38.5,
+     "under_if_line_at_or_above": 37.5,
      "matchup": {
-      "side": "Over",
-      "line": 33.5,
+      "side": "Under",
+      "line": 34.5,
       "prob": 0.503,
       "usual": 39.3,
       "eligible": true
@@ -25106,7 +24471,7 @@
      "matchup": {
       "side": "Over",
       "line": 2.5,
-      "prob": 0.542,
+      "prob": 0.535,
       "usual": 2.4,
       "eligible": false
      }
@@ -25131,14 +24496,14 @@
      "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
-     "projection": 18.6,
-     "median": 15.9,
+     "projection": 18.5,
+     "median": 15.7,
      "over_if_line_at_or_below": 13.5,
-     "under_if_line_at_or_above": 18.5,
+     "under_if_line_at_or_above": 17.5,
      "matchup": {
-      "side": "Under",
-      "line": 16.5,
-      "prob": 0.504,
+      "side": "Over",
+      "line": 15.5,
+      "prob": 0.501,
       "usual": 18.5,
       "eligible": false
      }
@@ -25151,14 +24516,14 @@
      "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
-     "projection": 1.5,
+     "projection": 1.6,
      "median": 1.0,
      "over_if_line_at_or_below": 0.5,
      "under_if_line_at_or_above": 2.5,
      "matchup": {
       "side": "Over",
       "line": 1.5,
-      "prob": 0.522,
+      "prob": 0.527,
       "usual": 1.5,
       "eligible": false
      }
@@ -25176,19 +24541,26 @@
      "fair_odds": "+1104"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 46,
+    "wind_mph": 6,
+    "gust_mph": 8,
+    "precip_prob": 11,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "WAS": [
+     "Treylon Burks (WR) Out",
      "Terry McLaurin (WR) Injured Reserve"
     ],
     "NYG": [
-     "Malik Nabers (WR) Questionable"
+     "Cam Skattebo (RB) Doubtful"
     ]
    },
    "injury_adj": {
-    "WAS": -2.4,
-    "NYG": -1.0
+    "WAS": -2.9,
+    "NYG": -1.2
    },
    "injuries": [
     {
@@ -25201,18 +24573,10 @@
     },
     {
      "team": "NYG",
-     "name": "Malik Nabers",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Head coach John Harbaugh said Nabers (knee) \"practiced fully\" Friday and will be \"full go\" for Sunday's game at Philadelphia, Matt Citak of the Giants' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
      "name": "Cam Skattebo",
      "position": "RB",
-     "status": "Questionable",
-     "detail": "Head coach John Harbaugh said Skattebo (hamstring) didn't practice Friday, but the Giants are \"keeping the door open\" for the running back to play Sunday at Philadelphia, Ryan Dunleavy of the New York Post reports.",
+     "status": "Doubtful",
+     "detail": "Skattebo (hamstring) is listed as doubtful for Sunday's game at Philadelphia, Dan Salomone of the Giants' official site reports.",
      "source": "ESPN"
     },
     {
@@ -25251,7 +24615,7 @@
      "team": "WAS",
      "name": "Dyami Brown",
      "position": "WR",
-     "status": "Questionable",
+     "status": "Out",
      "detail": "Brown (calf) was injured in practice Friday, Martenzie Johnson of The Washington Sun reports.",
      "source": "ESPN"
     },
@@ -25259,7 +24623,7 @@
      "team": "WAS",
      "name": "Treylon Burks",
      "position": "WR",
-     "status": "Questionable",
+     "status": "Out",
      "detail": "Burks (foot) was a non-participant at Thursday's practice.",
      "source": "ESPN"
     },
@@ -25461,6 +24825,24 @@
    ],
    "trends": [
     {
+     "type": "team",
+     "team": "NYG",
+     "opp": "WAS",
+     "kind": "total",
+     "label": "gone over the total",
+     "bet": "over",
+     "agrees": false,
+     "hit": 4,
+     "of": 4,
+     "rate": 1.0,
+     "dots": [
+      true,
+      true,
+      true,
+      true
+     ]
+    },
+    {
      "type": "player",
      "player": "Malik Nabers",
      "team": "NYG",
@@ -25476,8 +24858,8 @@
       165,
       111
      ],
-     "agrees": true,
-     "status": "Questionable",
+     "agrees": false,
+     "status": "Active",
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -25497,33 +24879,15 @@
      "stat": "Rec Yds",
      "key": "rec_yds",
      "side": "Under",
-     "line": 16.5,
+     "line": 15.5,
      "values": [
       0,
       14,
       0,
       4
      ],
-     "agrees": true,
-     "status": "Active",
-     "hit": 4,
-     "of": 4,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "team",
-     "team": "NYG",
-     "opp": "WAS",
-     "kind": "total",
-     "label": "gone over the total",
-     "bet": "over",
      "agrees": false,
+     "status": "Active",
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -25550,7 +24914,7 @@
       7
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -25569,7 +24933,7 @@
      "stat": "Pass Yds",
      "key": "pass_yds",
      "side": "Over",
-     "line": 189.5,
+     "line": 190.5,
      "values": [
       199,
       300,
@@ -25603,58 +24967,6 @@
      ],
      "agrees": false,
      "status": "Active",
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "WAS",
-     "pos": "RB",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Under",
-     "line": 14.5,
-     "values": [
-      8,
-      12,
-      -3
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 3,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Cam Skattebo",
-     "team": "NYG",
-     "opp": "WAS",
-     "pos": "RB",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Under",
-     "line": 2.5,
-     "values": [
-      1,
-      2,
-      1
-     ],
-     "agrees": false,
-     "status": "Questionable",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -25711,36 +25023,6 @@
       true,
       true,
       false
-     ]
-    },
-    {
-     "type": "player",
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "NYG",
-     "pos": "WR",
-     "stat": "Receptions",
-     "key": "receptions",
-     "side": "Over",
-     "line": 1.5,
-     "values": [
-      2,
-      1,
-      2,
-      4,
-      3
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 4,
-     "of": 5,
-     "rate": 0.8,
-     "dots": [
-      true,
-      false,
-      true,
-      true,
-      true
      ]
     },
     {
@@ -26063,34 +25345,6 @@
     },
     {
      "type": "player",
-     "player": "Treylon Burks",
-     "team": "WAS",
-     "opp": "NYG",
-     "pos": "WR",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "side": "Over",
-     "line": 30.5,
-     "values": [
-      47,
-      26,
-      66,
-      81
-     ],
-     "agrees": false,
-     "status": "Questionable",
-     "hit": 3,
-     "of": 4,
-     "rate": 0.75,
-     "dots": [
-      true,
-      false,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "player",
      "player": "Jameis Winston",
      "team": "NYG",
      "opp": "WAS",
@@ -26309,438 +25563,6 @@
      "top": 4,
      "actual": 38.0,
      "result": "L"
-    }
-   ]
-  },
-  {
-   "game_id": "2026_08_KC_DEN",
-   "espn_id": "401873033",
-   "away": "KC",
-   "home": "DEN",
-   "away_name": "Kansas City Chiefs",
-   "home_name": "Denver Broncos",
-   "kickoff": "2026-11-01T21:25:00+00:00",
-   "week": 8,
-   "final": "KC 24 - DEN 28",
-   "picks": {
-    "spread": {
-     "market": "DEN +1.5",
-     "model_line": "DEN +3",
-     "edge_pts": 1.5,
-     "pick": "KC -1.5",
-     "team": "KC",
-     "line": -1.5,
-     "price": "+100",
-     "prob": 0.515,
-     "ev": 0.03,
-     "bet": true,
-     "stars": 1,
-     "result": "L"
-    },
-    "total": {
-     "market": "41.5",
-     "model_line": "37.5",
-     "edge_pts": 4.0,
-     "pick": "Under 41.5",
-     "price": "-108",
-     "prob": 0.543,
-     "ev": 0.046,
-     "bet": true,
-     "stars": 1,
-     "result": "L"
-    },
-    "moneyline": {
-     "market": "KC -112 / DEN -108",
-     "market_prob": 0.504,
-     "pick": "KC ML",
-     "price": "-112",
-     "prob": 0.519,
-     "ev": -0.017,
-     "bet": false,
-     "stars": 0,
-     "result": "L"
-    }
-   },
-   "props": [
-    {
-     "player": "Patrick Mahomes",
-     "team": "KC",
-     "opp": "DEN",
-     "pos": "QB",
-     "status": "Active",
-     "stat": "Pass TDs",
-     "key": "pass_tds",
-     "projection": 1.1,
-     "median": 1.0,
-     "over_if_line_at_or_below": 0.5,
-     "under_if_line_at_or_above": 1.5,
-     "matchup": {
-      "side": "Under",
-      "line": 1.5,
-      "prob": 0.595,
-      "usual": 1.4,
-      "eligible": true
-     },
-     "top": 2,
-     "actual": 3.0,
-     "result": "L"
-    },
-    {
-     "player": "Xavier Worthy",
-     "team": "KC",
-     "opp": "DEN",
-     "pos": "WR",
-     "status": "Active",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 3.3,
-     "median": 3.0,
-     "over_if_line_at_or_below": 2.5,
-     "under_if_line_at_or_above": 3.5,
-     "matchup": {
-      "side": "Under",
-      "line": 3.5,
-      "prob": 0.572,
-      "usual": 3.7,
-      "eligible": true
-     },
-     "top": 4,
-     "actual": 3.0,
-     "result": "W"
-    },
-    {
-     "player": "Bo Nix",
-     "team": "DEN",
-     "opp": "KC",
-     "pos": "QB",
-     "status": "Active",
-     "stat": "Pass TDs",
-     "key": "pass_tds",
-     "projection": 0.9,
-     "median": 1.0,
-     "over_if_line_at_or_below": 0.5,
-     "under_if_line_at_or_above": 1.5,
-     "matchup": {
-      "side": "Under",
-      "line": 1.5,
-      "prob": 0.602,
-      "usual": 1.2,
-      "eligible": true
-     },
-     "top": 1,
-     "actual": 2.0,
-     "result": "L"
-    },
-    {
-     "player": "J.K. Dobbins",
-     "team": "DEN",
-     "opp": "KC",
-     "pos": "RB",
-     "status": "Active",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 47.4,
-     "median": 42.6,
-     "over_if_line_at_or_below": 38.5,
-     "under_if_line_at_or_above": 46.5,
-     "matchup": {
-      "side": "Under",
-      "line": 48.5,
-      "prob": 0.584,
-      "usual": 54.0,
-      "eligible": true
-     },
-     "top": 3,
-     "actual": 13.0,
-     "result": "W"
-    }
-   ]
-  },
-  {
-   "game_id": "2026_08_NE_MIA",
-   "espn_id": "401873034",
-   "away": "NE",
-   "home": "MIA",
-   "away_name": "New England Patriots",
-   "home_name": "Miami Dolphins",
-   "kickoff": "2026-11-01T21:25:00+00:00",
-   "week": 8,
-   "final": "NE 24 - MIA 19",
-   "picks": {
-    "spread": {
-     "market": "MIA +7",
-     "model_line": "MIA +6.5",
-     "edge_pts": 0.3,
-     "pick": "MIA +7",
-     "team": "MIA",
-     "line": 7.0,
-     "price": "-110",
-     "prob": 0.504,
-     "ev": -0.039,
-     "bet": false,
-     "stars": 0,
-     "result": "W"
-    },
-    "total": {
-     "market": "41.5",
-     "model_line": "46.0",
-     "edge_pts": 4.5,
-     "pick": "Over 41.5",
-     "price": "-108",
-     "prob": 0.549,
-     "ev": 0.057,
-     "bet": true,
-     "stars": 2,
-     "result": "W"
-    },
-    "moneyline": {
-     "market": "NE -345 / MIA +275",
-     "market_prob": 0.744,
-     "pick": "NE ML",
-     "price": "-345",
-     "prob": 0.741,
-     "ev": -0.044,
-     "bet": false,
-     "stars": 0,
-     "result": "W"
-    }
-   },
-   "props": [
-    {
-     "player": "Drake Maye",
-     "team": "NE",
-     "opp": "MIA",
-     "pos": "QB",
-     "status": "Active",
-     "stat": "Pass TDs",
-     "key": "pass_tds",
-     "projection": 2.6,
-     "median": 2.0,
-     "over_if_line_at_or_below": 1.5,
-     "under_if_line_at_or_above": 3.5,
-     "matchup": {
-      "side": "Over",
-      "line": 1.5,
-      "prob": 0.634,
-      "usual": 2.0,
-      "eligible": true
-     },
-     "top": 2,
-     "actual": 2.0,
-     "result": "W"
-    },
-    {
-     "player": "Rhamondre Stevenson",
-     "team": "NE",
-     "opp": "MIA",
-     "pos": "RB",
-     "status": "Active",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 47.9,
-     "median": 43.4,
-     "over_if_line_at_or_below": 39.5,
-     "under_if_line_at_or_above": 47.5,
-     "matchup": {
-      "side": "Over",
-      "line": 37.5,
-      "prob": 0.601,
-      "usual": 41.5,
-      "eligible": true
-     },
-     "top": 4,
-     "actual": 82.0,
-     "result": "W"
-    },
-    {
-     "player": "Hunter Henry",
-     "team": "NE",
-     "opp": "MIA",
-     "pos": "TE",
-     "status": "Active",
-     "stat": "Receptions",
-     "key": "receptions",
-     "projection": 4.6,
-     "median": 4.0,
-     "over_if_line_at_or_below": 3.5,
-     "under_if_line_at_or_above": 5.5,
-     "matchup": {
-      "side": "Over",
-      "line": 3.5,
-      "prob": 0.651,
-      "usual": 3.8,
-      "eligible": true
-     },
-     "top": 1,
-     "actual": 3.0,
-     "result": "L"
-    },
-    {
-     "player": "Eli Raridon",
-     "team": "NE",
-     "opp": "MIA",
-     "pos": "TE",
-     "status": "Active",
-     "stat": "Rec Yds",
-     "key": "rec_yds",
-     "projection": 38.6,
-     "median": 33.2,
-     "over_if_line_at_or_below": 29.5,
-     "under_if_line_at_or_above": 37.5,
-     "matchup": {
-      "side": "Over",
-      "line": 27.5,
-      "prob": 0.609,
-      "usual": 31.4,
-      "eligible": true
-     },
-     "top": 3,
-     "actual": 5.0,
-     "result": "L"
-    }
-   ]
-  },
-  {
-   "game_id": "2026_08_LAC_LA",
-   "espn_id": "401873032",
-   "away": "LAC",
-   "home": "LA",
-   "away_name": "Los Angeles Chargers",
-   "home_name": "Los Angeles Rams",
-   "kickoff": "2026-11-01T21:05:00+00:00",
-   "week": 8,
-   "final": "LAC 9 - LA 24",
-   "picks": {
-    "spread": {
-     "market": "LA -6.5",
-     "model_line": "LA -9",
-     "edge_pts": 2.4,
-     "pick": "LA -6.5",
-     "team": "LA",
-     "line": -6.5,
-     "price": "-115",
-     "prob": 0.525,
-     "ev": -0.019,
-     "bet": false,
-     "stars": 0,
-     "result": "W"
-    },
-    "total": {
-     "market": "45.5",
-     "model_line": "33.9",
-     "edge_pts": 11.6,
-     "pick": "Under 45.5",
-     "price": "-108",
-     "prob": 0.622,
-     "ev": 0.198,
-     "bet": true,
-     "stars": 3,
-     "result": "W"
-    },
-    "moneyline": {
-     "market": "LAC +230 / LA -285",
-     "market_prob": 0.71,
-     "pick": "LA ML",
-     "price": "-285",
-     "prob": 0.731,
-     "ev": -0.012,
-     "bet": false,
-     "stars": 0,
-     "result": "W"
-    }
-   },
-   "props": [
-    {
-     "player": "Justin Herbert",
-     "team": "LAC",
-     "opp": "LA",
-     "pos": "QB",
-     "status": "Active",
-     "stat": "Pass Yds",
-     "key": "pass_yds",
-     "projection": 214.1,
-     "median": 207.6,
-     "over_if_line_at_or_below": 198.5,
-     "under_if_line_at_or_above": 217.5,
-     "matchup": {
-      "side": "Over",
-      "line": 198.5,
-      "prob": 0.568,
-      "usual": 202.4,
-      "eligible": true
-     },
-     "top": 4,
-     "actual": 257.0,
-     "result": "W"
-    },
-    {
-     "player": "Omarion Hampton",
-     "team": "LAC",
-     "opp": "LA",
-     "pos": "RB",
-     "status": "Active",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 42.5,
-     "median": 38.2,
-     "over_if_line_at_or_below": 34.5,
-     "under_if_line_at_or_above": 42.5,
-     "matchup": {
-      "side": "Under",
-      "line": 42.5,
-      "prob": 0.572,
-      "usual": 47.7,
-      "eligible": true
-     },
-     "top": 3,
-     "actual": 20.0,
-     "result": "W"
-    },
-    {
-     "player": "Kyren Williams",
-     "team": "LA",
-     "opp": "LAC",
-     "pos": "RB",
-     "status": "Active",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 82.8,
-     "median": 74.1,
-     "over_if_line_at_or_below": 67.5,
-     "under_if_line_at_or_above": 81.5,
-     "matchup": {
-      "side": "Over",
-      "line": 64.5,
-      "prob": 0.594,
-      "usual": 71.8,
-      "eligible": true
-     },
-     "top": 2,
-     "actual": 56.0,
-     "result": "L"
-    },
-    {
-     "player": "Blake Corum",
-     "team": "LA",
-     "opp": "LAC",
-     "pos": "RB",
-     "status": "Active",
-     "stat": "Rush Yds",
-     "key": "rush_yds",
-     "projection": 53.1,
-     "median": 47.6,
-     "over_if_line_at_or_below": 42.5,
-     "under_if_line_at_or_above": 52.5,
-     "matchup": {
-      "side": "Over",
-      "line": 41.5,
-      "prob": 0.598,
-      "usual": 45.9,
-      "eligible": true
-     },
-     "top": 1,
-     "actual": 73.0,
-     "result": "W"
     }
    ]
   }
@@ -29222,15 +28044,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c254 -4",
+      "market": "c254 -4.5",
       "model_line": "c254 -7.5",
-      "edge_pts": 3.4,
-      "pick": "c254 -4",
+      "edge_pts": 2.9,
+      "pick": "c254 -4.5",
       "team": "c254",
-      "line": -4.0,
-      "price": "-112",
-      "prob": 0.521,
-      "ev": -0.013,
+      "line": -4.5,
+      "price": "-105",
+      "prob": 0.518,
+      "ev": 0.012,
       "bet": false,
       "stars": 0
      },
@@ -29250,8 +28072,8 @@
       "market_prob": 0.622,
       "pick": "c254 ML",
       "price": "-185",
-      "prob": 0.643,
-      "ev": -0.009,
+      "prob": 0.64,
+      "ev": -0.014,
       "bet": false,
       "stars": 0
      }
@@ -29392,17 +28214,17 @@
     },
     "picks": {
      "spread": {
-      "market": "c142 +3",
+      "market": "c142 +2.5",
       "model_line": "c142 PK",
-      "edge_pts": 2.9,
-      "pick": "c142 +3",
+      "edge_pts": 2.4,
+      "pick": "c142 +2.5",
       "team": "c142",
-      "line": 3.0,
-      "price": "-118",
-      "prob": 0.518,
-      "ev": -0.043,
-      "bet": false,
-      "stars": 0
+      "line": 2.5,
+      "price": "-102",
+      "prob": 0.515,
+      "ev": 0.02,
+      "bet": true,
+      "stars": 1
      },
      "total": {
       "market": "42.5",
@@ -29420,20 +28242,14 @@
       "market_prob": 0.563,
       "pick": "c251 ML",
       "price": "-142",
-      "prob": 0.546,
-      "ev": -0.07,
+      "prob": 0.549,
+      "ev": -0.065,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 44,
-     "wind_mph": 5,
-     "gust_mph": 7,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29726,7 +28542,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 45,
+     "wind_mph": 3,
+     "gust_mph": 8,
+     "precip_prob": 15,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29869,7 +28691,7 @@
       "pick": "Over 52.5",
       "price": "-105",
       "prob": 0.509,
-      "ev": -0.005,
+      "ev": -0.006,
       "bet": false,
       "stars": 0
      },
@@ -30278,7 +29100,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c333": 26.3,
+     "c333": 26.2,
      "c99": 31.3
     },
     "picks": {
@@ -31581,7 +30403,7 @@
      "spread": {
       "market": "c57 -6",
       "model_line": "c57 -4.5",
-      "edge_pts": 1.5,
+      "edge_pts": 1.6,
       "pick": "c201 +6",
       "team": "c201",
       "line": 6.0,
@@ -32601,7 +31423,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 42,
+     "wind_mph": 9,
+     "gust_mph": 12,
+     "precip_prob": 2,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32764,7 +31592,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 30,
+     "wind_mph": 9,
+     "gust_mph": 21,
+     "precip_prob": 2,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -33254,13 +32088,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 50,
-     "wind_mph": 9,
-     "gust_mph": 19,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -33343,13 +32171,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 78,
-     "wind_mph": 7,
-     "gust_mph": 9,
-     "precip_prob": 9,
-     "precip_in": 0.0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -33741,7 +32563,7 @@
     "qbs": {},
     "model_score": {
      "c2": 24.8,
-     "c344": 26.1
+     "c344": 26.0
     },
     "picks": {},
     "props": [],
@@ -34432,8 +33254,8 @@
    "n_games": 629,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.23164433882275,
-   "hfa": 2.220446049250313e-15,
+   "mu": 26.23114528231755,
+   "hfa": -7.105427357601002e-15,
    "top": [
     [
      "c2390",
@@ -34565,7 +33387,7 @@
     ],
     [
      "c2579",
-     5.4
+     5.5
     ],
     [
      "c30",
