@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T23:48:55.387548+00:00",
+ "generated_at": "2026-11-06T00:25:07.961379+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "unavailable (ReadTimeout)"
+  "Open-Meteo weather": "ok"
  },
  "games": [
   {
@@ -28,31 +28,31 @@
     "BAL": "Joe Fagnano"
    },
    "model_score": {
-    "JAX": 27.7,
-    "BAL": 13.6
+    "JAX": 27.8,
+    "BAL": 12.9
    },
    "picks": {
     "spread": {
      "market": "BAL +10",
-     "model_line": "BAL +14",
-     "edge_pts": 4.1,
+     "model_line": "BAL +15",
+     "edge_pts": 4.8,
      "pick": "JAX -10",
      "team": "JAX",
      "line": -10.0,
      "price": "-110",
-     "prob": 0.542,
-     "ev": 0.035,
+     "prob": 0.55,
+     "ev": 0.051,
      "bet": true,
-     "stars": 1
+     "stars": 2
     },
     "total": {
      "market": "39.5",
-     "model_line": "41.3",
-     "edge_pts": 1.8,
+     "model_line": "40.7",
+     "edge_pts": 1.2,
      "pick": "Over 39.5",
      "price": "-115",
-     "prob": 0.519,
-     "ev": -0.029,
+     "prob": 0.513,
+     "ev": -0.041,
      "bet": false,
      "stars": 0
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.808,
      "pick": "JAX ML",
      "price": "-535",
-     "prob": 0.839,
-     "ev": -0.004,
+     "prob": 0.845,
+     "ev": 0.002,
      "bet": false,
      "stars": 0
     }
@@ -146,7 +146,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 56.8,
@@ -166,7 +166,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 15.7,
@@ -186,7 +186,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.6,
@@ -206,7 +206,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "46% to score",
@@ -290,7 +290,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 58.3,
@@ -310,7 +310,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.6,
@@ -330,7 +330,7 @@
      "team": "JAX",
      "opp": "BAL",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "31% to score",
@@ -853,22 +853,21 @@
     "temp_f": 68,
     "wind_mph": 3,
     "gust_mph": 13,
-    "precip_prob": 43,
+    "precip_prob": 45,
     "precip_in": 0
    },
    "weather_notes": [],
    "injury_notes": {
-    "JAX": [
-     "Bhayshul Tuten (RB) Questionable"
-    ],
+    "JAX": [],
     "BAL": [
      "Lamar Jackson (QB) Injured Reserve",
-     "Tyler Huntley (QB) Injured Reserve"
+     "Tyler Huntley (QB) Injured Reserve",
+     "Kedon Slovis (QB) Out"
     ]
    },
    "injury_adj": {
-    "JAX": -0.8,
-    "BAL": -4.4
+    "JAX": -0.7,
+    "BAL": -5.1
    },
    "injuries": [
     {
@@ -899,7 +898,7 @@
      "team": "BAL",
      "name": "Nate Wiggins",
      "position": "CB",
-     "status": "Questionable",
+     "status": "Out",
      "detail": "Wiggins (illness) is officially listed as questionable for Thursday's game versus the Jaguars, Ryan Mink of the Ravens' official site reports.",
      "source": "ESPN"
     },
@@ -912,19 +911,35 @@
      "source": "ESPN"
     },
     {
-     "team": "JAX",
-     "name": "Travon Walker",
-     "position": "DE",
-     "status": "Questionable",
-     "detail": "Walker (ribs) is questionable to play Thursday night against the Ravens.",
+     "team": "BAL",
+     "name": "Kedon Slovis",
+     "position": "QB",
+     "status": "Out",
+     "detail": "Slovis (coach's decision) is inactive for Thursday's game against Jacksonville but will serve as the team's emergency quarterback.",
      "source": "ESPN"
     },
     {
-     "team": "JAX",
-     "name": "Bhayshul Tuten",
-     "position": "RB",
-     "status": "Questionable",
-     "detail": "Tuten (ankle) is on track to play in Thursday night's game against the Ravens, after going through what Jeremy Fowler of ESPN.com describes as an extensive pregame workout.",
+     "team": "BAL",
+     "name": "Elijah Sarratt",
+     "position": "WR",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "BAL",
+     "name": "Emery Jones Jr.",
+     "position": "OT",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "BAL",
+     "name": "Aeneas Peebles",
+     "position": "DT",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -933,6 +948,38 @@
      "position": "PK",
      "status": "Injured Reserve",
      "detail": "The Ravens placed Loop (groin) on injured reserve Tuesday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "JAX",
+     "name": "Wesley Williams",
+     "position": "DE",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "JAX",
+     "name": "CJ Williams",
+     "position": "WR",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "JAX",
+     "name": "Cam'Ron Silmon-Craig",
+     "position": "S",
+     "status": "Out",
+     "detail": "inactive",
+     "source": "ESPN"
+    },
+    {
+     "team": "JAX",
+     "name": "Alijah Huzzie",
+     "position": "CB",
+     "status": "Out",
+     "detail": "inactive",
      "source": "ESPN"
     },
     {
@@ -954,9 +1001,18 @@
    ],
    "news": [
     {
+     "headline": "Jaguars' Bhayshul Tuten, Travon Walker will face Ravens on 'TNF'",
+     "description": "Jaguars running back Bhayshul Tuten and defensive end Travon Walker are active for Thursday night's game against the Baltimore Ravens.",
+     "published": "2026-11-05T23:54:35Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50393654/jaguars-bhayshul-tuten-travon-walker-active-vs-ravens",
+     "teams": [
+      "JAX"
+     ]
+    },
+    {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -1068,24 +1124,6 @@
       "SEA",
       "SF"
      ]
-    },
-    {
-     "headline": "What has gone right -- and wrong -- for 10 new NFL head coaches in 2026 season",
-     "description": "There are 10 new head coaches in the NFL this season, which ties the most ever. How are things going for each of them after eight weeks?",
-     "published": "2026-11-05T20:08:45Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50369047/2026-nfl-season-10-new-coaches-midseason-good-bad",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "BUF",
-      "CLE",
-      "LV",
-      "MIA",
-      "NYG",
-      "PIT",
-      "TEN"
-     ]
     }
    ],
    "trends": [
@@ -1107,7 +1145,7 @@
       2
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -1262,7 +1300,7 @@
       55
      ],
      "agrees": false,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -1354,7 +1392,7 @@
       104
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -2602,7 +2640,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -3324,7 +3362,7 @@
      "pick": "DEN ML",
      "price": "-155",
      "prob": 0.567,
-     "ev": -0.066,
+     "ev": -0.067,
      "bet": false,
      "stars": 0
     }
@@ -4260,7 +4298,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -4947,7 +4985,7 @@
      "pick": "Under 51.5",
      "price": "-110",
      "prob": 0.501,
-     "ev": -0.044,
+     "ev": -0.043,
      "bet": false,
      "stars": 0
     },
@@ -5991,7 +6029,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -7609,7 +7647,7 @@
     {
      "headline": "Jets' Breece Hall says he's ready to play, cites threats for social media exit",
      "description": "Breece Hall proclaimed himself ready to play Sunday after missing five games with a quad injury -- a period in which he received hostile social media messages.",
-     "published": "2026-11-05T23:36:03Z",
+     "published": "2026-11-05T23:49:18Z",
      "link": "https://www.espn.com/nfl/story/_/id/50393506/jets-breece-hall-return-chiefs-social-media-threats",
      "teams": [
       "NYJ"
@@ -7627,7 +7665,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -9244,7 +9282,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -11093,7 +11131,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -11797,7 +11835,7 @@
      "edge_pts": 2.0,
      "pick": "Over 38.5",
      "price": "-112",
-     "prob": 0.521,
+     "prob": 0.522,
      "ev": -0.013,
      "bet": false,
      "stars": 0
@@ -12678,7 +12716,7 @@
      "name": "Tanner McKee",
      "position": "QB",
      "status": "Questionable",
-     "detail": "questionable",
+     "detail": "McKee (rib) was limited in Thursday's practice.",
      "source": "ESPN"
     },
     {
@@ -12776,7 +12814,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -13532,18 +13570,18 @@
      "line": -4.5,
      "price": "-118",
      "prob": 0.524,
-     "ev": -0.032,
+     "ev": -0.031,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "48.5",
-     "model_line": "42.6",
-     "edge_pts": 5.9,
+     "model_line": "42.7",
+     "edge_pts": 5.8,
      "pick": "Under 48.5",
      "price": "-115",
      "prob": 0.563,
-     "ev": 0.053,
+     "ev": 0.052,
      "bet": true,
      "stars": 2
     },
@@ -13552,8 +13590,8 @@
      "market_prob": 0.664,
      "pick": "LA ML",
      "price": "-225",
-     "prob": 0.686,
-     "ev": -0.009,
+     "prob": 0.687,
+     "ev": -0.008,
      "bet": false,
      "stars": 0
     }
@@ -14433,6 +14471,30 @@
    "injuries": [
     {
      "team": "LA",
+     "name": "Myles Garrett",
+     "position": "DE",
+     "status": "Injured Reserve",
+     "detail": "Garrett (knee) remained limited in Thursday's practice, Greg Beacham of the Associated Press reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
+     "name": "Colby Parkinson",
+     "position": "TE",
+     "status": "Questionable",
+     "detail": "Parkinson (ribs) remained sidelined for Thursday's practice, Greg Beacham of the Associated Press reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
+     "name": "Terrance Ferguson",
+     "position": "TE",
+     "status": "Injured Reserve",
+     "detail": "Ferguson (ankle) was a limited practice participant Thursday, Greg Beacham of the Associated Press reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LA",
      "name": "Trent McDuffie",
      "position": "CB",
      "status": "Questionable",
@@ -14469,38 +14531,6 @@
      "position": "CB",
      "status": "Out",
      "detail": "Watson is expected to undergo shoulder surgery and to miss the remainder of the 2026 season, Gary Klein of the Los Angeles Times reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Terrance Ferguson",
-     "position": "TE",
-     "status": "Injured Reserve",
-     "detail": "Ferguson (ankle) was limited in Wednesday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Colby Parkinson",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Parkinson (ribs) did not practice Wednesday, Sarah Barshop of ESPN.com reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Steve Avila",
-     "position": "G",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "LA",
-     "name": "Myles Garrett",
-     "position": "DE",
-     "status": "Injured Reserve",
-     "detail": "Head coach Sean McVay said Garrett (knee) will practice Wednesday, Sarah Barshop of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -14618,9 +14648,19 @@
    ],
    "news": [
     {
+     "headline": "Commanders offensive line preparing for challenge from Rams defensive front",
+     "description": "\u2014 The Los Angeles Rams ' defensive line can be a massive challenge for opposing offensive lines.",
+     "published": "2026-11-05T23:41:35Z",
+     "link": "http://www.espn.com/nfl/preview?gameId=401873043",
+     "teams": [
+      "LA",
+      "WAS"
+     ]
+    },
+    {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -14731,23 +14771,6 @@
       "PIT",
       "SEA",
       "SF"
-     ]
-    },
-    {
-     "headline": "Millennial minds: How Doyle, Udinski leapt to head of the OC class",
-     "description": "There are nine NFL offensive coordinators 35 or younger. How did these millennials land gigs so early in their careers?",
-     "published": "2026-11-05T13:48:33Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50380026/nfl-offensive-coordinator-doyle-udinski",
-     "teams": [
-      "ATL",
-      "BAL",
-      "CAR",
-      "CLE",
-      "DEN",
-      "JAX",
-      "LA",
-      "PHI",
-      "WAS"
      ]
     }
    ],
@@ -15454,8 +15477,8 @@
     },
     "total": {
      "market": "40.5",
-     "model_line": "35.0",
-     "edge_pts": 5.5,
+     "model_line": "35.1",
+     "edge_pts": 5.4,
      "pick": "Under 40.5",
      "price": "-110",
      "prob": 0.558,
@@ -15468,7 +15491,7 @@
      "market_prob": 0.669,
      "pick": "HOU ML",
      "price": "-230",
-     "prob": 0.66,
+     "prob": 0.659,
      "ev": -0.054,
      "bet": false,
      "stars": 0
@@ -16329,7 +16352,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -17118,7 +17141,7 @@
      "edge_pts": 0.6,
      "pick": "Under 51.5",
      "price": "+100",
-     "prob": 0.493,
+     "prob": 0.494,
      "ev": -0.013,
      "bet": false,
      "stars": 0
@@ -17988,20 +18011,14 @@
      "fair_odds": "+1258"
     }
    ],
-   "weather": {
-    "temp_f": 71,
-    "wind_mph": 7,
-    "gust_mph": 7,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LV": [],
     "SF": [
+     "Demarcus Robinson (WR) Injured Reserve",
      "Mike Evans (WR) Questionable",
-     "Christian McCaffrey (RB) Questionable",
-     "Demarcus Robinson (WR) Injured Reserve"
+     "Christian McCaffrey (RB) Questionable"
     ]
    },
    "injury_adj": {
@@ -18039,6 +18056,14 @@
      "position": "DE",
      "status": "Injured Reserve",
      "detail": "The Raiders placed Johnson (neck) on injured reserve Saturday.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SF",
+     "name": "Demarcus Robinson",
+     "position": "WR",
+     "status": "Injured Reserve",
+     "detail": "Robinson (ankle) practiced on a limited basis Thursday.",
      "source": "ESPN"
     },
     {
@@ -18099,14 +18124,6 @@
     },
     {
      "team": "SF",
-     "name": "Demarcus Robinson",
-     "position": "WR",
-     "status": "Injured Reserve",
-     "detail": "Robinson (ankle) was designated to return from injured reserve Wednesday, Matt Maiocco of NBC Sports Bay Area reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "SF",
      "name": "Nick Bosa",
      "position": "DE",
      "status": "Questionable",
@@ -18158,7 +18175,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -18879,7 +18896,7 @@
      "pick": "Under 44.5",
      "price": "-105",
      "prob": 0.543,
-     "ev": 0.06,
+     "ev": 0.059,
      "bet": true,
      "stars": 2
     },
@@ -19748,13 +19765,7 @@
      "fair_odds": "+327"
     }
    ],
-   "weather": {
-    "temp_f": 50,
-    "wind_mph": 11,
-    "gust_mph": 29,
-    "precip_prob": 2,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "GB": [
@@ -19951,7 +19962,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -20832,7 +20843,7 @@
      "pick": "Over 39.5",
      "price": "-112",
      "prob": 0.516,
-     "ev": -0.023,
+     "ev": -0.024,
      "bet": false,
      "stars": 0
     },
@@ -21585,8 +21596,8 @@
      "Kendrick Bourne (WR) Injured Reserve"
     ],
     "SEA": [
-     "Sam Darnold (QB) Out",
-     "Drew Lock (QB) Questionable"
+     "Drew Lock (QB) Questionable",
+     "Sam Darnold (QB) Out"
     ]
    },
    "injury_adj": {
@@ -21668,6 +21679,14 @@
     },
     {
      "team": "SEA",
+     "name": "Drew Lock",
+     "position": "QB",
+     "status": "Questionable",
+     "detail": "Lock (right elbow) practiced in a limited capacity Thursday, John Boyle of the Seahawks' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SEA",
      "name": "Sam Darnold",
      "position": "QB",
      "status": "Out",
@@ -21704,14 +21723,6 @@
      "position": "LB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "SEA",
-     "name": "Drew Lock",
-     "position": "QB",
-     "status": "Questionable",
-     "detail": "Lock (elbow) is slated to start Sunday's game against the Cardinals, per NFL reporter Andrew Siciliano.",
      "source": "ESPN"
     },
     {
@@ -21778,7 +21789,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -23515,7 +23526,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -25463,9 +25474,9 @@
    ],
    "news": [
     {
-     "headline": "Justin Jefferson high on Vikings offensive potential, doesn't want to waste it",
-     "description": "Speaking for the first time since his frustrations overflowed in Detroit, Justin Jefferson said of the Vikings offense: \"We've got to figure out that answer and figure it out fast.\"",
-     "published": "2026-11-05T23:30:15Z",
+     "headline": "Justin Jefferson high on Vikings' offensive potential, doesn't want to waste it",
+     "description": "Speaking for the first time since his frustrations overflowed in Detroit, Justin Jefferson said of the Vikings' offense: \"We've got to figure out that answer and figure it out fast.\"",
+     "published": "2026-11-05T23:53:26Z",
      "link": "https://www.espn.com/nfl/story/_/id/50393433/justin-jefferson-says-vikings-need-figure-offense",
      "teams": [
       "MIN"
@@ -25474,7 +25485,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -27045,7 +27056,13 @@
      "fair_odds": "+1104"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 44,
+    "wind_mph": 8,
+    "gust_mph": 11,
+    "precip_prob": 13,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "WAS": [
@@ -27207,6 +27224,16 @@
    ],
    "news": [
     {
+     "headline": "Commanders offensive line preparing for challenge from Rams defensive front",
+     "description": "\u2014 The Los Angeles Rams ' defensive line can be a massive challenge for opposing offensive lines.",
+     "published": "2026-11-05T23:41:35Z",
+     "link": "http://www.espn.com/nfl/preview?gameId=401873043",
+     "teams": [
+      "LA",
+      "WAS"
+     ]
+    },
+    {
      "headline": "Giants try to end 13-game losing streak in Philadelphia, as Eagles turn to 3rd-string QB Milton",
      "description": "\u2014 The New York Giants could practically mark an \u2018L\u2019 on their schedule each season as soon as they saw their date in Philadelphia.",
      "published": "2026-11-05T22:22:35Z",
@@ -27219,7 +27246,7 @@
     {
      "headline": "NFL Week 9 uniforms: Eagles rock 'Kelly Green,' Chargers don 'Super Chargers'",
      "description": "Here's a look at what each NFL team is wearing in Week 9, led by throwbacks from the Eagles.",
-     "published": "2026-11-05T20:42:29Z",
+     "published": "2026-11-05T23:52:35Z",
      "link": "https://www.espn.com/nfl/story/_/id/50374069/nfl-week-9-uniforms",
      "teams": [
       "ARI",
@@ -27306,32 +27333,6 @@
       "IND",
       "MIN",
       "NYG"
-     ]
-    },
-    {
-     "headline": "What 18 contenders should do at the NFL trade deadline: Who could get aggressive?",
-     "description": "Should the Giants keep adding? Could the Bills go all-in? Would the Steelers stay conservative? Here's how 18 teams at or above .500 should approach the deadline.",
-     "published": "2026-11-05T18:32:13Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50360077/2026-nfl-trade-deadline-contenders-activity-add-subtract",
-     "teams": [
-      "BAL",
-      "BUF",
-      "CHI",
-      "CIN",
-      "CLE",
-      "DEN",
-      "DET",
-      "GB",
-      "JAX",
-      "KC",
-      "LA",
-      "LV",
-      "MIN",
-      "NE",
-      "NYG",
-      "PIT",
-      "SEA",
-      "SF"
      ]
     }
    ],
@@ -32142,7 +32143,7 @@
       "team": "c2628",
       "line": 7.5,
       "price": "-112",
-      "prob": 0.505,
+      "prob": 0.504,
       "ev": -0.045,
       "bet": false,
       "stars": 0
@@ -32164,13 +32165,19 @@
       "pick": "c12 ML",
       "price": "-310",
       "prob": 0.722,
-      "ev": -0.046,
+      "ev": -0.045,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 61,
+     "wind_mph": 4,
+     "gust_mph": 12,
+     "precip_prob": 8,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -32312,7 +32319,7 @@
       "pick": "c254 ML",
       "price": "-192",
       "prob": 0.649,
-      "ev": -0.014,
+      "ev": -0.013,
       "bet": false,
       "stars": 0
      }
@@ -32492,7 +32499,7 @@
       "pick": "c251 ML",
       "price": "-142",
       "prob": 0.55,
-      "ev": -0.062,
+      "ev": -0.063,
       "bet": false,
       "stars": 0
      }
@@ -32600,7 +32607,7 @@
       "line": -4.5,
       "price": "-115",
       "prob": 0.52,
-      "ev": -0.027,
+      "ev": -0.028,
       "bet": false,
       "stars": 0
      },
@@ -32767,7 +32774,7 @@
       "line": 10.0,
       "price": "-108",
       "prob": 0.516,
-      "ev": -0.005,
+      "ev": -0.006,
       "bet": false,
       "stars": 0
      },
@@ -33071,7 +33078,7 @@
     "qbs": {},
     "model_score": {
      "c2132": 24.0,
-     "c248": 34.5
+     "c248": 34.6
     },
     "picks": {
      "spread": {
@@ -33278,7 +33285,7 @@
       "edge_pts": 0.5,
       "pick": "Under 58.5",
       "price": "-108",
-      "prob": 0.503,
+      "prob": 0.504,
       "ev": -0.03,
       "bet": false,
       "stars": 0
@@ -33832,14 +33839,14 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c68": 42.5,
+     "c68": 42.4,
      "c36": 30.9
     },
     "picks": {
      "spread": {
       "market": "c36 +17.5",
       "model_line": "c36 +11.5",
-      "edge_pts": 5.9,
+      "edge_pts": 6.0,
       "pick": "c36 +17.5",
       "team": "c36",
       "line": 17.5,
@@ -33872,13 +33879,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 59,
-     "wind_mph": 3,
-     "gust_mph": 4,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -34057,13 +34058,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 49,
-     "wind_mph": 5,
-     "gust_mph": 16,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -34215,13 +34210,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 41,
-     "wind_mph": 4,
-     "gust_mph": 8,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -34400,13 +34389,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 46,
-     "wind_mph": 5,
-     "gust_mph": 15,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -34681,7 +34664,7 @@
       "pick": "c57 ML",
       "price": "-238",
       "prob": 0.662,
-      "ev": -0.06,
+      "ev": -0.059,
       "bet": false,
       "stars": 0
      }
@@ -34924,12 +34907,12 @@
    "n_games": 627,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.184447857050408,
-   "hfa": 1.199040866595169e-14,
+   "mu": 26.18566640833106,
+   "hfa": -2.4424906541753444e-15,
    "top": [
     [
      "c2390",
-     14.9
+     14.8
     ],
     [
      "c87",
@@ -35037,7 +35020,7 @@
     ],
     [
      "c235",
-     6.1
+     6.0
     ],
     [
      "c68",
@@ -35053,7 +35036,7 @@
     ],
     [
      "c2449",
-     5.5
+     5.6
     ],
     [
      "c2579",
@@ -35065,7 +35048,7 @@
     ],
     [
      "c158",
-     5.3
+     5.4
     ],
     [
      "c2348",
