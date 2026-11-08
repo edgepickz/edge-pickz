@@ -1,9 +1,7 @@
 {
- "generated_at": "2026-11-08T10:39:13.879081+00:00",
+ "generated_at": "2026-11-08T11:15:20.366255+00:00",
  "season": 2026,
  "sources": {
-  "stats_team_week_2026.csv": "stale cache used (HTTPError)",
-  "injuries_2026.csv": "stale cache used (HTTPError)",
   "nflverse injuries": "ok",
   "nflverse stats/schedule/lines": "ok",
   "ESPN injuries": "ok",
@@ -13658,6 +13656,22 @@
    },
    "injuries": [
     {
+     "team": "HOU",
+     "name": "David Montgomery",
+     "position": "RB",
+     "status": "Out",
+     "detail": "Texans head coach DeMeco Ryans said Wednesday that Montgomery (groin) has made some progress but is still viewed as week-to-week and will remain out for Sunday's game against the Chargers, Jonathan M. Alexander of the Houston Chronicle reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "HOU",
+     "name": "Reed Blankenship",
+     "position": "S",
+     "status": "Out",
+     "detail": "Blankenship (concussion/hand) has been ruled out to face the Chargers on Sunday.",
+     "source": "ESPN"
+    },
+    {
      "team": "LAC",
      "name": "Denzel Perryman",
      "position": "LB",
@@ -13703,22 +13717,6 @@
      "position": "WR",
      "status": "Doubtful",
      "detail": "Thompson (quadriceps/hamstring) is officially listed as doubtful for Sunday's game versus the Texans.",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "Reed Blankenship",
-     "position": "S",
-     "status": "Out",
-     "detail": "Blankenship (concussion/hand) has been ruled out to face the Chargers on Sunday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "David Montgomery",
-     "position": "RB",
-     "status": "Out",
-     "detail": "Texans head coach DeMeco Ryans said Wednesday that Montgomery (groin) has made some progress but is still viewed as week-to-week and will remain out for Sunday's game against the Chargers, Jonathan M. Alexander of the Houston Chronicle reports.",
      "source": "ESPN"
     },
     {
@@ -21217,31 +21215,31 @@
     "MIN": "Kyler Murray"
    },
    "model_score": {
-    "BUF": 21.8,
+    "BUF": 21.3,
     "MIN": 18.8
    },
    "picks": {
     "spread": {
      "market": "MIN +3",
-     "model_line": "MIN +3",
-     "edge_pts": 0.0,
+     "model_line": "MIN +2.5",
+     "edge_pts": 0.5,
      "pick": "MIN +3",
      "team": "MIN",
      "line": 3.0,
      "price": "-105",
-     "prob": 0.5,
-     "ev": -0.024,
+     "prob": 0.505,
+     "ev": -0.014,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "43.5",
-     "model_line": "40.6",
-     "edge_pts": 2.9,
+     "model_line": "40.1",
+     "edge_pts": 3.4,
      "pick": "Under 43.5",
      "price": "-102",
-     "prob": 0.531,
-     "ev": 0.051,
+     "prob": 0.536,
+     "ev": 0.062,
      "bet": true,
      "stars": 2
     },
@@ -21250,8 +21248,8 @@
      "market_prob": 0.604,
      "pick": "BUF ML",
      "price": "-170",
-     "prob": 0.604,
-     "ev": -0.041,
+     "prob": 0.599,
+     "ev": -0.049,
      "bet": false,
      "stars": 0
     }
@@ -22041,30 +22039,48 @@
    "weather": null,
    "weather_notes": [],
    "injury_notes": {
-    "BUF": [],
+    "BUF": [
+     "Josh Palmer (WR) Out"
+    ],
     "MIN": [
      "Kyler Murray (QB) Out"
     ]
    },
    "injury_adj": {
-    "BUF": -0.5,
+    "BUF": -1.0,
     "MIN": -2.9
    },
    "injuries": [
-    {
-     "team": "BUF",
-     "name": "Alec Anderson",
-     "position": "OT",
-     "status": "Questionable",
-     "detail": "Anderson (ankle) is questionable for Monday's tilt versus the Vikings.",
-     "source": "ESPN"
-    },
     {
      "team": "BUF",
      "name": "Dion Dawkins",
      "position": "OT",
      "status": "Questionable",
      "detail": "Dawkins (ribs) is officially questionable to suit up against the Vikings in Week 9.",
+     "source": "ESPN"
+    },
+    {
+     "team": "BUF",
+     "name": "Greg Gaines",
+     "position": "DT",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "BUF",
+     "name": "Josh Palmer",
+     "position": "WR",
+     "status": "Out",
+     "detail": "Hamstring",
+     "source": "NFL report"
+    },
+    {
+     "team": "BUF",
+     "name": "Alec Anderson",
+     "position": "OT",
+     "status": "Questionable",
+     "detail": "Anderson (ankle) is questionable for Monday's tilt versus the Vikings.",
      "source": "ESPN"
     },
     {
@@ -22077,14 +22093,6 @@
     },
     {
      "team": "BUF",
-     "name": "Joshua Palmer",
-     "position": "WR",
-     "status": "Out",
-     "detail": "Palmer (hamstring) has been ruled out for Monday's game in Minnesota, Maddy Glab of the Bills' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "BUF",
      "name": "Jordan Hancock",
      "position": "CB",
      "status": "Injured Reserve",
@@ -22092,9 +22100,33 @@
      "source": "ESPN"
     },
     {
-     "team": "BUF",
-     "name": "Greg Gaines",
-     "position": "DT",
+     "team": "MIN",
+     "name": "Kyler Murray",
+     "position": "QB",
+     "status": "Out",
+     "detail": "Head coach Kevin O'Connell said Saturday that Murray (hamstring) has been ruled out for Monday's game versus the Bills.",
+     "source": "ESPN"
+    },
+    {
+     "team": "MIN",
+     "name": "Jauan Jennings",
+     "position": "WR",
+     "status": "Out",
+     "detail": "Jennings (calf) has been ruled out for Monday's contest versus the Bills.",
+     "source": "ESPN"
+    },
+    {
+     "team": "MIN",
+     "name": "Theo Jackson",
+     "position": "S",
+     "status": "Questionable",
+     "detail": "Quadricep",
+     "source": "NFL report"
+    },
+    {
+     "team": "MIN",
+     "name": "Jay Ward",
+     "position": "S",
      "status": "Questionable",
      "detail": "questionable",
      "source": "ESPN"
@@ -22108,27 +22140,11 @@
      "source": "ESPN"
     },
     {
-     "team": "MIN",
-     "name": "Jauan Jennings",
+     "team": "BUF",
+     "name": "Joshua Palmer",
      "position": "WR",
      "status": "Out",
-     "detail": "Jennings (calf) has been ruled out for Monday's contest versus the Bills.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
-     "name": "Kyler Murray",
-     "position": "QB",
-     "status": "Out",
-     "detail": "Head coach Kevin O'Connell said Saturday that Murray (hamstring) has been ruled out for Monday's game versus the Bills.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
-     "name": "Jay Ward",
-     "position": "S",
-     "status": "Questionable",
-     "detail": "questionable",
+     "detail": "Palmer (hamstring) has been ruled out for Monday's game in Minnesota, Maddy Glab of the Bills' official site reports.",
      "source": "ESPN"
     }
    ],
@@ -46117,8 +46133,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 37,
+     "wind_mph": 12,
+     "gust_mph": 28,
+     "precip_prob": 3,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 12 mph (gusts 28)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -46267,7 +46291,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 71,
+     "wind_mph": 6,
+     "gust_mph": 10,
+     "precip_prob": 22,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -46415,8 +46445,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 35,
+     "wind_mph": 12,
+     "gust_mph": 22,
+     "precip_prob": 3,
+     "precip_in": 0.01
+    },
+    "weather_notes": [
+     "wind 12 mph (gusts 22)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -46611,13 +46649,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 47,
-     "wind_mph": 4,
-     "gust_mph": 7,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -46851,13 +46883,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 43,
-     "wind_mph": 5,
-     "gust_mph": 6,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -46960,13 +46986,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 50,
-     "wind_mph": 4,
-     "gust_mph": 4,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -47426,7 +47446,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 63,
+     "wind_mph": 7,
+     "gust_mph": 10,
+     "precip_prob": 1,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -47511,8 +47537,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c150": 24.9,
-     "c2390": 31.8
+     "c150": 24.2,
+     "c2390": 31.1
     },
     "picks": {
      "spread": {
@@ -47530,12 +47556,12 @@
      },
      "total": {
       "market": "54.5",
-      "model_line": "56.8",
-      "edge_pts": 2.3,
+      "model_line": "55.4",
+      "edge_pts": 0.9,
       "pick": "Over 54.5",
       "price": "-110",
-      "prob": 0.515,
-      "ev": -0.018,
+      "prob": 0.506,
+      "ev": -0.035,
       "bet": false,
       "stars": 0
      },
@@ -47551,8 +47577,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 67,
+     "wind_mph": 16,
+     "gust_mph": 22,
+     "precip_prob": 3,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 16 mph (gusts 22)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -48006,7 +48040,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 46,
+     "wind_mph": 10,
+     "gust_mph": 15,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -48125,8 +48165,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c103": 13.6,
-     "c87": 36.4
+     "c103": 13.4,
+     "c87": 36.2
     },
     "picks": {
      "spread": {
@@ -48144,12 +48184,12 @@
      },
      "total": {
       "market": "52.5",
-      "model_line": "50.0",
-      "edge_pts": 2.5,
+      "model_line": "49.6",
+      "edge_pts": 2.9,
       "pick": "Under 52.5",
       "price": "-110",
-      "prob": 0.516,
-      "ev": -0.014,
+      "prob": 0.519,
+      "ev": -0.01,
       "bet": false,
       "stars": 0
      },
@@ -48165,8 +48205,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 43,
+     "wind_mph": 13,
+     "gust_mph": 19,
+     "precip_prob": 2,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 13 mph (gusts 19)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -48417,7 +48465,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 63,
+     "wind_mph": 9,
+     "gust_mph": 24,
+     "precip_prob": 11,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -48533,7 +48587,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 40,
+     "wind_mph": 5,
+     "gust_mph": 5,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
