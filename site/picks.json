@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T04:40:42.413380+00:00",
+ "generated_at": "2026-11-10T05:30:41.184401+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -798,11 +798,11 @@
     }
    ],
    "weather": {
-    "temp_f": 54,
-    "wind_mph": 6,
+    "temp_f": 55,
+    "wind_mph": 8,
     "gust_mph": 14,
     "precip_prob": 73,
-    "precip_in": 0
+    "precip_in": 0.04
    },
    "weather_notes": [],
    "injury_notes": {
@@ -5544,15 +5544,13 @@
     }
    ],
    "weather": {
-    "temp_f": 46,
-    "wind_mph": 12,
+    "temp_f": 45,
+    "wind_mph": 9,
     "gust_mph": 13,
     "precip_prob": 7,
-    "precip_in": 0.01
+    "precip_in": 0.02
    },
-   "weather_notes": [
-    "wind 12 mph (gusts 13)"
-   ],
+   "weather_notes": [],
    "injury_notes": {
     "HOU": [
      "David Montgomery (RB) Out",
@@ -6394,7 +6392,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 47.2,
@@ -6414,7 +6412,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 1.7,
@@ -6434,7 +6432,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 0.4,
@@ -6454,7 +6452,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "28% to score",
@@ -6466,7 +6464,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 57.1,
@@ -6486,7 +6484,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 5.3,
@@ -6507,7 +6505,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "33% to score",
@@ -6519,7 +6517,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "TE",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 33.5,
@@ -6539,7 +6537,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "TE",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.6,
@@ -6560,7 +6558,7 @@
      "team": "MIN",
      "opp": "GB",
      "pos": "TE",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "29% to score",
@@ -7195,9 +7193,19 @@
    ],
    "news": [
     {
+     "headline": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
+     "description": "\u2014 Josh Allen threw a touchdown pass with 44 seconds left before halftime, James Cook rushed 31 times for 107 yards and a late score, and the Buffalo Bills beat Minnesota 23-6 on Monday night, sending Vikings deeper into their unrelenting offensive slump.",
+     "published": "2026-11-10T05:04:35Z",
+     "link": "http://www.espn.com/nfl/recap?gameId=401873051",
+     "teams": [
+      "BUF",
+      "MIN"
+     ]
+    },
+    {
      "headline": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
      "description": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
-     "published": "2026-11-10T04:29:51Z",
+     "published": "2026-11-10T05:01:02Z",
      "link": "https://www.espn.com/video/clip/_/id/50439406/josh-allen-bills-outlast-vikings-23-6-mnf",
      "teams": [
       "BUF",
@@ -7205,9 +7213,9 @@
      ]
     },
     {
-     "headline": "Josh Allen leads Bills to win over tough Vikings' defense",
+     "headline": "Josh Allen leads Bills to win over tough Vikings defense",
      "description": "The Vikings kept Allen in check for much of the game, but he helped the Bills earn a low-scoring victory.",
-     "published": "2026-11-10T04:36:18Z",
+     "published": "2026-11-10T05:09:21Z",
      "link": "https://www.espn.com/nfl/story/_/id/50435734/bills-vikings-josh-allen-carson-wentz-mnf",
      "teams": [
       "BUF",
@@ -7278,15 +7286,6 @@
       "SEA",
       "SF",
       "TEN"
-     ]
-    },
-    {
-     "headline": "Packers coach: Josh Jacobs needs surgery on finger",
-     "description": "Packers coach: Josh Jacobs needs surgery on finger",
-     "published": "2026-11-09T22:55:45Z",
-     "link": "https://www.espn.com/video/clip/_/id/50436023/josh-jacobs-needs-surgery-finger",
-     "teams": [
-      "GB"
      ]
     }
    ],
@@ -7461,7 +7460,7 @@
       0
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -7487,7 +7486,7 @@
       0
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -7775,7 +7774,7 @@
       33
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -7803,7 +7802,7 @@
       58
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -7831,7 +7830,7 @@
       4
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -7947,31 +7946,31 @@
     "IND": "Daniel Jones"
    },
    "model_score": {
-    "MIA": 21.1,
+    "MIA": 21.0,
     "IND": 21.2
    },
    "picks": {
     "spread": {
      "market": "IND -2.5",
      "model_line": "IND PK",
-     "edge_pts": 2.5,
+     "edge_pts": 2.4,
      "pick": "MIA +2.5",
      "team": "MIA",
      "line": 2.5,
      "price": "-110",
-     "prob": 0.526,
-     "ev": 0.004,
+     "prob": 0.525,
+     "ev": 0.002,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "40.5",
-     "model_line": "42.3",
-     "edge_pts": 1.8,
+     "model_line": "42.2",
+     "edge_pts": 1.7,
      "pick": "Over 40.5",
      "price": "-108",
-     "prob": 0.519,
-     "ev": -0.0,
+     "prob": 0.518,
+     "ev": -0.002,
      "bet": false,
      "stars": 0
     },
@@ -7980,8 +7979,8 @@
      "market_prob": 0.551,
      "pick": "IND ML",
      "price": "-135",
-     "prob": 0.526,
-     "ev": -0.084,
+     "prob": 0.527,
+     "ev": -0.083,
      "bet": false,
      "stars": 0
     }
@@ -8727,7 +8726,7 @@
     ]
    },
    "injury_adj": {
-    "MIA": -0.9,
+    "MIA": -1.0,
     "IND": -1.2
    },
    "injuries": [
@@ -8809,6 +8808,14 @@
      "position": "TE",
      "status": "Questionable",
      "detail": "Kacmarek is dealing with a quad injury and is questionable to return to Sunday's clash against Detroit.",
+     "source": "ESPN"
+    },
+    {
+     "team": "MIA",
+     "name": "Darrell Baker Jr.",
+     "position": "CB",
+     "status": "Out",
+     "detail": "Baker (undisclosed) is not ready to return to practice, David Furones of the South Florida Sun Sentinel reports.",
      "source": "ESPN"
     }
    ],
@@ -10912,7 +10919,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "QB",
-     "status": null,
+     "status": "Active",
      "stat": "Pass Yds",
      "key": "pass_yds",
      "projection": 230.4,
@@ -10933,7 +10940,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "QB",
-     "status": null,
+     "status": "Active",
      "stat": "Pass TDs",
      "key": "pass_tds",
      "projection": 1.7,
@@ -10953,7 +10960,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "QB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 37.6,
@@ -10973,7 +10980,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "QB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "55% to score",
@@ -10985,7 +10992,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 106.4,
@@ -11005,7 +11012,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 17.0,
@@ -11025,7 +11032,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.6,
@@ -11045,7 +11052,7 @@
      "team": "BUF",
      "opp": "NYJ",
      "pos": "RB",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "55% to score",
@@ -11852,9 +11859,19 @@
    ],
    "news": [
     {
+     "headline": "Josh Allen and the Bills move to 7-1 with a 23-6 win over the sputtering Vikings",
+     "description": "\u2014 Josh Allen threw a touchdown pass with 44 seconds left before halftime, James Cook rushed 31 times for 107 yards and a late score, and the Buffalo Bills beat Minnesota 23-6 on Monday night, sending Vikings deeper into their unrelenting offensive slump.",
+     "published": "2026-11-10T05:04:35Z",
+     "link": "http://www.espn.com/nfl/recap?gameId=401873051",
+     "teams": [
+      "BUF",
+      "MIN"
+     ]
+    },
+    {
      "headline": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
      "description": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
-     "published": "2026-11-10T04:29:51Z",
+     "published": "2026-11-10T05:01:02Z",
      "link": "https://www.espn.com/video/clip/_/id/50439406/josh-allen-bills-outlast-vikings-23-6-mnf",
      "teams": [
       "BUF",
@@ -11862,9 +11879,9 @@
      ]
     },
     {
-     "headline": "Josh Allen leads Bills to win over tough Vikings' defense",
+     "headline": "Josh Allen leads Bills to win over tough Vikings defense",
      "description": "The Vikings kept Allen in check for much of the game, but he helped the Bills earn a low-scoring victory.",
-     "published": "2026-11-10T04:36:18Z",
+     "published": "2026-11-10T05:09:21Z",
      "link": "https://www.espn.com/nfl/story/_/id/50435734/bills-vikings-josh-allen-carson-wentz-mnf",
      "teams": [
       "BUF",
@@ -11936,16 +11953,6 @@
       "SF",
       "TEN"
      ]
-    },
-    {
-     "headline": "Jets trade safety Andre Cisco to injury-plagued Lions for draft pick",
-     "description": "The Lions added to their injury-plagued secondary Monday, acquiring safety Andre Cisco in a trade with the Jets.",
-     "published": "2026-11-09T21:55:40Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50434559/sources-jets-trade-safety-andre-cisco-lions",
-     "teams": [
-      "DET",
-      "NYJ"
-     ]
     }
    ],
    "trends": [
@@ -11967,7 +11974,7 @@
       1
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -12134,7 +12141,7 @@
       30
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -12164,7 +12171,7 @@
       1
      ],
      "agrees": true,
-     "status": null,
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -12375,7 +12382,7 @@
       289
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -12403,7 +12410,7 @@
       2
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -21041,13 +21048,7 @@
      "fair_odds": "+636"
     }
    ],
-   "weather": {
-    "temp_f": 45,
-    "wind_mph": 6,
-    "gust_mph": 17,
-    "precip_prob": 2,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LAC": [
@@ -26403,7 +26404,7 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 74,
+     "temp_f": 73,
      "wind_mph": 12,
      "gust_mph": 13,
      "precip_prob": 0,
@@ -26836,7 +26837,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 6,
+     "gust_mph": 10,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27002,7 +27009,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 48,
+     "wind_mph": 5,
+     "gust_mph": 8,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27334,13 +27347,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 50,
-     "wind_mph": 9,
-     "gust_mph": 25,
-     "precip_prob": 53,
-     "precip_in": 0.0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27474,8 +27481,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 42,
-     "wind_mph": 10,
+     "temp_f": 40,
+     "wind_mph": 8,
      "gust_mph": 12,
      "precip_prob": 4,
      "precip_in": 0
@@ -27587,8 +27594,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c239": 23.5,
-     "c252": 23.7
+     "c239": 24.2,
+     "c252": 24.5
     },
     "picks": {
      "spread": {
@@ -27606,12 +27613,12 @@
      },
      "total": {
       "market": "49.5",
-      "model_line": "47.2",
-      "edge_pts": 2.3,
-      "pick": "Under 49.5",
-      "price": "-115",
-      "prob": 0.515,
-      "ev": -0.038,
+      "model_line": "48.7",
+      "edge_pts": 0.8,
+      "pick": "Over 49.5",
+      "price": "-105",
+      "prob": 0.495,
+      "ev": -0.034,
       "bet": false,
       "stars": 0
      },
@@ -27627,16 +27634,8 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 50,
-     "wind_mph": 8,
-     "gust_mph": 10,
-     "precip_prob": 51,
-     "precip_in": 0.06
-    },
-    "weather_notes": [
-     "51% chance of rain/snow"
-    ],
+    "weather": null,
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -27693,7 +27692,7 @@
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": false,
+      "agrees": true,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -27766,13 +27765,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 46,
-     "wind_mph": 8,
-     "gust_mph": 10,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27937,8 +27930,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 53,
-     "wind_mph": 8,
+     "temp_f": 54,
+     "wind_mph": 7,
      "gust_mph": 17,
      "precip_prob": 0,
      "precip_in": 0
@@ -28060,8 +28053,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c145": 25.1,
-     "c201": 24.8
+     "c145": 24.7,
+     "c201": 24.5
     },
     "picks": {
      "spread": {
@@ -28079,12 +28072,12 @@
      },
      "total": {
       "market": "48.5",
-      "model_line": "49.9",
-      "edge_pts": 1.4,
+      "model_line": "49.2",
+      "edge_pts": 0.7,
       "pick": "Under 48.5",
       "price": "-105",
-      "prob": 0.491,
-      "ev": -0.041,
+      "prob": 0.496,
+      "ev": -0.032,
       "bet": false,
       "stars": 0
      },
@@ -28101,14 +28094,14 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 57,
-     "wind_mph": 12,
+     "temp_f": 65,
+     "wind_mph": 14,
      "gust_mph": 19,
      "precip_prob": 1,
      "precip_in": 0
     },
     "weather_notes": [
-     "wind 12 mph (gusts 19)"
+     "wind 14 mph (gusts 19)"
     ],
     "injury_adj": {},
     "injuries": [],
@@ -28204,8 +28197,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 52,
-     "wind_mph": 7,
+     "temp_f": 54,
+     "wind_mph": 5,
      "gust_mph": 10,
      "precip_prob": 25,
      "precip_in": 0.01
@@ -28360,13 +28353,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 36,
-     "wind_mph": 6,
-     "gust_mph": 9,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28555,15 +28542,13 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 66,
-     "wind_mph": 12,
+     "temp_f": 65,
+     "wind_mph": 11,
      "gust_mph": 15,
      "precip_prob": 13,
      "precip_in": 0
     },
-    "weather_notes": [
-     "wind 12 mph (gusts 15)"
-    ],
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -28714,13 +28699,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 58,
-     "wind_mph": 6,
-     "gust_mph": 10,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28839,13 +28818,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 35,
-     "wind_mph": 1,
-     "gust_mph": 2,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29021,8 +28994,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 40,
-     "wind_mph": 5,
+     "temp_f": 46,
+     "wind_mph": 8,
      "gust_mph": 14,
      "precip_prob": 1,
      "precip_in": 0
@@ -29191,13 +29164,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 48,
-     "wind_mph": 10,
-     "gust_mph": 24,
-     "precip_prob": 10,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29297,7 +29264,7 @@
    "n_fbs": 138,
    "n_teams": 139,
    "mu": 26.35922190187555,
-   "hfa": -6.439293542825908e-15,
+   "hfa": -5.551115123125783e-15,
    "top": [
     [
      "c154",
