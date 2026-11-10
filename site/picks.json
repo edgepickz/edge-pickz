@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:31:32.860303+00:00",
+ "generated_at": "2026-11-10T13:37:52.951029+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -800,7 +800,7 @@
    "weather": {
     "temp_f": 51,
     "wind_mph": 10,
-    "gust_mph": 15,
+    "gust_mph": 20,
     "precip_prob": 58,
     "precip_in": 0.0
    },
@@ -810,8 +810,8 @@
      "Treylon Burks (WR) Out"
     ],
     "NYG": [
-     "Cam Skattebo (RB) Out",
-     "J.J. McCarthy (QB) Questionable"
+     "J.J. McCarthy (QB) Questionable",
+     "Cam Skattebo (RB) Out"
     ]
    },
    "injury_adj": {
@@ -825,14 +825,6 @@
      "position": "WR",
      "status": "Questionable",
      "detail": "Mooney (chest) was estimated to be a limited participant at the Giants' walkthrough practice Monday, Dan Salomone of the team's official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
-     "name": "Cam Skattebo",
-     "position": "RB",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -868,11 +860,11 @@
      "source": "ESPN"
     },
     {
-     "team": "WAS",
-     "name": "Treylon Burks",
-     "position": "WR",
+     "team": "NYG",
+     "name": "Cam Skattebo",
+     "position": "RB",
      "status": "Out",
-     "detail": "out",
+     "detail": "Skattebo (hamstring) was listed as limited on Monday's estimated injury report, Dan Salomone of the Giants' official site reports.",
      "source": "ESPN"
     },
     {
@@ -881,6 +873,14 @@
      "position": "TE",
      "status": "Questionable",
      "detail": "Okonkwo was deemed a limited participant on Washington's estimated practice report Monday due to a hip injury, John Keim of ESPN.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
+     "name": "Treylon Burks",
+     "position": "WR",
+     "status": "Out",
+     "detail": "Burks (foot) was deemed a non-participant on the Commanders' practice report Monday, John Keim of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -941,6 +941,32 @@
     }
    ],
    "news": [
+    {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
     {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
@@ -1063,32 +1089,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     }
    ],
@@ -2539,8 +2539,8 @@
    "weather_notes": [],
    "injury_notes": {
     "NE": [
-     "A.J. Brown (WR) Out",
-     "TreVeyon Henderson (RB) Out"
+     "TreVeyon Henderson (RB) Out",
+     "A.J. Brown (WR) Out"
     ],
     "DET": []
    },
@@ -2631,14 +2631,6 @@
     },
     {
      "team": "NE",
-     "name": "A.J. Brown",
-     "position": "WR",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "NE",
      "name": "Charles Woods",
      "position": "CB",
      "status": "Out",
@@ -2651,6 +2643,14 @@
      "position": "RB",
      "status": "Out",
      "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
+     "name": "A.J. Brown",
+     "position": "WR",
+     "status": "Out",
+     "detail": "Brown (knee) is trending toward traveling with the Patriots for their trip to Munich, where the team will face the Lions this coming weekend, according to Mark Daniels of MassLive.com.",
      "source": "ESPN"
     },
     {
@@ -2687,6 +2687,32 @@
     }
    ],
    "news": [
+    {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
     {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
@@ -2809,32 +2835,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     }
    ],
@@ -4281,6 +4281,32 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
      "published": "2026-11-10T11:21:42Z",
@@ -4404,32 +4430,6 @@
       "ATL",
       "JAX",
       "PHI"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     }
    ],
@@ -5592,7 +5592,7 @@
    "weather": {
     "temp_f": 45,
     "wind_mph": 11,
-    "gust_mph": 10,
+    "gust_mph": 15,
     "precip_prob": 8,
     "precip_in": 0.01
    },
@@ -5624,15 +5624,7 @@
      "name": "Deshaun Watson",
      "position": "QB",
      "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "David Montgomery",
-     "position": "RB",
-     "status": "Out",
-     "detail": "out",
+     "detail": "The Browns are planning for Watson (concussion) to start Sunday's game against the Texans, Jeremy Fowler of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -5641,6 +5633,14 @@
      "position": "S",
      "status": "Out",
      "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "HOU",
+     "name": "David Montgomery",
+     "position": "RB",
+     "status": "Out",
+     "detail": "Coach DeMeco Ryans said Monday he's hopeful that Montgomery (groin) resumes practicing this week, or next week, Aaron Wilson of KPRC 2 Houston reports.",
      "source": "ESPN"
     },
     {
@@ -5654,9 +5654,35 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
      "description": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
-     "published": "2026-11-10T11:58:14Z",
+     "published": "2026-11-10T13:25:13Z",
      "link": "https://www.espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
      "teams": [
       "CLE",
@@ -5779,15 +5805,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "A 'confident' C.J. Stroud soaks in five-TD day against Chargers",
-     "description": "Stroud matched his career high with five TD passes and added 384 passing yards in the win.",
-     "published": "2026-11-10T02:23:21Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50434826/texans-cj-stroud-five-tds-chargers",
-     "teams": [
-      "HOU"
      ]
     }
    ],
@@ -7206,7 +7223,7 @@
     {
      "headline": "Fantasy buzz: James Cook III helps Bills overcome tough Vikings defense",
      "description": "Buffalo's offense struggled on Monday night, but James Cook III was able to do enough to defeat Vikings.",
-     "published": "2026-11-10T12:19:19Z",
+     "published": "2026-11-10T12:56:53Z",
      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
      "teams": [
       "BUF",
@@ -7214,9 +7231,35 @@
      ]
     },
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
      "description": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
-     "published": "2026-11-10T11:58:14Z",
+     "published": "2026-11-10T13:25:13Z",
      "link": "https://www.espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
      "teams": [
       "CLE",
@@ -7299,15 +7342,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Vikings left at QB crossroads after Carson Wentz's poor MNF showing vs. Bills",
-     "description": "After a historically poor performance by Carson Wentz on Monday night, Vikings coach Kevin O'Connell was asked whether the team might trade for a QB ahead of Tuesday's deadline. He deferred the question to GM Nolan Teasley.",
-     "published": "2026-11-10T07:42:36Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50440119/vikings-kevin-oconnell-defers-qb-trade-question-gm-poor-mnf-outing-carson-wentz",
-     "teams": [
-      "MIN"
      ]
     }
    ],
@@ -8821,6 +8855,32 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
      "published": "2026-11-10T11:21:42Z",
@@ -8933,32 +8993,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     },
     {
@@ -10344,6 +10378,32 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
      "published": "2026-11-10T11:21:42Z",
@@ -10456,32 +10516,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     },
     {
@@ -10961,31 +10995,31 @@
     "NYJ": "Geno Smith"
    },
    "model_score": {
-    "BUF": 29.3,
+    "BUF": 29.7,
     "NYJ": 18.7
    },
    "picks": {
     "spread": {
      "market": "NYJ +8.5",
-     "model_line": "NYJ +10.5",
-     "edge_pts": 2.1,
+     "model_line": "NYJ +11",
+     "edge_pts": 2.4,
      "pick": "BUF -8.5",
      "team": "BUF",
      "line": -8.5,
      "price": "-110",
-     "prob": 0.522,
-     "ev": -0.004,
+     "prob": 0.525,
+     "ev": 0.003,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "50.5",
-     "model_line": "48.1",
-     "edge_pts": 2.4,
+     "model_line": "48.4",
+     "edge_pts": 2.1,
      "pick": "Under 50.5",
      "price": "-115",
-     "prob": 0.526,
-     "ev": -0.016,
+     "prob": 0.523,
+     "ev": -0.023,
      "bet": false,
      "stars": 0
     },
@@ -10994,8 +11028,8 @@
      "market_prob": 0.812,
      "pick": "BUF ML",
      "price": "-550",
-     "prob": 0.83,
-     "ev": -0.02,
+     "prob": 0.832,
+     "ev": -0.017,
      "bet": false,
      "stars": 0
     }
@@ -11817,7 +11851,7 @@
     ]
    },
    "injury_adj": {
-    "BUF": -1.1,
+    "BUF": -0.8,
     "NYJ": -2.1
    },
    "injuries": [
@@ -11831,26 +11865,26 @@
     },
     {
      "team": "BUF",
-     "name": "Dion Dawkins",
-     "position": "OT",
-     "status": "Out",
-     "detail": "inactive",
-     "source": "ESPN"
-    },
-    {
-     "team": "BUF",
      "name": "Greg Gaines",
      "position": "DT",
-     "status": "Out",
-     "detail": "inactive",
+     "status": "Questionable",
+     "detail": "Gaines (calf) is inactive for Monday's game versus Minnesota.",
      "source": "ESPN"
     },
     {
      "team": "BUF",
      "name": "Alec Anderson",
      "position": "OT",
-     "status": "Out",
-     "detail": "inactive",
+     "status": "Questionable",
+     "detail": "Anderson (ankle) is inactive for Monday's matchup against Minnesota.",
+     "source": "ESPN"
+    },
+    {
+     "team": "BUF",
+     "name": "Dion Dawkins",
+     "position": "OT",
+     "status": "Questionable",
+     "detail": "Dawkins (ribs) is inactive for Monday's game against the Vikings.",
      "source": "ESPN"
     },
     {
@@ -11946,11 +11980,37 @@
     {
      "headline": "Fantasy buzz: James Cook III helps Bills overcome tough Vikings defense",
      "description": "Buffalo's offense struggled on Monday night, but James Cook III was able to do enough to defeat Vikings.",
-     "published": "2026-11-10T12:19:19Z",
+     "published": "2026-11-10T12:56:53Z",
      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
      "teams": [
       "BUF",
       "MIN"
+     ]
+    },
+    {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
      ]
     },
     {
@@ -12033,16 +12093,6 @@
      "description": "\u2014 The Buffalo Bills knew they weren't bound for many style points or likely to reach their league-leading scoring average against Minnesota's relentlessly...",
      "published": "2026-11-10T06:12:35Z",
      "link": "http://www.espn.com/nfl/recap?gameId=401873051",
-     "teams": [
-      "BUF",
-      "MIN"
-     ]
-    },
-    {
-     "headline": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
-     "description": "Josh Allen, Bills outlast Vikings 23-6 on MNF",
-     "published": "2026-11-10T05:01:02Z",
-     "link": "https://www.espn.com/video/clip/_/id/50439406/josh-allen-bills-outlast-vikings-23-6-mnf",
      "teams": [
       "BUF",
       "MIN"
@@ -13439,9 +13489,35 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
      "description": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
-     "published": "2026-11-10T11:58:14Z",
+     "published": "2026-11-10T13:25:13Z",
      "link": "https://www.espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
      "teams": [
       "CLE",
@@ -13564,17 +13640,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Are Jaguars all-in after trades for Bates, Davis? Plus Eagles, Falcons reaction",
-     "description": "Jacksonville made a trio of trades Monday. What it means for Eagles and Falcons ... and the Jaguars' Super Bowl hopes.",
-     "published": "2026-11-10T00:39:55Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50432490/jaguars-trade-jessie-bates-iii-falcons-draft",
-     "teams": [
-      "ATL",
-      "JAX",
-      "PHI"
      ]
     }
    ],
@@ -14863,6 +14928,32 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
      "published": "2026-11-10T11:21:42Z",
@@ -14984,32 +15075,6 @@
      "link": "https://www.espn.com/video/clip/_/id/50436652/worried-puka-longevity",
      "teams": [
       "LA"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     }
    ],
@@ -16375,7 +16440,7 @@
      "name": "Sam Darnold",
      "position": "QB",
      "status": "Out",
-     "detail": "out",
+     "detail": "Darnold (quadriceps), who won't play this coming Sunday at Las Vegas, is expected to return in Week 12 at San Francisco on Sunday, Nov. 29 after a Week 11 bye, Gregg Bell of Sports Radio 93.3 KJR Seattle reports.",
      "source": "ESPN"
     },
     {
@@ -16429,9 +16494,35 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
      "description": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
-     "published": "2026-11-10T11:58:14Z",
+     "published": "2026-11-10T13:25:13Z",
      "link": "https://www.espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
      "teams": [
       "CLE",
@@ -16554,32 +16645,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     }
    ],
@@ -17857,14 +17922,6 @@
    "injuries": [
     {
      "team": "DAL",
-     "name": "Joey Porter Jr.",
-     "position": "CB",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "DAL",
      "name": "Jake Ferguson",
      "position": "TE",
      "status": "Out",
@@ -17881,18 +17938,26 @@
     },
     {
      "team": "DAL",
-     "name": "George Pickens",
-     "position": "WR",
+     "name": "P.J. Locke",
+     "position": "S",
      "status": "Out",
      "detail": "out",
      "source": "ESPN"
     },
     {
      "team": "DAL",
-     "name": "P.J. Locke",
-     "position": "S",
+     "name": "Joey Porter Jr.",
+     "position": "CB",
      "status": "Out",
-     "detail": "out",
+     "detail": "Porter \"will go through the same process as last week\" before a decision is made regarding his availability for Week 10 against San Francisco, Jon Machota of The Athletic reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DAL",
+     "name": "George Pickens",
+     "position": "WR",
+     "status": "Out",
+     "detail": "Pickens (hamstring) has a chance to play Sunday against San Francisco, but his practice reps will likely again be capped this week, Jon Machota of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -17980,7 +18045,7 @@
      "name": "Deebo Samuel Sr.",
      "position": "WR",
      "status": "Out",
-     "detail": "out",
+     "detail": "Samuel (hamstring) is on track to return to practice Wednesday, David Lombardi of SFStandard.com reports.",
      "source": "ESPN"
     },
     {
@@ -17988,7 +18053,7 @@
      "name": "Mike Evans",
      "position": "WR",
      "status": "Out",
-     "detail": "out",
+     "detail": "Evans (Achilles) is unlikely to participate in practice Wednesday, Nick Wagoner of ESPN reports.",
      "source": "ESPN"
     },
     {
@@ -18026,9 +18091,35 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "Seven things Solak thinks for NFL Week 10: Jaguars trades, All-Pro picks, more",
      "description": "Get ready for Week 10 with takes on the Jaguars winning the AFC, Shedeur Sanders not earning a starting role, Fred Warner being the best player in football and more.",
-     "published": "2026-11-10T11:58:14Z",
+     "published": "2026-11-10T13:25:13Z",
      "link": "https://www.espn.com/nfl/story/_/id/50434129/week-10-seven-things-solak-thinks-trade-deadline-all-pro",
      "teams": [
       "CLE",
@@ -18151,15 +18242,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Schottenheimer: Cowboys will be without Ferguson, Goodson for 'multiple weeks'",
-     "description": "The Dallas Cowboys will be without starting tight end Jake Ferguson and No. 2 running back Tyler Goodson for \"multiple weeks,\" coach Brian Schottenheimer told reporters Monday, a day after his team posted a 27-23 victory against the Indianapolis Colts.",
-     "published": "2026-11-10T00:42:04Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50436570/cowboys-ferguson-goodson-multiple-weeks",
-     "teams": [
-      "DAL"
      ]
     }
    ],
@@ -19671,7 +19753,7 @@
    "weather": {
     "temp_f": 40,
     "wind_mph": 4,
-    "gust_mph": 4,
+    "gust_mph": 6,
     "precip_prob": 2,
     "precip_in": 0
    },
@@ -19764,6 +19846,32 @@
     }
    ],
    "news": [
+    {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
     {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
@@ -19877,32 +19985,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     },
     {
@@ -21363,13 +21445,7 @@
      "fair_odds": "+636"
     }
    ],
-   "weather": {
-    "temp_f": 44,
-    "wind_mph": 6,
-    "gust_mph": 16,
-    "precip_prob": 3,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LAC": [
@@ -21390,7 +21466,7 @@
      "name": "Jaylinn Hawkins",
      "position": "S",
      "status": "Out",
-     "detail": "out",
+     "detail": "Head coach Jesse Minter is \"optimistic\" Hawkins (knee) will return to practice this week, Jonas Shaffer of TheBaltimoreBanner.com reports.",
      "source": "ESPN"
     },
     {
@@ -21524,6 +21600,32 @@
    ],
    "news": [
     {
+     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
+     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
+     "published": "2026-11-10T12:22:53Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+     "teams": [
+      "ARI",
+      "ATL",
+      "BAL",
+      "CHI",
+      "DAL",
+      "DET",
+      "HOU",
+      "IND",
+      "JAX",
+      "MIN",
+      "NO",
+      "NYG",
+      "NYJ",
+      "PHI",
+      "PIT",
+      "SEA",
+      "SF",
+      "TEN"
+     ]
+    },
+    {
      "headline": "NFL Power Rankings: Stacking all 32 teams for Week 10, plus important games left",
      "description": "How does every NFL team stack up as we hit midseason? We made our 1-32 list and picked key games in the second half of the season.",
      "published": "2026-11-10T11:21:42Z",
@@ -21645,32 +21747,6 @@
      "link": "https://www.espn.com/nfl/story/_/id/50437202/chargers-harbaugh-says-x-rays-herbert-finger-negative",
      "teams": [
       "LAC"
-     ]
-    },
-    {
-     "headline": "NFL trade deadline grades: Deals for Jordan Davis, Jessie Bates III, Andre Cisco",
-     "description": "The Jaguars are making a move, but did they massively overpay for Davis? What about Jessie Bates III? Let's evaluate 12 trades before the deadline.",
-     "published": "2026-11-09T23:51:42Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BAL",
-      "CHI",
-      "DAL",
-      "DET",
-      "HOU",
-      "IND",
-      "JAX",
-      "MIN",
-      "NO",
-      "NYG",
-      "NYJ",
-      "PHI",
-      "PIT",
-      "SEA",
-      "SF",
-      "TEN"
      ]
     }
    ],
@@ -26453,7 +26529,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -26640,7 +26716,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -26661,8 +26737,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c150": 25.0,
-     "c2390": 31.7
+     "c150": 24.8,
+     "c2390": 31.6
     },
     "picks": {
      "spread": {
@@ -26680,12 +26756,12 @@
      },
      "total": {
       "market": "54.5",
-      "model_line": "56.7",
-      "edge_pts": 2.2,
+      "model_line": "56.3",
+      "edge_pts": 1.8,
       "pick": "Over 54.5",
       "price": "-105",
-      "prob": 0.514,
-      "ev": 0.004,
+      "prob": 0.512,
+      "ev": -0.001,
       "bet": false,
       "stars": 0
      },
@@ -26701,8 +26777,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 74,
+     "wind_mph": 13,
+     "gust_mph": 16,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 13 mph (gusts 16)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -26803,7 +26887,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -26864,7 +26948,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 43,
+     "wind_mph": 9,
+     "gust_mph": 14,
+     "precip_prob": 1,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -26935,7 +27025,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27060,7 +27150,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27226,7 +27316,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27287,13 +27377,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 47,
-     "wind_mph": 5,
-     "gust_mph": 8,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27386,7 +27470,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27407,8 +27491,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2633": 22.2,
-     "c245": 17.5
+     "c2633": 22.4,
+     "c245": 17.7
     },
     "picks": {
      "spread": {
@@ -27426,12 +27510,12 @@
      },
      "total": {
       "market": "43.5",
-      "model_line": "39.7",
-      "edge_pts": 3.8,
+      "model_line": "40.1",
+      "edge_pts": 3.4,
       "pick": "Under 43.5",
       "price": "-115",
-      "prob": 0.524,
-      "ev": -0.02,
+      "prob": 0.522,
+      "ev": -0.024,
       "bet": false,
       "stars": 0
      },
@@ -27447,16 +27531,8 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 72,
-     "wind_mph": 13,
-     "gust_mph": 14,
-     "precip_prob": 9,
-     "precip_in": 0
-    },
-    "weather_notes": [
-     "wind 13 mph (gusts 14)"
-    ],
+    "weather": null,
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [
@@ -27572,7 +27648,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27711,7 +27787,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27775,7 +27851,7 @@
     "weather": {
      "temp_f": 39,
      "wind_mph": 10,
-     "gust_mph": 14,
+     "gust_mph": 16,
      "precip_prob": 6,
      "precip_in": 0.03
     },
@@ -27865,7 +27941,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -27897,9 +27973,9 @@
       "pick": "c239 +7.5",
       "team": "c239",
       "line": 7.5,
-      "price": "-115",
+      "price": "-118",
       "prob": 0.545,
-      "ev": 0.019,
+      "ev": 0.007,
       "bet": false,
       "stars": 0
      },
@@ -27995,7 +28071,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28059,7 +28135,7 @@
     "weather": {
      "temp_f": 44,
      "wind_mph": 8,
-     "gust_mph": 9,
+     "gust_mph": 12,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -28165,7 +28241,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28329,7 +28405,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28393,7 +28469,7 @@
     "weather": {
      "temp_f": 58,
      "wind_mph": 10,
-     "gust_mph": 24,
+     "gust_mph": 16,
      "precip_prob": 4,
      "precip_in": 0
     },
@@ -28430,7 +28506,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28587,7 +28663,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28651,7 +28727,7 @@
     "weather": {
      "temp_f": 37,
      "wind_mph": 6,
-     "gust_mph": 6,
+     "gust_mph": 7,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -28781,7 +28857,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -28932,7 +29008,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29057,7 +29133,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29238,7 +29314,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29409,7 +29485,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -29558,7 +29634,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    }
   ],
@@ -29566,8 +29642,8 @@
    "n_games": 685,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.359221901875536,
-   "hfa": 2.4424906541753444e-15,
+   "mu": 26.35922190187555,
+   "hfa": -6.439293542825908e-15,
    "top": [
     [
      "c154",
