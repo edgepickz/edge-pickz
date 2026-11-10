@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T22:58:18.974798+00:00",
+ "generated_at": "2026-11-10T23:25:10.461436+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -29,30 +29,30 @@
    },
    "model_score": {
     "WAS": 19.4,
-    "NYG": 21.8
+    "NYG": 22.0
    },
    "picks": {
     "spread": {
      "market": "NYG -2.5",
      "model_line": "NYG -2.5",
-     "edge_pts": 0.2,
-     "pick": "WAS +2.5",
-     "team": "WAS",
-     "line": 2.5,
+     "edge_pts": 0.1,
+     "pick": "NYG -2.5",
+     "team": "NYG",
+     "line": -2.5,
      "price": "-110",
-     "prob": 0.502,
-     "ev": -0.042,
+     "prob": 0.501,
+     "ev": -0.044,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "41.5",
-     "model_line": "41.2",
-     "edge_pts": 0.3,
+     "model_line": "41.4",
+     "edge_pts": 0.1,
      "pick": "Over 41.5",
      "price": "-105",
-     "prob": 0.497,
-     "ev": -0.03,
+     "prob": 0.499,
+     "ev": -0.025,
      "bet": false,
      "stars": 0
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.543,
      "pick": "NYG ML",
      "price": "-130",
-     "prob": 0.541,
-     "ev": -0.043,
+     "prob": 0.544,
+     "ev": -0.038,
      "bet": false,
      "stars": 0
     }
@@ -801,7 +801,7 @@
      "team": "NYG",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 23.9,
@@ -821,7 +821,7 @@
      "team": "NYG",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.8,
@@ -841,7 +841,7 @@
      "team": "NYG",
      "opp": "WAS",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "8% to score",
@@ -866,9 +866,17 @@
    },
    "injury_adj": {
     "WAS": -1.1,
-    "NYG": -2.8
+    "NYG": -2.5
    },
    "injuries": [
+    {
+     "team": "NYG",
+     "name": "Colton Hood",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
     {
      "team": "NYG",
      "name": "J.J. McCarthy",
@@ -883,22 +891,6 @@
      "position": "RB",
      "status": "Out",
      "detail": "Skattebo (hamstring) was listed as a full participant in Tuesday's practice, Dan Salomone of the Giants' official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
-     "name": "Darnell Mooney",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Mooney (chest) was estimated to be a limited participant at the Giants' walkthrough practice Monday, Dan Salomone of the team's official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NYG",
-     "name": "Charlie Jones",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -1025,7 +1017,7 @@
     {
      "headline": "Giants' Nabers calls Fox analyst Olsen's body language critique a 'lie'",
      "description": "Giants wide receiver Malik Nabers said Tuesday he posted on social media after the game because he thought the critique from Fox play-by-play announcer Joe Davis and analyst Greg Olsen about his body language and being a bad teammate was a \"lie.\"",
-     "published": "2026-11-10T22:37:03Z",
+     "published": "2026-11-10T22:56:21Z",
      "link": "https://www.espn.com/nfl/story/_/id/50446573/giants-nabers-calls-fox-analyst-olsen-body-language-criticism-lie",
      "teams": [
       "NYG"
@@ -1121,6 +1113,25 @@
      "rate": 1.0,
      "dots": [
       true,
+      true,
+      true
+     ]
+    },
+    {
+     "type": "team",
+     "team": "NYG",
+     "opp": "WAS",
+     "kind": "spread",
+     "label": "covered the spread",
+     "bet": "spread",
+     "agrees": true,
+     "hit": 4,
+     "of": 5,
+     "rate": 0.8,
+     "dots": [
+      true,
+      true,
+      false,
       true,
       true
      ]
@@ -1361,7 +1372,7 @@
       54
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -1388,25 +1399,6 @@
       true,
       false,
       true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "team",
-     "team": "NYG",
-     "opp": "WAS",
-     "kind": "spread",
-     "label": "covered the spread",
-     "bet": "spread",
-     "agrees": false,
-     "hit": 4,
-     "of": 5,
-     "rate": 0.8,
-     "dots": [
-      true,
-      true,
-      false,
       true,
       true
      ]
@@ -2516,6 +2508,14 @@
    "injuries": [
     {
      "team": "DET",
+     "name": "Kerby Joseph",
+     "position": "S",
+     "status": "Out",
+     "detail": "Lions head coach Dan Campbell ruled Joseph (knee) out for Sunday's game against the Patriots, Nolan Bianchi of The Detroit News reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "DET",
      "name": "DJ Wonnum",
      "position": "LB",
      "status": "Questionable",
@@ -2552,14 +2552,6 @@
      "position": "LB",
      "status": "Injured Reserve",
      "detail": "The Lions moved Campbell (neck) to injured reserve Saturday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "DET",
-     "name": "Kerby Joseph",
-     "position": "S",
-     "status": "Out",
-     "detail": "Joseph (knee) has been ruled out ahead of Sunday's game against the Dolphins.",
      "source": "ESPN"
     },
     {
@@ -2737,21 +2729,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Sportsbook liability Joe Burrow overtakes Josh Allen as NFL MVP favorite",
-     "description": "Bengals QB Joe Burrow has overtaken Bills star Josh Allen as the betting favorite for NFL MVP honors, a development that could prove costly for sportsbooks.",
-     "published": "2026-11-10T17:03:43Z",
-     "link": "https://www.espn.com/espn/betting/story/_/id/50443081/sportsbook-liability-burrow-overtakes-allen-mvp-favorite",
-     "teams": [
-      "BUF",
-      "CHI",
-      "CIN",
-      "DET",
-      "GB",
-      "JAX",
-      "SF"
      ]
     }
    ],
@@ -4172,8 +4149,8 @@
     },
     {
      "headline": "Falcons trade center Ryan Neuzil to Ravens for guard Andrew Vorhees, pick",
-     "description": "The Ravens acquired Falcons starting center Ryan Neuzil in exchange for backup guard Andrew Vorhees and a 2028 sixth-round pick.",
-     "published": "2026-11-10T22:33:56Z",
+     "description": "The Ravens acquired Falcons starting center Ryan Neuzil in exchange for backup guard Andrew Vorhees and a conditional 2028 sixth-round pick.",
+     "published": "2026-11-10T23:07:30Z",
      "link": "https://www.espn.com/nfl/story/_/id/50446499/falcons-trade-center-neuzil-ravens-guard-vorhees-pick",
      "teams": [
       "ATL",
@@ -4183,7 +4160,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -7072,7 +7049,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -8566,6 +8543,15 @@
    ],
    "news": [
     {
+     "headline": "RB Jonathan Taylor, QB Daniel Jones remain with Colts as trade deadline passes",
+     "description": "Colts RB Jonathan Taylor and QB Daniel Jones were the subject of trade overtures in recent days and weeks but were not traded before Tuesday's trade deadline.",
+     "published": "2026-11-10T22:48:04Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50446805/rb-taylor-qb-jones-remain-colts-trade-deadline-passes",
+     "teams": [
+      "IND"
+     ]
+    },
+    {
      "headline": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
      "description": "Was getting Cousins a home run for the Vikings? Did the Chiefs make a smart move to pick up Josh Downs?",
      "published": "2026-11-10T22:38:49Z",
@@ -8599,7 +8585,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -8665,15 +8651,6 @@
       "LV",
       "MIN",
       "SF"
-     ]
-    },
-    {
-     "headline": "Dolphins put QB Malik Willis on IR with groin injury",
-     "description": "The Dolphins have put quarterback Malik Wills on injured reserve because of a groin injury. He's eligible to return in Week 14.",
-     "published": "2026-11-10T22:33:26Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50445819/dolphins-put-qb-malik-willis-ir-groin-injury",
-     "teams": [
-      "MIA"
      ]
     }
    ],
@@ -9100,7 +9077,7 @@
      "line": 1.5,
      "price": "-115",
      "prob": 0.511,
-     "ev": -0.045,
+     "ev": -0.044,
      "bet": false,
      "stars": 0
     },
@@ -10001,6 +9978,14 @@
      "position": "G",
      "status": "Injured Reserve",
      "detail": "Christensen (hamstring), who is on IR, has been ruled out for Sunday's battle against the Broncos, Darin Gantt of the Panthers' official site reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
+     "name": "Stone Smartt",
+     "position": "TE",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
@@ -13207,7 +13192,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -14605,7 +14590,7 @@
      "name": "Michael Wilson",
      "position": "WR",
      "status": "Injured Reserve",
-     "detail": "ir",
+     "detail": "The Cardinals placed Wilson (neck) on injured reserve Tuesday.",
      "source": "ESPN"
     },
     {
@@ -14780,7 +14765,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -16309,7 +16294,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -19569,7 +19554,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -20411,7 +20396,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 29.9,
@@ -20432,7 +20417,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 7.7,
@@ -20452,7 +20437,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 1.5,
@@ -20472,7 +20457,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "27% to score",
@@ -21255,8 +21240,8 @@
     },
     {
      "headline": "Falcons trade center Ryan Neuzil to Ravens for guard Andrew Vorhees, pick",
-     "description": "The Ravens acquired Falcons starting center Ryan Neuzil in exchange for backup guard Andrew Vorhees and a 2028 sixth-round pick.",
-     "published": "2026-11-10T22:33:56Z",
+     "description": "The Ravens acquired Falcons starting center Ryan Neuzil in exchange for backup guard Andrew Vorhees and a conditional 2028 sixth-round pick.",
+     "published": "2026-11-10T23:07:30Z",
      "link": "https://www.espn.com/nfl/story/_/id/50446499/falcons-trade-center-neuzil-ravens-guard-vorhees-pick",
      "teams": [
       "ATL",
@@ -21266,7 +21251,7 @@
     {
      "headline": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
      "description": "Which teams made the best -- and worst -- moves before the NFL trade deadline? We're making sense of all the action.",
-     "published": "2026-11-10T22:41:43Z",
+     "published": "2026-11-10T22:56:55Z",
      "link": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals",
      "teams": [
       "ARI",
@@ -21543,7 +21528,7 @@
       30
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -21738,7 +21723,7 @@
       6
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -25996,8 +25981,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c356": 17.4,
-     "c26": 28.6
+     "c356": 16.7,
+     "c26": 27.8
     },
     "picks": {
      "spread": {
@@ -26015,12 +26000,12 @@
      },
      "total": {
       "market": "47.5",
-      "model_line": "46.0",
-      "edge_pts": 1.5,
+      "model_line": "44.5",
+      "edge_pts": 3.0,
       "pick": "Under 47.5",
       "price": "-105",
-      "prob": 0.51,
-      "ev": -0.005,
+      "prob": 0.519,
+      "ev": 0.014,
       "bet": false,
       "stars": 0
      },
@@ -26036,8 +26021,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 62,
+     "wind_mph": 6,
+     "gust_mph": 10,
+     "precip_prob": 53,
+     "precip_in": 0.08
+    },
+    "weather_notes": [
+     "53% chance of rain/snow"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [],
@@ -26158,7 +26151,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c248": 28.5,
+     "c248": 28.4,
      "c38": 17.8
     },
     "picks": {
@@ -26170,15 +26163,15 @@
       "team": "c248",
       "line": -9.5,
       "price": "-112",
-      "prob": 0.508,
-      "ev": -0.039,
+      "prob": 0.507,
+      "ev": -0.04,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "51.5",
-      "model_line": "46.3",
-      "edge_pts": 5.2,
+      "model_line": "46.2",
+      "edge_pts": 5.3,
       "pick": "Under 51.5",
       "price": "-118",
       "prob": 0.534,
@@ -26198,11 +26191,22 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 48,
+     "wind_mph": 6,
+     "gust_mph": 5,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
-    "news": [],
+    "news": [
+     {
+      "headline": "Deion Sanders says blame for Colorado's 3-6 season solely on him: 'Don't say we'",
+      "link": "https://www.espn.com/college-football/story/_/id/50446834/deion-sanders-says-blame-colorado-3-6-season-solely-him"
+     }
+    ],
     "trends": [
      {
       "type": "team",
@@ -26339,7 +26343,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c150": 25.0,
+     "c150": 24.9,
      "c2390": 31.7
     },
     "picks": {
@@ -26363,7 +26367,7 @@
       "pick": "Over 54.5",
       "price": "-105",
       "prob": 0.514,
-      "ev": 0.003,
+      "ev": 0.004,
       "bet": false,
       "stars": 0
      },
@@ -26665,13 +26669,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 65,
-     "wind_mph": 10,
-     "gust_mph": 16,
-     "precip_prob": 2,
-     "precip_in": 0.0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -26796,13 +26794,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 55,
-     "wind_mph": 7,
-     "gust_mph": 8,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27443,7 +27435,7 @@
       "pick": "Under 52.5",
       "price": "-112",
       "prob": 0.516,
-      "ev": -0.023,
+      "ev": -0.024,
       "bet": false,
       "stars": 0
      },
@@ -27577,7 +27569,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c239": 24.2,
+     "c239": 24.3,
      "c252": 24.5
     },
     "picks": {
@@ -27590,7 +27582,7 @@
       "line": 7.5,
       "price": "-118",
       "prob": 0.545,
-      "ev": 0.007,
+      "ev": 0.008,
       "bet": false,
       "stars": 0
      },
@@ -27601,7 +27593,7 @@
       "pick": "Over 49.5",
       "price": "-105",
       "prob": 0.495,
-      "ev": -0.034,
+      "ev": -0.033,
       "bet": false,
       "stars": 0
      },
@@ -28165,11 +28157,11 @@
      },
      "total": {
       "market": "65.5",
-      "model_line": "67.5",
-      "edge_pts": 2.0,
+      "model_line": "67.4",
+      "edge_pts": 1.9,
       "pick": "Over 65.5",
       "price": "-112",
-      "prob": 0.513,
+      "prob": 0.512,
       "ev": -0.03,
       "bet": false,
       "stars": 0
@@ -28179,7 +28171,7 @@
       "market_prob": 0.804,
       "pick": "c68 ML",
       "price": "-520",
-      "prob": 0.778,
+      "prob": 0.777,
       "ev": -0.073,
       "bet": false,
       "stars": 0
@@ -28306,13 +28298,13 @@
      "spread": {
       "market": "c96 -3.5",
       "model_line": "c96 -4",
-      "edge_pts": 0.3,
+      "edge_pts": 0.4,
       "pick": "c96 -3.5",
       "team": "c96",
       "line": -3.5,
       "price": "-105",
       "prob": 0.502,
-      "ev": -0.02,
+      "ev": -0.019,
       "bet": false,
       "stars": 0
      },
@@ -28332,7 +28324,7 @@
       "market_prob": 0.609,
       "pick": "c96 ML",
       "price": "-175",
-      "prob": 0.611,
+      "prob": 0.612,
       "ev": -0.039,
       "bet": false,
       "stars": 0
@@ -28665,7 +28657,7 @@
       "edge_pts": 4.0,
       "pick": "Over 46.5",
       "price": "-105",
-      "prob": 0.526,
+      "prob": 0.525,
       "ev": 0.026,
       "bet": true,
       "stars": 1
@@ -28774,7 +28766,7 @@
      "spread": {
       "market": "c2294 -16.5",
       "model_line": "c2294 -13",
-      "edge_pts": 3.3,
+      "edge_pts": 3.4,
       "pick": "c2509 +16.5",
       "team": "c2509",
       "line": 16.5,
@@ -29132,7 +29124,7 @@
       "line": -3.5,
       "price": "-105",
       "prob": 0.525,
-      "ev": 0.025,
+      "ev": 0.024,
       "bet": true,
       "stars": 1
      },
@@ -29255,8 +29247,8 @@
    "n_games": 685,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.357721857100923,
-   "hfa": 7.327471962526033e-15,
+   "mu": 26.356712279247535,
+   "hfa": 8.215650382226158e-15,
    "top": [
     [
      "c154",
@@ -29344,7 +29336,7 @@
     ],
     [
      "c248",
-     7.6
+     7.5
     ],
     [
      "c68",
@@ -29372,7 +29364,7 @@
     ],
     [
      "c2579",
-     5.8
+     5.9
     ],
     [
      "c2449",
@@ -29380,7 +29372,7 @@
     ],
     [
      "c2641",
-     5.6
+     5.7
     ],
     [
      "c252",
