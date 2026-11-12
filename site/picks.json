@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T02:15:51.479888+00:00",
+ "generated_at": "2026-11-12T03:00:05.495337+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -28,41 +28,41 @@
     "NYG": "J.J. McCarthy"
    },
    "model_score": {
-    "WAS": 18.1,
-    "NYG": 21.0
+    "WAS": 19.0,
+    "NYG": 21.7
    },
    "picks": {
     "spread": {
      "market": "NYG -2.5",
-     "model_line": "NYG -3",
-     "edge_pts": 0.4,
+     "model_line": "NYG -2.5",
+     "edge_pts": 0.2,
      "pick": "NYG -2.5",
      "team": "NYG",
      "line": -2.5,
      "price": "-110",
-     "prob": 0.504,
-     "ev": -0.038,
+     "prob": 0.502,
+     "ev": -0.041,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "40.5",
-     "model_line": "39.0",
-     "edge_pts": 1.5,
+     "model_line": "40.7",
+     "edge_pts": 0.2,
      "pick": "Under 40.5",
      "price": "-102",
-     "prob": 0.516,
-     "ev": 0.021,
-     "bet": true,
-     "stars": 1
+     "prob": 0.498,
+     "ev": -0.014,
+     "bet": false,
+     "stars": 0
     },
     "moneyline": {
      "market": "WAS +120 / NYG -142",
      "market_prob": 0.563,
      "pick": "NYG ML",
      "price": "-142",
-     "prob": 0.567,
-     "ev": -0.033,
+     "prob": 0.566,
+     "ev": -0.036,
      "bet": false,
      "stars": 0
     }
@@ -800,13 +800,12 @@
    "weather": {
     "temp_f": 49,
     "wind_mph": 12,
-    "gust_mph": 33,
+    "gust_mph": 32,
     "precip_prob": 68,
-    "precip_in": 0.06
+    "precip_in": 0.03
    },
    "weather_notes": [
-    "wind 12 mph (gusts 33)",
-    "68% chance of rain/snow"
+    "wind 12 mph (gusts 32)"
    ],
    "injury_notes": {
     "WAS": [
@@ -818,7 +817,7 @@
     ]
    },
    "injury_adj": {
-    "WAS": -1.4,
+    "WAS": -1.2,
     "NYG": -2.6
    },
    "injuries": [
@@ -900,14 +899,6 @@
      "position": "RB",
      "status": "Injured Reserve",
      "detail": "McNichols, who suffered a foot injury Sunday against the Eagles that may require surgery, is out for the season, Ian Rapoport of NFL Network reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Javon Kinlaw",
-     "position": "DT",
-     "status": "Injured Reserve",
-     "detail": "Kinlaw underwent season-ending surgery Tuesday to repair his MCL, Nicki Jhabvala of The Athletic reports.",
      "source": "ESPN"
     }
    ],
@@ -2444,26 +2435,26 @@
     },
     {
      "team": "NE",
-     "name": "Will Campbell",
-     "position": "OT",
-     "status": "Questionable",
-     "detail": "Campbell (knee) was a full participant in Wednesday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NE",
      "name": "Charles Woods",
      "position": "CB",
-     "status": "Out",
-     "detail": "Woods (hamstring) was a limited practice participant Wednesday.",
+     "status": "Questionable",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
      "team": "NE",
      "name": "Ben Brown",
      "position": "C",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
+     "name": "Will Campbell",
+     "position": "OT",
      "status": "Questionable",
-     "detail": "Brown (knee) has been ruled out for Sunday's game against the Lions in Munich, Evan Lazar of the Patriots' official site reports.",
+     "detail": "Campbell (knee) was a full participant in Wednesday's practice.",
      "source": "ESPN"
     },
     {
@@ -5184,7 +5175,7 @@
     "temp_f": 45,
     "wind_mph": 10,
     "gust_mph": 12,
-    "precip_prob": 20,
+    "precip_prob": 24,
     "precip_in": 0.01
    },
    "weather_notes": [],
@@ -8460,8 +8451,8 @@
    "news": [
     {
      "headline": "2027 NFL draft rankings: Jordan Reid's top 50 prospects, scouting reports",
-     "description": "Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including seven quarterbacks and an elite wide receiver prospect.",
-     "published": "2026-11-12T01:20:37Z",
+     "description": "Jordan Reid updated his rankings for the 2027 NFL draft class with 50 players -- including eight quarterbacks and an elite wide receiver prospect.",
+     "published": "2026-11-12T02:50:15Z",
      "link": "https://www.espn.com/nfl/draft2027/story/_/id/50068479/2027-nfl-draft-rankings-jordan-reid-top-prospects-players-positions",
      "teams": [
       "ALA",
@@ -12862,7 +12853,7 @@
     "temp_f": 53,
     "wind_mph": 5,
     "gust_mph": 7,
-    "precip_prob": 1,
+    "precip_prob": 0,
     "precip_in": 0
    },
    "weather_notes": [],
@@ -16765,31 +16756,31 @@
     "DAL": "Dak Prescott"
    },
    "model_score": {
-    "SF": 29.7,
+    "SF": 29.9,
     "DAL": 23.6
    },
    "picks": {
     "spread": {
      "market": "DAL +3.5",
-     "model_line": "DAL +6",
-     "edge_pts": 2.7,
+     "model_line": "DAL +6.5",
+     "edge_pts": 2.9,
      "pick": "SF -3.5",
      "team": "SF",
      "line": -3.5,
      "price": "-115",
-     "prob": 0.528,
-     "ev": -0.013,
+     "prob": 0.53,
+     "ev": -0.009,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "55.5",
-     "model_line": "53.3",
-     "edge_pts": 2.2,
+     "model_line": "53.5",
+     "edge_pts": 2.0,
      "pick": "Under 55.5",
      "price": "-102",
-     "prob": 0.524,
-     "ev": 0.037,
+     "prob": 0.521,
+     "ev": 0.033,
      "bet": true,
      "stars": 1
     },
@@ -16798,8 +16789,8 @@
      "market_prob": 0.645,
      "pick": "SF ML",
      "price": "-205",
-     "prob": 0.671,
-     "ev": -0.001,
+     "prob": 0.673,
+     "ev": 0.002,
      "bet": false,
      "stars": 0
     }
@@ -16882,7 +16873,7 @@
      "team": "SF",
      "opp": "DAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 70.2,
@@ -16903,7 +16894,7 @@
      "team": "SF",
      "opp": "DAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 39.1,
@@ -16923,7 +16914,7 @@
      "team": "SF",
      "opp": "DAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 5.1,
@@ -16943,7 +16934,7 @@
      "team": "SF",
      "opp": "DAL",
      "pos": "RB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "64% to score",
@@ -17547,7 +17538,7 @@
     ]
    },
    "injury_adj": {
-    "SF": -1.4,
+    "SF": -1.2,
     "DAL": -2.0
    },
    "injuries": [
@@ -17726,22 +17717,6 @@
      "status": "Out",
      "detail": "The 49ers reinstated Aiyuk (personal) from the reserve/left squad list Monday and were granted a two-week roster exemption for the wide receiver, Tom Pelissero of Netflix reports.",
      "source": "ESPN"
-    },
-    {
-     "team": "SF",
-     "name": "Nate Hobbs",
-     "position": "CB",
-     "status": "Injured Reserve",
-     "detail": "San Francisco didn't activate Hobbs (groin) from injured reserve Saturday, David Lombardi of SFStandard.com reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "SF",
-     "name": "Christian Kirk",
-     "position": "WR",
-     "status": "Injured Reserve",
-     "detail": "The 49ers placed Kirk (knee) on injured reserve Saturday.",
-     "source": "ESPN"
     }
    ],
    "news": [
@@ -17815,7 +17790,7 @@
       2
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -18180,7 +18155,7 @@
       68
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -20876,13 +20851,7 @@
      "fair_odds": "+652"
     }
    ],
-   "weather": {
-    "temp_f": 46,
-    "wind_mph": 4,
-    "gust_mph": 13,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LAC": [
@@ -27267,12 +27236,12 @@
      },
      "total": {
       "market": "47.5",
-      "model_line": "46.1",
-      "edge_pts": 1.4,
+      "model_line": "46.0",
+      "edge_pts": 1.5,
       "pick": "Under 47.5",
       "price": "-105",
       "prob": 0.509,
-      "ev": -0.006,
+      "ev": -0.005,
       "bet": false,
       "stars": 0
      },
@@ -27288,13 +27257,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 65,
-     "wind_mph": 6,
-     "gust_mph": 7,
-     "precip_prob": 77,
-     "precip_in": 0.01
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27456,13 +27419,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 47,
-     "wind_mph": 6,
-     "gust_mph": 5,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27784,7 +27741,7 @@
     "qbs": {},
     "model_score": {
      "c154": 34.4,
-     "c2567": 26.5
+     "c2567": 26.6
     },
     "picks": {
      "spread": {
@@ -27954,13 +27911,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 43,
-     "wind_mph": 9,
-     "gust_mph": 16,
-     "precip_prob": 2,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28096,7 +28047,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 52,
+     "wind_mph": 7,
+     "gust_mph": 8,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28559,7 +28516,7 @@
       "line": 10.5,
       "price": "-105",
       "prob": 0.502,
-      "ev": -0.021,
+      "ev": -0.02,
       "bet": false,
       "stars": 0
      },
@@ -28579,7 +28536,7 @@
       "market_prob": 0.782,
       "pick": "c2483 ML",
       "price": "-440",
-      "prob": 0.781,
+      "prob": 0.78,
       "ev": -0.042,
       "bet": false,
       "stars": 0
@@ -28590,7 +28547,7 @@
      "temp_f": 57,
      "wind_mph": 6,
      "gust_mph": 22,
-     "precip_prob": 10,
+     "precip_prob": 7,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -28691,8 +28648,8 @@
     "picks": {
      "spread": {
       "market": "c252 -7.5",
-      "model_line": "c252 PK",
-      "edge_pts": 7.3,
+      "model_line": "c252 -0.5",
+      "edge_pts": 7.2,
       "pick": "c239 +7.5",
       "team": "c239",
       "line": 7.5,
@@ -28725,7 +28682,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 45,
+     "wind_mph": 4,
+     "gust_mph": 4,
+     "precip_prob": 68,
+     "precip_in": 0.0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28813,8 +28776,8 @@
     "picks": {
      "spread": {
       "market": "c84 -10",
-      "model_line": "c84 -6",
-      "edge_pts": 3.8,
+      "model_line": "c84 -6.5",
+      "edge_pts": 3.7,
       "pick": "c30 +10",
       "team": "c30",
       "line": 10.0,
@@ -28987,8 +28950,8 @@
     "picks": {
      "spread": {
       "market": "c87 -29.5",
-      "model_line": "c87 -22.5",
-      "edge_pts": 7.2,
+      "model_line": "c87 -22",
+      "edge_pts": 7.3,
       "pick": "c103 +29.5",
       "team": "c103",
       "line": 29.5,
@@ -29021,7 +28984,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 40,
+     "wind_mph": 11,
+     "gust_mph": 19,
+     "precip_prob": 40,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29173,7 +29142,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 54,
+     "wind_mph": 7,
+     "gust_mph": 16,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -29295,14 +29270,14 @@
       "market": "c201 -1.5",
       "model_line": "c201 PK",
       "edge_pts": 1.7,
-      "pick": "c201 -1.5",
-      "team": "c201",
-      "line": -1.5,
+      "pick": "c145 +1.5",
+      "team": "c145",
+      "line": 1.5,
       "price": "+102",
-      "prob": 0.489,
-      "ev": -0.012,
-      "bet": false,
-      "stars": 0
+      "prob": 0.511,
+      "ev": 0.032,
+      "bet": true,
+      "stars": 1
      },
      "total": {
       "market": "49.5",
@@ -29331,7 +29306,7 @@
      "temp_f": 58,
      "wind_mph": 12,
      "gust_mph": 20,
-     "precip_prob": 3,
+     "precip_prob": 2,
      "precip_in": 0
     },
     "weather_notes": [
@@ -29391,36 +29366,36 @@
     },
     "picks": {
      "spread": {
-      "market": "c68 -13.5",
+      "market": "c68 -14.5",
       "model_line": "c68 -7.5",
-      "edge_pts": 5.8,
-      "pick": "c204 +13.5",
+      "edge_pts": 6.8,
+      "pick": "c204 +14.5",
       "team": "c204",
-      "line": 13.5,
-      "price": "-108",
-      "prob": 0.536,
-      "ev": 0.033,
+      "line": 14.5,
+      "price": "-105",
+      "prob": 0.543,
+      "ev": 0.059,
       "bet": true,
-      "stars": 1
+      "stars": 2
      },
      "total": {
       "market": "65.5",
       "model_line": "67.3",
       "edge_pts": 1.8,
       "pick": "Over 65.5",
-      "price": "-112",
+      "price": "-102",
       "prob": 0.512,
-      "ev": -0.031,
+      "ev": 0.013,
       "bet": false,
       "stars": 0
      },
      "moneyline": {
-      "market": "c204 +410 / c68 -550",
-      "market_prob": 0.812,
+      "market": "c204 +440 / c68 -600",
+      "market_prob": 0.822,
       "pick": "c68 ML",
-      "price": "-550",
-      "prob": 0.786,
-      "ev": -0.072,
+      "price": "-600",
+      "prob": 0.793,
+      "ev": -0.075,
       "bet": false,
       "stars": 0
      }
@@ -29430,7 +29405,7 @@
      "temp_f": 53,
      "wind_mph": 3,
      "gust_mph": 8,
-     "precip_prob": 2,
+     "precip_prob": 1,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -29781,7 +29756,7 @@
      "temp_f": 67,
      "wind_mph": 6,
      "gust_mph": 8,
-     "precip_prob": 20,
+     "precip_prob": 11,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -30011,7 +29986,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2509": 18.4,
+     "c2509": 18.3,
      "c2294": 31.4
     },
     "picks": {
@@ -30023,7 +29998,7 @@
       "team": "c2509",
       "line": 17.5,
       "price": "-112",
-      "prob": 0.528,
+      "prob": 0.527,
       "ev": -0.002,
       "bet": false,
       "stars": 0
@@ -30192,7 +30167,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c2579": 30.5,
+     "c2579": 30.4,
      "c8": 23.0
     },
     "picks": {
@@ -30236,7 +30211,7 @@
      "temp_f": 41,
      "wind_mph": 5,
      "gust_mph": 7,
-     "precip_prob": 3,
+     "precip_prob": 1,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -30364,13 +30339,13 @@
     "qbs": {},
     "model_score": {
      "c2641": 32.9,
-     "c197": 40.4
+     "c197": 40.3
     },
     "picks": {
      "spread": {
       "market": "c197 -3.5",
       "model_line": "c197 -7.5",
-      "edge_pts": 4.0,
+      "edge_pts": 3.9,
       "pick": "c197 -3.5",
       "team": "c197",
       "line": -3.5,
@@ -30382,12 +30357,12 @@
      },
      "total": {
       "market": "72.5",
-      "model_line": "73.3",
-      "edge_pts": 0.8,
+      "model_line": "73.2",
+      "edge_pts": 0.7,
       "pick": "Under 72.5",
       "price": "-105",
       "prob": 0.495,
-      "ev": -0.034,
+      "ev": -0.033,
       "bet": false,
       "stars": 0
      },
@@ -30407,7 +30382,7 @@
      "temp_f": 46,
      "wind_mph": 9,
      "gust_mph": 23,
-     "precip_prob": 27,
+     "precip_prob": 17,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -30499,8 +30474,8 @@
    "n_games": 688,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.38814832020479,
-   "hfa": 6.439293542825908e-15,
+   "mu": 26.38790103473366,
+   "hfa": 4.440892098500626e-16,
    "top": [
     [
      "c154",
@@ -30600,7 +30575,7 @@
     ],
     [
      "c249",
-     6.9
+     7.0
     ],
     [
      "c2348",
@@ -30608,7 +30583,7 @@
     ],
     [
      "c2567",
-     6.4
+     6.5
     ],
     [
      "c145",
