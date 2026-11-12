@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T06:34:23.952664+00:00",
+ "generated_at": "2026-11-12T07:50:49.784881+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -823,6 +823,30 @@
    "injuries": [
     {
      "team": "NYG",
+     "name": "Malik Harrison",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
+     "name": "Lucas Patrick",
+     "position": "G",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "WAS",
+     "name": "Colson Yankoff",
+     "position": "TE",
+     "status": "Out",
+     "detail": "Commanders head coach Dan Quinn ruled out Yankoff (knee) for Thursday night's games against the Giants, Ben Standig of The Team 980 Washington D.C. reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NYG",
      "name": "Colton Hood",
      "position": "CB",
      "status": "Out",
@@ -846,35 +870,11 @@
      "source": "ESPN"
     },
     {
-     "team": "NYG",
-     "name": "Malik Harrison",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Lucas Patrick",
-     "position": "G",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
      "team": "WAS",
      "name": "Treylon Burks",
      "position": "WR",
      "status": "Out",
      "detail": "Burks (foot) doesn't have an injury designation for Thursday night's game against the Giants.",
-     "source": "ESPN"
-    },
-    {
-     "team": "WAS",
-     "name": "Colson Yankoff",
-     "position": "TE",
-     "status": "Out",
-     "detail": "Commanders head coach Dan Quinn ruled out Yankoff (knee) for Thursday night's games against the Giants, Ben Standig of The Team 980 Washington D.C. reports.",
      "source": "ESPN"
     },
     {
@@ -2338,6 +2338,30 @@
    },
    "injuries": [
     {
+     "team": "NE",
+     "name": "Carlton Davis III",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
+     "name": "Ben Brown",
+     "position": "C",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
+     "name": "TreVeyon Henderson",
+     "position": "RB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
      "team": "DET",
      "name": "D.J. Reed",
      "position": "CB",
@@ -2443,26 +2467,10 @@
     },
     {
      "team": "NE",
-     "name": "Ben Brown",
-     "position": "C",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "NE",
      "name": "Will Campbell",
      "position": "OT",
      "status": "Questionable",
      "detail": "Campbell (knee) was a full participant in Wednesday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NE",
-     "name": "Carlton Davis III",
-     "position": "CB",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -2495,14 +2503,6 @@
      "position": "TE",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "NE",
-     "name": "TreVeyon Henderson",
-     "position": "RB",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -4443,12 +4443,12 @@
      "stars": 0
     },
     "moneyline": {
-     "market": "HOU -230 / CLE +190",
-     "market_prob": 0.669,
+     "market": "HOU -225 / CLE +185",
+     "market_prob": 0.664,
      "pick": "HOU ML",
-     "price": "-230",
-     "prob": 0.697,
-     "ev": -0.0,
+     "price": "-225",
+     "prob": 0.691,
+     "ev": -0.001,
      "bet": false,
      "stars": 0
     }
@@ -6656,7 +6656,7 @@
    "weather": {
     "temp_f": 47,
     "wind_mph": 4,
-    "gust_mph": 5,
+    "gust_mph": 4,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -11272,12 +11272,12 @@
    "weather": {
     "temp_f": 46,
     "wind_mph": 13,
-    "gust_mph": 19,
+    "gust_mph": 24,
     "precip_prob": 0,
     "precip_in": 0
    },
    "weather_notes": [
-    "wind 13 mph (gusts 19)"
+    "wind 13 mph (gusts 24)"
    ],
    "injury_notes": {
     "BUF": [
@@ -12830,7 +12830,7 @@
    "weather": {
     "temp_f": 54,
     "wind_mph": 4,
-    "gust_mph": 7,
+    "gust_mph": 5,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -20831,13 +20831,7 @@
      "fair_odds": "+652"
     }
    ],
-   "weather": {
-    "temp_f": 47,
-    "wind_mph": 3,
-    "gust_mph": 11,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LAC": [
@@ -20994,7 +20988,7 @@
     {
      "headline": "Broncos say trade with Chargers for LB Henley 'will not be finalized'",
      "description": "The Broncos announced late Wednesday that their trade to acquire linebacker Daiyan Henley from the Chargers \"will not be finalized.\"",
-     "published": "2026-11-12T06:19:17Z",
+     "published": "2026-11-12T06:41:26Z",
      "link": "https://www.espn.com/nfl/story/_/id/50459330/broncos-say-trade-chargers-lb-henley-not-finalized",
      "teams": [
       "DEN",
@@ -27346,7 +27340,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27407,7 +27401,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 47,
+     "wind_mph": 6,
+     "gust_mph": 5,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27532,7 +27532,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27699,7 +27699,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27824,7 +27824,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27962,7 +27962,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28142,7 +28142,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28298,7 +28298,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28362,7 +28362,7 @@
     "weather": {
      "temp_f": 64,
      "wind_mph": 11,
-     "gust_mph": 14,
+     "gust_mph": 15,
      "precip_prob": 4,
      "precip_in": 0
     },
@@ -28474,7 +28474,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28538,7 +28538,7 @@
     "weather": {
      "temp_f": 57,
      "wind_mph": 6,
-     "gust_mph": 22,
+     "gust_mph": 20,
      "precip_prob": 7,
      "precip_in": 0
     },
@@ -28613,7 +28613,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28677,7 +28677,7 @@
     "weather": {
      "temp_f": 42,
      "wind_mph": 4,
-     "gust_mph": 4,
+     "gust_mph": 7,
      "precip_prob": 68,
      "precip_in": 0.06
     },
@@ -28743,7 +28743,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28917,7 +28917,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28981,7 +28981,7 @@
     "weather": {
      "temp_f": 40,
      "wind_mph": 5,
-     "gust_mph": 19,
+     "gust_mph": 14,
      "precip_prob": 40,
      "precip_in": 0.02
     },
@@ -29071,7 +29071,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29135,7 +29135,7 @@
     "weather": {
      "temp_f": 54,
      "wind_mph": 5,
-     "gust_mph": 16,
+     "gust_mph": 17,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -29235,7 +29235,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29342,7 +29342,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29406,7 +29406,7 @@
     "weather": {
      "temp_f": 53,
      "wind_mph": 5,
-     "gust_mph": 8,
+     "gust_mph": 12,
      "precip_prob": 1,
      "precip_in": 0
     },
@@ -29499,7 +29499,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29697,7 +29697,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29761,7 +29761,7 @@
     "weather": {
      "temp_f": 68,
      "wind_mph": 9,
-     "gust_mph": 8,
+     "gust_mph": 13,
      "precip_prob": 11,
      "precip_in": 0
     },
@@ -29846,7 +29846,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29971,7 +29971,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30152,7 +30152,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30213,13 +30213,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 40,
-     "wind_mph": 5,
-     "gust_mph": 16,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30323,7 +30317,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30384,13 +30378,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 48,
-     "wind_mph": 10,
-     "gust_mph": 26,
-     "precip_prob": 17,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -30472,7 +30460,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    }
   ],
@@ -30481,7 +30469,7 @@
    "n_fbs": 138,
    "n_teams": 139,
    "mu": 26.310076659090722,
-   "hfa": -5.329070518200751e-15,
+   "hfa": -4.884981308350689e-15,
    "top": [
     [
      "c154",
