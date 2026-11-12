@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T03:44:40.174864+00:00",
+ "generated_at": "2026-11-12T04:39:10.925443+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -39,9 +39,9 @@
      "pick": "NYG -2.5",
      "team": "NYG",
      "line": -2.5,
-     "price": "-110",
+     "price": "-105",
      "prob": 0.502,
-     "ev": -0.041,
+     "ev": -0.02,
      "bet": false,
      "stars": 0
     },
@@ -4436,19 +4436,19 @@
      "model_line": "38.6",
      "edge_pts": 2.9,
      "pick": "Under 41.5",
-     "price": "-118",
+     "price": "-112",
      "prob": 0.531,
-     "ev": -0.019,
+     "ev": 0.005,
      "bet": false,
      "stars": 0
     },
     "moneyline": {
-     "market": "HOU -225 / CLE +185",
-     "market_prob": 0.664,
+     "market": "HOU -230 / CLE +190",
+     "market_prob": 0.669,
      "pick": "HOU ML",
-     "price": "-225",
-     "prob": 0.691,
-     "ev": -0.001,
+     "price": "-230",
+     "prob": 0.697,
+     "ev": -0.0,
      "bet": false,
      "stars": 0
     }
@@ -7595,19 +7595,19 @@
      "team": "MIA",
      "line": 3.5,
      "price": "-102",
-     "prob": 0.515,
-     "ev": 0.02,
-     "bet": true,
-     "stars": 1
+     "prob": 0.514,
+     "ev": 0.019,
+     "bet": false,
+     "stars": 0
     },
     "total": {
      "market": "38.5",
-     "model_line": "40.3",
-     "edge_pts": 1.8,
+     "model_line": "40.4",
+     "edge_pts": 1.9,
      "pick": "Over 38.5",
      "price": "-108",
      "prob": 0.52,
-     "ev": 0.001,
+     "ev": 0.002,
      "bet": false,
      "stars": 0
     },
@@ -7616,8 +7616,8 @@
      "market_prob": 0.645,
      "pick": "IND ML",
      "price": "-205",
-     "prob": 0.63,
-     "ev": -0.062,
+     "prob": 0.631,
+     "ev": -0.061,
      "bet": false,
      "stars": 0
     }
@@ -7908,7 +7908,7 @@
      "team": "IND",
      "opp": "MIA",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Pass Yds",
      "key": "pass_yds",
      "projection": 202.3,
@@ -7928,7 +7928,7 @@
      "team": "IND",
      "opp": "MIA",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Pass TDs",
      "key": "pass_tds",
      "projection": 1.1,
@@ -7948,7 +7948,7 @@
      "team": "IND",
      "opp": "MIA",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 11.7,
@@ -7968,7 +7968,7 @@
      "team": "IND",
      "opp": "MIA",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "16% to score",
@@ -8292,7 +8292,7 @@
    },
    "injury_adj": {
     "MIA": -3.0,
-    "IND": -1.3
+    "IND": -1.2
    },
    "injuries": [
     {
@@ -8357,14 +8357,6 @@
      "position": "OT",
      "status": "Doubtful",
      "detail": "doubtful",
-     "source": "ESPN"
-    },
-    {
-     "team": "IND",
-     "name": "Jaylon Carlies",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Carlies (neck) has been ruled out for the remainder of Sunday's game against Dallas.",
      "source": "ESPN"
     },
     {
@@ -8651,7 +8643,7 @@
       180
      ],
      "agrees": false,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -8853,7 +8845,7 @@
       1
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -8881,7 +8873,7 @@
       11
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -20835,13 +20827,7 @@
      "fair_odds": "+652"
     }
    ],
-   "weather": {
-    "temp_f": 46,
-    "wind_mph": 4,
-    "gust_mph": 13,
-    "precip_prob": 0,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "LAC": [
@@ -21632,25 +21618,25 @@
    "picks": {
     "spread": {
      "market": "HOU -10",
-     "model_line": "HOU -9.5",
-     "edge_pts": 0.7,
+     "model_line": "HOU -9",
+     "edge_pts": 0.8,
      "pick": "IND +10",
      "team": "IND",
      "line": 10.0,
      "price": "-110",
-     "prob": 0.507,
-     "ev": -0.031,
+     "prob": 0.508,
+     "ev": -0.03,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "44.5",
-     "model_line": "45.4",
-     "edge_pts": 0.9,
+     "model_line": "45.5",
+     "edge_pts": 1.0,
      "pick": "Over 44.5",
      "price": "-110",
      "prob": 0.51,
-     "ev": -0.027,
+     "ev": -0.026,
      "bet": false,
      "stars": 0
     },
@@ -21660,7 +21646,7 @@
      "pick": "HOU ML",
      "price": "-455",
      "prob": 0.781,
-     "ev": -0.047,
+     "ev": -0.048,
      "bet": false,
      "stars": 0
     }
@@ -21671,7 +21657,7 @@
      "team": "IND",
      "opp": "HOU",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Pass Yds",
      "key": "pass_yds",
      "projection": 193.0,
@@ -21692,7 +21678,7 @@
      "team": "IND",
      "opp": "HOU",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Pass TDs",
      "key": "pass_tds",
      "projection": 0.8,
@@ -21712,7 +21698,7 @@
      "team": "IND",
      "opp": "HOU",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 9.9,
@@ -21732,7 +21718,7 @@
      "team": "IND",
      "opp": "HOU",
      "pos": "QB",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "13% to score",
@@ -22406,7 +22392,7 @@
     ]
    },
    "injury_adj": {
-    "IND": -1.3,
+    "IND": -1.2,
     "HOU": -1.4
    },
    "injuries": [
@@ -22569,14 +22555,6 @@
      "status": "Doubtful",
      "detail": "doubtful",
      "source": "ESPN"
-    },
-    {
-     "team": "IND",
-     "name": "Jaylon Carlies",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Carlies (neck) has been ruled out for the remainder of Sunday's game against Dallas.",
-     "source": "ESPN"
     }
    ],
    "news": [
@@ -22721,7 +22699,7 @@
       180
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -23061,7 +23039,7 @@
       1
      ],
      "agrees": false,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -23089,7 +23067,7 @@
       11
      ],
      "agrees": false,
-     "status": "Active",
+     "status": null,
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -27207,8 +27185,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c356": 17.5,
-     "c26": 28.6
+     "c356": 17.4,
+     "c26": 28.5
     },
     "picks": {
      "spread": {
@@ -27230,7 +27208,7 @@
       "edge_pts": 1.5,
       "pick": "Under 47.5",
       "price": "-105",
-      "prob": 0.509,
+      "prob": 0.51,
       "ev": -0.005,
       "bet": false,
       "stars": 0
@@ -27240,7 +27218,7 @@
       "market_prob": 0.766,
       "pick": "c26 ML",
       "price": "-395",
-      "prob": 0.771,
+      "prob": 0.772,
       "ev": -0.033,
       "bet": false,
       "stars": 0
@@ -27393,7 +27371,7 @@
       "pick": "Under 51.5",
       "price": "-118",
       "prob": 0.533,
-      "ev": -0.016,
+      "ev": -0.015,
       "bet": false,
       "stars": 0
      },
@@ -27566,9 +27544,9 @@
       "pick": "c150 +13.5",
       "team": "c150",
       "line": 13.5,
-      "price": "-112",
+      "price": "-108",
       "prob": 0.542,
-      "ev": 0.026,
+      "ev": 0.044,
       "bet": true,
       "stars": 1
      },
@@ -27723,7 +27701,7 @@
     "qbs": {},
     "model_score": {
      "c154": 34.4,
-     "c2567": 26.6
+     "c2567": 26.5
     },
     "picks": {
      "spread": {
@@ -27746,7 +27724,7 @@
       "pick": "Under 60.5",
       "price": "-105",
       "prob": 0.497,
-      "ev": -0.03,
+      "ev": -0.029,
       "bet": false,
       "stars": 0
      },
@@ -27762,7 +27740,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 63,
+     "wind_mph": 11,
+     "gust_mph": 17,
+     "precip_prob": 2,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27847,8 +27831,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c77": 23.6,
-     "c194": 30.1
+     "c77": 23.7,
+     "c194": 30.2
     },
     "picks": {
      "spread": {
@@ -27860,18 +27844,18 @@
       "line": 14.0,
       "price": "-110",
       "prob": 0.547,
-      "ev": 0.044,
+      "ev": 0.043,
       "bet": true,
       "stars": 1
      },
      "total": {
       "market": "44.5",
-      "model_line": "53.7",
-      "edge_pts": 9.2,
+      "model_line": "53.9",
+      "edge_pts": 9.4,
       "pick": "Over 44.5",
       "price": "-105",
-      "prob": 0.559,
-      "ev": 0.092,
+      "prob": 0.56,
+      "ev": 0.093,
       "bet": true,
       "stars": 3
      },
@@ -27901,10 +27885,6 @@
      {
       "headline": "Northwestern without star QB Aidan Chiles again vs. Ohio State",
       "link": "https://www.espn.com/nfl/story/_/id/50457231/northwestern-qb-aidan-chiles-again-vs-ohio-state"
-     },
-     {
-      "headline": "Ohio State to stick with Fahey at QB vs. Northwestern",
-      "link": "https://www.espn.com/college-football/story/_/id/50444070/ohio-state-stick-fahey-qb-vs-northwestern"
      },
      {
       "headline": "Northwestern without star QB Aidan Chiles again vs. Ohio State",
@@ -28008,8 +27988,8 @@
      },
      "total": {
       "market": "50.5",
-      "model_line": "51.2",
-      "edge_pts": 0.7,
+      "model_line": "51.1",
+      "edge_pts": 0.6,
       "pick": "Over 50.5",
       "price": "-110",
       "prob": 0.504,
@@ -28340,12 +28320,12 @@
      },
      "total": {
       "market": "43.5",
-      "model_line": "40.3",
-      "edge_pts": 3.2,
+      "model_line": "40.2",
+      "edge_pts": 3.3,
       "pick": "Under 43.5",
       "price": "-108",
       "prob": 0.521,
-      "ev": 0.003,
+      "ev": 0.004,
       "bet": false,
       "stars": 0
      },
@@ -28500,7 +28480,7 @@
     "qbs": {},
     "model_score": {
      "c130": 16.7,
-     "c2483": 27.0
+     "c2483": 26.9
     },
     "picks": {
      "spread": {
@@ -28518,12 +28498,12 @@
      },
      "total": {
       "market": "38.5",
-      "model_line": "43.7",
-      "edge_pts": 5.2,
+      "model_line": "43.6",
+      "edge_pts": 5.1,
       "pick": "Over 38.5",
       "price": "-105",
       "prob": 0.533,
-      "ev": 0.041,
+      "ev": 0.04,
       "bet": true,
       "stars": 1
      },
@@ -28659,10 +28639,10 @@
       "market": "48.5",
       "model_line": "48.8",
       "edge_pts": 0.3,
-      "pick": "Under 48.5",
-      "price": "-105",
-      "prob": 0.498,
-      "ev": -0.028,
+      "pick": "Over 48.5",
+      "price": "-110",
+      "prob": 0.502,
+      "ev": -0.042,
       "bet": false,
       "stars": 0
      },
@@ -28672,7 +28652,7 @@
       "pick": "c252 ML",
       "price": "-298",
       "prob": 0.676,
-      "ev": -0.097,
+      "ev": -0.096,
       "bet": false,
       "stars": 0
      }
@@ -28733,7 +28713,7 @@
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": false,
+      "agrees": true,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -28766,14 +28746,14 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c30": 20.8,
+     "c30": 20.7,
      "c84": 27.0
     },
     "picks": {
      "spread": {
       "market": "c84 -10",
-      "model_line": "c84 -6.5",
-      "edge_pts": 3.7,
+      "model_line": "c84 -6",
+      "edge_pts": 3.8,
       "pick": "c30 +10",
       "team": "c30",
       "line": 10.0,
@@ -28785,12 +28765,12 @@
      },
      "total": {
       "market": "50.5",
-      "model_line": "47.8",
-      "edge_pts": 2.7,
+      "model_line": "47.7",
+      "edge_pts": 2.8,
       "pick": "Under 50.5",
       "price": "-112",
-      "prob": 0.517,
-      "ev": -0.021,
+      "prob": 0.518,
+      "ev": -0.02,
       "bet": false,
       "stars": 0
      },
@@ -28959,8 +28939,8 @@
      },
      "total": {
       "market": "52.5",
-      "model_line": "50.1",
-      "edge_pts": 2.4,
+      "model_line": "50.0",
+      "edge_pts": 2.5,
       "pick": "Under 52.5",
       "price": "-108",
       "prob": 0.516,
@@ -29117,12 +29097,12 @@
      },
      "total": {
       "market": "47.5",
-      "model_line": "49.8",
-      "edge_pts": 2.3,
+      "model_line": "49.7",
+      "edge_pts": 2.2,
       "pick": "Over 47.5",
       "price": "-108",
       "prob": 0.514,
-      "ev": -0.009,
+      "ev": -0.01,
       "bet": false,
       "stars": 0
      },
@@ -29312,6 +29292,10 @@
     "injuries": [],
     "news": [
      {
+      "headline": "Gene Chizik dives into improved Oklahoma timing through film",
+      "link": "https://www.espn.com/video/clip/_/id/50458601/gene-chizik-dives-improved-oklahoma-timing-film"
+     },
+     {
       "headline": "Venables relays Witten's immediate impact on Oklahoma's offense",
       "link": "https://www.espn.com/video/clip/_/id/50446600/venables-relays-witten-immediate-impact-oklahoma-offense"
      }
@@ -29358,7 +29342,7 @@
     "qbs": {},
     "model_score": {
      "c204": 29.8,
-     "c68": 37.5
+     "c68": 37.4
     },
     "picks": {
      "spread": {
@@ -29376,12 +29360,12 @@
      },
      "total": {
       "market": "65.5",
-      "model_line": "67.3",
-      "edge_pts": 1.8,
+      "model_line": "67.2",
+      "edge_pts": 1.7,
       "pick": "Over 65.5",
       "price": "-102",
-      "prob": 0.512,
-      "ev": 0.013,
+      "prob": 0.511,
+      "ev": 0.012,
       "bet": false,
       "stars": 0
      },
@@ -29409,7 +29393,11 @@
     "injuries": [],
     "news": [
      {
-      "headline": "Oregon State QB Braden Atkinson doubtful to face Boise State",
+      "headline": "Braden Atkinson doubtful, Maddux Madsen questionable for Oregon St.-Boise St.",
+      "link": "https://www.espn.com/college-football/story/_/id/50458286/oregon-state-qb-braden-atkinson-doubtful-face-boise-state"
+     },
+     {
+      "headline": "Braden Atkinson doubtful, Maddux Madsen questionable for Oregon St.-Boise St.",
       "link": "https://www.espn.com/college-football/story/_/id/50458286/oregon-state-qb-braden-atkinson-doubtful-face-boise-state"
      }
     ],
@@ -29709,7 +29697,7 @@
     "qbs": {},
     "model_score": {
      "c254": 27.5,
-     "c12": 26.7
+     "c12": 26.6
     },
     "picks": {
      "spread": {
@@ -29727,8 +29715,8 @@
      },
      "total": {
       "market": "54.5",
-      "model_line": "54.2",
-      "edge_pts": 0.3,
+      "model_line": "54.1",
+      "edge_pts": 0.4,
       "pick": "Under 54.5",
       "price": "-105",
       "prob": 0.502,
@@ -29870,17 +29858,17 @@
       "line": 4.0,
       "price": "-110",
       "prob": 0.51,
-      "ev": -0.026,
+      "ev": -0.027,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "46.5",
-      "model_line": "50.5",
-      "edge_pts": 4.0,
+      "model_line": "50.4",
+      "edge_pts": 3.9,
       "pick": "Over 46.5",
       "price": "-105",
-      "prob": 0.526,
+      "prob": 0.525,
       "ev": 0.026,
       "bet": true,
       "stars": 1
@@ -29995,7 +29983,7 @@
       "line": 17.5,
       "price": "-112",
       "prob": 0.528,
-      "ev": -0.002,
+      "ev": -0.001,
       "bet": false,
       "stars": 0
      },
@@ -30006,7 +29994,7 @@
       "pick": "Over 47.5",
       "price": "-112",
       "prob": 0.514,
-      "ev": -0.026,
+      "ev": -0.027,
       "bet": false,
       "stars": 0
      },
@@ -30182,12 +30170,12 @@
      },
      "total": {
       "market": "51.5",
-      "model_line": "53.5",
-      "edge_pts": 2.0,
+      "model_line": "53.4",
+      "edge_pts": 1.9,
       "pick": "Over 51.5",
       "price": "-105",
-      "prob": 0.513,
-      "ev": 0.001,
+      "prob": 0.512,
+      "ev": 0.0,
       "bet": false,
       "stars": 0
      },
@@ -30467,11 +30455,11 @@
    }
   ],
   "debug": {
-   "n_games": 689,
+   "n_games": 691,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.37707930333694,
-   "hfa": 5.773159728050814e-15,
+   "mu": 26.31007665909072,
+   "hfa": -7.327471962526033e-15,
    "top": [
     [
      "c154",
@@ -30498,20 +30486,20 @@
      11.3
     ],
     [
-     "c197",
-     10.6
-    ],
-    [
      "c167",
      10.5
     ],
     [
-     "c2335",
-     10.3
+     "c197",
+     10.5
     ],
     [
      "c254",
      10.3
+    ],
+    [
+     "c2335",
+     10.2
     ],
     [
      "c150",
@@ -30531,7 +30519,7 @@
     ],
     [
      "c194",
-     9.1
+     9.0
     ],
     [
      "c256",
@@ -30558,11 +30546,11 @@
      7.7
     ],
     [
-     "c248",
-     7.5
+     "c68",
+     7.6
     ],
     [
-     "c68",
+     "c248",
      7.5
     ],
     [
@@ -30571,7 +30559,7 @@
     ],
     [
      "c249",
-     6.9
+     7.0
     ],
     [
      "c2348",
@@ -30614,12 +30602,12 @@
      5.3
     ],
     [
-     "c77",
-     5.1
-    ],
-    [
      "c30",
      5.0
+    ],
+    [
+     "c77",
+     4.9
     ],
     [
      "c153",
@@ -30631,7 +30619,7 @@
     ],
     [
      "c213",
-     4.3
+     4.4
     ]
    ]
   },
