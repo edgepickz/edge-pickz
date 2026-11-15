@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:11:59.533424+00:00",
+ "generated_at": "2026-11-15T15:45:05.747474+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -28,31 +28,31 @@
     "DET": "Jared Goff"
    },
    "model_score": {
-    "NE": 24.9,
+    "NE": 23.0,
     "DET": 25.7
    },
    "picks": {
     "spread": {
      "market": "DET -2.5",
-     "model_line": "DET -0.5",
-     "edge_pts": 1.8,
+     "model_line": "DET -2.5",
+     "edge_pts": 0.2,
      "pick": "NE +2.5",
      "team": "NE",
      "line": 2.5,
      "price": "+100",
-     "prob": 0.518,
-     "ev": 0.037,
-     "bet": true,
-     "stars": 1
+     "prob": 0.498,
+     "ev": -0.004,
+     "bet": false,
+     "stars": 0
     },
     "total": {
      "market": "50.5",
-     "model_line": "50.6",
-     "edge_pts": 0.1,
+     "model_line": "48.6",
+     "edge_pts": 1.9,
      "pick": "Under 50.5",
      "price": "-105",
-     "prob": 0.499,
-     "ev": -0.026,
+     "prob": 0.52,
+     "ev": 0.015,
      "bet": false,
      "stars": 0
     },
@@ -61,8 +61,8 @@
      "market_prob": 0.572,
      "pick": "DET ML",
      "price": "-148",
-     "prob": 0.554,
-     "ev": -0.072,
+     "prob": 0.574,
+     "ev": -0.038,
      "bet": false,
      "stars": 0
     }
@@ -73,7 +73,7 @@
      "team": "NE",
      "opp": "DET",
      "pos": "QB",
-     "status": null,
+     "status": "Questionable",
      "stat": "Pass Yds",
      "key": "pass_yds",
      "projection": 285.7,
@@ -86,15 +86,14 @@
       "prob": 0.632,
       "usual": 258.6,
       "eligible": true
-     },
-     "top": 3
+     }
     },
     {
      "player": "Drake Maye",
      "team": "NE",
      "opp": "DET",
      "pos": "QB",
-     "status": null,
+     "status": "Questionable",
      "stat": "Pass TDs",
      "key": "pass_tds",
      "projection": 2.7,
@@ -114,7 +113,7 @@
      "team": "NE",
      "opp": "DET",
      "pos": "QB",
-     "status": null,
+     "status": "Questionable",
      "stat": "Rush Yds",
      "key": "rush_yds",
      "projection": 22.7,
@@ -134,7 +133,7 @@
      "team": "NE",
      "opp": "DET",
      "pos": "QB",
-     "status": null,
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "26% to score",
@@ -160,7 +159,7 @@
       "usual": 45.1,
       "eligible": true
      },
-     "top": 4
+     "top": 3
     },
     {
      "player": "Rhamondre Stevenson",
@@ -232,7 +231,8 @@
       "prob": 0.598,
       "usual": 26.9,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Corey Kiner",
@@ -291,7 +291,7 @@
      "team": "NE",
      "opp": "DET",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 51.6,
@@ -311,7 +311,7 @@
      "team": "NE",
      "opp": "DET",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.5,
@@ -331,7 +331,7 @@
      "team": "NE",
      "opp": "DET",
      "pos": "WR",
-     "status": "Active",
+     "status": null,
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "31% to score",
@@ -874,12 +874,13 @@
    "injury_notes": {
     "NE": [
      "TreVeyon Henderson (RB) Injured Reserve",
+     "Drake Maye (QB) Questionable",
      "Behren Morton (QB) Out"
     ],
     "DET": []
    },
    "injury_adj": {
-    "NE": -1.2,
+    "NE": -3.2,
     "DET": -1.2
    },
    "injuries": [
@@ -952,7 +953,7 @@
      "name": "Aidan Hutchinson",
      "position": "DE",
      "status": "Questionable",
-     "detail": "Hutchinson headed to the locker room in the first quarter of Sunday's game against the Patriots in Munich to be evaluated for an apparent right leg injury, Richard Silva of The Detroit News reports.",
+     "detail": "Hutchinson is questionable to return to Sunday's game against the Patriots in Munich due to a knee injury.",
      "source": "ESPN"
     },
     {
@@ -1005,6 +1006,22 @@
     },
     {
      "team": "NE",
+     "name": "Morgan Moses",
+     "position": "OT",
+     "status": "Questionable",
+     "detail": "Moses (knee) is questionable to return to Sunday's game against the Lions in Munich.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
+     "name": "Drake Maye",
+     "position": "QB",
+     "status": "Questionable",
+     "detail": "Maye is questionable to return to Sunday's game against the Lions in Munich after sustaining an ankle injury in the first quarter.",
+     "source": "ESPN"
+    },
+    {
+     "team": "NE",
      "name": "Behren Morton",
      "position": "QB",
      "status": "Out",
@@ -1024,7 +1041,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -1162,7 +1179,7 @@
       3
      ],
      "agrees": true,
-     "status": null,
+     "status": "Questionable",
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -1192,7 +1209,7 @@
       5
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 5,
      "of": 5,
      "rate": 1.0,
@@ -1428,7 +1445,7 @@
       102
      ],
      "agrees": true,
-     "status": "Active",
+     "status": null,
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -2524,7 +2541,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -2564,7 +2581,7 @@
     {
      "headline": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
      "description": "The Chiefs sought medical opinions from two renowned baseball doctors last week on Patrick Mahomes' injured elbow, sources told ESPN.",
-     "published": "2026-11-15T13:48:57Z",
+     "published": "2026-11-15T14:02:01Z",
      "link": "https://www.espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
      "teams": [
       "KC"
@@ -3785,12 +3802,12 @@
    "weather": {
     "temp_f": 46,
     "wind_mph": 13,
-    "gust_mph": 17,
+    "gust_mph": 18,
     "precip_prob": 9,
     "precip_in": 0
    },
    "weather_notes": [
-    "wind 13 mph (gusts 17)"
+    "wind 13 mph (gusts 18)"
    ],
    "injury_notes": {
     "HOU": [
@@ -3937,7 +3954,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -5292,9 +5309,9 @@
     }
    ],
    "weather": {
-    "temp_f": 43,
-    "wind_mph": 1,
-    "gust_mph": 4,
+    "temp_f": 44,
+    "wind_mph": 2,
+    "gust_mph": 6,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -5494,7 +5511,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -6961,9 +6978,21 @@
    ],
    "news": [
     {
+     "headline": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
+     "description": "Four NFL officials will pull a rare double shift Sunday, officiating two different games as a result of travel issues created by Friday's FAA ground stop.",
+     "published": "2026-11-15T14:56:33Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+     "teams": [
+      "CIN",
+      "IND",
+      "MIA",
+      "PIT"
+     ]
+    },
+    {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -7070,22 +7099,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL reassigns backup refs to work games closer to home",
-     "description": "The NFL, trying to avoid further travel issues from Friday's FAA ground stop, has reassigned officials to Week 10 games within driving distance of their homes.",
-     "published": "2026-11-14T16:35:07Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50479995/nfl-reassigns-backup-refs-work-games-closer-home",
-     "teams": [
-      "CAR",
-      "CIN",
-      "IND",
-      "JAX",
-      "MIA",
-      "NO",
-      "PIT",
-      "TEN"
      ]
     }
    ],
@@ -8448,7 +8461,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -9927,7 +9940,7 @@
    "weather": {
     "temp_f": 47,
     "wind_mph": 10,
-    "gust_mph": 17,
+    "gust_mph": 18,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -10070,7 +10083,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -11509,8 +11522,8 @@
    ],
    "weather": {
     "temp_f": 54,
-    "wind_mph": 4,
-    "gust_mph": 8,
+    "wind_mph": 6,
+    "gust_mph": 9,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -11611,7 +11624,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -11742,15 +11755,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "Rookie WR Carnell Tate among multiple Titans starters ruled out vs. Jaguars",
-     "description": "The Titans will be without multiple starters against the Jaguars on Sunday, including rookie wide receiver Carnell Tate.",
-     "published": "2026-11-13T18:50:11Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50473143/rookie-wr-carnell-tate-multiple-titans-ruled-out",
-     "teams": [
-      "TEN"
      ]
     }
    ],
@@ -13195,7 +13199,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -14794,7 +14798,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -16378,7 +16382,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -17985,9 +17989,9 @@
     }
    ],
    "weather": {
-    "temp_f": 38,
+    "temp_f": 42,
     "wind_mph": 4,
-    "gust_mph": 11,
+    "gust_mph": 9,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -18079,9 +18083,21 @@
    ],
    "news": [
     {
+     "headline": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
+     "description": "Four NFL officials will pull a rare double shift Sunday, officiating two different games as a result of travel issues created by Friday's FAA ground stop.",
+     "published": "2026-11-15T14:56:33Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+     "teams": [
+      "CIN",
+      "IND",
+      "MIA",
+      "PIT"
+     ]
+    },
+    {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -18157,15 +18173,6 @@
       "IND",
       "KC",
       "NE",
-      "PIT"
-     ]
-    },
-    {
-     "headline": "Steelers activate DT Derrick Harmon from IR ahead of key Bengals clash",
-     "description": "The Steelers have activated defensive tackle Derrick Harmon from injured reserve after he missed the past four games with a foot injury.",
-     "published": "2026-11-14T20:41:30Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50482239/steelers-activate-dt-derrick-harmon-injured-reserve",
-     "teams": [
       "PIT"
      ]
     }
@@ -19715,7 +19722,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -21334,9 +21341,21 @@
    ],
    "news": [
     {
+     "headline": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
+     "description": "Four NFL officials will pull a rare double shift Sunday, officiating two different games as a result of travel issues created by Friday's FAA ground stop.",
+     "published": "2026-11-15T14:56:33Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+     "teams": [
+      "CIN",
+      "IND",
+      "MIA",
+      "PIT"
+     ]
+    },
+    {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -21432,22 +21451,6 @@
       "TB",
       "TEN",
       "WAS"
-     ]
-    },
-    {
-     "headline": "NFL reassigns backup refs to work games closer to home",
-     "description": "The NFL, trying to avoid further travel issues from Friday's FAA ground stop, has reassigned officials to Week 10 games within driving distance of their homes.",
-     "published": "2026-11-14T16:35:07Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50479995/nfl-reassigns-backup-refs-work-games-closer-home",
-     "teams": [
-      "CAR",
-      "CIN",
-      "IND",
-      "JAX",
-      "MIA",
-      "NO",
-      "PIT",
-      "TEN"
      ]
     }
    ],
@@ -22810,9 +22813,21 @@
    ],
    "news": [
     {
+     "headline": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
+     "description": "Four NFL officials will pull a rare double shift Sunday, officiating two different games as a result of travel issues created by Friday's FAA ground stop.",
+     "published": "2026-11-15T14:56:33Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+     "teams": [
+      "CIN",
+      "IND",
+      "MIA",
+      "PIT"
+     ]
+    },
+    {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -22923,28 +22938,6 @@
       "NO",
       "PIT",
       "TEN"
-     ]
-    },
-    {
-     "headline": "NFL Week 10 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
-     "description": "Touchdown for Chuba Hubbard? Fantasy upside for Aaron Rodgers? Trick play from the Raiders? Let's predict 15 things for Week 10.",
-     "published": "2026-11-14T11:53:16Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50453290/week-10-predictions-upsets-fantasy-sleepers-stats-2026",
-     "teams": [
-      "ARI",
-      "ATL",
-      "BUF",
-      "CAR",
-      "KC",
-      "LA",
-      "LAC",
-      "LV",
-      "MIA",
-      "NE",
-      "NYJ",
-      "PIT",
-      "SEA",
-      "SF"
      ]
     }
    ],
@@ -24324,7 +24317,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -25752,8 +25745,16 @@
      "fair_odds": "+699"
     }
    ],
-   "weather": null,
-   "weather_notes": [],
+   "weather": {
+    "temp_f": 51,
+    "wind_mph": 12,
+    "gust_mph": 18,
+    "precip_prob": 15,
+    "precip_in": 0
+   },
+   "weather_notes": [
+    "wind 12 mph (gusts 18)"
+   ],
    "injury_notes": {
     "NO": [],
     "CHI": [
@@ -25874,7 +25875,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -27511,7 +27512,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -28856,7 +28857,7 @@
      "name": "Aidan Hutchinson",
      "position": "DE",
      "status": "Questionable",
-     "detail": "Hutchinson headed to the locker room in the first quarter of Sunday's game against the Patriots in Munich to be evaluated for an apparent right leg injury, Richard Silva of The Detroit News reports.",
+     "detail": "Hutchinson is questionable to return to Sunday's game against the Patriots in Munich due to a knee injury.",
      "source": "ESPN"
     },
     {
@@ -28960,7 +28961,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -30364,7 +30365,13 @@
      "fair_odds": "+148"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 56,
+    "wind_mph": 8,
+    "gust_mph": 10,
+    "precip_prob": 6,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "ARI": [
@@ -30505,7 +30512,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -30545,7 +30552,7 @@
     {
      "headline": "Sources: Chiefs had renowned baseball doctors weigh in on Patrick Mahomes' elbow",
      "description": "The Chiefs sought medical opinions from two renowned baseball doctors last week on Patrick Mahomes' injured elbow, sources told ESPN.",
-     "published": "2026-11-15T13:48:57Z",
+     "published": "2026-11-15T14:02:01Z",
      "link": "https://www.espn.com/nfl/story/_/id/50481210/sources-baseball-doctors-consulted-patrick-mahomes-elbow",
      "teams": [
       "KC"
@@ -31836,7 +31843,13 @@
      "fair_odds": "+1307"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 59,
+    "wind_mph": 3,
+    "gust_mph": 6,
+    "precip_prob": 3,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "JAX": [],
@@ -31934,7 +31947,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -33788,7 +33801,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -35451,7 +35464,13 @@
      "fair_odds": "+501"
     }
    ],
-   "weather": null,
+   "weather": {
+    "temp_f": 51,
+    "wind_mph": 2,
+    "gust_mph": 2,
+    "precip_prob": 0,
+    "precip_in": 0
+   },
    "weather_notes": [],
    "injury_notes": {
     "LV": [],
@@ -35531,7 +35550,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -37422,9 +37441,21 @@
    ],
    "news": [
     {
+     "headline": "Working double shifts: Four NFL refs to officiate 2 games due to FAA ground stop",
+     "description": "Four NFL officials will pull a rare double shift Sunday, officiating two different games as a result of travel issues created by Friday's FAA ground stop.",
+     "published": "2026-11-15T14:56:33Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50490305/four-nfl-refs-officiate-2-games-due-faa-ground-stop",
+     "teams": [
+      "CIN",
+      "IND",
+      "MIA",
+      "PIT"
+     ]
+    },
+    {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -37500,15 +37531,6 @@
       "IND",
       "KC",
       "NE",
-      "PIT"
-     ]
-    },
-    {
-     "headline": "Steelers activate DT Derrick Harmon from IR ahead of key Bengals clash",
-     "description": "The Steelers have activated defensive tackle Derrick Harmon from injured reserve after he missed the past four games with a foot injury.",
-     "published": "2026-11-14T20:41:30Z",
-     "link": "https://www.espn.com/nfl/story/_/id/50482239/steelers-activate-dt-derrick-harmon-injured-reserve",
-     "teams": [
       "PIT"
      ]
     }
@@ -38808,13 +38830,7 @@
      "fair_odds": "+783"
     }
    ],
-   "weather": {
-    "temp_f": 66,
-    "wind_mph": 1,
-    "gust_mph": 20,
-    "precip_prob": 28,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "MIN": [
@@ -38979,7 +38995,7 @@
     {
      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
      "description": "Check here for all of Sunday's top moments, TDs and analysis from our reporters.",
-     "published": "2026-11-15T13:47:43Z",
+     "published": "2026-11-15T14:11:28Z",
      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
      "teams": [
       "ARI",
@@ -41882,8 +41898,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c145": 25.2,
-     "c201": 23.7
+     "c145": 26.0,
+     "c201": 24.4
     },
     "picks": {
      "spread": {
@@ -41901,12 +41917,12 @@
      },
      "total": {
       "market": "48.5",
-      "model_line": "48.9",
-      "edge_pts": 0.4,
+      "model_line": "50.4",
+      "edge_pts": 1.9,
       "pick": "Over 48.5",
       "price": "-108",
-      "prob": 0.502,
-      "ev": -0.032,
+      "prob": 0.512,
+      "ev": -0.014,
       "bet": false,
       "stars": 0
      },
@@ -41922,16 +41938,8 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 43,
-     "wind_mph": 10,
-     "gust_mph": 21,
-     "precip_prob": 92,
-     "precip_in": 0.09
-    },
-    "weather_notes": [
-     "92% chance of rain/snow"
-    ],
+    "weather": null,
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [],
@@ -42016,13 +42024,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 48,
-     "wind_mph": 5,
-     "gust_mph": 6,
-     "precip_prob": 1,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -42128,13 +42130,7 @@
     },
     "picks": {},
     "props": [],
-    "weather": {
-     "temp_f": 63,
-     "wind_mph": 9,
-     "gust_mph": 27,
-     "precip_prob": 12,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -42391,15 +42387,15 @@
     },
     "picks": {
      "spread": {
-      "market": "c2305 +7.5",
+      "market": "c2305 +7",
       "model_line": "c2305 +1.5",
-      "edge_pts": 6.1,
-      "pick": "c2305 +7.5",
+      "edge_pts": 5.6,
+      "pick": "c2305 +7",
       "team": "c2305",
-      "line": 7.5,
+      "line": 7.0,
       "price": "-110",
-      "prob": 0.538,
-      "ev": 0.027,
+      "prob": 0.535,
+      "ev": 0.021,
       "bet": true,
       "stars": 1
      },
@@ -42415,12 +42411,12 @@
       "stars": 1
      },
      "moneyline": {
-      "market": "c252 -290 / c2305 +235",
-      "market_prob": 0.714,
+      "market": "c252 -258 / c2305 +210",
+      "market_prob": 0.691,
       "pick": "c252 ML",
-      "price": "-290",
-      "prob": 0.679,
-      "ev": -0.087,
+      "price": "-258",
+      "prob": 0.658,
+      "ev": -0.086,
       "bet": false,
       "stars": 0
      }
@@ -44084,13 +44080,13 @@
       "stars": 0
      },
      "total": {
-      "market": "47.5",
+      "market": "46.5",
       "model_line": "46.9",
-      "edge_pts": 0.6,
-      "pick": "Under 47.5",
+      "edge_pts": 0.4,
+      "pick": "Over 46.5",
       "price": "-110",
-      "prob": 0.504,
-      "ev": -0.038,
+      "prob": 0.503,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      },
@@ -44131,25 +44127,6 @@
       "type": "team",
       "team": "c2633",
       "opp": "c99",
-      "kind": "total",
-      "label": "gone under the total",
-      "bet": "under",
-      "agrees": true,
-      "hit": 4,
-      "of": 5,
-      "rate": 0.8,
-      "dots": [
-       true,
-       true,
-       false,
-       true,
-       true
-      ]
-     },
-     {
-      "type": "team",
-      "team": "c2633",
-      "opp": "c99",
       "kind": "moneyline",
       "label": "won",
       "bet": "moneyline",
@@ -44167,16 +44144,17 @@
      },
      {
       "type": "team",
-      "team": "c99",
-      "opp": "c2633",
+      "team": "c2633",
+      "opp": "c99",
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
-      "agrees": true,
-      "hit": 3,
-      "of": 4,
-      "rate": 0.75,
+      "agrees": false,
+      "hit": 4,
+      "of": 5,
+      "rate": 0.8,
       "dots": [
+       true,
        true,
        false,
        true,
@@ -44191,6 +44169,24 @@
       "label": "covered the spread",
       "bet": "spread",
       "agrees": true,
+      "hit": 3,
+      "of": 4,
+      "rate": 0.75,
+      "dots": [
+       true,
+       false,
+       true,
+       true
+      ]
+     },
+     {
+      "type": "team",
+      "team": "c99",
+      "opp": "c2633",
+      "kind": "total",
+      "label": "gone under the total",
+      "bet": "under",
+      "agrees": false,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -44912,7 +44908,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 48,
+     "wind_mph": 4,
+     "gust_mph": 13,
+     "precip_prob": 19,
+     "precip_in": 0.01
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -45024,7 +45026,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 67,
+     "wind_mph": 4,
+     "gust_mph": 3,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -45121,8 +45129,8 @@
    "n_games": 751,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 25.981700747276633,
-   "hfa": 6.661338147750939e-16,
+   "mu": 25.981860442640848,
+   "hfa": -1.2434497875801753e-14,
    "top": [
     [
      "c154",
