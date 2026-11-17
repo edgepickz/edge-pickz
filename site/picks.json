@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T01:01:53.969760+00:00",
+ "generated_at": "2026-11-17T02:07:12.314654+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -28,7 +28,7 @@
     "BAL": "Tyler Huntley"
    },
    "model_score": {
-    "LAC": 16.1,
+    "LAC": 16.0,
     "BAL": 20.8
    },
    "picks": {
@@ -52,7 +52,7 @@
      "pick": "Under 39.5",
      "price": "-112",
      "prob": 0.528,
-     "ev": -0.001,
+     "ev": -0.0,
      "bet": false,
      "stars": 0
     },
@@ -61,7 +61,7 @@
      "market_prob": 0.664,
      "pick": "BAL ML",
      "price": "-225",
-     "prob": 0.666,
+     "prob": 0.667,
      "ev": -0.037,
      "bet": false,
      "stars": 0
@@ -343,7 +343,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 31.9,
@@ -363,7 +363,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 2.8,
@@ -383,7 +383,7 @@
      "team": "LAC",
      "opp": "BAL",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "15% to score",
@@ -870,9 +870,9 @@
     }
    ],
    "weather": {
-    "temp_f": 44,
-    "wind_mph": 6,
-    "gust_mph": 10,
+    "temp_f": 43,
+    "wind_mph": 5,
+    "gust_mph": 8,
     "precip_prob": 0,
     "precip_in": 0
    },
@@ -1009,6 +1009,14 @@
      "position": "QB",
      "status": "Injured Reserve",
      "detail": "Jackson (thumb) is \"doing well\" and is expected to be out for \"6-to-10 weeks,\" per head coach Jesse Minter.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LAC",
+     "name": "Oronde Gadsden",
+     "position": "TE",
+     "status": "Questionable",
+     "detail": "Gadsden (eye) is questionable to return to Monday's game against the Ravens.",
      "source": "ESPN"
     },
     {
@@ -1622,7 +1630,7 @@
       17
      ],
      "agrees": false,
-     "status": "Active",
+     "status": "Questionable",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -1896,31 +1904,31 @@
     "HOU": "C.J. Stroud"
    },
    "model_score": {
-    "IND": 17.3,
-    "HOU": 25.3
+    "IND": 18.0,
+    "HOU": 25.5
    },
    "picks": {
     "spread": {
      "market": "HOU -11.5",
-     "model_line": "HOU -8",
-     "edge_pts": 3.5,
+     "model_line": "HOU -7.5",
+     "edge_pts": 3.9,
      "pick": "IND +11.5",
      "team": "IND",
      "line": 11.5,
      "price": "-110",
-     "prob": 0.537,
-     "ev": 0.024,
+     "prob": 0.541,
+     "ev": 0.033,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "44.5",
-     "model_line": "42.7",
-     "edge_pts": 1.8,
-     "pick": "Under 44.5",
-     "price": "-115",
-     "prob": 0.52,
-     "ev": -0.028,
+     "model_line": "43.5",
+     "edge_pts": 1.0,
+     "pick": "Over 44.5",
+     "price": "-105",
+     "prob": 0.49,
+     "ev": -0.044,
      "bet": false,
      "stars": 0
     },
@@ -1929,8 +1937,8 @@
      "market_prob": 0.832,
      "pick": "HOU ML",
      "price": "-650",
-     "prob": 0.805,
-     "ev": -0.071,
+     "prob": 0.802,
+     "ev": -0.075,
      "bet": false,
      "stars": 0
     }
@@ -2668,41 +2676,47 @@
    "weather": null,
    "weather_notes": [],
    "injury_notes": {
-    "IND": [
-     "Alec Pierce (WR) Injured Reserve"
-    ],
+    "IND": [],
     "HOU": [
-     "Marvin Harrison Jr. (WR) Out",
-     "Woody Marks (RB) Doubtful"
+     "Woody Marks (RB) Doubtful",
+     "Marvin Harrison Jr. (WR) Out"
     ]
    },
    "injury_adj": {
-    "IND": -1.9,
-    "HOU": -1.9
+    "IND": -1.2,
+    "HOU": -1.6
    },
    "injuries": [
+    {
+     "team": "HOU",
+     "name": "Azeez Al-Shaair",
+     "position": "LB",
+     "status": "Out",
+     "detail": "Al-Shaair (groin) did not participate in Monday's walkthrough practice.",
+     "source": "ESPN"
+    },
+    {
+     "team": "HOU",
+     "name": "Jake Hummel",
+     "position": "LB",
+     "status": "Questionable",
+     "detail": "questionable",
+     "source": "ESPN"
+    },
+    {
+     "team": "HOU",
+     "name": "Woody Marks",
+     "position": "RB",
+     "status": "Doubtful",
+     "detail": "Marks (concussion) missed Monday's walkthrough.",
+     "source": "ESPN"
+    },
     {
      "team": "HOU",
      "name": "Marvin Harrison Jr.",
      "position": "WR",
      "status": "Out",
      "detail": "Harrison (hamstring) was estimated as a non-participant on Monday's practice report.",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "Wyatt Teller",
-     "position": "G",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "Keylan Rutledge",
-     "position": "G",
-     "status": "Out",
-     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -2723,34 +2737,10 @@
     },
     {
      "team": "HOU",
-     "name": "Azeez Al-Shaair",
-     "position": "LB",
-     "status": "Out",
-     "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
-     "name": "Woody Marks",
-     "position": "RB",
-     "status": "Doubtful",
-     "detail": "Coach DeMeco Ryans acknowledged after Sunday's 27-24 loss to the Browns that Marks (concussion) is unlikely to play in Thursday night's game against the Colts, ESPN.com's DJ Bien-Aime reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "HOU",
      "name": "Jaylin Smith",
      "position": "CB",
      "status": "Injured Reserve",
      "detail": "The Texans designated Smith (hamstring) to return from injured reserve Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "IND",
-     "name": "Sauce Gardner",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "Gardner (calf) was listed as a DNP for Monday's walkthrough practice.",
      "source": "ESPN"
     },
     {
@@ -2775,6 +2765,14 @@
      "position": "CB",
      "status": "Questionable",
      "detail": "Colts head coach Shane Steichen reported Ward (shin) didn't return to Sunday's 24-22 win over the Dolphins and could miss Thursday's game versus Houston, James Boyd of The Athletic reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "IND",
+     "name": "Sauce Gardner",
+     "position": "CB",
+     "status": "Questionable",
+     "detail": "Colts head coach Shane Steichen reported Gardner suffered a left calf injury during Sunday's 24-22 win over the Dolphins and may not play Thursday versus Houston, James Boyd of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -2831,14 +2829,6 @@
      "position": "TE",
      "status": "Injured Reserve",
      "detail": "The Colts placed Alie-Cox (groin) on injured reserve Saturday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "IND",
-     "name": "Alec Pierce",
-     "position": "WR",
-     "status": "Injured Reserve",
-     "detail": "When asked Wednesday whether Pierce (heel) has a chance to return from IR this season, Colts head coach Shane Steichen was noncommittal, James Boyd of The Athletic reports.",
      "source": "ESPN"
     }
    ],
@@ -2990,6 +2980,24 @@
    ],
    "trends": [
     {
+     "type": "team",
+     "team": "HOU",
+     "opp": "IND",
+     "kind": "total",
+     "label": "gone over the total",
+     "bet": "over",
+     "agrees": true,
+     "hit": 4,
+     "of": 4,
+     "rate": 1.0,
+     "dots": [
+      true,
+      true,
+      true,
+      true
+     ]
+    },
+    {
      "type": "player",
      "player": "Daniel Jones",
      "team": "IND",
@@ -3035,24 +3043,6 @@
      ],
      "agrees": true,
      "status": "Active",
-     "hit": 4,
-     "of": 4,
-     "rate": 1.0,
-     "dots": [
-      true,
-      true,
-      true,
-      true
-     ]
-    },
-    {
-     "type": "team",
-     "team": "HOU",
-     "opp": "IND",
-     "kind": "total",
-     "label": "gone over the total",
-     "bet": "over",
-     "agrees": false,
      "hit": 4,
      "of": 4,
      "rate": 1.0,
@@ -4190,7 +4180,7 @@
      "name": "Jordan Phillips",
      "position": "DT",
      "status": "Questionable",
-     "detail": "Phillips underwent further tests Monday on his arm injured in Sunday's 24-22 loss to the Colts, Barry Jackson of the Miami Herald reports.",
+     "detail": "Phillips underwent further tests Monday on the arm he injured in Sunday's 24-22 loss to the Colts, Barry Jackson of the Miami Herald reports.",
      "source": "ESPN"
     },
     {
@@ -8287,31 +8277,31 @@
     "DAL": "Dak Prescott"
    },
    "model_score": {
-    "TEN": 23.8,
+    "TEN": 23.9,
     "DAL": 30.0
    },
    "picks": {
     "spread": {
      "market": "DAL -8.5",
      "model_line": "DAL -6",
-     "edge_pts": 2.3,
+     "edge_pts": 2.4,
      "pick": "TEN +8.5",
      "team": "TEN",
      "line": 8.5,
      "price": "-115",
-     "prob": 0.524,
-     "ev": -0.021,
+     "prob": 0.525,
+     "ev": -0.018,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "54.5",
-     "model_line": "53.8",
-     "edge_pts": 0.7,
+     "model_line": "53.9",
+     "edge_pts": 0.6,
      "pick": "Under 54.5",
      "price": "+100",
-     "prob": 0.508,
-     "ev": 0.016,
+     "prob": 0.506,
+     "ev": 0.013,
      "bet": false,
      "stars": 0
     },
@@ -8320,8 +8310,8 @@
      "market_prob": 0.782,
      "pick": "DAL ML",
      "price": "-440",
-     "prob": 0.762,
-     "ev": -0.065,
+     "prob": 0.761,
+     "ev": -0.066,
      "bet": false,
      "stars": 0
     }
@@ -9047,7 +9037,7 @@
     ]
    },
    "injury_adj": {
-    "TEN": -1.7,
+    "TEN": -1.5,
     "DAL": -1.3
    },
    "injuries": [
@@ -9056,7 +9046,7 @@
      "name": "DaRon Bland",
      "position": "CB",
      "status": "Out",
-     "detail": "Head coach Brian Schottenheimer said Monday that Bland will \"miss some time\" due to a high-ankle sprain that he suffered during the Cowboys' 46-40 loss to the 49ers on Sunday, Joe Hoyt of The Dallas Morning News reports.",
+     "detail": "Bland sustained a high-ankle sprain in Sunday's 46-40 loss to the 49ers, Todd Archer of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -9064,7 +9054,7 @@
      "name": "Tyler Booker",
      "position": "G",
      "status": "Out",
-     "detail": "Booker suffered a high ankle sprain in Sunday's 46-40 loss to the 49ers, Calvin Watkins of The Dallas Morning News  reports.",
+     "detail": "Booker suffered a high-ankle sprain in Sunday's 46-40 loss to the 49ers, Calvin Watkins of The Dallas Morning News  reports.",
      "source": "ESPN"
     },
     {
@@ -9136,7 +9126,7 @@
      "name": "Carnell Tate",
      "position": "WR",
      "status": "Out",
-     "detail": "Titans head coach Robert Saleh said Monday that he's hopeful that Tate (shoulder) will return to action Week 11 versus the Cowboys, Jim Wyatt of the team's official site reports.",
+     "detail": "Titans head coach Robert Saleh said Monday that he's hopeful that Tate (shoulder) will return to action in Week 11 versus the Cowboys, Jim Wyatt of the team's official site reports.",
      "source": "ESPN"
     },
     {
@@ -9169,14 +9159,6 @@
      "position": "G",
      "status": "Injured Reserve",
      "detail": "The Titans placed Skoronski (hamstring) on injured reserve Saturday, Jim Wyatt of the team's official site reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "TEN",
-     "name": "James Williams Sr.",
-     "position": "LB",
-     "status": "Injured Reserve",
-     "detail": "The Titans placed Williams (groin) on injured reserve Monday, Jim Wyatt of the Titans' official site reports.",
      "source": "ESPN"
     }
    ],
@@ -11041,7 +11023,7 @@
     {
      "headline": "Sources: Lions' Aidan Hutchinson out for season with knee injury",
      "description": "Lions star Aidan Hutchinson is out for the season with what initial tests showed to be a torn ACL in his right knee, sources told NFL Network.",
-     "published": "2026-11-16T19:24:39Z",
+     "published": "2026-11-17T01:09:21Z",
      "link": "https://www.espn.com/nfl/story/_/id/50501291/sources-aidan-hutchinson-season-torn-acl",
      "teams": [
       "DET"
@@ -12029,7 +12011,7 @@
      "team": "ARI",
      "opp": "KC",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 5.4,
@@ -12049,7 +12031,7 @@
      "team": "ARI",
      "opp": "KC",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 0.6,
@@ -12069,7 +12051,7 @@
      "team": "ARI",
      "opp": "KC",
      "pos": "WR",
-     "status": null,
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "5% to score",
@@ -12823,7 +12805,7 @@
       35
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -12849,7 +12831,7 @@
       2
      ],
      "agrees": false,
-     "status": null,
+     "status": "Active",
      "hit": 3,
      "of": 3,
      "rate": 1.0,
@@ -14785,19 +14767,19 @@
    },
    "model_score": {
     "NYJ": 19.6,
-    "LAC": 17.9
+    "LAC": 17.8
    },
    "picks": {
     "spread": {
      "market": "LAC -3",
-     "model_line": "LAC +1.5",
-     "edge_pts": 4.7,
+     "model_line": "LAC +2",
+     "edge_pts": 4.8,
      "pick": "NYJ +3",
      "team": "NYJ",
      "line": 3.0,
      "price": "-110",
-     "prob": 0.549,
-     "ev": 0.048,
+     "prob": 0.55,
+     "ev": 0.049,
      "bet": true,
      "stars": 1
     },
@@ -14808,7 +14790,7 @@
      "pick": "Under 40.5",
      "price": "-112",
      "prob": 0.533,
-     "ev": 0.009,
+     "ev": 0.01,
      "bet": false,
      "stars": 0
     },
@@ -14818,7 +14800,7 @@
      "pick": "LAC ML",
      "price": "-170",
      "prob": 0.555,
-     "ev": -0.118,
+     "ev": -0.119,
      "bet": false,
      "stars": 0
     }
@@ -15007,7 +14989,7 @@
       "usual": 33.4,
       "eligible": true
      },
-     "top": 3
+     "top": 2
     },
     {
      "player": "Breece Hall",
@@ -15341,7 +15323,7 @@
       "usual": 46.8,
       "eligible": true
      },
-     "top": 4
+     "top": 3
     },
     {
      "player": "Omarion Hampton",
@@ -15413,7 +15395,8 @@
       "prob": 0.604,
       "usual": 33.5,
       "eligible": true
-     }
+     },
+     "top": 4
     },
     {
      "player": "Kimani Vidal",
@@ -15524,7 +15507,7 @@
      "team": "LAC",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 38.0,
@@ -15537,15 +15520,14 @@
       "prob": 0.634,
       "usual": 29.6,
       "eligible": true
-     },
-     "top": 2
+     }
     },
     {
      "player": "Oronde Gadsden II",
      "team": "LAC",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 3.3,
@@ -15565,7 +15547,7 @@
      "team": "LAC",
      "opp": "NYJ",
      "pos": "TE",
-     "status": "Active",
+     "status": "Questionable",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "17% to score",
@@ -15695,6 +15677,14 @@
    "injuries": [
     {
      "team": "LAC",
+     "name": "Oronde Gadsden",
+     "position": "TE",
+     "status": "Questionable",
+     "detail": "Gadsden (eye) is questionable to return to Monday's game against the Ravens.",
+     "source": "ESPN"
+    },
+    {
+     "team": "LAC",
      "name": "Brenen Thompson",
      "position": "WR",
      "status": "Out",
@@ -15802,7 +15792,7 @@
     {
      "headline": "Sources: Jets QB Geno Smith avoided major ankle injury, testing shows",
      "description": "Imaging tests performed on Jets quarterback Geno Smith's injured left ankle did not reveal any major concerns, sources said Monday.",
-     "published": "2026-11-17T00:34:40Z",
+     "published": "2026-11-17T01:08:09Z",
      "link": "https://www.espn.com/nfl/story/_/id/50506147/jets-qb-geno-smith-avoided-major-ankle-injury",
      "teams": [
       "NYJ"
@@ -16366,7 +16356,7 @@
       17
      ],
      "agrees": false,
-     "status": "Active",
+     "status": "Questionable",
      "hit": 3,
      "of": 4,
      "rate": 0.75,
@@ -20961,7 +20951,7 @@
      "name": "Andrew Van Ginkel",
      "position": "LB",
      "status": "Questionable",
-     "detail": "Van Ginkel (quadriceps) is expected to practice in preparation for Week 11, Kevin Seifert of ESPN.com reported Monday.",
+     "detail": "Van Ginkel (quadriceps) is expected to practice ahead of a Week 11 road matchup against the 49ers, Kevin Seifert of ESPN.com reported Monday.",
      "source": "ESPN"
     },
     {
@@ -27453,7 +27443,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 51,
+     "wind_mph": 9,
+     "gust_mph": 24,
+     "precip_prob": 0,
+     "precip_in": 0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27542,7 +27538,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27563,8 +27559,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c252": 24.7,
-     "c2305": 23.4
+     "c252": 23.3,
+     "c2305": 21.9
     },
     "picks": {
      "spread": {
@@ -27582,14 +27578,14 @@
      },
      "total": {
       "market": "47.5",
-      "model_line": "48.1",
-      "edge_pts": 0.6,
+      "model_line": "45.2",
+      "edge_pts": 2.3,
       "pick": "Under 47.5",
       "price": "-102",
-      "prob": 0.496,
-      "ev": -0.018,
-      "bet": false,
-      "stars": 0
+      "prob": 0.515,
+      "ev": 0.02,
+      "bet": true,
+      "stars": 1
      },
      "moneyline": {
       "market": "c252 -225 / c2305 +185",
@@ -27603,8 +27599,16 @@
      }
     },
     "props": [],
-    "weather": null,
-    "weather_notes": [],
+    "weather": {
+     "temp_f": 66,
+     "wind_mph": 19,
+     "gust_mph": 30,
+     "precip_prob": 35,
+     "precip_in": 0
+    },
+    "weather_notes": [
+     "wind 19 mph (gusts 30)"
+    ],
     "injury_adj": {},
     "injuries": [],
     "news": [],
@@ -27646,7 +27650,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27707,7 +27711,13 @@
      }
     },
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 58,
+     "wind_mph": 10,
+     "gust_mph": 27,
+     "precip_prob": 12,
+     "precip_in": 0.0
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -27816,7 +27826,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -27842,7 +27852,13 @@
     },
     "picks": {},
     "props": [],
-    "weather": null,
+    "weather": {
+     "temp_f": 61,
+     "wind_mph": 6,
+     "gust_mph": 22,
+     "precip_prob": 3,
+     "precip_in": 0.01
+    },
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -28025,7 +28041,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28167,7 +28183,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28286,7 +28302,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28685,7 +28701,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -28776,7 +28792,7 @@
       "line": 3.5,
       "price": "-115",
       "prob": 0.523,
-      "ev": -0.022,
+      "ev": -0.023,
       "bet": false,
       "stars": 0
      },
@@ -28881,7 +28897,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29057,7 +29073,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29210,7 +29226,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29371,7 +29387,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29425,7 +29441,7 @@
       "market_prob": 0.622,
       "pick": "c26 ML",
       "price": "-185",
-      "prob": 0.652,
+      "prob": 0.653,
       "ev": 0.005,
       "bet": false,
       "stars": 0
@@ -29567,7 +29583,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29764,7 +29780,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -29894,7 +29910,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30024,7 +30040,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30137,7 +30153,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30300,7 +30316,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30411,7 +30427,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30548,7 +30564,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30696,7 +30712,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    },
    {
@@ -30736,8 +30752,8 @@
      },
      "total": {
       "market": "61.5",
-      "model_line": "65.5",
-      "edge_pts": 4.0,
+      "model_line": "65.4",
+      "edge_pts": 3.9,
       "pick": "Over 61.5",
       "price": "-110",
       "prob": 0.525,
@@ -30843,7 +30859,7 @@
       ]
      }
     ],
-    "book": "DraftKings",
+    "book": "Draft Kings",
     "locked": null
    }
   ],
@@ -30851,8 +30867,8 @@
    "n_games": 752,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 25.972661969925614,
-   "hfa": 1.1102230246251565e-14,
+   "mu": 25.972827500907595,
+   "hfa": 5.551115123125783e-15,
    "top": [
     [
      "c154",
