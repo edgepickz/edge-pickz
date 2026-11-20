@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T19:05:16.582671+00:00",
+ "generated_at": "2026-11-20T19:59:40.607266+00:00",
  "season": 2026,
  "sources": {
   "nflverse injuries": "ok",
@@ -7,7 +7,7 @@
   "ESPN injuries": "ok",
   "ESPN news": "ok",
   "Live odds (The Odds API)": "no API key set, using nflverse consensus lines",
-  "Open-Meteo weather": "ok"
+  "Open-Meteo weather": "unavailable (ReadTimeout)"
  },
  "games": [
   {
@@ -829,6 +829,14 @@
     },
     {
      "team": "MIA",
+     "name": "Dante Trader Jr.",
+     "position": "S",
+     "status": "Doubtful",
+     "detail": "Trader (shoulder/groin) is doubtful for Sunday's game against the Bills, Barry Jackson of the Miami Herald reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "MIA",
      "name": "Caleb Douglas",
      "position": "WR",
      "status": "Questionable",
@@ -841,14 +849,6 @@
      "position": "P",
      "status": "Out",
      "detail": "out",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIA",
-     "name": "Dante Trader Jr.",
-     "position": "S",
-     "status": "Doubtful",
-     "detail": "doubtful",
      "source": "ESPN"
     },
     {
@@ -2317,7 +2317,7 @@
    ],
    "weather": {
     "temp_f": 57,
-    "wind_mph": 6,
+    "wind_mph": 7,
     "gust_mph": 14,
     "precip_prob": 61,
     "precip_in": 0.02
@@ -2368,16 +2368,24 @@
     },
     {
      "team": "CAR",
-     "name": "Isaiah Simmons",
-     "position": "S",
-     "status": "Out",
-     "detail": "out",
+     "name": "Mike Jackson",
+     "position": "CB",
+     "status": "Injured Reserve",
+     "detail": "Jackson (groin) is listed as questionable for Sunday's matchup against the Ravens, Mike Kaye of ESPN.com reports.",
      "source": "ESPN"
     },
     {
      "team": "CAR",
      "name": "Bobby Okereke",
      "position": "LB",
+     "status": "Out",
+     "detail": "Okereke (foot) is out for Sunday's matchup against the Ravens, Mike Kaye of ESPN.com reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "CAR",
+     "name": "Isaiah Simmons",
+     "position": "S",
      "status": "Out",
      "detail": "out",
      "source": "ESPN"
@@ -2413,17 +2421,21 @@
      "status": "Injured Reserve",
      "detail": "Christensen (hamstring) has been downgraded to out for Sunday's game against the Saints, Joe Person of The Athletic reports.",
      "source": "ESPN"
-    },
-    {
-     "team": "CAR",
-     "name": "Mike Jackson",
-     "position": "CB",
-     "status": "Injured Reserve",
-     "detail": "Jackson (groin) has been downgraded from doubtful to out for Sunday's game against the Saints, Joe Person of The Athletic reports.",
-     "source": "ESPN"
     }
    ],
    "news": [
+    {
+     "headline": "Fantasy buzz: Does anything change in Indy with Richardson Sr. under center?",
+     "description": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
+     "published": "2026-11-20T19:33:18Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+     "teams": [
+      "BAL",
+      "HOU",
+      "IND",
+      "LAC"
+     ]
+    },
     {
      "headline": "Can Ravens keep the Marlon Humphrey controversy from becoming a distraction?",
      "description": "While there's more to the cornerback's story, one Baltimore teammate says: \"We have enough things to worry about.\"",
@@ -2431,18 +2443,6 @@
      "link": "https://www.espn.com/nfl/story/_/id/50541178/ravens-avoid-marlon-humphrey-controversy-distraction",
      "teams": [
       "BAL"
-     ]
-    },
-    {
-     "headline": "Fantasy buzz: Stroud has Houston fans over the moon, Colts continue to crumble",
-     "description": "Adam Rank waxes nostalgic about Houston football and the reinvigorated C.J. Stroud.",
-     "published": "2026-11-20T13:45:51Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-     "teams": [
-      "BAL",
-      "HOU",
-      "IND",
-      "LAC"
      ]
     },
     {
@@ -3046,30 +3046,30 @@
    },
    "model_score": {
     "NO": 19.5,
-    "CHI": 26.9
+    "CHI": 26.8
    },
    "picks": {
     "spread": {
      "market": "CHI -11.5",
      "model_line": "CHI -7.5",
-     "edge_pts": 4.1,
+     "edge_pts": 4.2,
      "pick": "NO +11.5",
      "team": "NO",
      "line": 11.5,
      "price": "-112",
-     "prob": 0.543,
-     "ev": 0.028,
+     "prob": 0.544,
+     "ev": 0.029,
      "bet": true,
      "stars": 1
     },
     "total": {
      "market": "48.5",
-     "model_line": "46.4",
-     "edge_pts": 2.1,
+     "model_line": "46.3",
+     "edge_pts": 2.2,
      "pick": "Under 48.5",
      "price": "-111",
      "prob": 0.523,
-     "ev": -0.007,
+     "ev": -0.005,
      "bet": false,
      "stars": 0
     },
@@ -3078,8 +3078,8 @@
      "market_prob": 0.824,
      "pick": "CHI ML",
      "price": "-600",
-     "prob": 0.793,
-     "ev": -0.075,
+     "prob": 0.792,
+     "ev": -0.076,
      "bet": false,
      "stars": 0
     }
@@ -3103,8 +3103,7 @@
       "prob": 0.654,
       "usual": 224.2,
       "eligible": true
-     },
-     "top": 4
+     }
     },
     {
      "player": "Tyler Shough",
@@ -3177,7 +3176,7 @@
       "usual": 26.9,
       "eligible": true
      },
-     "top": 2
+     "top": 3
     },
     {
      "player": "Alvin Kamara",
@@ -3250,7 +3249,7 @@
       "usual": 35.5,
       "eligible": true
      },
-     "top": 3
+     "top": 4
     },
     {
      "player": "Audric Estime",
@@ -3343,7 +3342,7 @@
       "usual": 6.0,
       "eligible": true
      },
-     "top": 1
+     "top": 2
     },
     {
      "player": "Chris Olave",
@@ -3362,7 +3361,7 @@
      "team": "NO",
      "opp": "CHI",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 51.0,
@@ -3382,7 +3381,7 @@
      "team": "NO",
      "opp": "CHI",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 6.3,
@@ -3395,14 +3394,15 @@
       "prob": 0.718,
       "usual": 7.8,
       "eligible": true
-     }
+     },
+     "top": 1
     },
     {
      "player": "Jordyn Tyson",
      "team": "NO",
      "opp": "CHI",
      "pos": "WR",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "6% to score",
@@ -3880,23 +3880,23 @@
    },
    "injury_adj": {
     "NO": -0.8,
-    "CHI": -0.2
+    "CHI": -0.3
    },
    "injuries": [
     {
      "team": "CHI",
-     "name": "Kyler Gordon",
-     "position": "CB",
+     "name": "Zavion Thomas",
+     "position": "WR",
      "status": "Questionable",
-     "detail": "Gordon (shoulder) was estimated as a DNP on Wednesday's practice report.",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
      "team": "CHI",
-     "name": "Jeffery Simmons",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "Simmons (knee) was listed as a limited practice participant on Wednesday's estimated report.",
+     "name": "Kyler Gordon",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -3917,9 +3917,17 @@
     },
     {
      "team": "NO",
+     "name": "Martin Emerson Jr.",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
+     "source": "ESPN"
+    },
+    {
+     "team": "NO",
      "name": "Erik McCoy",
      "position": "C",
-     "status": "Doubtful",
+     "status": "Out",
      "detail": "McCoy (biceps) did not participate at practice Thursday.",
      "source": "ESPN"
     },
@@ -3927,24 +3935,8 @@
      "team": "NO",
      "name": "Taliese Fuaga",
      "position": "OT",
-     "status": "Doubtful",
+     "status": "Out",
      "detail": "Fuaga (knee) did not participate at practice Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NO",
-     "name": "Jordyn Tyson",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Tyson (chest) practiced in a limited capacity Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "NO",
-     "name": "Martin Emerson Jr.",
-     "position": "CB",
-     "status": "Questionable",
-     "detail": "Emerson (concussion) didn't practice Wednesday.",
      "source": "ESPN"
     },
     {
@@ -3981,6 +3973,15 @@
     }
    ],
    "news": [
+    {
+     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
+     "description": "The Bears will be without nickel corner Kyler Gordon when they host the Saints, while running back Kyle Monangai, wide receiver Luther Burden III and defensive tackle Jeffery Simmons are expected to play.",
+     "published": "2026-11-20T19:45:15Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
+     "teams": [
+      "CHI"
+     ]
+    },
     {
      "headline": "Week 11 betting preview: Analysis, best bets, TD predictions for Sunday",
      "description": "Our experts dive into the odds and player props for Week 11 and offer their betting tips and favorite plays.",
@@ -8789,12 +8790,12 @@
    "weather": {
     "temp_f": 52,
     "wind_mph": 15,
-    "gust_mph": 18,
+    "gust_mph": 20,
     "precip_prob": 32,
     "precip_in": 0
    },
    "weather_notes": [
-    "wind 15 mph (gusts 18)"
+    "wind 15 mph (gusts 20)"
    ],
    "injury_notes": {
     "ARI": [
@@ -8879,7 +8880,7 @@
      "name": "Kenneth Walker III",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Walker (groin) wasn't spotted during the portion of Friday's practice open to the media, Pete Sweeney of The Kansas City Star reports.",
+     "detail": "Head coach Andy Reid said Friday that Walker (groin) \"most likely\" won't be available Sunday against the Cardinals, Sam McDowell of The Kansas City Star reports.",
      "source": "ESPN"
     },
     {
@@ -10333,7 +10334,7 @@
     "wind_mph": 7,
     "gust_mph": 19,
     "precip_prob": 82,
-    "precip_in": 0
+    "precip_in": 0.01
    },
    "weather_notes": [],
    "injury_notes": {
@@ -12105,6 +12106,18 @@
    ],
    "news": [
     {
+     "headline": "Fantasy buzz: Does anything change in Indy with Richardson Sr. under center?",
+     "description": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
+     "published": "2026-11-20T19:33:18Z",
+     "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+     "teams": [
+      "BAL",
+      "HOU",
+      "IND",
+      "LAC"
+     ]
+    },
+    {
      "headline": "Draft buzz: Interest in Oklahoma State's Drew Mestemaker could spur draft trade",
      "description": "If the Titans or Chargers wind up with the No. 1 selection and stick with their franchise quarterbacks, interest in Oklahoma State's Drew Mestemaker could lead to a team seeking to trade up for the top overall pick.",
      "published": "2026-11-20T17:16:10Z",
@@ -12117,18 +12130,6 @@
       "OKST",
       "Oklahoma State",
       "TEN"
-     ]
-    },
-    {
-     "headline": "Fantasy buzz: Stroud has Houston fans over the moon, Colts continue to crumble",
-     "description": "Adam Rank waxes nostalgic about Houston football and the reinvigorated C.J. Stroud.",
-     "published": "2026-11-20T13:45:51Z",
-     "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-     "teams": [
-      "BAL",
-      "HOU",
-      "IND",
-      "LAC"
      ]
     },
     {
@@ -15421,18 +15422,18 @@
     },
     {
      "team": "LV",
-     "name": "Brock Bowers",
-     "position": "TE",
+     "name": "Matt Gay",
+     "position": "PK",
      "status": "Questionable",
-     "detail": "Bowers (ankle) was present for Friday's practice, Sam Warren of The Athletic reports.",
+     "detail": "Gay (hip) was spotted at practice Friday, Sam Warren of The Athletic reports.",
      "source": "ESPN"
     },
     {
      "team": "LV",
-     "name": "Matt Gay",
-     "position": "PK",
+     "name": "Brock Bowers",
+     "position": "TE",
      "status": "Questionable",
-     "detail": "Gay (hip) didn't practice Thursday.",
+     "detail": "Bowers (ankle) was present for Friday's practice, Sam Warren of The Athletic reports.",
      "source": "ESPN"
     },
     {
@@ -15537,15 +15538,6 @@
       "SF",
       "TB",
       "TEN"
-     ]
-    },
-    {
-     "headline": "Why Raiders' run defense remains a concern",
-     "description": "Ryan McFadden explains why the Raiders must strengthen their interior defensive line following loss to Seahawks.",
-     "published": "2026-11-20T05:24:00Z",
-     "link": "https://www.espn.com/video/clip/_/id/50538342/why-raiders-run-defense-remains-concern",
-     "teams": [
-      "LV"
      ]
     }
    ],
@@ -16370,31 +16362,31 @@
     "SF": "Brock Purdy"
    },
    "model_score": {
-    "MIN": 18.5,
+    "MIN": 18.9,
     "SF": 22.3
    },
    "picks": {
     "spread": {
      "market": "SF -3.5",
-     "model_line": "SF -4",
-     "edge_pts": 0.3,
+     "model_line": "SF -3.5",
+     "edge_pts": 0.1,
      "pick": "SF -3.5",
      "team": "SF",
      "line": -3.5,
      "price": "-101",
-     "prob": 0.503,
-     "ev": 0.001,
+     "prob": 0.499,
+     "ev": -0.008,
      "bet": false,
      "stars": 0
     },
     "total": {
      "market": "46.5",
-     "model_line": "40.8",
-     "edge_pts": 5.7,
+     "model_line": "41.2",
+     "edge_pts": 5.3,
      "pick": "Under 46.5",
      "price": "-110",
-     "prob": 0.561,
-     "ev": 0.072,
+     "prob": 0.557,
+     "ev": 0.063,
      "bet": true,
      "stars": 2
     },
@@ -16403,8 +16395,8 @@
      "market_prob": 0.606,
      "pick": "SF ML",
      "price": "-171",
-     "prob": 0.609,
-     "ev": -0.034,
+     "prob": 0.605,
+     "ev": -0.041,
      "bet": false,
      "stars": 0
     }
@@ -16683,7 +16675,7 @@
      "team": "MIN",
      "opp": "SF",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Rec Yds",
      "key": "rec_yds",
      "projection": 39.6,
@@ -16703,7 +16695,7 @@
      "team": "MIN",
      "opp": "SF",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Receptions",
      "key": "receptions",
      "projection": 4.5,
@@ -16723,7 +16715,7 @@
      "team": "MIN",
      "opp": "SF",
      "pos": "TE",
-     "status": "Questionable",
+     "status": "Active",
      "stat": "Anytime TD",
      "key": "anytime_td",
      "projection": "28% to score",
@@ -17160,34 +17152,33 @@
     }
    ],
    "weather": {
-    "temp_f": 63,
-    "wind_mph": 2,
-    "gust_mph": 8,
+    "temp_f": 62,
+    "wind_mph": 3,
+    "gust_mph": 12,
     "precip_prob": 51,
-    "precip_in": 0
+    "precip_in": 0.02
    },
    "weather_notes": [],
    "injury_notes": {
     "MIN": [
-     "T.J. Hockenson (TE) Questionable",
      "Kyler Murray (QB) Out"
     ],
     "SF": [
-     "Mac Jones (QB) Questionable",
-     "Mike Evans (WR) Questionable"
+     "Mike Evans (WR) Questionable",
+     "Mac Jones (QB) Questionable"
     ]
    },
    "injury_adj": {
-    "MIN": -1.4,
+    "MIN": -1.0,
     "SF": -1.2
    },
    "injuries": [
     {
      "team": "MIN",
-     "name": "Blake Cashman",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Cashman (concussion) was a full participant at practice Thursday.",
+     "name": "Kyler Murray",
+     "position": "QB",
+     "status": "Out",
+     "detail": "Murray (hamstring) has been ruled out for Sunday night's game against the 49ers.",
      "source": "ESPN"
     },
     {
@@ -17200,34 +17191,10 @@
     },
     {
      "team": "MIN",
-     "name": "T.J. Hockenson",
-     "position": "TE",
-     "status": "Questionable",
-     "detail": "Hockenson (wrist) practiced on a limited basis Thursday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
      "name": "Bo Richter",
      "position": "LB",
      "status": "Injured Reserve",
      "detail": "The Vikings placed Richter (foot) on injured reserve Wednesday.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
-     "name": "Andrew Van Ginkel",
-     "position": "LB",
-     "status": "Questionable",
-     "detail": "Van Ginkel (quadriceps) was a limited participant in Wednesday's practice.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
-     "name": "Jeshaun Jones",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "The Vikings signed Jones (shoulder) off the practice squad to the active roster Wednesday.",
      "source": "ESPN"
     },
     {
@@ -17240,18 +17207,18 @@
     },
     {
      "team": "MIN",
-     "name": "Kyler Murray",
-     "position": "QB",
-     "status": "Out",
-     "detail": "Murray (hamstring) will miss Wednesday's practice, Kevin Seifert of ESPN reports.",
-     "source": "ESPN"
-    },
-    {
-     "team": "MIN",
      "name": "Jordan Addison",
      "position": "WR",
      "status": "Out",
      "detail": "Head coach Kevin O'Connell said Wednesday that Addison underwent thumb surgery earlier this week and won't be placed on injured reserve, Alec Lewis of The Athletic reports.",
+     "source": "ESPN"
+    },
+    {
+     "team": "SF",
+     "name": "Mike Evans",
+     "position": "WR",
+     "status": "Questionable",
+     "detail": "Head coach Kyle Shanahan said Friday that the 49ers will make a decision on Evans' (Achilles) Week 11 status Saturday after listing the wide receiver as questionable for Sunday's game against the Vikings in Mexico City, Matt Barrows of ESPN.com reports.",
      "source": "ESPN"
     },
     {
@@ -17284,14 +17251,6 @@
      "position": "RB",
      "status": "Questionable",
      "detail": "questionable",
-     "source": "ESPN"
-    },
-    {
-     "team": "SF",
-     "name": "Mike Evans",
-     "position": "WR",
-     "status": "Questionable",
-     "detail": "Evans (Achilles) officially was limited at Thursday's practice, Nick Wagoner of ESPN reports.",
      "source": "ESPN"
     },
     {
@@ -17575,7 +17534,7 @@
       33
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -17605,7 +17564,7 @@
       4
      ],
      "agrees": true,
-     "status": "Questionable",
+     "status": "Active",
      "hit": 4,
      "of": 5,
      "rate": 0.8,
@@ -21534,7 +21493,7 @@
     "DET": "Jared Goff"
    },
    "model_score": {
-    "CHI": 24.0,
+    "CHI": 23.9,
     "DET": 25.4
    },
    "picks": {
@@ -21546,19 +21505,19 @@
      "team": "DET",
      "line": 2.5,
      "price": "-105",
-     "prob": 0.54,
-     "ev": 0.055,
+     "prob": 0.541,
+     "ev": 0.056,
      "bet": true,
      "stars": 2
     },
     "total": {
      "market": "55.5",
-     "model_line": "49.4",
-     "edge_pts": 6.1,
+     "model_line": "49.3",
+     "edge_pts": 6.2,
      "pick": "Under 55.5",
      "price": "-115",
-     "prob": 0.565,
-     "ev": 0.057,
+     "prob": 0.566,
+     "ev": 0.059,
      "bet": true,
      "stars": 2
     },
@@ -21567,8 +21526,8 @@
      "market_prob": 0.575,
      "pick": "CHI ML",
      "price": "-149",
-     "prob": 0.535,
-     "ev": -0.106,
+     "prob": 0.534,
+     "ev": -0.107,
      "bet": false,
      "stars": 0
     }
@@ -22362,24 +22321,24 @@
     "DET": []
    },
    "injury_adj": {
-    "CHI": -0.2,
+    "CHI": -0.3,
     "DET": -0.5
    },
    "injuries": [
     {
      "team": "CHI",
-     "name": "Kyler Gordon",
-     "position": "CB",
+     "name": "Zavion Thomas",
+     "position": "WR",
      "status": "Questionable",
-     "detail": "Gordon (shoulder) was estimated as a DNP on Wednesday's practice report.",
+     "detail": "questionable",
      "source": "ESPN"
     },
     {
      "team": "CHI",
-     "name": "Jeffery Simmons",
-     "position": "DT",
-     "status": "Questionable",
-     "detail": "Simmons (knee) was listed as a limited practice participant on Wednesday's estimated report.",
+     "name": "Kyler Gordon",
+     "position": "CB",
+     "status": "Out",
+     "detail": "out",
      "source": "ESPN"
     },
     {
@@ -22464,6 +22423,15 @@
     }
    ],
    "news": [
+    {
+     "headline": "Bears rule out CB Kyler Gordon; RB Kyle Monangai cleared to return",
+     "description": "The Bears will be without nickel corner Kyler Gordon when they host the Saints, while running back Kyle Monangai, wide receiver Luther Burden III and defensive tackle Jeffery Simmons are expected to play.",
+     "published": "2026-11-20T19:45:15Z",
+     "link": "https://www.espn.com/nfl/story/_/id/50542720/bears-rule-cb-kyler-gordon-vs-saints",
+     "teams": [
+      "CHI"
+     ]
+    },
     {
      "headline": "Week 11 betting preview: Analysis, best bets, TD predictions for Sunday",
      "description": "Our experts dive into the odds and player props for Week 11 and offer their betting tips and favorite plays.",
@@ -26102,7 +26070,7 @@
      "name": "Kenneth Walker III",
      "position": "RB",
      "status": "Questionable",
-     "detail": "Walker (groin) wasn't spotted during the portion of Friday's practice open to the media, Pete Sweeney of The Kansas City Star reports.",
+     "detail": "Head coach Andy Reid said Friday that Walker (groin) \"most likely\" won't be available Sunday against the Cardinals, Sam McDowell of The Kansas City Star reports.",
      "source": "ESPN"
     },
     {
@@ -27651,13 +27619,7 @@
      "fair_odds": "+193"
     }
    ],
-   "weather": {
-    "temp_f": 50,
-    "wind_mph": 4,
-    "gust_mph": 8,
-    "precip_prob": 14,
-    "precip_in": 0
-   },
+   "weather": null,
    "weather_notes": [],
    "injury_notes": {
     "DEN": [],
@@ -31402,9 +31364,9 @@
       "pick": "c127 +17.5",
       "team": "c127",
       "line": 17.5,
-      "price": "-110",
+      "price": "-108",
       "prob": 0.56,
-      "ev": 0.069,
+      "ev": 0.079,
       "bet": true,
       "stars": 2
      },
@@ -31413,9 +31375,9 @@
       "model_line": "47.3",
       "edge_pts": 3.8,
       "pick": "Over 43.5",
-      "price": "-118",
+      "price": "-108",
       "prob": 0.525,
-      "ev": -0.031,
+      "ev": 0.01,
       "bet": false,
       "stars": 0
      },
@@ -31431,13 +31393,7 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 50,
-     "wind_mph": 7,
-     "gust_mph": 19,
-     "precip_prob": 0,
-     "precip_in": 0
-    },
+    "weather": null,
     "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
@@ -31517,7 +31473,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31538,8 +31494,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c252": 24.3,
-     "c2305": 23.0
+     "c252": 24.8,
+     "c2305": 23.5
     },
     "picks": {
      "spread": {
@@ -31550,19 +31506,19 @@
       "team": "c2305",
       "line": 5.5,
       "price": "-108",
-      "prob": 0.527,
+      "prob": 0.526,
       "ev": 0.014,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "46.5",
-      "model_line": "47.3",
-      "edge_pts": 0.8,
-      "pick": "Under 46.5",
-      "price": "-105",
-      "prob": 0.495,
-      "ev": -0.033,
+      "model_line": "48.3",
+      "edge_pts": 1.8,
+      "pick": "Over 46.5",
+      "price": "-115",
+      "prob": 0.512,
+      "ev": -0.044,
       "bet": false,
       "stars": 0
      },
@@ -31578,16 +31534,8 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 67,
-     "wind_mph": 15,
-     "gust_mph": 26,
-     "precip_prob": 2,
-     "precip_in": 0
-    },
-    "weather_notes": [
-     "wind 15 mph (gusts 26)"
-    ],
+    "weather": null,
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [],
@@ -31617,7 +31565,7 @@
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 4,
       "rate": 0.75,
@@ -31629,7 +31577,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31650,31 +31598,31 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c154": 39.2,
-     "c59": 16.3
+     "c154": 39.5,
+     "c59": 16.6
     },
     "picks": {
      "spread": {
       "market": "c59 +20.5",
       "model_line": "c59 +23",
-      "edge_pts": 2.4,
+      "edge_pts": 2.3,
       "pick": "c154 -20.5",
       "team": "c154",
       "line": -20.5,
       "price": "-112",
       "prob": 0.515,
-      "ev": -0.025,
+      "ev": -0.026,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "56.5",
-      "model_line": "55.5",
-      "edge_pts": 1.0,
-      "pick": "Under 56.5",
-      "price": "-112",
-      "prob": 0.507,
-      "ev": -0.041,
+      "model_line": "56.1",
+      "edge_pts": 0.4,
+      "pick": "Over 56.5",
+      "price": "-108",
+      "prob": 0.498,
+      "ev": -0.042,
       "bet": false,
       "stars": 0
      },
@@ -31690,16 +31638,8 @@
      }
     },
     "props": [],
-    "weather": {
-     "temp_f": 67,
-     "wind_mph": 14,
-     "gust_mph": 25,
-     "precip_prob": 55,
-     "precip_in": 0
-    },
-    "weather_notes": [
-     "wind 14 mph (gusts 25)"
-    ],
+    "weather": null,
+    "weather_notes": [],
     "injury_adj": {},
     "injuries": [],
     "news": [],
@@ -31749,7 +31689,7 @@
       "kind": "total",
       "label": "gone under the total",
       "bet": "under",
-      "agrees": true,
+      "agrees": false,
       "hit": 3,
       "of": 3,
       "rate": 1.0,
@@ -31798,7 +31738,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31860,10 +31800,10 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 53,
+     "temp_f": 49,
      "wind_mph": 9,
      "gust_mph": 16,
-     "precip_prob": 11,
+     "precip_prob": 12,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -31938,7 +31878,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -31972,7 +31912,7 @@
       "line": 13.5,
       "price": "-110",
       "prob": 0.524,
-      "ev": 0.0,
+      "ev": 0.001,
       "bet": false,
       "stars": 0
      },
@@ -32000,10 +31940,10 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 70,
-     "wind_mph": 7,
-     "gust_mph": 16,
-     "precip_prob": 17,
+     "temp_f": 68,
+     "wind_mph": 9,
+     "gust_mph": 17,
+     "precip_prob": 15,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -32072,7 +32012,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32104,29 +32044,29 @@
       "pick": "c2747 +49.5",
       "team": "c2747",
       "line": 49.5,
-      "price": "-110",
-      "prob": 0.556,
-      "ev": 0.062,
+      "price": "-105",
+      "prob": 0.557,
+      "ev": 0.087,
       "bet": true,
-      "stars": 2
+      "stars": 3
      },
      "total": {
-      "market": "60.5",
-      "model_line": "59.9",
-      "edge_pts": 0.6,
-      "pick": "Under 60.5",
-      "price": "-110",
-      "prob": 0.504,
-      "ev": -0.038,
+      "market": "59.5",
+      "model_line": "59.8",
+      "edge_pts": 0.3,
+      "pick": "Under 59.5",
+      "price": "-108",
+      "prob": 0.498,
+      "ev": -0.041,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 68,
-     "wind_mph": 5,
-     "gust_mph": 11,
+     "temp_f": 69,
+     "wind_mph": 7,
+     "gust_mph": 12,
      "precip_prob": 3,
      "precip_in": 0
     },
@@ -32177,7 +32117,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32232,16 +32172,16 @@
       "pick": "c248 ML",
       "price": "-298",
       "prob": 0.698,
-      "ev": -0.067,
+      "ev": -0.068,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 69,
-     "wind_mph": 4,
-     "gust_mph": 8,
+     "temp_f": 70,
+     "wind_mph": 5,
+     "gust_mph": 9,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -32287,7 +32227,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32321,7 +32261,7 @@
       "line": 35.5,
       "price": "-110",
       "prob": 0.539,
-      "ev": 0.029,
+      "ev": 0.03,
       "bet": true,
       "stars": 1
      },
@@ -32339,9 +32279,9 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 73,
-     "wind_mph": 6,
-     "gust_mph": 13,
+     "temp_f": 72,
+     "wind_mph": 5,
+     "gust_mph": 9,
      "precip_prob": 2,
      "precip_in": 0
     },
@@ -32408,7 +32348,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32448,8 +32388,8 @@
      },
      "total": {
       "market": "58.5",
-      "model_line": "56.9",
-      "edge_pts": 1.6,
+      "model_line": "56.8",
+      "edge_pts": 1.7,
       "pick": "Under 58.5",
       "price": "-110",
       "prob": 0.511,
@@ -32460,8 +32400,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 76,
-     "wind_mph": 8,
+     "temp_f": 75,
+     "wind_mph": 9,
      "gust_mph": 12,
      "precip_prob": 1,
      "precip_in": 0
@@ -32540,7 +32480,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32580,12 +32520,12 @@
      },
      "total": {
       "market": "40.5",
-      "model_line": "40.6",
-      "edge_pts": 0.1,
+      "model_line": "40.5",
+      "edge_pts": 0.0,
       "pick": "Under 40.5",
       "price": "-102",
       "prob": 0.5,
-      "ev": -0.011,
+      "ev": -0.01,
       "bet": false,
       "stars": 0
      },
@@ -32604,7 +32544,7 @@
     "weather": {
      "temp_f": 69,
      "wind_mph": 10,
-     "gust_mph": 15,
+     "gust_mph": 16,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -32724,7 +32664,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32769,7 +32709,7 @@
       "pick": "Under 59.5",
       "price": "-110",
       "prob": 0.518,
-      "ev": -0.011,
+      "ev": -0.012,
       "bet": false,
       "stars": 0
      }
@@ -32806,7 +32746,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32848,10 +32788,10 @@
       "market": "56.5",
       "model_line": "57.1",
       "edge_pts": 0.6,
-      "pick": "Over 56.5",
+      "pick": "Under 56.5",
       "price": "-108",
-      "prob": 0.504,
-      "ev": -0.029,
+      "prob": 0.496,
+      "ev": -0.045,
       "bet": false,
       "stars": 0
      },
@@ -32860,7 +32800,7 @@
       "market_prob": 0.645,
       "pick": "c2641 ML",
       "price": "-205",
-      "prob": 0.617,
+      "prob": 0.616,
       "ev": -0.083,
       "bet": false,
       "stars": 0
@@ -32886,7 +32826,7 @@
       "kind": "total",
       "label": "gone over the total",
       "bet": "over",
-      "agrees": true,
+      "agrees": false,
       "hit": 5,
       "of": 5,
       "rate": 1.0,
@@ -32936,7 +32876,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -32976,8 +32916,8 @@
      },
      "total": {
       "market": "45.5",
-      "model_line": "47.0",
-      "edge_pts": 1.5,
+      "model_line": "47.1",
+      "edge_pts": 1.6,
       "pick": "Over 45.5",
       "price": "-112",
       "prob": 0.51,
@@ -32998,8 +32938,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 68,
-     "wind_mph": 2,
+     "temp_f": 67,
+     "wind_mph": 1,
      "gust_mph": 4,
      "precip_prob": 3,
      "precip_in": 0
@@ -33101,7 +33041,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -33129,7 +33069,7 @@
      "spread": {
       "market": "c130 +3.5",
       "model_line": "c130 +9",
-      "edge_pts": 5.3,
+      "edge_pts": 5.4,
       "pick": "c26 -3.5",
       "team": "c26",
       "line": -3.5,
@@ -33164,8 +33104,8 @@
     "props": [],
     "weather": {
      "temp_f": 60,
-     "wind_mph": 6,
-     "gust_mph": 16,
+     "wind_mph": 7,
+     "gust_mph": 18,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -33301,7 +33241,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -33346,9 +33286,9 @@
       "pick": "Under 47.5",
       "price": "-102",
       "prob": 0.515,
-      "ev": 0.019,
-      "bet": false,
-      "stars": 0
+      "ev": 0.02,
+      "bet": true,
+      "stars": 1
      },
      "moneyline": {
       "market": "c8 +900 / c251 -1600",
@@ -33458,7 +33398,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -33520,10 +33460,10 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 49,
-     "wind_mph": 5,
-     "gust_mph": 16,
-     "precip_prob": 8,
+     "temp_f": 50,
+     "wind_mph": 7,
+     "gust_mph": 20,
+     "precip_prob": 9,
      "precip_in": 0
     },
     "weather_notes": [],
@@ -33630,7 +33570,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -33652,7 +33592,7 @@
     "qbs": {},
     "model_score": {
      "c245": 16.1,
-     "c201": 20.7
+     "c201": 20.6
     },
     "picks": {
      "spread": {
@@ -33694,12 +33634,12 @@
     "weather": {
      "temp_f": 66,
      "wind_mph": 16,
-     "gust_mph": 26,
+     "gust_mph": 29,
      "precip_prob": 8,
      "precip_in": 0
     },
     "weather_notes": [
-     "wind 16 mph (gusts 26)"
+     "wind 16 mph (gusts 29)"
     ],
     "injury_adj": {},
     "injuries": [],
@@ -33823,7 +33763,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -33844,19 +33784,19 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c120": 23.3,
+     "c120": 23.2,
      "c30": 32.8
     },
     "picks": {
      "spread": {
       "market": "c30 -17.5",
       "model_line": "c30 -9.5",
-      "edge_pts": 8.0,
+      "edge_pts": 7.9,
       "pick": "c120 +17.5",
       "team": "c120",
       "line": 17.5,
       "price": "-110",
-      "prob": 0.55,
+      "prob": 0.549,
       "ev": 0.049,
       "bet": true,
       "stars": 1
@@ -33868,7 +33808,7 @@
       "pick": "Under 57.5",
       "price": "-110",
       "prob": 0.509,
-      "ev": -0.028,
+      "ev": -0.027,
       "bet": false,
       "stars": 0
      },
@@ -33887,7 +33827,7 @@
     "weather": {
      "temp_f": 65,
      "wind_mph": 3,
-     "gust_mph": 6,
+     "gust_mph": 4,
      "precip_prob": 0,
      "precip_in": 0
     },
@@ -33953,7 +33893,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -33974,7 +33914,7 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c259": 23.0,
+     "c259": 23.1,
      "c2390": 42.4
     },
     "picks": {
@@ -33987,7 +33927,7 @@
       "line": 20.5,
       "price": "-110",
       "prob": 0.507,
-      "ev": -0.032,
+      "ev": -0.031,
       "bet": false,
       "stars": 0
      },
@@ -34015,11 +33955,11 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 72,
+     "temp_f": 74,
      "wind_mph": 4,
      "gust_mph": 12,
      "precip_prob": 28,
-     "precip_in": 0.04
+     "precip_in": 0
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -34096,7 +34036,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34124,13 +34064,13 @@
      "spread": {
       "market": "c2306 +7.5",
       "model_line": "c2306 +7.5",
-      "edge_pts": 0.1,
+      "edge_pts": 0.2,
       "pick": "c12 -7.5",
       "team": "c12",
       "line": -7.5,
       "price": "-105",
       "prob": 0.499,
-      "ev": -0.025,
+      "ev": -0.026,
       "bet": false,
       "stars": 0
      },
@@ -34151,18 +34091,18 @@
       "pick": "c12 ML",
       "price": "-290",
       "prob": 0.713,
-      "ev": -0.041,
+      "ev": -0.042,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 57,
-     "wind_mph": 3,
-     "gust_mph": 10,
+     "temp_f": 55,
+     "wind_mph": 6,
+     "gust_mph": 23,
      "precip_prob": 90,
-     "precip_in": 0.24
+     "precip_in": 0.48
     },
     "weather_notes": [
      "90% chance of rain/snow"
@@ -34209,7 +34149,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34271,8 +34211,8 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 52,
-     "wind_mph": 5,
+     "temp_f": 53,
+     "wind_mph": 4,
      "gust_mph": 7,
      "precip_prob": 0,
      "precip_in": 0
@@ -34340,7 +34280,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34394,7 +34334,7 @@
       "market_prob": 0.645,
       "pick": "c142 ML",
       "price": "-205",
-      "prob": 0.644,
+      "prob": 0.643,
       "ev": -0.043,
       "bet": false,
       "stars": 0
@@ -34402,9 +34342,9 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 64,
-     "wind_mph": 8,
-     "gust_mph": 18,
+     "temp_f": 66,
+     "wind_mph": 7,
+     "gust_mph": 17,
      "precip_prob": 1,
      "precip_in": 0
     },
@@ -34481,7 +34421,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34509,13 +34449,13 @@
      "spread": {
       "market": "c87 -20.5",
       "model_line": "c87 -15.5",
-      "edge_pts": 4.9,
+      "edge_pts": 5.0,
       "pick": "c2567 +20.5",
       "team": "c2567",
       "line": 20.5,
       "price": "-108",
       "prob": 0.531,
-      "ev": 0.022,
+      "ev": 0.023,
       "bet": true,
       "stars": 1
      },
@@ -34545,7 +34485,7 @@
     "weather": {
      "temp_f": 50,
      "wind_mph": 6,
-     "gust_mph": 18,
+     "gust_mph": 17,
      "precip_prob": 1,
      "precip_in": 0
     },
@@ -34592,7 +34532,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34636,7 +34576,7 @@
       "edge_pts": 4.9,
       "pick": "Over 51.5",
       "price": "-108",
-      "prob": 0.531,
+      "prob": 0.532,
       "ev": 0.024,
       "bet": true,
       "stars": 1
@@ -34654,11 +34594,11 @@
     },
     "props": [],
     "weather": {
-     "temp_f": 58,
+     "temp_f": 60,
      "wind_mph": 10,
      "gust_mph": 26,
-     "precip_prob": 63,
-     "precip_in": 0
+     "precip_prob": 62,
+     "precip_in": 0.04
     },
     "weather_notes": [],
     "injury_adj": {},
@@ -34759,7 +34699,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34813,17 +34753,17 @@
       "market_prob": 0.714,
       "pick": "c254 ML",
       "price": "-290",
-      "prob": 0.693,
-      "ev": -0.068,
+      "prob": 0.692,
+      "ev": -0.069,
       "bet": false,
       "stars": 0
      }
     },
     "props": [],
     "weather": {
-     "temp_f": 65,
-     "wind_mph": 8,
-     "gust_mph": 19,
+     "temp_f": 67,
+     "wind_mph": 9,
+     "gust_mph": 22,
      "precip_prob": 12,
      "precip_in": 0
     },
@@ -34907,7 +34847,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -34961,7 +34901,7 @@
       "market_prob": 0.751,
       "pick": "c2641 ML",
       "price": "-360",
-      "prob": 0.733,
+      "prob": 0.732,
       "ev": -0.064,
       "bet": false,
       "stars": 0
@@ -35058,7 +34998,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -35092,7 +35032,7 @@
       "line": 6.5,
       "price": "-110",
       "prob": 0.51,
-      "ev": -0.026,
+      "ev": -0.027,
       "bet": false,
       "stars": 0
      },
@@ -35221,7 +35161,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -35492,14 +35432,14 @@
       "line": 7.5,
       "price": "-105",
       "prob": 0.512,
-      "ev": -0.001,
+      "ev": -0.0,
       "bet": false,
       "stars": 0
      },
      "total": {
       "market": "41.5",
-      "model_line": "41.5",
-      "edge_pts": 0.0,
+      "model_line": "41.4",
+      "edge_pts": 0.1,
       "pick": "Under 41.5",
       "price": "-110",
       "prob": 0.5,
@@ -35634,7 +35574,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -35958,8 +35898,8 @@
     "neutral": false,
     "qbs": {},
     "model_score": {
-     "c97": 30.7,
-     "c96": 25.2
+     "c97": 30.6,
+     "c96": 25.1
     },
     "picks": {
      "spread": {
@@ -35981,8 +35921,8 @@
       "edge_pts": 1.3,
       "pick": "Over 54.5",
       "price": "-110",
-      "prob": 0.509,
-      "ev": -0.029,
+      "prob": 0.508,
+      "ev": -0.03,
       "bet": false,
       "stars": 0
      },
@@ -36057,7 +35997,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -36203,7 +36143,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -36225,13 +36165,13 @@
     "qbs": {},
     "model_score": {
      "c2": 20.1,
-     "c333": 31.4
+     "c333": 31.5
     },
     "picks": {
      "spread": {
       "market": "c333 -15.5",
       "model_line": "c333 -11.5",
-      "edge_pts": 4.2,
+      "edge_pts": 4.1,
       "pick": "c2 +15.5",
       "team": "c2",
       "line": 15.5,
@@ -36359,7 +36299,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -36799,7 +36739,7 @@
     "qbs": {},
     "model_score": {
      "c150": 19.7,
-     "c154": 32.4
+     "c154": 32.3
     },
     "picks": {
      "spread": {
@@ -36811,7 +36751,7 @@
       "line": -10.5,
       "price": "-110",
       "prob": 0.513,
-      "ev": -0.02,
+      "ev": -0.021,
       "bet": false,
       "stars": 0
      },
@@ -36944,7 +36884,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -37092,7 +37032,7 @@
      "spread": {
       "market": "c183 +20.5",
       "model_line": "c183 +12.5",
-      "edge_pts": 8.0,
+      "edge_pts": 8.1,
       "pick": "c183 +20.5",
       "team": "c183",
       "line": 20.5,
@@ -37206,7 +37146,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    },
    {
@@ -37251,7 +37191,7 @@
       "pick": "Over 41.5",
       "price": "-110",
       "prob": 0.519,
-      "ev": -0.008,
+      "ev": -0.009,
       "bet": false,
       "stars": 0
      },
@@ -37368,7 +37308,7 @@
       ]
      }
     ],
-    "book": "Draft Kings",
+    "book": "DraftKings",
     "locked": null
    }
   ],
@@ -37376,12 +37316,12 @@
    "n_games": 758,
    "n_fbs": 138,
    "n_teams": 139,
-   "mu": 26.019015524089507,
-   "hfa": -6.217248937900877e-15,
+   "mu": 26.017929756426422,
+   "hfa": -1.9984014443252818e-15,
    "top": [
     [
      "c154",
-     19.7
+     19.6
     ],
     [
      "c61",
@@ -37389,7 +37329,7 @@
     ],
     [
      "c87",
-     15.5
+     15.4
     ],
     [
      "c2390",
@@ -37397,7 +37337,7 @@
     ],
     [
      "c333",
-     11.2
+     11.3
     ],
     [
      "c26",
@@ -37413,7 +37353,7 @@
     ],
     [
      "c150",
-     9.5
+     9.6
     ],
     [
      "c2483",
@@ -37429,7 +37369,7 @@
     ],
     [
      "c2294",
-     8.7
+     8.8
     ],
     [
      "c84",
@@ -37449,7 +37389,7 @@
     ],
     [
      "c2641",
-     8.2
+     8.1
     ],
     [
      "c99",
@@ -37477,7 +37417,7 @@
     ],
     [
      "c235",
-     6.4
+     6.5
     ],
     [
      "c158",
@@ -37524,11 +37464,11 @@
      4.5
     ],
     [
-     "c249",
+     "c326",
      4.4
     ],
     [
-     "c326",
+     "c249",
      4.3
     ],
     [
